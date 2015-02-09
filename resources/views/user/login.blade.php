@@ -2,7 +2,7 @@
 
 @section('styles')
     <!-- CSS Page Style -->
-    {{HTML::style("css/pages/page_log_reg_v1.css")}}
+    {!!HTML::style("css/pages/page_log_reg_v1.css")!!}
 @stop
 
 @section('content')
@@ -33,7 +33,7 @@
                     <hr>
 
                     <h4>Forget your Password ?</h4>
-                    <p>Click {{HTML::link('user/reset-password', 'here')}} to reset your password.</p>
+                    <p>Click {!!HTML::link('user/reset-password', 'here')!!} to reset your password.</p>
                 </form>
             </div>
         </div><!--/row-->

@@ -9,30 +9,33 @@
 namespace app\Http\Controllers;
 
 
-class UserController {
+class UserController extends Controller{
     /**
      * Display a listing of the resource.
      * GET /user
      *
      * @return Response
      */
-
+    public function __construct()
+    {
+//		$this->middleware('auth');
+    }
 
     public function getIndex()
     {
-        return View::make('guest.home');
+        return view('guest.home');
     }
 
     public function getRegister(){
-        return View::make('user.register');
+        return view('user.register');
     }
 
     public function getLogin(){
-        return View::make('user.login');
+        return view('user.login');
     }
 
     public function getResetPassword(){
-        return View::make('user.reset-password');
+        return view('user.reset-password');
     }
 
 }

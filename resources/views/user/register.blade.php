@@ -2,7 +2,7 @@
 
 @section('styles')
     <!-- CSS Page Style -->
-    {{HTML::style("css/pages/page_log_reg_v1.css")}}
+    {!!HTML::style("css/pages/page_log_reg_v1.css")!!}
 @stop
 
 @section('content')

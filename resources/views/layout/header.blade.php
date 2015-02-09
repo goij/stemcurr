@@ -14,8 +14,8 @@
                 <div class="col-md-6">
                     <ul class="list-inline top-v1-data">
                         <li><a href="{{URL::to('/')}}"><i class="fa fa-home"></i></a></li>
-                        <li>{{HTML::Link('user/login', 'Login')}}</li>
-                        <li>{{HTML::Link('user/register', 'Register')}}</li>
+                        <li>{!!HTML::Link('user/login', 'Login')!!}</li>
+                        <li>{!!HTML::Link('user/register', 'Register')!!}</li>
                     </ul>
                 </div>
             </div>

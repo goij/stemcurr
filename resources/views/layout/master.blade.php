@@ -14,7 +14,7 @@
     @include('layout.style')
 </head>
 
-<body class='dark'>
+<body>
 <div class="wrapper">
 
     @include('layout.header')

@@ -15,14 +15,15 @@
 
 <!-- CSS Theme -->
 
-{!!HTML::Style("css/theme-colors/blue.css")!!}
+{!!HTML::Style("css/theme-colors/light-green.css")!!}
 
 <!-- Darken Theme -->
 
-{!!HTML::Style("css/theme-skins/dark.css")!!}
+{{--{!!HTML::Style("css/theme-skins/dark.css")!!}--}}
+
+@yield('styles')
 
 <!-- CSS Customization -->
 
 {!!HTML::Style("css/custom.css")!!}
 
-@yield('styles')

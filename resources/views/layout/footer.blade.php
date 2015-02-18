@@ -1,5 +1,5 @@
 <!--=== Footer Version 1 ===-->
-<div class="footer-v1">
+<div class="footer-default">
     <div class="footer">
         <div class="container">
             <div class="row">

@@ -18,11 +18,7 @@
 @import url(plugins/style-switcher.css);
 
 /*Import Headers*/
-@import url(headers/header-default.css);
-@import url(headers/header-v1.css);
-@import url(headers/header-v2.css);
-@import url(headers/header-v3.css);
-@import url(headers/header-v4.css);
+@import url(headers/header.css);
 
 /*Import Footers*/
 @import url(footers/footer-default.css);

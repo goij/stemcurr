@@ -10,7 +10,8 @@
 	},
 	"require-dev": {
 		"phpunit/phpunit": "~4.0",
-		"phpspec/phpspec": "~2.1"
+		"phpspec/phpspec": "~2.1",
+        "barryvdh/laravel-ide-helper": "~2.0"
 	},
 	"autoload": {
 		"classmap": [
@@ -32,6 +33,7 @@
 		],
 		"post-update-cmd": [
 			"php artisan clear-compiled",
+            "php artisan ide-helper:generate",
 			"php artisan optimize"
 		],
 		"post-create-project-cmd": [

@@ -38,64 +38,75 @@
                             Home
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="index.html">Option 1: Default Page</a></li>
-
-                            <!-- One Page -->
-                            <li class="dropdown-submenu">
-                                <a href="javascript:void(0);">Option 2: One Page</a>
-                                <ul class="dropdown-menu">
-                                    <li><a target="_blank" href="One-Page/index.html">- One Page Template</a></li>
-                                    <li><a target="_blank" href="One-Page/dark-page-example.html">- One Page Dark Theme</a></li>
-                                </ul>
-                            </li>
-                            <!-- End One Page -->
-
-                            <!-- Shop UI Page -->
-                            <li class="dropdown-submenu">
-                                <a href="javascript:void(0);">Option 3: Shop UI</a>
-                                <ul class="dropdown-menu">
-                                    <li><a target="_blank" href="Shop-UI/index.html">- Home Page</a></li>
-                                    <li><a target="_blank" href="Shop-UI/shop-ui-inner.html">- Product Page</a></li>
-                                    <li><a target="_blank" href="Shop-UI/shop-ui-filter-grid.html">- Filter Grid Page</a></li>
-                                    <li><a target="_blank" href="Shop-UI/shop-ui-filter-list.html">- Filter List Page</a></li>
-                                    <li><a target="_blank" href="Shop-UI/shop-ui-add-to-cart.html">- Checkout Page</a></li>
-                                    <li><a target="_blank" href="Shop-UI/shop-ui-login.html">- Login Page</a></li>
-                                    <li><a target="_blank" href="Shop-UI/shop-ui-register.html">- Registration Page</a></li>
-                                </ul>
-                            </li>
-                            <!-- End Shop UI -->
-
-                            <li><a href="page_home8.html">Option 4: Home Discover</a></li>
-                            <li><a href="page_home9.html">Option 5: Home Creative</a></li>
-                            <li><a href="page_home10.html">Option 6: Home Inspire</a></li>
-                            <li><a href="page_home11.html">Option 7: Home Desire</a></li>
-                            <li><a href="page_jobs.html">Option 8: Home Jobs</a></li>
-                            <li><a href="page_home3.html">Option 9: Amazing Content</a></li>
-                            <li><a href="page_home6.html">Option 10: Home Magazine</a></li>
-                            <li><a href="page_home4.html">Option 11: Home Sidebar</a></li>
-                            <li><a href="page_home7.html">Option 12: Home Portfolio</a></li>
-                            <li><a href="page_home1.html">Option 13: Home Default v1</a></li>
-                            <li><a href="page_home2.html">Option 14: Home Default v2</a></li>
-                            <li><a href="page_home5.html">Option 15: Home Default v3</a></li>
-
-                            <!-- Misc Pages -->
-                            <li class="dropdown-submenu">
-                                <a href="javascript:void(0);">Options: Misc Pages</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="page_misc_blank.html">- Blank page</a></li>
-                                    <li><a href="page_misc_boxed.html">- Boxed Page</a></li>
-                                    <li><a href="page_misc_boxed_img.html">- Boxed Image Page</a></li>
-                                    <li><a href="page_misc_boxed_fixed_header.html">- Boxed Fixed Menu</a></li>
-                                    <li><a href="page_misc_fixed_header.html">- Fixed Menu</a></li>
-                                    <li class="active"><a href="page_misc_dark.html">- Dark Page</a></li>
-                                    <li><a href="page_misc_dark_boxed.html">- Dark Boxed Page</a></li>
-                                    <li><a href="page_misc_dark_other_color.html">- Dark Page With Different Theme Color</a></li>
-                                </ul>
-                            </li>
-                            <!-- End Misc Pages -->
+                            <li><a href="#">Home Page</a></li>
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Home</a></li>
                         </ul>
                     </li>
                     <!-- End Home -->
+                    <!-- About -->
+                    <li class="dropdown">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                            About
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">About STEM Curriculum</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">About</a></li>
+                        </ul>
+                    </li>
+                    <!-- End About -->
+                    <!-- Profile -->
+                    <li class="dropdown">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                            Profile
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Edit Your Profile</a></li>
+                            <li><a href="#">Change Password</a></li>
+                            <li><a href="#">Browse Users</a></li>
+                            <li><a href="#">Users</a></li>
+                            <li><a href="#">Users</a></li>
+                            <li><a href="#">Users</a></li>
+                        </ul>
+                    </li>
+                    <!-- End Profile -->
+                    <!-- Lessons -->
+                    <li class="dropdown">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                            Lessons
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Browse Lessons</a></li>
+                            <li><a href="#">Search Lessons</a></li>
+                            <li><a href="#">Lessons</a></li>
+                            <li><a href="#">Lessons</a></li>
+                            <li><a href="#">Lessons</a></li>
+                            <li><a href="#">Lessons</a></li>
+                        </ul>
+                    </li>
+                    <!-- End About -->
+                    <!-- Lesson Plans -->
+                    <li class="dropdown">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                            Lesson Plans
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Your Lesson Plans</a></li>
+                            <li><a href="#">Search Lesson Plans</a></li>
+                            <li><a href="#">Lesson Plans</a></li>
+                            <li><a href="#">Lesson Plans</a></li>
+                            <li><a href="#">Lesson Plans</a></li>
+                            <li><a href="#">Lesson Plans</a></li>
+                        </ul>
+                    </li>
+                    <!-- End About -->
                     <!-- About -->
                     <li class="dropdown">
                         <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">

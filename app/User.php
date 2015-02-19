@@ -9,7 +9,6 @@ use Illuminate\Contracts\Auth\CanResetPassword as CanResetPasswordContract;
 class User extends Model implements AuthenticatableContract, CanResetPasswordContract {
 
 	use Authenticatable, CanResetPassword;
-
 	/**
 	 * The database table used by the model.
 	 *
@@ -22,6 +21,7 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
 	 *
 	 * @var array
 	 */
+
 	protected $fillable = ['name', 'email', 'password'];
 
 	/**

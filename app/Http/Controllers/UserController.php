@@ -2,40 +2,46 @@
 /**
  * Created by PhpStorm.
  * User: Mike
- * Date: 2/8/2015
- * Time: 9:01 PM
  */
 
 namespace app\Http\Controllers;
 
-
 class UserController extends Controller{
+
     /**
-     * Display a listing of the resource.
-     * GET /user
      *
-     * @return Response
      */
     public function __construct()
     {
-//		$this->middleware('auth');
+		$this->middleware('auth');
     }
 
+    /**
+     * @return \Illuminate\View\View
+     */
     public function getIndex()
     {
         return view('guest.home');
     }
 
+    /**
+     * @return \Illuminate\View\View
+     */
     public function getRegister(){
         return view('user.register');
     }
 
+    /**
+     * @return \Illuminate\View\View
+     */
     public function getLogin(){
         return view('user.login');
     }
 
+    /**
+     * @return \Illuminate\View\View
+     */
     public function getResetPassword(){
         return view('user.reset-password');
     }
-
 }

@@ -1,1 +1,6 @@
 /* Add here all your css styles (customizations) */
+.cus-btn {
+    color:white;
+    font-size: small;
+    font-weight: normal;
+}

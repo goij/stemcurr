@@ -10,10 +10,15 @@
 | and give it the controller to call when that URI is requested.
 |
 */
+Route::get('/','HomeController@getIndex');
+Route::get('user/register',['as'=>'register','uses'=>'UserController@getRegister']);
+Route::get('user/login',['as'=>'login','uses'=>'UserController@getLogin']);
+
+
+Route::post('user/register',['uses'=>'UserController@postRegister']);
+Route::post('user/login',['uses'=>'UserController@postLogin']);
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
-	'user' => 'UserController',
-	'/' => 'HomeController',
 ]);

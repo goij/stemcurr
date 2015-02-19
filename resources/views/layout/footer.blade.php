@@ -1,63 +1,81 @@
-<!--=== Footer Version 1 ===-->
-<div class="footer-default">
+<div class="footer-v3">
     <div class="footer">
         <div class="container">
             <div class="row">
                 <!-- About -->
-                <div class="col-md-3 md-margin-bottom-40">
-                    <a href="index.html"><img id="logo-footer" class="footer-logo" src="img/logo2-default.png" alt=""></a>
-                    <p>About Unify dolor sit amet, consectetur adipiscing elit. Maecenas eget nisl id libero tincidunt sodales.</p>
-                    <p>Duis eleifend fermentum ante ut aliquam. Cras mi risus, dignissim sed adipiscing ut, placerat non arcu.</p>
+                <div class="col-sm-4 md-margin-bottom-40 text-left">
+                    <a href="index.html"><img id="logo-footer" class="footer-logo" src='{!!asset("img/au-footer.png")!!}' alt="AU" style="width:200px; height:100px"></a>
+                    <p>     The John C. Dunham STEM Partnership School on the Aurora University campus serves students in third through eighth grades in the East Aurora,
+                        Indian Prairie and West Aurora school districts. It is staffed through a unique professional development strategy that engages teachers from the
+                        partner districts as faculty while they complete AU graduate coursework and become leaders in mathematics and science education.
+                    </p>
                 </div><!--/col-md-3-->
                 <!-- End About -->
 
-                <!-- Latest -->
-                <div class="col-md-3 md-margin-bottom-40">
-                    <div class="posts">
-                        <div class="headline"><h2>Latest Posts</h2></div>
-                        <ul class="list-unstyled latest-list">
-                            <li>
-                                <a href="#">Incredible content</a>
-                                <small>May 8, 2014</small>
-                            </li>
-                            <li>
-                                <a href="#">Best shoots</a>
-                                <small>June 23, 2014</small>
-                            </li>
-                            <li>
-                                <a href="#">New Terms and Conditions</a>
-                                <small>September 15, 2014</small>
-                            </li>
-                        </ul>
-                    </div>
-                </div><!--/col-md-3-->
-                <!-- End Latest -->
+                <!-- Simple List -->
+                <div class="col-sm-2 md-margin-bottom-40">
+                    <div class="thumb-headline"><h2>About AU STEM</h2></div>
+                    <ul class="list-unstyled simple-list margin-bottom-20">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
 
-                <!-- Link List -->
-                <div class="col-md-3 md-margin-bottom-40">
-                    <div class="headline"><h2>Useful Links</h2></div>
-                    <ul class="list-unstyled link-list">
-                        <li><a href="#">About us</a><i class="fa fa-angle-right"></i></li>
-                        <li><a href="#">Portfolio</a><i class="fa fa-angle-right"></i></li>
-                        <li><a href="#">Latest jobs</a><i class="fa fa-angle-right"></i></li>
-                        <li><a href="#">Community</a><i class="fa fa-angle-right"></i></li>
-                        <li><a href="#">Contact us</a><i class="fa fa-angle-right"></i></li>
+                    <div class="thumb-headline"><h2>Help</h2></div>
+                    <ul class="list-unstyled simple-list">
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Help</a></li>
                     </ul>
                 </div><!--/col-md-3-->
-                <!-- End Link List -->
 
-                <!-- Address -->
-                <div class="col-md-3 map-img md-margin-bottom-40">
-                    <div class="headline"><h2>Contact Us</h2></div>
-                    <address class="md-margin-bottom-40">
-                        25, Lorem Lis Street, Orange <br />
-                        California, US <br />
-                        Phone: 800 123 3456 <br />
-                        Fax: 800 123 3456 <br />
-                        Email: <a href="mailto:stemcurriculum@aurora.edu" class="">stemcurriculum@aurora.edu</a>
-                    </address>
+                <div class="col-sm-3">
+                    <div class="thumb-headline"><h2>Grade Levels</h2></div>
+                    <ul class="list-unstyled simple-list margin-bottom-20">
+                        <li><a href="#">Three</a></li>
+                        <li><a href="#">Four</a></li>
+                        <li><a href="#">Five</a></li>
+                        <li><a href="#">Six</a></li>
+                        <li><a href="#">Seven</a></li>
+                        <li><a href="#">Eight</a></li>
+                    </ul>
+
+                    <div class="thumb-headline"><h2>Topics</h2></div>
+                    <ul class="list-unstyled simple-list">
+                        <li><a href="#">Geology/Space</a></li>
+                        <li><a href="#">Matter & Energy</a></li>
+                        <li><a href="#">Force & Motion</a></li>
+                        <li><a href="#">Weather & Climate</a></li>
+                        <li><a href="#">Structure & Function</a></li>
+                        <li><a href="#">Ecosystems& Adaptation</a></li>
+                    </ul>
+                    </li>
                 </div><!--/col-md-3-->
-                <!-- End Address -->
+
+                <div class="col-sm-3">
+                    <div class="thumb-headline"><h2>Teachers</h2></div>
+                    <ul class="list-unstyled simple-list margin-bottom-20">
+                        <li><a href="#">Teach</a></li>
+                        <li><a href="#">Teach</a></li>
+                        <li><a href="#">Teach</a></li>
+                        <li><a href="#">Teach</a></li>
+                        <li><a href="#">Teach</a></li>
+                    </ul>
+
+                    <div class="thumb-headline"><h2>Contact</h2></div>
+                    <p>
+                        Address1<br>
+                        Address2<br>
+                        Address3<br>
+                        Phone<br>
+                        Email<br>
+                        Contact Information4<br>
+                    </p>
+                </div><!--/col-md-3-->
+                <!-- End Simple List -->
             </div>
         </div>
     </div><!--/footer-->
@@ -65,56 +83,20 @@
     <div class="copyright">
         <div class="container">
             <div class="row">
+                <!-- Terms Info-->
                 <div class="col-md-6">
                     <p>
-                        2014 &copy; All Rights Reserved.
-                        <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+                        2015 Aurora University
+                        <a target="_blank" href="http://www.aurora.edu">Aurora.edu</a> | <a href="#">More</a> | <a href="#">More</a>
                     </p>
                 </div>
-
-                <!-- Social Links -->
-                <div class="col-md-6">
-                    <ul class="footer-socials list-inline">
-                        <li>
-                            <a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook">
-                                <i class="fa fa-facebook"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Skype">
-                                <i class="fa fa-skype"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Google Plus">
-                                <i class="fa fa-google-plus"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Linkedin">
-                                <i class="fa fa-linkedin"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Pinterest">
-                                <i class="fa fa-pinterest"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Twitter">
-                                <i class="fa fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Dribbble">
-                                <i class="fa fa-dribbble"></i>
-                            </a>
-                        </li>
-                    </ul>
+                <div class="col-md-6 text-right">
+                    <p>
+                        2015 Aurora University
+                        <a target="_blank" href="http://www.aurora.edu">Aurora.edu</a> | <a href="#">More</a> | <a href="#">More</a>
+                    </p>
                 </div>
-                <!-- End Social Links -->
             </div>
         </div>
     </div><!--/copyright-->
 </div>
-<!--=== End Footer Version 1 ===-->

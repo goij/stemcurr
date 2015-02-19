@@ -14,20 +14,31 @@
     @include('layout.style')
 </head>
 
-<body>
+<body class="">
 <div class="wrapper">
 
     @include('layout.header')
 
 
-    <!--=== Content Part ===-->
-    @yield('content','<h1>No Content</h1>')
-    <!-- End Content Part -->
+    <div class="container content">
+        <div class="row">
+            <!--=== Start Left Content - 9 Columns ===-->
+            <div class="col-sm-8 well">
+                @yield('content','<h1>No Content</h1>')
+            </div>
+            <!-- End Content Part -->
+            <!--=== Start Side Section - 3 Columns ===-->
+            <div class="col-sm-4 well">
+                @include('layout.side')
+            </div>
+            <!-- End Side Section -->
+        </div>
+    </div>
 
     @include('layout.footer')
 
 
 </div><!--/wrapper-->
-    @include('layout.script')
+@include('layout.script')
 </body>
 </html>

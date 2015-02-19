@@ -1343,7 +1343,7 @@ body.dark .timeline-v2 > li .cbp_tmlabel:after {
 	}
 }
 
-@media screen (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
 	body.dark .timeline-v2 > li .cbp_tmlabel:after {
 		border-bottom-color: #222;
 		border-right-color: transparent;

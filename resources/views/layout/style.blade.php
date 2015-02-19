@@ -1,17 +1,20 @@
 <!-- Favicon -->
 <link rel="shortcut icon" href="{!!asset('img/favicon.ico')!!}">
-<!-- CSS Global Compulsory -->
-{!!HTML::Style("plugins/bootstrap/css/bootstrap.min.css")!!}
-{!!HTML::Style("css/style.css")!!}
-<!-- CSS Implementing Plugins -->
-{!!HTML::Style("plugins/line-icons/line-icons.css")!!}
-{!!HTML::Style("plugins/font-awesome/css/font-awesome.min.css")!!}
+<?php
+$css_paths = [
+        'plugins/bootstrap/css/bootstrap.min.css',
+        'css/style.css',
+        'plugins/line-icons/line-icons.css',
+        'plugins/font-awesome/css/font-awesome.min.css',
+        'css/theme-colors/dark-blue.css',
+        'css/theme-skins/dark.css',
+        'css/custom.css',
+        'plugins/ladda-buttons/css/custom-lada-btn.css',
+        'css/plugins/hover-effect/css/custom-hover-effects.css',
+        'plugins/sky-forms/version-2.0.1/css/custom-sky-forms.css'];
+?>
 
-@yield('styles')
-<!-- CSS Customization -->
-{!!HTML::Style("css/theme-colors/dark-blue.css")!!}
-{!!HTML::Style("css/theme-skins/dark.css")!!}
-{!!HTML::Style("css/custom.css")!!}
-<!-- Buttons -->
-{!!HTML::Style("plugins/ladda-buttons/css/custom-lada-btn.css")!!}
-{!!HTML::Style("css/plugins/hover-effect/css/custom-hover-effects.css")!!}
+@foreach($css_paths as $css)
+    {!!HTML::Style($css)!!}
+@endforeach
+

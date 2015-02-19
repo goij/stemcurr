@@ -95,10 +95,10 @@
                     <!-- Lesson Plans -->
                     <li class="dropdown">
                         <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
-                            Lesson Plans
+                            Unit
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Your Lesson Plans</a></li>
+                            <li><a href="#">Unit Lesson Project Aggregate Plans</a></li>
                             <li><a href="#">Search Lesson Plans</a></li>
                             <li><a href="#">Lesson Plans</a></li>
                             <li><a href="#">Lesson Plans</a></li>

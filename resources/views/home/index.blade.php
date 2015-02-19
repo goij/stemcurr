@@ -39,7 +39,7 @@
             <div class="col-sm-12 col-md-6">
                 <p>
                     <button class="btn-u btn-u-lg btn-u-orange btn-block curl-bottom-right" rel="curl-bottom-right" type="button">
-                        <i class="fa fa-location-arrow"></i>
+                        <i class="fa fa-user"></i>
                         <strong>Login</strong><br>
                         <div class="cus-btn">Already registered?<br>Click here to go to the login page.</div>
                     </button>
@@ -48,7 +48,7 @@
             <div class="col-sm-12 col-md-6">
                 <p>
                     <button class="btn-u btn-u-lg btn-u-purple btn-block curl-bottom-right" rel="curl-bottom-right" type="button">
-                        <i class="fa fa-location-arrow"></i>
+                        <i class="fa fa-wrench"></i>
                         <strong>Register</strong><br>
                         <div class="cus-btn">Not registered?<br>Click here to get started.</div>
                     </button>

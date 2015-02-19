@@ -11,13 +11,24 @@
 |
 */
 Route::get('/','HomeController@getIndex');
+
+
+/**
+ * User auth routes
+ */
 Route::get('user/register',['as'=>'register','uses'=>'UserController@getRegister']);
 Route::get('user/login',['as'=>'login','uses'=>'UserController@getLogin']);
+Route::post('user/register',['as'=>'postreg','uses'=>'UserController@postRegister']);
+Route::post('user/login',['as'=>'postlogin','uses'=>'UserController@postLogin']);
 
+/**
+ * Lesson routes
+ */
+Route::get('lesson',['as'=>'lessonhome','uses'=>'LessonController@getIndex']);
 
-Route::post('user/register',['uses'=>'UserController@postRegister']);
-Route::post('user/login',['uses'=>'UserController@postLogin']);
-
+/**
+ * Default laravel controllers
+ */
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',

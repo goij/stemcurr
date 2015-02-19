@@ -6,33 +6,24 @@
 @stop
 
 @section('content')
+    <div class="reg-block">
+        <div class="reg-block-header">
+            <h2>Login</h2>
+            <p>Don't Have Account? Click <a class="color-green" href='{!!route("register")!!}'>Sign Up</a> to registration.</p>
+        </div>
 
-
+        <div class="input-group margin-bottom-20">
+            <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+            <input type="text" class="form-control" placeholder="User">
+        </div>
+        <div class="input-group margin-bottom-20">
+            <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+            <input type="text" class="form-control" placeholder="Password">
+        </div>
         <div class="row">
-            <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3">
-                <form class="reg-page">
-                    <div class="reg-header">
-                        <h2>Login to Your Account</h2>
-                    </div>
-                    <div class="input-group margin-bottom-20">
-                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                        <input type="text" placeholder="Username" class="form-control">
-                    </div>
-                    <div class="input-group margin-bottom-20">
-                        <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                        <input type="password" placeholder="Password" class="form-control">
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 col-md-offset-6">
-                            <button class="btn-u pull-right" type="submit">Login</button>
-                        </div>
-                    </div>
-                    <hr>
-                    <h4>Forget your Password ?</h4>
-                    <p>Click {!!HTML::link('user/reset-password', 'here')!!} to reset your password.</p>
-                </form>
+            <div class="col-md-6 col-md-offset-6 col-sm-12">
+                <button type="submit" class="btn-u btn-block">Log In</button>
             </div>
-        </div><!--/row-->
-
-
+        </div>
+    </div>
 @stop

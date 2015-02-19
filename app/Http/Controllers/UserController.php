@@ -6,6 +6,11 @@
 
 namespace app\Http\Controllers;
 
+use Event;
+use Log;
+use Request;
+use App\Events\UserRegistered;
+
 class UserController extends Controller{
 
     /**
@@ -13,7 +18,7 @@ class UserController extends Controller{
      */
     public function __construct()
     {
-		$this->middleware('auth');
+//		$this->middleware('auth');
     }
 
     /**
@@ -21,7 +26,7 @@ class UserController extends Controller{
      */
     public function getIndex()
     {
-        return view('guest.home');
+        return view('home.index');
     }
 
     /**
@@ -29,6 +34,15 @@ class UserController extends Controller{
      */
     public function getRegister(){
         return view('user.register');
+    }
+
+    public function postRegister(Request $request){
+        $id = null;
+        if(Request::has($id)){
+            $id = Request::get('id)');
+        }
+        event(new UserRegistered());
+        Event::fire('UserRegistered');
     }
 
     /**

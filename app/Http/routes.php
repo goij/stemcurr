@@ -10,26 +10,59 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-Route::get('/','HomeController@getIndex');
+
+/**
+ *
+ * GUEST ROUTES
+ *
+ */
+    Route::get('/','HomeController@getIndex');
+
+
+    /**
+     * User auth routes
+     */
+    Route::get('user/register',['as'=>'register','uses'=>'UserController@getRegister']);
+    Route::get('user/login',['as'=>'login','uses'=>'UserController@getLogin']);
+    Route::get('user/recover',['as'=>'recover','uses'=>'UserController@getLogin']);
+    Route::post('user/register',['as'=>'postreg','uses'=>'UserController@postRegister']);
+    Route::post('user/login',['as'=>'postlogin','uses'=>'UserController@postLogin']);
+    Route::post('user/recover',['as'=>'postrecover','uses'=>'UserController@postLogin']);
+
+    /**
+     * Lesson routes
+     */
+    Route::get('lesson',['as'=>'lesson','uses'=>'LessonController@getIndex']);
+
+/**
+ *
+ * END GUEST ROUTES
+ *
+ */
 
 
 /**
- * User auth routes
+ *
+ * TEACHER ROUTES
+ *
  */
-Route::get('user/register',['as'=>'register','uses'=>'UserController@getRegister']);
-Route::get('user/login',['as'=>'login','uses'=>'UserController@getLogin']);
-Route::post('user/register',['as'=>'postreg','uses'=>'UserController@postRegister']);
-Route::post('user/login',['as'=>'postlogin','uses'=>'UserController@postLogin']);
 
 /**
- * Lesson routes
+ *
+ * END TEACHER ROUTES
+ *
  */
-Route::get('lesson',['as'=>'lessonindex','uses'=>'LessonController@getIndex']);
 
 /**
- * Default laravel controllers
+ *
+ * ADMIN ROUTES
+ *
  */
-Route::controllers([
-	'auth' => 'Auth\AuthController',
-	'password' => 'Auth\PasswordController',
-]);
+
+    Route::get('lesson/create',['as'=>'lesson_create','uses'=>'LessonController@getCreate']);
+
+/**
+ *
+ * END ADMIN ROUTES
+ *
+ */

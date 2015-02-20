@@ -4,7 +4,7 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
-
+use App\Lesson;
 class LessonController extends Controller {
 
 	/**
@@ -14,7 +14,8 @@ class LessonController extends Controller {
 	 */
 	public function getIndex()
 	{
-		return view('lesson.index');
+        $lessons = Lesson::all();
+		return view('lesson.index',['lessons' => $lessons]);
 	}
 
 	/**
@@ -22,10 +23,15 @@ class LessonController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function create()
+	public function getCreate()
 	{
-		//
+		return view('lesson.create');
 	}
+
+    public function postCreate()
+    {
+
+    }
 
 	/**
 	 * Store a newly created resource in storage.

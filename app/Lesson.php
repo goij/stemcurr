@@ -1,12 +1,8 @@
 <?php namespace App;
-
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
-
 class Lesson extends Model {
-
     use SoftDeletes;
-
     /**
      * @var string
      */
@@ -27,5 +23,19 @@ class Lesson extends Model {
      */
     public function questions(){
         return $this->hasMany('App\Question');
+    }
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function grade(){
+        return $this->belongsTo('App\Grade');
+    }
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function unit(){
+        return $this->belongsTo('App\Unit');
     }
 }

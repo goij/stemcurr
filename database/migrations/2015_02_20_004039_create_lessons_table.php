@@ -18,6 +18,10 @@ class CreateLessonsTable extends Migration {
             $table->string('title');
             $table->text('summary');
             $table->text('commentary');
+            $table->integer('grade_id')->unsigned();
+            $table->foreign('grade_id')->references('id')->on('grades')->onDelete('cascade');
+            $table->integer('unit_id')->unsigned();
+            $table->foreign('unit_id')->references('id')->on('units')->onDelete('cascade');
 			$table->timestamps();
             $table->softDeletes();
 		});

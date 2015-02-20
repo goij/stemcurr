@@ -23,7 +23,7 @@
                     <span class="sr-only">Toggle navigation</span>
                     <span class="fa fa-bars"></span>
                 </button>
-                <a class="navbar-brand" href="/">
+                <a class="navbar-brand" href="">
                     <img id="logo-header" src='{!!asset("img/au-logo.png")!!}' alt="Logo" >
                     STEM Curriculum
                 </a>
@@ -38,12 +38,9 @@
                             Home
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Home Page</a></li>
-                            <li><a href="#">News</a></li>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Home Page GUEST</a></li>
+                            <li><a href="#">News GUEST</a></li>
+                            <li><a href="#">Add News ADMIN</a></li>
                         </ul>
                     </li>
                     <!-- End Home -->
@@ -53,12 +50,11 @@
                             About
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">About STEM Curriculum</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">About</a></li>
+                            <li><a href="#">STEM Curriculum Info GUEST</a></li>
+                            <li><a href="#">Instructions GUEST</a></li>
+                            <li><a href="#">Documentation GUEST</a></li>
+                            <li><a href="#">FAQ GUEST</a></li>
+                            <li><a href="#">Help GUEST</a></li>
                         </ul>
                     </li>
                     <!-- End About -->
@@ -68,12 +64,13 @@
                             Profile
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Edit Your Profile</a></li>
-                            <li><a href="#">Change Password</a></li>
-                            <li><a href="#">Browse Users</a></li>
-                            <li><a href="#">Users</a></li>
-                            <li><a href="#">Users</a></li>
-                            <li><a href="#">Users</a></li>
+                            <li><a href="{!!route('register')!!}">Register GUEST</a></li>
+                            <li><a href="{!!route('login')!!}">Login GUEST</a></li>
+                            <li><a href="{!!route('recover')!!}">Recover Account GUEST</a></li>
+                            <li><a href="#">Edit Your Profile USERS</a></li>
+                            <li><a href="#">Change Password USERS</a></li>
+                            <li><a href="#">Browse Users USERS</a></li>
+                            <li><a href="#">Modify Users ADMIN</a></li>
                         </ul>
                     </li>
                     <!-- End Profile -->
@@ -83,45 +80,31 @@
                             Lessons
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Browse Lessons</a></li>
-                            <li><a href="#">Search Lessons</a></li>
-                            <li><a href="#">Create Lessons PPP</a></li>
-                            <li><a href="#">Lessons</a></li>
-                            <li><a href="#">Lessons</a></li>
-                            <li><a href="#">Lessons</a></li>
+                            <li><a href="{!!route('lesson')!!}">Browse Lessons GUEST</a></li>
+                            <li><a href="#">Browse Questions GUEST</a></li>
+                            <li><a href="#">Create Lessons ADMIN</a></li>
+                            <li><a href="#">Modify Lessons ADMIN</a></li>
+                            <li><a href="#">Delete Lessons ADMIN</a></li>
+                            <li><a href="#">Create Questions ADMIN</a></li>
+                            <li><a href="#">Modify Questions ADMIN</a></li>
+                            <li><a href="#">Delete Questions ADMIN</a></li>
                         </ul>
                     </li>
                     <!-- End About -->
                     <!-- Lesson Plans -->
                     <li class="dropdown">
                         <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
-                            Unit
+                            Theme
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Unit Lesson Project Aggregate Plans</a></li>
-                            <li><a href="#">Search Lesson Plans</a></li>
-                            <li><a href="#">Lesson Plans</a></li>
-                            <li><a href="#">Lesson Plans</a></li>
-                            <li><a href="#">Lesson Plans</a></li>
-                            <li><a href="#">Lesson Plans</a></li>
+                            <li><a href="#">Browse Units GUEST</a></li>
+                            <li><a href="#">Browse Themes GUEST</a></li>
+                            <li><a href="#">Create Themes TEACHER</a></li>
+                            <li><a href="#">Modify Your Themes TEACHER</a></li>
                         </ul>
                     </li>
                     <!-- End About -->
-                    <!-- About -->
-                    <li class="dropdown">
-                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
-                            About
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">STEM Curriculum</a></li>
-                            <li><a href="#">Instructions</a></li>
-                            <li><a href="#">Instructions</a></li>
-                            <li><a href="#">Instructions</a></li>
-                            <li><a href="#">Instructions</a></li>
-                            <li><a href="#">Instructions</a></li>
-                        </ul>
-                    </li>
-                    <!-- End About -->
+
                     <!-- Search Block -->
                     <li>
                         <i class="search fa fa-search search-btn"></i>

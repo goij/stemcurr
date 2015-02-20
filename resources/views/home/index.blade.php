@@ -30,7 +30,7 @@
         <div class="col-sm-12 col-md-12">
             <div class="col-sm-12 col-md-12">
                 <p>
-                    <a href='{!!route("lessonindex")!!}' class="btn-u btn-u-lg btn-block btn-u-dark-blue curl-bottom-right" rel="curl-bottom-right" type="button">
+                    <a href='{!!route("lesson")!!}' class="btn-u btn-u-lg btn-block btn-u-dark-blue curl-bottom-right" rel="curl-bottom-right" type="button">
                         <i class="fa fa-location-arrow"></i>
                         Browse The Curriculum
                     </a>

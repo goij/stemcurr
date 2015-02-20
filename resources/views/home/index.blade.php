@@ -30,28 +30,26 @@
         <div class="col-sm-12 col-md-12">
             <div class="col-sm-12 col-md-12">
                 <p>
-                    <button class="btn-u btn-u-lg btn-block btn-u-dark-blue curl-bottom-right" rel="curl-bottom-right" type="button">
+                    <a href='{!!route("lessonindex")!!}' class="btn-u btn-u-lg btn-block btn-u-dark-blue curl-bottom-right" rel="curl-bottom-right" type="button">
                         <i class="fa fa-location-arrow"></i>
                         Browse The Curriculum
-                    </button>
+                    </a>
                 </p>
             </div>
             <div class="col-sm-12 col-md-6">
                 <p>
-                    <button class="btn-u btn-u-lg btn-u-orange btn-block curl-bottom-right" rel="curl-bottom-right" type="button">
+                    <a href='{!!route("login")!!}' class="btn-u btn-u-lg btn-u-orange btn-block curl-bottom-right" rel="curl-bottom-right" type="button">
                         <i class="fa fa-user"></i>
                         <strong>Login</strong><br>
-                        <div class="cus-btn">Already registered?<br>Click here to go to the login page.</div>
-                    </button>
+                    </a>
                 </p>
             </div>
             <div class="col-sm-12 col-md-6">
                 <p>
-                    <button class="btn-u btn-u-lg btn-u-purple btn-block curl-bottom-right" rel="curl-bottom-right" type="button">
+                    <a href='{!!route("register")!!}' class="btn-u btn-u-lg btn-u-purple btn-block curl-bottom-right" rel="curl-bottom-right" type="button">
                         <i class="fa fa-wrench"></i>
                         <strong>Register</strong><br>
-                        <div class="cus-btn">Not registered?<br>Click here to get started.</div>
-                    </button>
+                    </a>
                 </p>
             </div>
         </div>

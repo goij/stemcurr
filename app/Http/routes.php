@@ -24,7 +24,7 @@ Route::post('user/login',['as'=>'postlogin','uses'=>'UserController@postLogin'])
 /**
  * Lesson routes
  */
-Route::get('lesson',['as'=>'lessonhome','uses'=>'LessonController@getIndex']);
+Route::get('lesson',['as'=>'lessonindex','uses'=>'LessonController@getIndex']);
 
 /**
  * Default laravel controllers

@@ -85,7 +85,7 @@
                         <ul class="dropdown-menu">
                             <li><a href="#">Browse Lessons</a></li>
                             <li><a href="#">Search Lessons</a></li>
-                            <li><a href="#">Lessons</a></li>
+                            <li><a href="#">Create Lessons PPP</a></li>
                             <li><a href="#">Lessons</a></li>
                             <li><a href="#">Lessons</a></li>
                             <li><a href="#">Lessons</a></li>

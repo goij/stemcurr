@@ -3,7 +3,7 @@
     @include('lesson.search')
     @if(isset($lessons))
         @foreach($lessons as $lesson)
-            <div class="panel panel-dark">
+            <div class="panel panel-dark-blue">
                 <div class="panel-heading">
                     <h2 class="heading color-light">{!!$lesson['title']!!}</h2>
                 </div>
@@ -50,6 +50,20 @@
                                     <td>SUBCATEGORY HERE</td>
                                 </tr>
                             </table>
+                        </div>
+                        <div class="row">
+                            <div class="heading"><h2>Questions</h2></div>
+                            <?php $questions = $lesson->questions;?>
+                            @foreach($questions as $question)
+                                <div class="panel panel-dark">
+                                    <div class="panel-heading">
+                                        <h4 class="color-light">{!!$question['title']!!}</h4>
+                                    </div>
+                                    <div class="panel-body">
+                                        {!!$question['evidence']!!}
+                                    </div>
+                                </div>
+                            @endforeach
                         </div>
                     </div>
                 </div>

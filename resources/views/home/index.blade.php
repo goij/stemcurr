@@ -8,10 +8,6 @@
 @section('content')
     <div class="row">
         <div class="col-md-12">
-            <div class="text-center">
-                <img src='{!! asset("img/stem.png")!!}' class="margin-bottom-10" alt="">
-            </div>
-
             <div class="headline"><h4>AU STEM Curriculum</h4></div>
             <p><strong><span class="dropcap-bg">W</span>elcome to the AU Curriculum Management Website
                     On this page, teachers will be able to create and manage your own lesson plans.

@@ -21,14 +21,14 @@
 
 
     <div class="container content">
-        <div class="row">
+        <div class="row" style="border-top: 2px solid darkblue">
             <!--=== Start Left Content - 9 Columns ===-->
-            <div class="col-sm-8 well">
+            <div class="col-sm-8" style="margin-top:10px;">
                 @yield('content','<h1>No Content</h1>')
             </div>
             <!-- End Content Part -->
             <!--=== Start Side Section - 3 Columns ===-->
-            <div class="col-sm-4 well">
+            <div class="col-sm-4" style="margin-top:10px;">
                 @include('layout.side')
             </div>
             <!-- End Side Section -->

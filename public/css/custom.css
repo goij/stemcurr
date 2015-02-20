@@ -4,3 +4,14 @@
     font-size: small;
     font-weight: normal;
 }
+#logo-header{
+    position:absolute;
+    width:160px;
+    height:80px;
+}
+#logo-header1{
+    position:absolute;
+    left:200px;
+    width:172px;
+    height:80px;
+}

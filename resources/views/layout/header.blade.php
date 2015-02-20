@@ -23,12 +23,11 @@
                     <span class="sr-only">Toggle navigation</span>
                     <span class="fa fa-bars"></span>
                 </button>
-                <a class="navbar-brand" href="">
-                    <img id="logo-header" src='{!!asset("img/au-logo.png")!!}' alt="Logo" >
-                    STEM Curriculum
+                <a class="navbar-brand" href="{!!route('index')!!}">
+                    <img id="logo-header" src='{!!asset("img/au-source.png")!!}' alt="Logo">
+                    <img id="logo-header1" src='{!!asset("img/stem.png")!!}' alt="Logo2">
                 </a>
             </div>
-
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav">

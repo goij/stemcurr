@@ -4,7 +4,7 @@
  * User: Mike
  */
 
-namespace app\Http\Controllers;
+namespace App\Http\Controllers;
 
 use Event;
 use Log;

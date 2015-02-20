@@ -16,7 +16,7 @@
  * GUEST ROUTES
  *
  */
-    Route::get('/','HomeController@getIndex');
+    Route::get('/',['as' =>'index','uses'=>'HomeController@getIndex']);
 
 
     /**

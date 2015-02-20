@@ -15,7 +15,7 @@
     <!-- End Topbar -->
 
     <!-- Navbar -->
-    <div class="navbar navbar-default mega-menu" role="navigation">
+    <div class="navbar navbar-default mega-menu" role="navigation" id="navbar">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -24,8 +24,8 @@
                     <span class="fa fa-bars"></span>
                 </button>
                 <a class="navbar-brand" href="{!!route('index')!!}">
-                    <img id="logo-header" src='{!!asset("img/au-source.png")!!}' alt="Logo">
-                    <img id="logo-header1" src='{!!asset("img/stem.png")!!}' alt="Logo2">
+                    <img id="logo-header" class="cus-logo" src="{!!asset('img/au-source.png')!!}" alt="Logo" id="logo1">
+                    <img id="logo-header" class="cus-logo" src="{!!asset('img/stem.jpg')!!}" alt="Logo" id="logo2">
                 </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -37,8 +37,8 @@
                             Home
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Home Page GUEST</a></li>
-                            <li><a href="#">News GUEST</a></li>
+                            <li><a href="{!!route('index')!!}">Home Page GUEST</a></li>
+                            <li><a href="{!!route('news')!!}">News GUEST</a></li>
                             <li><a href="#">Add News ADMIN</a></li>
                         </ul>
                     </li>
@@ -49,7 +49,7 @@
                             About
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">STEM Curriculum Info GUEST</a></li>
+                            <li><a href="{!!route('about')!!}">About STEM Curriculum</a></li>
                             <li><a href="#">Instructions GUEST</a></li>
                             <li><a href="#">Documentation GUEST</a></li>
                             <li><a href="#">FAQ GUEST</a></li>
@@ -80,11 +80,11 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li><a href="{!!route('lesson')!!}">Browse Lessons GUEST</a></li>
-                            <li><a href="#">Browse Questions GUEST</a></li>
-                            <li><a href="#">Create Lessons ADMIN</a></li>
+                            <li><a href="{!!route('question')!!}">Browse Questions GUEST</a></li>
+                            <li><a href="{!!route('lesson_create')!!}">Create Lessons ADMIN</a></li>
                             <li><a href="#">Modify Lessons ADMIN</a></li>
                             <li><a href="#">Delete Lessons ADMIN</a></li>
-                            <li><a href="#">Create Questions ADMIN</a></li>
+                            <li><a href="{!!route('question_create')!!}">Create Questions ADMIN</a></li>
                             <li><a href="#">Modify Questions ADMIN</a></li>
                             <li><a href="#">Delete Questions ADMIN</a></li>
                         </ul>

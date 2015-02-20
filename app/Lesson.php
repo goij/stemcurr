@@ -11,7 +11,7 @@ class Lesson extends Model {
     /**
      * @var array
      */
-    protected $fillable = ['title', 'summary', 'commentary'];
+    protected $fillable = ['title', 'summary', 'commentary','grade_id','unit_id'];
 
     /**
      * @var array

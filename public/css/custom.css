@@ -4,14 +4,10 @@
     font-size: small;
     font-weight: normal;
 }
-#logo-header{
-    position:absolute;
-    width:160px;
-    height:80px;
+.cus-logo{
+    height:39px;
 }
-#logo-header1{
-    position:absolute;
-    left:200px;
-    width:172px;
-    height:80px;
+
+.cus-side-table{
+    margin-top:10px;
 }

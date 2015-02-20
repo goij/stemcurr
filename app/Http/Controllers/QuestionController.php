@@ -4,6 +4,7 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
+use App\Question;
 
 class QuestionController extends Controller {
 
@@ -12,9 +13,9 @@ class QuestionController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function index()
+	public function getIndex()
 	{
-		//
+		return view('question.index');
 	}
 
 	/**
@@ -22,9 +23,24 @@ class QuestionController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function create()
+	public function postCreate(Request $request)
 	{
-		//
+		$input = $request->except('_token');
+
+		$this->validate($request,
+			[
+				'lesson_id' => "required|exists:lessons,id",
+				"title" => "required",
+				"evidence" => "required"
+			]);
+
+		Question::create($input);
+
+		return view('question.index');
+	}
+
+	public function getCreate(){
+		return view('question.create');
 	}
 
 	/**

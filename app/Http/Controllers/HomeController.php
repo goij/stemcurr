@@ -6,7 +6,17 @@ class HomeController extends Controller {
 //		$this->middleware('auth');
 	}
 
+	/**
+	 * @return \Illuminate\View\View
+	 */
 	public function getIndex(){
 		return view('home.index');
+	}
+
+	/**
+	 * @return \Illuminate\View\View
+	 */
+	public function getNews(){
+		return view('home.news');
 	}
 }

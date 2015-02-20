@@ -14,10 +14,32 @@ class LessonController extends Controller {
 	 */
 	public function getIndex()
 	{
-        $lessons = Lesson::all();
+		$lessons = Lesson::all();
 		return view('lesson.index',['lessons' => $lessons]);
 	}
 
+	/**
+	 * @param Request $request
+	 * @return \Illuminate\View\View
+	 */
+	public function postCreate(Request $request){
+		$input = $request->except('_token');
+
+
+		//Magic redirect
+		$this->validate($request,[
+			'title' => 'required|max:255|unique:lessons',
+			'summary' => 'required',
+			'commentary' => 'required',
+			'grade_id' => 'required|exists:grades,id',
+			'unit_id' => 'required|exists:units,id',
+		]);
+
+
+//		dd($input);
+		Lesson::create($input);
+		return view('lesson.create');
+	}
 	/**
 	 * Show the form for creating a new resource.
 	 *
@@ -28,10 +50,6 @@ class LessonController extends Controller {
 		return view('lesson.create');
 	}
 
-    public function postCreate()
-    {
-
-    }
 
 	/**
 	 * Store a newly created resource in storage.

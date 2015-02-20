@@ -21,14 +21,24 @@
 
 
     <div class="container content">
-        <div class="row" style="border-top: 2px solid darkblue">
+        @if (count($errors) > 0)
+            <div class="alert alert-danger">
+                <strong>Whoops!</strong> There were some problems with your input.<br><br>
+                <ul>
+                    @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+        @endif
+        <div class="row">
             <!--=== Start Left Content - 9 Columns ===-->
-            <div class="col-sm-8" style="margin-top:10px;">
+            <div class="col-sm-8">
                 @yield('content','<h1>No Content</h1>')
             </div>
             <!-- End Content Part -->
             <!--=== Start Side Section - 3 Columns ===-->
-            <div class="col-sm-4" style="margin-top:10px;">
+            <div class="col-sm-4">
                 @include('layout.side')
             </div>
             <!-- End Side Section -->

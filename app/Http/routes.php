@@ -20,7 +20,6 @@ Route::get('/',['as' =>'index','uses'=>'HomeController@getIndex']);
 Route::get('news',['as' => 'news', 'uses' => 'HomeController@getNews']);
 Route::get('about/index',['as'=>'about','uses'=>'AboutController@getIndex']);
 
-
 /**
  * User auth routes
  */
@@ -32,9 +31,9 @@ Route::post('user/login',['as'=>'postlogin','uses'=>'UserController@postLogin'])
 Route::post('user/recover',['as'=>'postrecover','uses'=>'UserController@postLogin']);
 
 /**
- * Lesson routes
+ * topic routes
  */
-Route::get('lesson',['as'=>'lesson','uses'=>'LessonController@getIndex']);
+Route::get('topic',['as'=>'topic','uses'=>'topicController@getIndex']);
 Route::get('question',['as'=>'question','uses'=>'QuestionController@getIndex']);
 
 
@@ -63,8 +62,8 @@ Route::get('question',['as'=>'question','uses'=>'QuestionController@getIndex']);
  *
  */
 
-Route::get('lesson/create',['as'=>'lesson_create','uses'=>'LessonController@getCreate']);
-Route::post('lesson/create',['as'=>'lesson_create_post','uses'=>'LessonController@postCreate']);
+Route::get('topic/create',['as'=>'topic_create','uses'=>'topicController@getCreate']);
+Route::post('topic/create',['as'=>'topic_create_post','uses'=>'topicController@postCreate']);
 Route::get('question/create',['as'=>'question_create','uses'=>'QuestionController@getCreate']);
 Route::post('question/create',['as'=>'question_create_post','uses'=>'QuestionController@postCreate']);
 

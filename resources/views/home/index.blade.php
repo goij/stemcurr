@@ -9,7 +9,7 @@
     <div class="row">
         <div class="col-md-12">
             <div class="headline"><h4>AU STEM Curriculum</h4></div>
-            <p><strong><span class="dropcap-bg">W</span>elcome to the AU Curriculum Management Website
+            <p><strong><span class="dropcap-bg">W</span>elcome to the AU STEM Curriculum Management Website
                     On this page, teachers will be able to create and manage your own lesson plans.
                     These lesson plans will be composed of as many lessons you see fit.
                     Each lesson is composed of one ore more question and answer.
@@ -26,7 +26,7 @@
         <div class="col-sm-12 col-md-12">
             <div class="col-sm-12 col-md-12">
                 <p>
-                    <a href='{!!route("lesson")!!}' class="btn-u btn-u-lg btn-block btn-u-dark-blue curl-bottom-right" rel="curl-bottom-right" type="button">
+                    <a href='{!!route("topic")!!}' class="btn-u btn-u-lg btn-block btn-u-dark-blue curl-bottom-right" rel="curl-bottom-right" type="button">
                         <i class="fa fa-location-arrow"></i>
                         Browse The Curriculum
                     </a>

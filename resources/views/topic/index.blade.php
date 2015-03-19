@@ -1,23 +1,23 @@
 @extends('layout.master')
 @section('content')
-    @include('lesson.search')
-    @if(isset($lessons))
-        @foreach($lessons as $lesson)
+    @include('topic.search')
+    @if(isset($topics))
+        @foreach($topics as $topic)
             <div class="panel panel-dark-blue">
                 <div class="panel-heading">
-                    <a data-target="#collapse-{!!$lesson['id']!!}" data-toggle="collapse" expanded="false" href="#" style="text-decoration: none">
-                        <h2 class="heading color-light">{!!$lesson['title']!!}</h2>
+                    <a data-target="#collapse-{!!$topic['id']!!}" data-toggle="collapse" expanded="false" href="#" style="text-decoration: none">
+                        <h2 class="heading color-light">{!!$topic['title']!!}</h2>
                     </a>
                 </div>
-                <div id="collapse-{!!$lesson['id']!!}" class="panel-collapse collapse">
+                <div id="collapse-{!!$topic['id']!!}" class="panel-collapse collapse">
                     <div class="panel-body">
                         <div class="col-sm-12">
                             <div class="row">
-                                <div class="heading"><h2>Grade {!!$lesson->grade['string']!!} - {!!$lesson->unit['name']!!}</h2></div>
+                                <div class="heading"><h2>Grade {!!$topic->grade['string']!!} - {!!$topic->unit['name']!!}</h2></div>
                                 <div class="heading"><h2>Summary</h2></div>
-                                <p>{!!$lesson['summary']!!}</p>
+                                <p>{!!$topic['summary']!!}</p>
                                 <div class="heading"><h2>Commentary</h2></div>
-                                <p>{!!$lesson['commentary']!!}</p>
+                                <p>{!!$topic['commentary']!!}</p>
                             </div>
                             <!-- Placeholder Tables -->
                             <div class="row">
@@ -56,7 +56,7 @@
                             </div>
                             <div class="row">
                                 <div class="heading"><h2>Questions</h2></div>
-                                <?php $questions = $lesson->questions;?>
+                                <?php $questions = $topic->questions;?>
                                 @foreach($questions as $question)
                                     <div class="panel panel-dark">
                                         <div class="panel-heading">

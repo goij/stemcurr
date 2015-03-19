@@ -6,7 +6,7 @@ class Question extends Model {
     /**
      * @var array
      */
-	protected $fillable = ['lesson_id','title','evidence'];
+	protected $fillable = ['topic_id','title','evidence'];
 
     /**
      * @var array
@@ -16,8 +16,8 @@ class Question extends Model {
     /**
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
-    public function lesson(){
-        return $this->belongsTo('App\Lesson');
+    public function topic(){
+        return $this->belongsTo('App\Topic');
     }
 
     /**

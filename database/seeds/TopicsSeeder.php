@@ -7,12 +7,12 @@
  */
 
 use Illuminate\Database\Seeder;
-use App\Lesson;
+use App\Topic;
 
-class LessonsSeeder extends Seeder{
+class TopicsSeeder extends Seeder{
     public function run(){
-        DB::table('lessons')->delete();
-        $lessons = [
+        DB::table('topics')->delete();
+        $topics = [
             [
                 'In the Thick of Things',
                 'How do the internal and external structures of a plant enable it to acquire, use and release energy? How does the release of plant energy affect people in their daily lives?',
@@ -35,8 +35,8 @@ class LessonsSeeder extends Seeder{
                 5
             ],
         ];
-        foreach($lessons as $lesson){
-            Lesson::create(['title' => $lesson[0], 'summary' => $lesson[1], 'commentary' => $lesson[2],'grade_id' => $lesson[3], 'unit_id' => $lesson[4]]);
+        foreach($topics as $topic){
+            Topic::create(['title' => $topic[0], 'summary' => $topic[1], 'commentary' => $topic[2],'grade_id' => $topic[3], 'unit_id' => $topic[4]]);
         }
     }
 }

@@ -7,7 +7,7 @@
     <div class="panel panel-red">
         <div class="panel-heading">
             <a data-toggle="collapse" data-target="#collapse-search" href="#" style="text-decoration: none">
-                <h2 class="heading color-light">Create New Lessons</h2>
+                <h2 class="heading color-light">Create New topics</h2>
             </a>
         </div>
         <div id="collapse-search" class="panel-collapse">
@@ -70,7 +70,7 @@
                     </fieldset>
                     <footer>
                         <div class="col-md-6 col-sm-12">
-                            <button type="submit" class="btn-u btn-u-green btn-block curl-bottom-right">Create Lesson</button>
+                            <button type="submit" class="btn-u btn-u-green btn-block curl-bottom-right">Create topic</button>
                         </div>
                         <div class="col-md-6 col-sm-12">
                             <button type="clear" class="btn-u btn-u-red btn-block curl-bottom-right">Clear</button>

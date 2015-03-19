@@ -40,15 +40,6 @@
                             <li><a href="{!!route('index')!!}">Home Page GUEST</a></li>
                             <li><a href="{!!route('news')!!}">News GUEST</a></li>
                             <li><a href="#">Add News ADMIN</a></li>
-                        </ul>
-                    </li>
-                    <!-- End Home -->
-                    <!-- About -->
-                    <li class="dropdown">
-                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
-                            About
-                        </a>
-                        <ul class="dropdown-menu">
                             <li><a href="{!!route('about')!!}">About STEM Curriculum</a></li>
                             <li><a href="#">Instructions GUEST</a></li>
                             <li><a href="#">Documentation GUEST</a></li>
@@ -56,66 +47,61 @@
                             <li><a href="#">Help GUEST</a></li>
                         </ul>
                     </li>
-                    <!-- End About -->
-                    <!-- Profile -->
+                    <!-- End Home -->
+                    <!-- topics -->
                     <li class="dropdown">
                         <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
-                            Profile
+                            Teachers
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="{!!route('register')!!}">Register GUEST</a></li>
-                            <li><a href="{!!route('login')!!}">Login GUEST</a></li>
-                            <li><a href="{!!route('recover')!!}">Recover Account GUEST</a></li>
-                            <li><a href="#">Edit Your Profile USERS</a></li>
-                            <li><a href="#">Change Password USERS</a></li>
-                            <li><a href="#">Browse Users USERS</a></li>
-                            <li><a href="#">Modify Users ADMIN</a></li>
+                            <li><a href="{!!route('topic')!!}">Browse Your Units TEACHER</a></li>
+                            <li><a href="{!!route('topic')!!}">Create Teacher Response TEACHER</a></li>
                         </ul>
                     </li>
-                    <!-- End Profile -->
-                    <!-- Lessons -->
-                    <li class="dropdown">
-                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
-                            Lessons
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="{!!route('lesson')!!}">Browse Lessons GUEST</a></li>
-                            <li><a href="{!!route('question')!!}">Browse Questions GUEST</a></li>
-                            <li><a href="{!!route('lesson_create')!!}">Create Lessons ADMIN</a></li>
-                            <li><a href="#">Modify Lessons ADMIN</a></li>
-                            <li><a href="#">Delete Lessons ADMIN</a></li>
-                            <li><a href="{!!route('question_create')!!}">Create Questions ADMIN</a></li>
-                            <li><a href="#">Modify Questions ADMIN</a></li>
-                            <li><a href="#">Delete Questions ADMIN</a></li>
-                        </ul>
-                    </li>
-                    <!-- End About -->
-                    <!-- Lesson Plans -->
-                    <li class="dropdown">
-                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
-                            Theme
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Browse Units GUEST</a></li>
-                            <li><a href="#">Browse Themes GUEST</a></li>
-                            <li><a href="#">Create Themes TEACHER</a></li>
-                            <li><a href="#">Modify Your Themes TEACHER</a></li>
-                        </ul>
-                    </li>
-                    <!-- End About -->
+                    <!-- End topics -->
 
-                    <!-- Search Block -->
-                    <li>
-                        <i class="search fa fa-search search-btn"></i>
-                        <div class="search-open">
-                            <div class="input-group animated fadeInDown">
-                                <input type="text" class="form-control" placeholder="Search">
-                                    <span class="input-group-btn">
-                                        <button class="btn-u" type="button">Go</button>
-                                    </span>
-                            </div>
-                        </div>
+                    <!-- topics -->
+                    <li class="dropdown">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                            Faculty
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="{!!route('topic')!!}">Browse topics GUEST</a></li>
+                            <li><a href="{!!route('question')!!}">Browse Questions GUEST</a></li>
+                            <li><a href="{!!route('topic_create')!!}">Create topics FACULTY</a></li>
+                            <li><a href="#">Modify topics FACULTY</a></li>
+                            <li><a href="#">Delete topics FACULTY</a></li>
+                            <li><a href="{!!route('question_create')!!}">Create Questions FACULTY</a></li>
+                            <li><a href="#">Modify Questions FACULTY</a></li>
+                            <li><a href="#">Delete Questions FACULTY</a></li>
+                        </ul>
                     </li>
+                    <!-- End topics -->
+                    <!-- topics -->
+                    <li class="dropdown">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                            Admins
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="{!!route('topic')!!}">Administrate Users ADMIN</a></li>
+                            <li><a href="{!!route('topic')!!}">Administrate News ADMIN</a></li>
+                        </ul>
+                    </li>
+                    <!-- End topics -->
+                    <!-- Search Block -->
+                    <!--
+                  <li>
+                      <i class="search fa fa-search search-btn"></i>
+                      <div class="search-open">
+                          <div class="input-group animated fadeInDown">
+                              <input type="text" class="form-control" placeholder="Search">
+                                  <span class="input-group-btn">
+                                      <button class="btn-u" type="button">Go</button>
+                                  </span>
+                          </div>
+                      </div>
+                  </li>
+                  -->
                     <!-- End Search Block -->
                 </ul>
             </div><!--/navbar-collapse-->

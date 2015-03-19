@@ -52,7 +52,7 @@ class QuestionsSeeder extends Seeder{
         ];
 
         foreach($questions as $question){
-            Question::create(['lesson_id' => $question[0],'title' => $question[1], 'evidence' => $question[2]]);
+            Question::create(['topic_id' => $question[0],'title' => $question[1], 'evidence' => $question[2]]);
         }
     }
 }

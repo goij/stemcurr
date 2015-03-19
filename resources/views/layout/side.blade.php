@@ -2,7 +2,7 @@
 
 <!-- User Specific Panels -->
 <div class="headline">
-    <h3>Lessons</h3>
+    <h3>topics</h3>
     <table class="table table-bordered cus-side-table">
         <tr>
             <th>ID</th>
@@ -10,15 +10,15 @@
         </tr>
         {{-- Generate links --}}
         <?php
-        use App\Lesson;
-        $lessons = Lesson::all()->take(5);?>
-        @foreach($lessons as $lesson)
+        use App\topic;
+        $topics = topic::all()->take(5);?>
+        @foreach($topics as $topic)
             <tr>
                 <td>
-                    {!!$lesson->id!!}
+                    {!!$topic->id!!}
                 </td>
                 <td>
-                    <a href="#">{!!$lesson->title!!}</a>
+                    <a href="#">{!!$topic->title!!}</a>
                 </td>
             </tr>
         @endforeach
@@ -51,7 +51,7 @@
     <p>Put some links for easy navigation here.</p>
     <ul class="list-unstyled">
         <li><a href="{!!route('about')!!}"><i class="fa fa-desktop"></i>About</a></li>
-        <li><a href="{!!route('lesson')!!}"><i class="fa fa-bullhorn"></i>Browse Lessons</a></li>
+        <li><a href="{!!route('topic')!!}"><i class="fa fa-bullhorn"></i>Browse Topics</a></li>
         <li><a href="{!!route('login')!!}"><i class="fa fa-globe"></i>Log In</a></li>
     </ul>
 </div><!--/who-->

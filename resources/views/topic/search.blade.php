@@ -1,7 +1,7 @@
 <div class="panel panel-red">
     <div class="panel-heading">
         <a data-toggle="collapse" data-target="#collapse-search" href="#" style="text-decoration: none">
-            <h2 class="heading color-light">Search The Available Lessons</h2>
+            <h2 class="heading color-light">Search The Available topics</h2>
         </a>
     </div>
     <div id="collapse-search" class="panel-collapse collapse">

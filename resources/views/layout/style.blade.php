@@ -18,3 +18,4 @@ $css_paths = [
     {!!HTML::Style($css)!!}
 @endforeach
 
+@yield('styles')

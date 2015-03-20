@@ -1,7 +1,10 @@
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<!--[if IE 8]>
+<html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]>
+<html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en"> <!--<![endif]-->
 <head>
     <title>STEM Curriculum</title>
 
@@ -21,24 +24,29 @@
 
 
     <div class="container content">
-            @if (count($errors) > 0)
-                <div class="alert alert-danger">
-                    <strong>Whoops!</strong> There were some problems with your input.<br><br>
-                    <ul>
-                        @foreach ($errors->all() as $error)
-                            <li>{{ $error }}</li>
-                        @endforeach
-                    </ul>
-                </div>
+        @if (count($errors) > 0)
+            <div class="alert alert-danger">
+                <strong>Whoops!</strong> There were some problems with your input.<br><br>
+                <ul>
+                    @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+        @endif
+        @if(Session::has('message'))
+            <div class="alert alert-success">
+                <strong>Success! {!!Session::get('message')!!}</strong>
+            </div>
         @endif
         <div class="row">
             <!--=== Start Left Content - 9 Columns ===-->
-            <div class="col-sm-8">
+            <div class="col-sm-10">
                 @yield('content','<h1>No Content</h1>')
             </div>
             <!-- End Content Part -->
             <!--=== Start Side Section - 3 Columns ===-->
-            <div class="col-sm-4">
+            <div class="col-sm-2">
                 @include('layout.side')
             </div>
             <!-- End Side Section -->
@@ -48,7 +56,8 @@
     @include('layout.footer')
 
 
-</div><!--/wrapper-->
+</div>
+<!--/wrapper-->
 @include('layout.script')
 </body>
 </html>

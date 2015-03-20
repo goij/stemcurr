@@ -2,7 +2,7 @@
 
 <!-- User Specific Panels -->
 <div class="headline">
-    <h3>topics</h3>
+    <h3>Your Topics</h3>
     <table class="table table-bordered cus-side-table">
         <tr>
             <th>ID</th>
@@ -11,27 +11,17 @@
         {{-- Generate links --}}
         <?php
         use App\topic;
-        $topics = topic::all()->take(5);?>
+        $topics = topic::all();?>
         @foreach($topics as $topic)
             <tr>
                 <td>
                     {!!$topic->id!!}
                 </td>
                 <td>
-                    <a href="#">{!!$topic->title!!}</a>
+                    <a href="{!! route('topic') . '/' . $topic->id!!}">{!!$topic->title!!}</a>
                 </td>
             </tr>
         @endforeach
-    </table>
-</div>
-
-<div class="headline">
-    <h3>Themes</h3>
-    <table class="table table-bordered cus-side-table">
-        <tr>
-            <th>ID</th>
-            <th>Name</th>
-        </tr>
     </table>
 </div>
 
@@ -63,7 +53,9 @@
     @foreach(range(0,3) as $num)
         <li class="list-unstyled">
             <a href="#"><strong>News Article {!!$num!!}</strong></a>
-            <p>News article {!!$num!!} text.News article {!!$num!!} text.News article {!!$num!!} text.News article {!!$num!!} text.News article {!!$num!!} text....</p>
+
+            <p>News article {!!$num!!} text.News article {!!$num!!} text.News article {!!$num!!} text.News article
+                {!!$num!!} text.News article {!!$num!!} text....</p>
         </li>
     @endforeach
 </div>

@@ -1,10 +1,13 @@
 <?php namespace App\Http\Controllers;
 
 use App\Http\Requests;
-use App\Http\Controllers\Controller;
-
 use Illuminate\Http\Request;
 use App\Topic;
+
+/**
+ * Class TopicController
+ * @package App\Http\Controllers
+ */
 class TopicController extends Controller {
 
 	/**
@@ -12,48 +15,40 @@ class TopicController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function getIndex()
+	public function index()
 	{
-		$topics = Topic::all();
+		$topics = Topic::paginate(25);
 		return view('topic.index',['topics' => $topics]);
 	}
 
-	/**
-	 * @param Request $request
-	 * @return \Illuminate\View\View
-	 */
-	public function postCreate(Request $request){
-		$input = $request->except('_token');
-		//Magic redirect
-		$this->validate($request,[
-			'title' => 'required|max:255|unique:topics',
-			'summary' => 'required',
-			'commentary' => 'required',
-			'grade_id' => 'required|exists:grades,id',
-			'unit_id' => 'required|exists:units,id',
-		]);
-		Topic::create($input);
-		return view('topic.create');
-	}
 	/**
 	 * Show the form for creating a new resource.
 	 *
 	 * @return Response
 	 */
-	public function getCreate()
+	public function create()
 	{
 		return view('topic.create');
 	}
 
 
-	/**
-	 * Store a newly created resource in storage.
-	 *
-	 * @return Response
-	 */
-	public function store()
+    /**
+     * @param Request $request
+     * @return \Illuminate\View\View
+     */
+	public function store(Request $request)
 	{
-		//
+        $input = $request->except('_token');
+        //Magic redirect
+        $this->validate($request,[
+            'title' => 'required|max:255',
+            'summary' => 'required',
+            'commentary' => 'required',
+            'grade_id' => 'required|exists:grades,id',
+            'unit_id' => 'required|exists:units,id',
+        ]);
+        $topic = Topic::create($input);
+        return redirect('topic')->with('message', "Added new topic $topic->title");
 	}
 
 	/**
@@ -64,7 +59,9 @@ class TopicController extends Controller {
 	 */
 	public function show($id)
 	{
-		//
+		$topic = Topic::find($id);
+
+        return view('topic.show', ['topic' => $topic]);
 	}
 
 	/**
@@ -75,18 +72,28 @@ class TopicController extends Controller {
 	 */
 	public function edit($id)
 	{
-		//
+        $topic = Topic::find($id);
+
+		return view('topic.edit', ['topic' => $topic]);
 	}
 
-	/**
-	 * Update the specified resource in storage.
-	 *
-	 * @param  int  $id
-	 * @return Response
-	 */
-	public function update($id)
+    /**
+     * @param Request $request
+     * @param $id
+     */
+	public function update(Request $request, $id)
 	{
-		//
+        $input = $request->except('_token');
+        //Magic redirect
+        $this->validate($request,[
+            'title' => 'required|max:255',
+            'summary' => 'required',
+            'commentary' => 'required',
+            'grade_id' => 'required|exists:grades,id',
+            'unit_id' => 'required|exists:units,id',
+        ]);
+        $topic =  Topic::updateOrCreate(['id' => $id], $input);
+        return redirect('topic')->with('message', "Updated $topic->title");
 	}
 
 	/**
@@ -97,7 +104,9 @@ class TopicController extends Controller {
 	 */
 	public function destroy($id)
 	{
-		//
+		Topic::destroy($id);
+
+        return redirect('topic')->with('message','Topic disabled!');
 	}
 
 }

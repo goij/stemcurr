@@ -20,6 +20,7 @@
 {!!HTML::script("plugins/ladda-buttons/js/spin.min.js")!!}
 {!!HTML::script("plugins/ladda-buttons/js/ladda.min.js")!!}
 {!!HTML::script("js/plugins/ladda-buttons.js")!!}
+{!!HTML::script("js/delete_request.js")!!}
 @yield('scripts')
 <!--[if lt IE 9]>
 <script src=></script>

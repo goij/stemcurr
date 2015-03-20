@@ -1,8 +1,6 @@
 <?php namespace App\Http\Controllers;
 
 use App\Http\Requests;
-use App\Http\Controllers\Controller;
-
 use Illuminate\Http\Request;
 use App\Question;
 
@@ -13,9 +11,10 @@ class QuestionController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function getIndex()
+	public function index()
 	{
-		return view('question.index');
+        $questions = Question::paginate(5);
+		return view('question.index',['questions' => $questions]);
 	}
 
 	/**
@@ -23,35 +22,26 @@ class QuestionController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function postCreate(Request $request)
+	public function store(Request $request)
 	{
 		$input = $request->except('_token');
 
 		$this->validate($request,
 			[
-				'lesson_id' => "required|exists:lessons,id",
+				'topic_id' => "required|exists:topics,id",
 				"title" => "required",
 				"evidence" => "required"
 			]);
 
 		Question::create($input);
 
-		return view('question.index');
+		return redirect('question')->with('message','Added New Question!');
 	}
 
-	public function getCreate(){
+	public function create(){
 		return view('question.create');
 	}
 
-	/**
-	 * Store a newly created resource in storage.
-	 *
-	 * @return Response
-	 */
-	public function store()
-	{
-		//
-	}
 
 	/**
 	 * Display the specified resource.
@@ -61,7 +51,9 @@ class QuestionController extends Controller {
 	 */
 	public function show($id)
 	{
-		//
+		$question = Question::find($id);
+
+        return view('question.show',['question'=>$question]);
 	}
 
 	/**
@@ -72,19 +64,27 @@ class QuestionController extends Controller {
 	 */
 	public function edit($id)
 	{
-		//
+		$question = Question::find($id);
+
+        return view('question.edit',['question'=>$question]);
 	}
 
-	/**
-	 * Update the specified resource in storage.
-	 *
-	 * @param  int  $id
-	 * @return Response
-	 */
-	public function update($id)
+    /**
+     * @param Request $request
+     * @param $id
+     * @return \Illuminate\Http\RedirectResponse
+     */
+	public function update(Request $request, $id)
 	{
-		//
-	}
+        $input = $request->except('_token');
+        //Magic redirect
+        $this->validate($request,[
+            'topic_id' => 'required|exists:topics,id',
+            'title' => 'required',
+            'evidence' => 'required',
+        ]);
+        $question =  Question::updateOrCreate(['id' => $id], $input);
+        return redirect('question')->with('message', "Updated $question->title");	}
 
 	/**
 	 * Remove the specified resource from storage.
@@ -94,7 +94,9 @@ class QuestionController extends Controller {
 	 */
 	public function destroy($id)
 	{
-		//
+		Question::destroy($id);
+
+        return redirect('question')->with('message', "Question deleted!");
 	}
 
 }

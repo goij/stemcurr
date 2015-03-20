@@ -34,6 +34,69 @@ class TopicsSeeder extends Seeder{
                 5,
                 5
             ],
+            [
+                'Design Project: It\'s Not Easy Being Green1',
+                'How does the greenhouse illustrate the acquisition, utilization and release of energy? How can the variables in greenhouses be adjusted to produce the greatest energy? How can a greenhouse be designed to maximize production?',
+                'In this lesson, students gain a new perspective of their recently acquired knowledge about energy in plants through observation of plant life in a student designed greenhouse. Through use of the scientific methodology, students will derive reasonable understandings and explanations about variables that can affect plants as they strive to flourish under controlled growing conditions. After intensive research and observations, students will utilize their knowledge to design and create the most beneficial and efficient model of a greenhouse.',
+                5,
+                5
+            ],
+            [
+                'Design Project: It\'s Not Easy Being Green2',
+                'How does the greenhouse illustrate the acquisition, utilization and release of energy? How can the variables in greenhouses be adjusted to produce the greatest energy? How can a greenhouse be designed to maximize production?',
+                'In this lesson, students gain a new perspective of their recently acquired knowledge about energy in plants through observation of plant life in a student designed greenhouse. Through use of the scientific methodology, students will derive reasonable understandings and explanations about variables that can affect plants as they strive to flourish under controlled growing conditions. After intensive research and observations, students will utilize their knowledge to design and create the most beneficial and efficient model of a greenhouse.',
+                5,
+                5
+            ],
+            [
+                'Design Project: It\'s Not Easy Being Green3',
+                'How does the greenhouse illustrate the acquisition, utilization and release of energy? How can the variables in greenhouses be adjusted to produce the greatest energy? How can a greenhouse be designed to maximize production?',
+                'In this lesson, students gain a new perspective of their recently acquired knowledge about energy in plants through observation of plant life in a student designed greenhouse. Through use of the scientific methodology, students will derive reasonable understandings and explanations about variables that can affect plants as they strive to flourish under controlled growing conditions. After intensive research and observations, students will utilize their knowledge to design and create the most beneficial and efficient model of a greenhouse.',
+                5,
+                5
+            ],
+            [
+                'Design Project: It\'s Not Easy Being Green4',
+                'How does the greenhouse illustrate the acquisition, utilization and release of energy? How can the variables in greenhouses be adjusted to produce the greatest energy? How can a greenhouse be designed to maximize production?',
+                'In this lesson, students gain a new perspective of their recently acquired knowledge about energy in plants through observation of plant life in a student designed greenhouse. Through use of the scientific methodology, students will derive reasonable understandings and explanations about variables that can affect plants as they strive to flourish under controlled growing conditions. After intensive research and observations, students will utilize their knowledge to design and create the most beneficial and efficient model of a greenhouse.',
+                5,
+                5
+            ],
+            [
+                'Design Project: It\'s Not Easy Being Green5',
+                'How does the greenhouse illustrate the acquisition, utilization and release of energy? How can the variables in greenhouses be adjusted to produce the greatest energy? How can a greenhouse be designed to maximize production?',
+                'In this lesson, students gain a new perspective of their recently acquired knowledge about energy in plants through observation of plant life in a student designed greenhouse. Through use of the scientific methodology, students will derive reasonable understandings and explanations about variables that can affect plants as they strive to flourish under controlled growing conditions. After intensive research and observations, students will utilize their knowledge to design and create the most beneficial and efficient model of a greenhouse.',
+                5,
+                5
+            ],
+            [
+                'Design Project: It\'s Not Easy Being Green6',
+                'How does the greenhouse illustrate the acquisition, utilization and release of energy? How can the variables in greenhouses be adjusted to produce the greatest energy? How can a greenhouse be designed to maximize production?',
+                'In this lesson, students gain a new perspective of their recently acquired knowledge about energy in plants through observation of plant life in a student designed greenhouse. Through use of the scientific methodology, students will derive reasonable understandings and explanations about variables that can affect plants as they strive to flourish under controlled growing conditions. After intensive research and observations, students will utilize their knowledge to design and create the most beneficial and efficient model of a greenhouse.',
+                5,
+                5
+            ],
+            [
+                'Design Project: It\'s Not Easy Being Green7',
+                'How does the greenhouse illustrate the acquisition, utilization and release of energy? How can the variables in greenhouses be adjusted to produce the greatest energy? How can a greenhouse be designed to maximize production?',
+                'In this lesson, students gain a new perspective of their recently acquired knowledge about energy in plants through observation of plant life in a student designed greenhouse. Through use of the scientific methodology, students will derive reasonable understandings and explanations about variables that can affect plants as they strive to flourish under controlled growing conditions. After intensive research and observations, students will utilize their knowledge to design and create the most beneficial and efficient model of a greenhouse.',
+                5,
+                5
+            ],
+            [
+                'Design Project: It\'s Not Easy Being Green8',
+                'How does the greenhouse illustrate the acquisition, utilization and release of energy? How can the variables in greenhouses be adjusted to produce the greatest energy? How can a greenhouse be designed to maximize production?',
+                'In this lesson, students gain a new perspective of their recently acquired knowledge about energy in plants through observation of plant life in a student designed greenhouse. Through use of the scientific methodology, students will derive reasonable understandings and explanations about variables that can affect plants as they strive to flourish under controlled growing conditions. After intensive research and observations, students will utilize their knowledge to design and create the most beneficial and efficient model of a greenhouse.',
+                5,
+                5
+            ],
+            [
+                'Design Project: It\'s Not Easy Being Green9',
+                'How does the greenhouse illustrate the acquisition, utilization and release of energy? How can the variables in greenhouses be adjusted to produce the greatest energy? How can a greenhouse be designed to maximize production?',
+                'In this lesson, students gain a new perspective of their recently acquired knowledge about energy in plants through observation of plant life in a student designed greenhouse. Through use of the scientific methodology, students will derive reasonable understandings and explanations about variables that can affect plants as they strive to flourish under controlled growing conditions. After intensive research and observations, students will utilize their knowledge to design and create the most beneficial and efficient model of a greenhouse.',
+                5,
+                5
+            ],
         ];
         foreach($topics as $topic){
             Topic::create(['title' => $topic[0], 'summary' => $topic[1], 'commentary' => $topic[2],'grade_id' => $topic[3], 'unit_id' => $topic[4]]);

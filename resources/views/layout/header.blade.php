@@ -32,7 +32,7 @@
             <div class="collapse navbar-collapse navbar-responsive-collapse">
                 <ul class="nav navbar-nav">
                     <!-- Home -->
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
                             Home
                         </a>
@@ -66,14 +66,10 @@
                             Faculty
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="{!!route('topic')!!}">Browse topics GUEST</a></li>
-                            <li><a href="{!!route('question')!!}">Browse Questions GUEST</a></li>
-                            <li><a href="{!!route('topic_create')!!}">Create topics FACULTY</a></li>
-                            <li><a href="#">Modify topics FACULTY</a></li>
-                            <li><a href="#">Delete topics FACULTY</a></li>
-                            <li><a href="{!!route('question_create')!!}">Create Questions FACULTY</a></li>
-                            <li><a href="#">Modify Questions FACULTY</a></li>
-                            <li><a href="#">Delete Questions FACULTY</a></li>
+                            <li><a href="{!!route('topic')!!}">Manage Topics F</a></li>
+                            <li><a href="{!!route('question')!!}">Manage Questions F</a></li>
+                            <li><a href="{!!route('topic') . '/create'!!}">Create Topic F</a></li>
+                            <li><a href="{!!route('question') . '/create'!!}">Create Question F</a></li>
                         </ul>
                     </li>
                     <!-- End topics -->

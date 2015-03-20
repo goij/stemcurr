@@ -4,34 +4,30 @@
     use App\Grade;
     use App\Unit;
     ?>
-    <div class="panel panel-red">
+    <div class="panel panel-dark-blue">
         <div class="panel-heading">
-            <a data-toggle="collapse" data-target="#collapse-search" href="#" style="text-decoration: none">
                 <h2 class="heading color-light">Create New Questions</h2>
-            </a>
         </div>
-        <div id="collapse-search" class="panel-collapse">
+
             <div class="panel-body">
-                <form action="" class="sky-form" method="post">
+                {!!Form::open(['action'=>null,'class'=>'sky-form','method'=>'post'])!!}
                     <fieldset>
                         <div class="col-md-12">
-                            <section>
                                 <label class="label">Lesson ID</label>
                                 <label class="input">
-                                        <input type="text" name="lesson_id" placeholder="Lesson ID">
+                                    {!!Form::text('topic_id',null,['placeholder'=>'Lesson ID'])!!}
                                 </label>
-                            </section>
                         </div>
                         <div class="col-md-12 col-sm-12">
                             <label class="label">Title</label>
                             <label class="input">
-                                <input type="text" name="title" placeholder="title">
+                                {!!Form::text('title',null,['placeholder'=>'Title'])!!}
                             </label>
                         </div>
                         <div class="col-md-12 col-sm-12">
                             <label class="label">Evidence</label>
                             <label class="textarea">
-                                <textarea name="evidence" placeholder="Evidence of Learning" rows="5"></textarea>
+                                {!!Form::textarea('evidence',null,['placeholder'=>'Evidence of Learning'])!!}
                             </label>
                         </div>
                     </fieldset>
@@ -43,9 +39,8 @@
                             <button type="clear" class="btn-u btn-u-red btn-block curl-bottom-right">Clear</button>
                         </div>
                     </footer>
-                    {!!Form::token()!!}
+                    {!!Form::close()!!}
                 </form>
-            </div>
         </div>
     </div>
 @stop

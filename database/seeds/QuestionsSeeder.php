@@ -17,7 +17,7 @@ class QuestionsSeeder extends Seeder{
             [
                 1,
                 'How do the internal and external structures of a plant enable it to acquire, use and release energy? ',
-                'Students will: 1) Identify internal and external structures in plants which are utilized to acquire energy 2) Identify internal and external structures which are utilized in plants to use energy 3) Identify internal and external structures in plants which are utilized to release energy 4) Describe the process of energy use in plants',
+                'Students will: <ol><li>Identify internal and external structures in plants which are utilized to acquire energy</li><li>Identify internal and external structures which are utilized in plants to use energy</li><li>Identify internal and external structures in plants which are utilized to release energy 4) Describe the process of energy use in plants</li></ol>',
             ],
             [
                 1,

@@ -47,4 +47,11 @@ class Question extends Model {
     public function partners(){
         return $this->belongsToMany('');
     }
+
+    /**
+     *
+     */
+    public function restore(){
+        parent::restore();
+    }
 }

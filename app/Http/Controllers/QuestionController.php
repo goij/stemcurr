@@ -99,4 +99,17 @@ class QuestionController extends Controller {
         return redirect('question')->with('message', "Question deleted!");
 	}
 
+	public function enable(){
+		$questions = Question::onlyTrashed()->paginate(5);
+
+		return view('question.enable', ["questions" => $questions]);
+	}
+
+	public function restore($id){
+		Question::onlyTrashed()->find($id)->restore();
+
+		return redirect('question')->with('message','Question restored!');
+	}
+
+
 }

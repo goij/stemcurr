@@ -41,12 +41,12 @@
         @endif
         <div class="row">
             <!--=== Start Left Content - 9 Columns ===-->
-            <div class="col-sm-10">
+            <div class="col-sm-9">
                 @yield('content','<h1>No Content</h1>')
             </div>
             <!-- End Content Part -->
             <!--=== Start Side Section - 3 Columns ===-->
-            <div class="col-sm-2">
+            <div class="col-sm-3">
                 @include('layout.side')
             </div>
             <!-- End Side Section -->

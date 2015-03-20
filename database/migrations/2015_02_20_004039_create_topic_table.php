@@ -19,9 +19,9 @@ class CreateTopicTable extends Migration {
             $table->text('summary');
             $table->text('commentary');
             $table->integer('grade_id')->unsigned();
-            $table->foreign('grade_id')->references('id')->on('grades')->onDelete('cascade');
+            $table->foreign('grade_id')->references('id')->on('grades')->onUpdate('cascade');
             $table->integer('unit_id')->unsigned();
-            $table->foreign('unit_id')->references('id')->on('units')->onDelete('cascade');
+            $table->foreign('unit_id')->references('id')->on('units')->onUpdate('cascade');
 			$table->timestamps();
             $table->softDeletes();
 		});

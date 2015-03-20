@@ -17,7 +17,7 @@ class TopicController extends Controller {
 	 */
 	public function index()
 	{
-		$topics = Topic::paginate(25);
+		$topics = Topic::paginate(5);
 		return view('topic.index',['topics' => $topics]);
 	}
 
@@ -96,6 +96,7 @@ class TopicController extends Controller {
         return redirect('topic')->with('message', "Updated $topic->title");
 	}
 
+
 	/**
 	 * Remove the specified resource from storage.
 	 *
@@ -106,7 +107,29 @@ class TopicController extends Controller {
 	{
 		Topic::destroy($id);
 
-        return redirect('topic')->with('message','Topic disabled!');
+		return redirect('topic')->with('message','Topic disabled!');
+	}
+
+	/**
+	 * Custom resource functionality below
+	 */
+
+	/**
+	 * @return \Illuminate\View\View
+	 */
+	public function enable(){
+		$topics = Topic::onlyTrashed()->paginate(10);
+		return view('topic.enable',['topics' => $topics]);
+	}
+
+	/**
+	 * @param $id
+	 * @return \Illuminate\Http\RedirectResponse
+	 */
+	public function restore($id){
+		Topic::onlyTrashed()->find($id)->restore();
+
+		return redirect('topic')->with('message','Topic re-enabled!');
 	}
 
 }

@@ -13,7 +13,7 @@
         <div id="collapse-search" class="panel-collapse">
             <div class="panel-body">
 
-                {!!Form::open(['class' => 'sky-form', 'method' => 'post'])!!}
+                {!!Form::open(['action'=>'TopicController@store','class' => 'sky-form', 'method' => 'post'])!!}
                     <fieldset>
                         <div class="col-md-6">
                             <section>

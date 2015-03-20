@@ -2,7 +2,7 @@
 @section('content')
     <div class="panel panel-dark-blue">
         <div class="panel-heading">
-            <h2 class="heading color-light">Topics Listing for Faculty</h2>
+            <h2 class="heading color-light">Re-Enable Visibility of Topic</h2>
         </div>
         <table class="table table-bordered table-striped">
             <tr>
@@ -21,15 +21,11 @@
                     <td>{!!$topic->created_at!!}</td>
                     <td>{!!$topic->updated_at!!}</td>
                     <td>
-                        {!!Form::open(['action' => ["TopicController@destroy", $topic->id],'class'=>'sky-form',
-                        'method'=>'delete'])!!}
-                        <a href="{!!route('topic') . '/' . $topic->id !!}" class="btn-u btn-u-green btn-block">View</a>
-                        <a class="btn-u btn-u-orange btn-block"
-                           href="{!!route('topic') . '/' . $topic->id  . '/edit/' !!}">Modify</a>
-                        <input type="submit" class="btn-u btn-u-red btn-block" value="Disable">
+                        {!!Form::open(['action' => ["TopicController@restore", $topic->id],'class'=>'sky-form',
+                        'method'=>'post'])!!}
+                        <input type="submit" class="btn-u btn-u-green btn-block" value="Enable">
                         {!!Form::close()!!}
                     </td>
-
                 </tr>
             @endforeach
         </table>

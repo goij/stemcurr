@@ -20,9 +20,14 @@
                     <td>{!!$question->title!!}</td>
                     <td>{!!$question->created_at!!}</td>
                     <td>{!!$question->updated_at!!}</td>
-                    <td><a href="{!!route('question') . '/' . $question->id !!}" class="btn-u btn-u-green btn-block">View</a>
-                        <a class="btn-u btn-u-orange btn-block"  href="{!!route('question') . '/' .  $question->id . '/edit' !!}">Modify</a>
-                        <a class="btn-u btn-u-red btn-block" href="{!!route('question') . '/destroy/' . $question->id !!}">Delete</a></td>
+                    <td>
+                        {!!Form::open(['action' => ["QuestionController@destroy", $question->id],'class'=>'sky-form',
+                        'method'=>'delete'])!!}
+                        <a href="{!!route('question') . '/' . $question->id !!}" class="btn-u btn-u-green btn-block">View</a>
+                        <a class="btn-u btn-u-orange btn-block"
+                           href="{!!route('question') . '/' . $question->id  . '/edit/' !!}">Modify</a>
+                        <input type="submit" class="btn-u btn-u-red btn-block" value="Disable">
+                        {!!Form::close()!!}
                 </tr>
             @endforeach
         </table>

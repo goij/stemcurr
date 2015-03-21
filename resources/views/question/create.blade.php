@@ -10,7 +10,7 @@
         </div>
 
             <div class="panel-body">
-                {!!Form::open(['action'=>null,'class'=>'sky-form','method'=>'post'])!!}
+                {!!Form::open(['action'=> 'QuestionController@store','class'=>'sky-form','method'=>'post'])!!}
                     <fieldset>
                         <div class="col-md-12">
                                 <label class="label">Lesson ID</label>

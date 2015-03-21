@@ -13,7 +13,7 @@
                 <th>Enable</th>
             </tr>
             @foreach($questions as $question)
-                @if(\App\Topic::find($question->id))
+                @if($question->topic)
                 <tr>
                     <td>{!!$question->id!!}</td>
                     <td>{!!$question->title!!}</td>

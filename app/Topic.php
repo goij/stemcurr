@@ -48,7 +48,7 @@ class Topic extends Model
     public function delete()
     {
         parent::delete();
-        foreach ($this->questions as $question) {
+        foreach (Question::where('topic_id','=',$this->id)->get() as $question) {
             $question->delete();
         }
     }

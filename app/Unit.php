@@ -7,7 +7,7 @@ class Unit extends Model {
     /**
      * @var array
      */
-	protected $fillable = ['name'];
+	protected $fillable = ['name']; 
 
     /**
      * @var array

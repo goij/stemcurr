@@ -2,7 +2,7 @@
 @section('content')
     <?php
     use App\Grade;
-    use App\Unit;
+    use App\Subject;
     ?>
     <div class="panel panel-dark-blue">
         <div class="panel-heading">
@@ -33,14 +33,14 @@
                     </div>
                     <div class="col-md-6">
                         <section>
-                            <label class="label">Unit</label>
+                            <label class="label">Subject</label>
                             <label class="select">
-                                <select name="unit_id">
-                                    @foreach(Unit::all() as $unit)
-                                        @if($unit->id == $topic->unit->id)
-                                            <option value="{!!$unit->id!!}" selected>{!!$unit->name!!}</option>
+                                <select name="subject_id">
+                                    @foreach(Subject::all() as $subject)
+                                        @if($subject->id == $topic->subject->id)
+                                            <option value="{!!$subject->id!!}" selected>{!!$subject->name!!}</option>
                                         @else
-                                            <option value="{!!$unit->id!!}">{!!$unit->name!!}</option>
+                                            <option value="{!!$subject->id!!}">{!!$subject->name!!}</option>
                                         @endif
                                     @endforeach
                                 </select>

@@ -99,7 +99,7 @@ class TopicsSeeder extends Seeder{
             ],
         ];
         foreach($topics as $topic){
-            Topic::create(['title' => $topic[0], 'summary' => $topic[1], 'commentary' => $topic[2],'grade_id' => $topic[3], 'unit_id' => $topic[4]]);
+            Topic::create(['title' => $topic[0], 'summary' => $topic[1], 'commentary' => $topic[2],'grade_id' => $topic[3], 'subject_id' => $topic[4]]);
         }
     }
 }

@@ -7,7 +7,7 @@
         <table class="table table-bordered table-striped">
             <tr>
                 <th>ID</th>
-                <th>Unit</th>
+                <th>Subject</th>
                 <th>Title</th>
                 <th>Created</th>
                 <th>Updated</th>
@@ -16,7 +16,7 @@
             @foreach($topics as $topic)
                 <tr>
                     <td>{!!$topic->id!!}</td>
-                    <td>{!!$topic->unit->name!!} - Grade {!!$topic->grade->string!!}</td>
+                    <td>{!!$topic->subject->name!!} - Grade {!!$topic->grade->string!!}</td>
                     <td>{!!$topic->title!!}</td>
                     <td>{!!$topic->created_at!!}</td>
                     <td>{!!$topic->updated_at!!}</td>

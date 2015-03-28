@@ -7,7 +7,7 @@
         <table class="table table-bordered table-striped">
             <tr>
                 <th>ID</th>
-                <th>Unit</th>
+                <th>Subject</th>
                 <th>Created</th>
                 <th>Updated</th>
                 <th>Enable</th>

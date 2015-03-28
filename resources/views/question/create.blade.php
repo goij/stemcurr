@@ -2,7 +2,7 @@
 @section('content')
     <?php
     use App\Grade;
-    use App\Unit;
+    use App\Subject;
     ?>
     <div class="panel panel-dark-blue">
         <div class="panel-heading">

@@ -45,7 +45,7 @@ class TopicController extends Controller {
             'summary' => 'required',
             'commentary' => 'required',
             'grade_id' => 'required|exists:grades,id',
-            'unit_id' => 'required|exists:units,id',
+            'subject_id' => 'required|exists:subjects,id',
         ]);
         $topic = Topic::create($input);
         return redirect('topic')->with('message', "Added new topic $topic->title");
@@ -77,10 +77,11 @@ class TopicController extends Controller {
 		return view('topic.edit', ['topic' => $topic]);
 	}
 
-    /**
-     * @param Request $request
-     * @param $id
-     */
+	/**
+	 * @param Request $request
+	 * @param $id
+	 * @return \Illuminate\Http\RedirectResponse
+	 */
 	public function update(Request $request, $id)
 	{
         $input = $request->except('_token');
@@ -90,7 +91,7 @@ class TopicController extends Controller {
             'summary' => 'required',
             'commentary' => 'required',
             'grade_id' => 'required|exists:grades,id',
-            'unit_id' => 'required|exists:units,id',
+            'subject_id' => 'required|exists:subjects,id',
         ]);
         $topic =  Topic::updateOrCreate(['id' => $id], $input);
         return redirect('topic')->with('message', "Updated $topic->title");

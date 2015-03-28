@@ -14,7 +14,7 @@ class Topic extends Model
     /**
      * @var array
      */
-    protected $fillable = ['title', 'summary', 'commentary', 'grade_id', 'unit_id'];
+    protected $fillable = ['title', 'summary', 'commentary', 'grade_id', 'subject_id'];
 
     /**
      * @var array
@@ -40,9 +40,9 @@ class Topic extends Model
     /**
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
-    public function unit()
+    public function subject()
     {
-        return $this->belongsTo('App\Unit');
+        return $this->belongsTo('App\Subject');
     }
 
     public function delete()

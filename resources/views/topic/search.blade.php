@@ -29,7 +29,7 @@
                     </div>
                     <div class="col-md-6">
                         <section>
-                            <label class="label">Search By Unit</label>
+                            <label class="label">Search By Subject</label>
                             <label class="select">
                                 <select>
                                     <option default>Any</option>

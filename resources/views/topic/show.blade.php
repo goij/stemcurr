@@ -10,7 +10,7 @@
             <div class="panel-body">
                 <div class="col-sm-12">
                     <div class="row">
-                        <div class="heading"><h2>Grade {!!$topic->grade['string']!!} - {!!$topic->unit['name']!!}</h2>
+                        <div class="heading"><h2>Grade {!!$topic->grade['string']!!} - {!!$topic->subject['name']!!}</h2>
                         </div>
                         <div class="heading"><h2>Summary</h2></div>
                         <p>{!!$topic['summary']!!}</p>

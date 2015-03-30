@@ -13,17 +13,20 @@ class SubjectsSeeder extends Seeder{
     public function run(){
         DB::table('subjects')->delete();
 
-        $names =[
-            'Geology & Space',
-            'Matter & Energy',
-            'Force & Motion',
-            'Weather & Climate',
-            'Structure & Function',
-            'Ecosystems & Adaptations'
+        $standards =[
+            ["Career Awareness","AU/CAT Student Framework","http://localhost"],
+            ["Design Process Understanding","AU/CAT Student Framework","http://localhost"],
+            ["5-LS1-1 [SEP 7, DCI: LS1.C, CC5]","NGSS","http://localhost"],
+            ["Career Awareness","AU/CAT Student Framework","http://localhost"],
+            ["MS-LS1-3 [SEP 7, DCI: LS1.A, CC4]","NGSS","http://localhost"],
+            ["MP.4", "CCSS Math", "http://localhost"],
+            ["6.EE.C.9","CCSS Math", "http://localhost"],
+            []
+
         ];
 
-        foreach($names as $name){
-            Subject::create(['name' => $name]);
+        foreach($standards as $standard){
+            Subject::create(['name' => $standard[0],]);
         }
     }
 }

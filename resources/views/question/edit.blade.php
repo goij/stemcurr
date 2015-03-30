@@ -3,6 +3,7 @@
     <?php
     use App\Grade;
     use App\Subject;
+    use App\Question;
     ?>
     <div class="panel panel-dark-blue">
         <div class="panel-heading">
@@ -10,7 +11,7 @@
         </div>
 
         <div class="panel-body">
-            {!!Form::model($question,['action'=>null,'class'=>'sky-form','method'=>'post'])!!}
+            {!!Form::model($question,['route'=>['question.update',$question->id],'class'=>'sky-form','method'=>'put'])!!}
             <fieldset>
                 <div class="col-md-12">
                     <label class="label">Lesson ID</label>

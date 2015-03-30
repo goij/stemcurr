@@ -22,7 +22,7 @@
                     <td>{!!$question->updated_at!!}</td>
                     <td>
                         {!!Form::open(['action' => ["QuestionController@destroy", $question->id],'class'=>'sky-form',
-                        'method'=>'delete'])!!}
+                        'method'=>'delete','onsubmit'=>'return confirm("Disable question?")'])!!}
                         <a href="{!!route('question') . '/' . $question->id !!}" class="btn-u btn-u-green btn-block">View</a>
                         <a class="btn-u btn-u-orange btn-block"
                            href="{!!route('question') . '/' . $question->id  . '/edit/' !!}">Modify</a>

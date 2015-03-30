@@ -20,8 +20,9 @@ class CreateQuestionsTable extends Migration {
             $table->foreign('topic_id')->references('id')->on('topics')->onDelete('cascade');
             $table->string('title');
             $table->string('evidence');
-            $table->softDeletes();
             $table->timestamps();
+			$table->softDeletes();
+
 		});
 	}
 

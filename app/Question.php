@@ -24,7 +24,7 @@ class Question extends Model {
      * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
      */
     public function standards(){
-        return $this->belongsToMany('');
+        return $this->belongsToMany('App\Standard');
     }
 
     /**

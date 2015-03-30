@@ -24,7 +24,7 @@
                     <td>{!!$topic->updated_at!!}</td>
                     <td>
                         {!!Form::open(['action' => ["TopicController@destroy", $topic->id],'class'=>'sky-form',
-                        'method'=>'delete'])!!}
+                        'method'=>'delete','onsubmit'=>'return confirm("Disable topic?")'])!!}
                         <a href="{!!route('topic') . '/' . $topic->id !!}" class="btn-u btn-u-green btn-block">View</a>
                         <a class="btn-u btn-u-orange btn-block"
                            href="{!!route('topic') . '/' . $topic->id  . '/edit/' !!}">Modify</a>

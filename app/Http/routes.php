@@ -34,15 +34,8 @@ Route::post('user/recover', ['as' => 'postrecover', 'uses' => 'UserController@po
  * Topic routes
  * Custom routes must be defined before the resource
  */
-
-//Route::get('topic/create', ['as' => 'topic_create', 'uses' => 'TopicController@create']);
-//Route::get('topic/{id}', ['uses' => 'TopicController@show']);
-//Route::get('topic/{id}/edit', ['uses' => 'TopicController@edit']);
-//Route::get('topic/destroy/{id}', ['uses' => 'TopicController@destroy']);
-//Route::post('topic/create', ['uses' => 'TopicController@store']);
-//Route::post('topic/edit/{id}', ['as' => 'topic_update' , 'uses' => 'TopicController@update']);
 Route::get('topic', ['as' => 'topic', 'uses' => 'TopicController@index']);
-Route::get('topic/enable', ['as' => 'topic_enable', 'uses' => 'TopicController@enable']);
+Route::get('topic/enable', ['as' => 'topic_enable', 'uses' => 'TopicController@enable'] );
 Route::post('topic/{id}/restore', ['uses' => 'TopicController@restore']);
 Route::resource('topic','TopicController');
 

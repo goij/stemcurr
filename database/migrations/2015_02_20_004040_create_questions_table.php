@@ -22,7 +22,6 @@ class CreateQuestionsTable extends Migration {
             $table->string('evidence');
             $table->timestamps();
 			$table->softDeletes();
-
 		});
 	}
 

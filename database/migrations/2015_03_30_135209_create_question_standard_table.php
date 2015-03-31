@@ -19,7 +19,6 @@ class CreateQuestionStandardTable extends Migration {
 			$table->foreign('question_id')->references('id')->on('questions')->onDelete('cascade');
 			$table->integer('standard_id')->unsigned();
 			$table->foreign('standard_id')->references('id')->on('standards')->onDelete('cascade');
-			$table->timestamps();
 		});
 	}
 

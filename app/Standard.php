@@ -3,7 +3,6 @@
 use Illuminate\Database\Eloquent\Model;
 
 class Standard extends Model {
-    use SoftDeletes;
     /**
      * @var array
      */

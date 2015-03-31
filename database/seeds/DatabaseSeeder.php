@@ -13,14 +13,21 @@ class DatabaseSeeder extends Seeder {
 	public function run()
 	{
 		Model::unguard();
+
+
         $this->call('GradesSeeder');
         $this->command->info('Seeded grades table');
         $this->call('SubjectsSeeder');
-        $this->command->info('Seeded subjects table');
+        $this->command->info('Seeded subjects table.');
         $this->call('TopicsSeeder');
-        $this->command->info('Seed topics table');
+        $this->command->info('Seeded topics table.');
         $this->call('QuestionsSeeder');
-        $this->command->info('Seed questions table');
+        $this->command->info('Seeded questions table.');
+        $this->call('StandardsSeeder');
+        $this->command->info('Seeded standards table.');
+        //Seed the pivot tables
+        $this->call('QuestionStandardSeeder');
+        $this->command->info('Seeded question_standard pivot table');
 	}
 
 }

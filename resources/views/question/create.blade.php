@@ -16,7 +16,7 @@
                         <div class="col-md-12">
                                 <label class="label">Topic</label>
                                 <label class="select">
-                                    {!!Form::select('topic_id',$topics)!!}
+                                    {!!Form::select('topic_id',$topics)!!}<i></i>
                                 </label>
                         </div>
                         <div class="col-md-12 col-sm-12">

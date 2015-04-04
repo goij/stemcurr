@@ -6,7 +6,6 @@
         </div>
         <table class="table table-bordered table-striped">
             <tr>
-                <th>ID</th>
                 <th>Name</th>
                 <th>Category</th>
                 <th>Link</th>
@@ -14,7 +13,6 @@
             </tr>
             @foreach($standards as $standard)
                 <tr>
-                    <td>{!!$standard->id!!}</td>
                     <td>{!!$standard->name!!}</td>
                     <td>{!!$standard->category!!}</td>
                     <td><a href='{!!$standard->link!!}' target="_blank">{!!$standard->link!!}</a></td>

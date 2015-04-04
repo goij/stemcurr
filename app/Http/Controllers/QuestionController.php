@@ -5,6 +5,7 @@ use Illuminate\Http\Request;
 use App\Question;
 use App\Standard;
 use App\Topic;
+use DB;
 
 class QuestionController extends Controller {
 
@@ -15,7 +16,7 @@ class QuestionController extends Controller {
 	 */
 	public function index()
 	{
-        $questions = Question::paginate(5);
+        $questions = Question::paginate(15);
 		return view('question.index',['questions' => $questions]);
 	}
 
@@ -26,7 +27,7 @@ class QuestionController extends Controller {
 	 */
 	public function store(Request $request)
 	{
-		$input = $request->except('_token');
+		$input = $request->except('_token','standards[]');
 
 		$this->validate($request,
 			[
@@ -35,7 +36,8 @@ class QuestionController extends Controller {
 				"evidence" => "required"
 			]);
 
-		Question::create($input);
+		$question = Question::create($input);
+        $question->standards()->sync($request->get('standards'));
 
 		return redirect('question')->with('message','Added New Question!');
 	}
@@ -79,7 +81,8 @@ class QuestionController extends Controller {
         foreach($topics as $topic){
             $topics_list[$topic->id] = "Grade " . $topic->grade->number . " - " . $topic->subject->name . " - "  . $topic->title;
         }
-        return view('question.edit',['question'=>$question, 'standards'=>$standards, 'topics'=>$topics_list]);
+        $standard_ids = DB::table('question_standard')->where('question_id','=',$id)->lists('standard_id');
+        return view('question.edit',['question'=>$question, 'standards'=>$standards, 'topics'=>$topics_list, 'standard_ids'=>$standard_ids]);
 	}
 
     /**
@@ -89,7 +92,7 @@ class QuestionController extends Controller {
      */
 	public function update(Request $request, $id)
 	{
-        $input = $request->except('_token');
+        $input = $request->except('_token','standards');
         //Magic redirect
         $this->validate($request,[
             'topic_id' => 'required|exists:topics,id',
@@ -97,6 +100,8 @@ class QuestionController extends Controller {
             'evidence' => 'required',
         ]);
         $question =  Question::updateOrCreate(['id' => $id], $input);
+
+        $question->standards()->sync($request->get('standards'));
         return redirect('question')->with('message', "Updated $question->title");	}
 
 	/**

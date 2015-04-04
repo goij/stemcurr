@@ -19,7 +19,7 @@ class CreateQuestionsTable extends Migration {
             $table->integer('topic_id')->unsigned();
             $table->foreign('topic_id')->references('id')->on('topics')->onDelete('cascade');
             $table->string('title');
-            $table->string('evidence');
+            $table->text('evidence');
             $table->timestamps();
 			$table->softDeletes();
 		});

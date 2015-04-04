@@ -85,7 +85,7 @@ class StandardController extends Controller {
 		$input = $request->except('_token');
 
         $this->validate($request,
-            ['name'=>'required|exists:standards',
+            ['name'=>'required',
             'category'=>'required']);
 
         Standard::updateOrCreate(['id' => $id], $input);
@@ -101,7 +101,9 @@ class StandardController extends Controller {
 	 */
 	public function destroy($id)
 	{
-		//
+		Standard::destroy($id);
+
+        return redirect('standard')->with('message','Deleted standard!');
 	}
 
 }

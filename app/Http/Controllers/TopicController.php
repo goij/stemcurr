@@ -3,6 +3,8 @@
 use App\Http\Requests;
 use Illuminate\Http\Request;
 use App\Topic;
+use DB;
+use App\Standard;
 
 /**
  * Class TopicController
@@ -17,7 +19,8 @@ class TopicController extends Controller {
 	 */
 	public function index()
 	{
-		$topics = Topic::paginate(5);
+		$topics = Topic::paginate(15);
+
 		return view('topic.index',['topics' => $topics]);
 	}
 
@@ -61,7 +64,11 @@ class TopicController extends Controller {
 	{
 		$topic = Topic::find($id);
 
-        return view('topic.show', ['topic' => $topic]);
+        $standards = [];
+        $question_ids = DB::table('questions')->where('topic_id','=',$topic->id)->lists('id');
+
+        $standards = Standard::get($question_ids);
+        return view('topic.show', ['topic' => $topic, 'standards' => $standards]);
 	}
 
 	/**

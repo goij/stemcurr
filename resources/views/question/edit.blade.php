@@ -4,10 +4,11 @@
     use App\Grade;
     use App\Subject;
     use App\Question;
+    use App\Standard;
     ?>
     <div class="panel panel-dark-blue">
         <div class="panel-heading">
-            <h2 class="heading color-light">Create New Questions</h2>
+            <h2 class="heading color-light">Modify Existing Question</h2>
         </div>
 
         <div class="panel-body">
@@ -38,7 +39,9 @@
                     <label class="label">Standards</label>
                     @foreach($standards as $standard)
                         <label class="checkbox">
-                            {!!Form::checkbox('standards[]', $standard->id, false)!!}<i></i><span style="font-weight: bold">{!!$standard->category!!}</span> - {!!$standard->name!!}
+                            {!!Form::checkbox('standards[]', $standard->id,
+                            in_array($standard->id, $standard_ids))
+                            !!}<i></i><span style="font-weight: bold">{!!$standard->category!!}</span> - {!!$standard->name!!}
                         </label>
                     @endforeach
                 </div>

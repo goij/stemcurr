@@ -4,6 +4,7 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
+use App\Standard;
 
 class StandardController extends Controller {
 
@@ -14,7 +15,8 @@ class StandardController extends Controller {
 	 */
 	public function index()
 	{
-		//
+        $standards = Standard::paginate(15);
+		return view('standard.index',['standards'=>$standards]);
 	}
 
 	/**
@@ -24,7 +26,7 @@ class StandardController extends Controller {
 	 */
 	public function create()
 	{
-		//
+        return view('standard.create');
 	}
 
 	/**
@@ -32,9 +34,18 @@ class StandardController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function store()
+	public function store(Request $request)
 	{
-		//
+		$input = $request->except('_token');
+
+        $this->validate($request,
+            ['name' => "required|unique:standards",
+            'category' => "required",
+            'link' => "required"]);
+
+        Standard::create($input);
+
+        return redirect('standard')->with('message','Successfully created standard ' . $request->name);
 	}
 
 	/**
@@ -45,7 +56,9 @@ class StandardController extends Controller {
 	 */
 	public function show($id)
 	{
-		//
+		$standard = Standard::find($id);
+
+        return view('standard.show',['standard'=>$standard]);
 	}
 
 	/**
@@ -56,7 +69,9 @@ class StandardController extends Controller {
 	 */
 	public function edit($id)
 	{
-		//
+		$standard = Standard::find($id);
+
+        return view('standard.edit',['standard'=>$standard]);
 	}
 
 	/**
@@ -65,9 +80,17 @@ class StandardController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function update($id)
+	public function update(Request $request, $id)
 	{
-		//
+		$input = $request->except('_token');
+
+        $this->validate($request,
+            ['name'=>'required|exists:standards',
+            'category'=>'required']);
+
+        Standard::updateOrCreate(['id' => $id], $input);
+
+        return redirect('standard')->with('message' , "Standard  modified");
 	}
 
 	/**

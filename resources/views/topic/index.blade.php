@@ -10,9 +10,7 @@
                 <th style="width: 5%">Grade</th>
                 <th>Subject</th>
                 <th>Title</th>
-                <th>Created</th>
-                <th>Updated</th>
-                <th>Options</th>
+                <th>Actions</th>
             </tr>
             @foreach($topics as $topic)
                 <tr>
@@ -20,18 +18,15 @@
                     <td>{!!$topic->grade->number!!}</td>
                     <td>{!!$topic->subject->name!!}</td>
                     <td>{!!$topic->title!!}</td>
-                    <td>{!!$topic->created_at!!}</td>
-                    <td>{!!$topic->updated_at!!}</td>
                     <td>
                         {!!Form::open(['action' => ["TopicController@destroy", $topic->id],'class'=>'sky-form',
                         'method'=>'delete','onsubmit'=>'return confirm("Disable topic?")'])!!}
-                        <a href="{!!route('topic') . '/' . $topic->id !!}" class="btn-u btn-u-green btn-block">View</a>
-                        <a class="btn-u btn-u-orange btn-block"
+                        <a href="{!!route('topic') . '/' . $topic->id !!}" class="btn-u btn-u-green">View</a>
+                        <a class="btn-u btn-u-orange"
                            href="{!!route('topic') . '/' . $topic->id  . '/edit/' !!}">Modify</a>
-                        <input type="submit" class="btn-u btn-u-red btn-block" value="Disable">
+                        <input type="submit" class="btn-u btn-u-red" value="Disable">
                         {!!Form::close()!!}
                     </td>
-
                 </tr>
             @endforeach
         </table>

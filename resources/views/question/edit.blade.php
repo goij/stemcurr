@@ -14,9 +14,9 @@
             {!!Form::model($question,['route'=>['question.update',$question->id],'class'=>'sky-form','method'=>'put'])!!}
             <fieldset>
                 <div class="col-md-12">
-                    <label class="label">Lesson ID</label>
-                    <label class="input">
-                        {!!Form::text('topic_id',null,['placeholder'=>'Lesson ID'])!!}
+                    <label class="label">Topic</label>
+                    <label class="select">
+                        {!!Form::select('topic_id',$topics)!!}
                     </label>
                 </div>
                 <div class="col-md-12 col-sm-12">
@@ -32,12 +32,20 @@
                     </label>
                 </div>
             </fieldset>
+            </fieldset>
+            <fieldset>
+                <div class="col-md-12">
+                    <label class="label">Standards</label>
+                    @foreach($standards as $standard)
+                        <label class="checkbox">
+                            {!!Form::checkbox('standards[]', $standard->id, false)!!}<i></i><span style="font-weight: bold">{!!$standard->category!!}</span> - {!!$standard->name!!}
+                        </label>
+                    @endforeach
+                </div>
+            </fieldset>
             <footer>
                 <div class="col-md-6 col-sm-12">
-                    <button type="submit" class="btn-u btn-u-green btn-block curl-bottom-right">Create Question</button>
-                </div>
-                <div class="col-md-6 col-sm-12">
-                    <button type="clear" class="btn-u btn-u-red btn-block curl-bottom-right">Clear</button>
+                    <button type="submit" class="btn-u btn-u-green btn-block curl-bottom-right">Modify Question</button>
                 </div>
             </footer>
             {!!Form::close()!!}

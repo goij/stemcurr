@@ -15,4 +15,7 @@ class AboutController extends Controller {
 		return view('about.index');
 	}
 
+    public function getAbout(){
+        return view('about.about');
+    }
 }

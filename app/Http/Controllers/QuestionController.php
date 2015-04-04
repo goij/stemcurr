@@ -3,6 +3,8 @@
 use App\Http\Requests;
 use Illuminate\Http\Request;
 use App\Question;
+use App\Standard;
+use App\Topic;
 
 class QuestionController extends Controller {
 
@@ -39,7 +41,13 @@ class QuestionController extends Controller {
 	}
 
 	public function create(){
-		return view('question.create');
+        $standards = Standard::all();
+        $topics = Topic::all();
+        $topics_list = [];
+        foreach($topics as $topic){
+            $topics_list[$topic->id] = "Grade " . $topic->grade->number . " - " . $topic->subject->name . " - "  . $topic->title;
+        }
+		return view('question.create',['standards'=>$standards,'topics'=>$topics_list]);
 	}
 
 
@@ -65,8 +73,13 @@ class QuestionController extends Controller {
 	public function edit($id)
 	{
 		$question = Question::find($id);
-
-        return view('question.edit',['question'=>$question]);
+        $topics = Topic::all();
+        $standards = Standard::all();
+        $topics_list = [];
+        foreach($topics as $topic){
+            $topics_list[$topic->id] = "Grade " . $topic->grade->number . " - " . $topic->subject->name . " - "  . $topic->title;
+        }
+        return view('question.edit',['question'=>$question, 'standards'=>$standards, 'topics'=>$topics_list]);
 	}
 
     /**

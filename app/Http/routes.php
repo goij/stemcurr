@@ -21,6 +21,11 @@ Route::get('news', ['as' => 'news', 'uses' => 'HomeController@getNews']);
 Route::get('about/index', ['as' => 'about', 'uses' => 'AboutController@getIndex']);
 
 /**
+ * About routes
+ */
+Route::get('about/about',['as'=>'about','uses'=>'AboutController@getAbout']);
+
+/**
  * User auth routes
  */
 Route::get('user/register', ['as' => 'register', 'uses' => 'UserController@getRegister']);
@@ -47,6 +52,12 @@ Route::get('question/enable', ['as' => 'question_enable', 'uses' => 'QuestionCon
 Route::post('question/{id}/restore', ['uses' => 'QuestionController@restore']);
 Route::resource('question','QuestionController');
 
+/**
+ * Standard routes
+ */
+Route::get('standard',['as'=>'standard','uses'=>'StandardController@index']);
+
+Route::resource('standard','StandardController');
 
 /**
  *

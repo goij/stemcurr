@@ -66,9 +66,6 @@
                             <button type="submit" class="btn-u btn-u-green btn-block curl-bottom-right">Create topic
                             </button>
                         </div>
-                        <div class="col-md-6 col-sm-12">
-                            <button type="clear" class="btn-u btn-u-red btn-block curl-bottom-right">Clear</button>
-                        </div>
                     </footer>
                     {!!Form::close()!!}
                 </form>

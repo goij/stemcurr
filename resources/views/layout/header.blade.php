@@ -68,10 +68,12 @@
                         <ul class="dropdown-menu">
                             <li><a href="{!!route('topic')!!}">Manage Topics F</a></li>
                             <li><a href="{!!route('question')!!}">Manage Questions F</a></li>
+                            <li><a href="{!!route('standard')!!}">Manage Standards F</a></li>
                             <li><a href="{!!route('topic') . '/create'!!}">Create Topic F</a></li>
                             <li><a href="{!!route('question') . '/create'!!}">Create Question F</a></li>
-                            <li><a href="{!!route('topic_enable') !!}">Re-Enable Topics F</a></li>
-                            <li><a href="{!!route('question_enable') !!}">Disable/Enable Questions F</a></li>
+                            <li><a href="{!!route('standard') . '/create'!!}">Create Standard F</a></li>
+                            <li><a href="{!!route('topic_enable') !!}">Enable Topics F</a></li>
+                            <li><a href="{!!route('question_enable') !!}">Enable Questions F</a></li>
                         </ul>
                     </li>
                     <!-- End topics -->

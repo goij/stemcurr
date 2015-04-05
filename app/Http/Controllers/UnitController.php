@@ -9,6 +9,15 @@ use App\Topic;
 
 class UnitController extends Controller {
 
+
+    /**
+     * Whenever this controller is called, protect all the routes except for those defined below
+     * with the faculty middleware.
+     */
+    public function __construct(){
+        $this->middleware('faculty',['except'=>['index','show']]);
+    }
+
 	/**
 	 * Display a listing of the resource.
 	 *

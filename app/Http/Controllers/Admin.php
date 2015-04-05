@@ -7,8 +7,11 @@ use Illuminate\Http\Request;
 
 class Admin extends Controller {
 
-    public function createLesson(Request $request){
-
+    /**
+     * Whenever this controller is called, protect all the routes except for those defined below
+     * with the admin middleware.
+     */
+    public function __construct(){
+        $this->middleware('admin');
     }
-
 }

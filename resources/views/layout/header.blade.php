@@ -65,7 +65,7 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li><a href="{!!action('TeacherController@getUnits')!!}">Your Tracked Units</a></li>
-                            <li><a href="{!!route('topic')!!}">Create Teacher Response</a></li>
+                            <li><a href="{!!route('topic')!!}">Your Responses</a></li>
                         </ul>
                     </li>
                     <!-- End topics -->
@@ -99,7 +99,6 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li><a href="{!!route('user')!!}">Administrate Users</a></li>
-                            <li><a href="{!!route('topic')!!}">Administrate News</a></li>
                             <li><a href="{!!route('news')!!}">Manage News Articles</a></li>
                             <li><a href="{!!route('news')!!}/create">Create News Article</a></li>
                         </ul>

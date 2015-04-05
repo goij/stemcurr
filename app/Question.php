@@ -41,6 +41,10 @@ class Question extends Model {
         return $this->belongsToMany('');
     }
 
+    public function numResponses(){
+        return Response::where('question_id','=',$this->id)->count();
+    }
+
     /**
      * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
      */

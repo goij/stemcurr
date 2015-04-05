@@ -121,6 +121,7 @@
                                                                 {!!$standard->name!!}</a>
                                                         </p>
                                                     @endforeach
+                                                    <h2>Number of Teacher Responses: {!!$question->numResponses()!!}</h2>
                                                 </div>
                                             </div>
                                         @endforeach

@@ -70,12 +70,18 @@ Route::resource('unit','UnitController');
  * News routes
  */
 Route::resource('news','NewsController');
+
 /**
  * Standard routes
  */
 Route::get('standard',['as'=>'standard','uses'=>'StandardController@index']);
-
 Route::resource('standard','StandardController');
+
+/**
+ * Response routes
+ */
+Route::get('response',['as'=>'response','uses'=>'ResponseController@index']);
+Route::resource('response','ResponseController');
 
 /**
  *

@@ -6,6 +6,7 @@ use App\Question;
 use App\Standard;
 use App\Topic;
 use DB;
+use App\Response;
 
 class QuestionController extends Controller {
 
@@ -71,8 +72,9 @@ class QuestionController extends Controller {
 	public function show($id)
 	{
 		$question = Question::find($id);
-
-        return view('question.show',['question'=>$question]);
+        $standard_ids = DB::table('question_standard')->where('question_id','=',$id)->lists('standard_id');
+        $responses = Response::where('question_id','=',$question->id)->get();
+        return view('question.show',['question'=>$question,'standard_ids'=>$standard_ids,'responses'=>$responses]);
 	}
 
 	/**

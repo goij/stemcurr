@@ -30,8 +30,8 @@ class UserController extends Controller
     public function __construct(Guard $auth)
     {
         $this->auth = $auth;
+        $this->middleware('admin', ['except' => ['index', 'show', 'postRegister', 'getRegister', 'getLogin', 'postLogin', 'getLogout', 'getResetPassword']]);
     }
-
 
     /**
      * @return \Illuminate\View\View
@@ -39,7 +39,35 @@ class UserController extends Controller
     public function index()
     {
         $users = User::paginate(10);
-        return view('user.index',['users'=>$users]);
+        return view('user.index', ['users' => $users]);
+    }
+
+    /**
+     * @param Request $request
+     * @param $id
+     * @return \Illuminate\View\View
+     */
+    public function edit(Request $request, $id)
+    {
+        $user = User::where('id', '=', $id)->firstOrFail();
+        return view('user.edit', ['user' => $user]);
+    }
+
+    /**
+     * @param Request $request
+     * @param $id
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    public function update(Request $request, $id)
+    {
+
+        $this->validate($request, ['id' => 'required|exists:users']);
+        $user = User::find($id);
+        $user->admin = $request->get('admin');
+        $user->faculty = $request->get('faculty');
+        $user->teacher = $request->get('teacher');
+        $user->save();
+        return redirect('user')->with('message', ' Updated user permissions');
     }
 
     /**
@@ -82,13 +110,14 @@ class UserController extends Controller
     {
         Auth::attempt($request->except('_token'));
 
-        return redirect('/')->with('message', ' Welcome back ' . Auth::user()->name );
+        return redirect('/')->with('message', ' Welcome back ' . Auth::user()->name);
     }
 
-    public function getLogout(){
+    public function getLogout()
+    {
         Auth::logout();
 
-        return redirect('/')->with('message',' Logged out.');
+        return redirect('/')->with('message', ' Logged out.');
     }
 
     /**

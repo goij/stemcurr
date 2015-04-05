@@ -33,24 +33,19 @@
                 </div><!--/col-md-3-->
 
                 <div class="col-sm-3">
-                    <div class="thumb-headline"><h2>Grade Levels</h2></div>
+                    <div class="thumb-headline"><h2>Curriculum By Grade</h2></div>
                     <ul class="list-unstyled simple-list margin-bottom-20">
-                        <li><a href="#">Three</a></li>
-                        <li><a href="#">Four</a></li>
-                        <li><a href="#">Five</a></li>
-                        <li><a href="#">Six</a></li>
-                        <li><a href="#">Seven</a></li>
-                        <li><a href="#">Eight</a></li>
+                        <?php use App\Grade;use App\Subject;?>
+                        @foreach(Grade::all() as $grade)
+                            <li><a href="{!!route('unit')!!}/?grade={!!$grade->id!!}">{!!$grade->string!!}</a></li>
+                        @endforeach
                     </ul>
 
-                    <div class="thumb-headline"><h2>Topics</h2></div>
+                    <div class="thumb-headline"><h2>Curriculum By Subject</h2></div>
                     <ul class="list-unstyled simple-list">
-                        <li><a href="#">Geology/Space</a></li>
-                        <li><a href="#">Matter & Energy</a></li>
-                        <li><a href="#">Force & Motion</a></li>
-                        <li><a href="#">Weather & Climate</a></li>
-                        <li><a href="#">Structure & Function</a></li>
-                        <li><a href="#">Ecosystems& Adaptation</a></li>
+                        @foreach(Subject::all() as $subject)
+                            <li><a href="{!!route('unit')!!}/?subject={!!$subject->id!!}">{!!$subject->name!!}</a></li>
+                        @endforeach
                     </ul>
                     </li>
                 </div><!--/col-md-3-->

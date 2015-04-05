@@ -6,9 +6,9 @@
             <!-- Topbar Navigation -->
             <ul class="loginbar pull-right">
                 @if(Auth::guest())
-                <li>{!!HTML::link('/user/register','Register')!!}</li>
-                <li class="topbar-devider"></li>
-                <li>{!!HTML::link('/user/login','Login')!!}</li>
+                    <li>{!!HTML::link('/user/register','Register')!!}</li>
+                    <li class="topbar-devider"></li>
+                    <li>{!!HTML::link('/user/login','Login')!!}</li>
                 @else
                     <li>{!!Auth::user()->username!!}</li>
                     <li class="topbar-devider"></li>
@@ -28,7 +28,8 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target=".navbar-responsive-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="fa fa-bars"></span>
                 </button>
@@ -46,16 +47,16 @@
                             Home
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="{!!route('index')!!}">Home Page GUEST</a></li>
-                            <li><a href="{!!route('news')!!}">News GUEST</a></li>
-                            <li><a href="#">Add News ADMIN</a></li>
+                            <li><a href="{!!route('index')!!}">Home Page</a></li>
+                            <li><a href="{!!route('news')!!}">News</a></li>
                             <li><a href="{!!route('about')!!}">About STEM Curriculum</a></li>
-                            <li><a href="#">Instructions GUEST</a></li>
-                            <li><a href="#">Documentation GUEST</a></li>
-                            <li><a href="#">FAQ GUEST</a></li>
-                            <li><a href="#">Help GUEST</a></li>
+                            <li><a href="#">Instructions</a></li>
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Help</a></li>
                         </ul>
                     </li>
+                    @if(!Auth::guest() && Auth::user()->teacher)
                     <!-- End Home -->
                     <!-- topics -->
                     <li class="dropdown">
@@ -68,6 +69,7 @@
                         </ul>
                     </li>
                     <!-- End topics -->
+                    @endif
 
                     <!-- topics -->
                     <li class="dropdown">
@@ -79,25 +81,31 @@
                             <li><a href="{!!route('topic')!!}">Topics</a></li>
                             <li><a href="{!!route('question')!!}">Questions</a></li>
                             <li><a href="{!!route('standard')!!}">Standards</a></li>
-                            <li><a href="{!!route('topic') . '/create'!!}">Create Topic F</a></li>
-                            <li><a href="{!!route('question') . '/create'!!}">Create Question F</a></li>
-                            <li><a href="{!!route('standard') . '/create'!!}">Create Standard F</a></li>
-                            <li><a href="{!!route('topic_enable') !!}">Enable Topics F</a></li>
-                            <li><a href="{!!route('question_enable') !!}">Enable Questions F</a></li>
+                            @if(!Auth::guest() && Auth::user()->faculty)
+                                <li><a href="{!!route('topic') . '/create'!!}">Create Topic F</a></li>
+                                <li><a href="{!!route('question') . '/create'!!}">Create Question F</a></li>
+                                <li><a href="{!!route('standard') . '/create'!!}">Create Standard F</a></li>
+                                <li><a href="{!!route('topic_enable') !!}">Enable Topics F</a></li>
+                                <li><a href="{!!route('question_enable') !!}">Enable Questions F</a></li>
+                            @endif
                         </ul>
                     </li>
                     <!-- End topics -->
-                    <!-- topics -->
+                    <!-- Admin -->
+                    @if(!Auth::guest() && Auth::user()->admin)
                     <li class="dropdown">
                         <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
-                            Admins
+                            Admin
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="{!!route('topic')!!}">Administrate Users ADMIN</a></li>
-                            <li><a href="{!!route('topic')!!}">Administrate News ADMIN</a></li>
+                            <li><a href="{!!route('topic')!!}">Administrate Users</a></li>
+                            <li><a href="{!!route('topic')!!}">Administrate News</a></li>
+                            <li><a href="{!!route('news')!!}">Manage News Articles</a></li>
+                            <li><a href="{!!route('news')!!}">Create News Article</a></li>
                         </ul>
                     </li>
-                    <!-- End topics -->
+                    @endif
+                    <!-- End Admin -->
                     <!-- Search Block -->
                     <!--
                   <li>
@@ -114,7 +122,8 @@
                   -->
                     <!-- End Search Block -->
                 </ul>
-            </div><!--/navbar-collapse-->
+            </div>
+            <!--/navbar-collapse-->
         </div>
     </div>
     <!-- End Navbar -->

@@ -23,9 +23,10 @@ class UnitController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function index()
+	public function index(Request $request)
 	{
         $units = Unit::all();
+//        $units->get();
 		return view("unit.index",["units"=>$units]);
 	}
 

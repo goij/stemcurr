@@ -60,7 +60,7 @@ class UserController extends Controller
         event(new UserRegistered($request->except('_token')));
         Event::fire('UserRegistered');
 
-        return redirect('/')->with('message', 'Registered new user!');
+        return redirect('/')->with('message', ' Registered new user.');
 
     }
 
@@ -80,13 +80,13 @@ class UserController extends Controller
     {
         Auth::attempt($request->except('_token'));
 
-        return redirect('/')->with('message', 'Succesffully logged in! Welcome back ' . Auth::user()->name );
+        return redirect('/')->with('message', ' Welcome back ' . Auth::user()->name );
     }
 
     public function getLogout(){
         Auth::logout();
 
-        return redirect('/')->with('message','Successfully logged out!');
+        return redirect('/')->with('message',' Logged out.');
     }
 
     /**

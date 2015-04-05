@@ -29,7 +29,7 @@ Route::get('about/about',['as'=>'about','uses'=>'AboutController@getAbout']);
 Route::get('user/register', ['as' => 'register', 'uses' => 'UserController@getRegister']);
 Route::get('user/login', ['as' => 'login', 'uses' => 'UserController@getLogin']);
 Route::get('user/logout', ['as' => 'logout', 'uses' => 'UserController@getLogout']);
-Route::get('user/recover', ['as' => 'recover', 'uses' => 'UserController@getLogin']);
+Route::get('user/recover', ['as' => 'recover', 'uses' => 'UserController@getRecover']);
 Route::post('user/register', ['as' => 'postreg', 'uses' => 'UserController@postRegister']);
 Route::post('user/login', ['as' => 'postlogin', 'uses' => 'UserController@postLogin']);
 Route::post('user/recover', ['as' => 'postrecover', 'uses' => 'UserController@postLogin']);
@@ -45,6 +45,7 @@ Route::controller('teacher','TeacherController');
  */
 Route::get('topic', ['as' => 'topic', 'uses' => 'TopicController@index']);
 Route::get('topic/enable', ['as' => 'topic_enable', 'uses' => 'TopicController@enable'] );
+Route::get('topic/{id}/print',['as'=>'print_topic','uses'=>'TopicController@showprint']);
 Route::post('topic/{id}/restore', ['uses' => 'TopicController@restore']);
 Route::resource('topic','TopicController');
 
@@ -60,6 +61,7 @@ Route::resource('question','QuestionController');
  * Unit routes
  */
 Route::get('unit',['as'=>'unit','uses'=>'UnitController@index']);
+Route::get('unit/{id}/print',['as'=>'print_unit','uses'=>'UnitController@showprint']);
 Route::resource('unit','UnitController');
 /**
  * Standard routes

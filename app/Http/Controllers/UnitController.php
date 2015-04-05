@@ -15,7 +15,7 @@ class UnitController extends Controller {
      * with the faculty middleware.
      */
     public function __construct(){
-        $this->middleware('faculty',['except'=>['index','show']]);
+        $this->middleware('faculty',['except'=>['index','show','showprint']]);
     }
 
 	/**
@@ -25,7 +25,7 @@ class UnitController extends Controller {
 	 */
 	public function index(Request $request)
 	{
-        $units = Unit::all();
+        $units = Unit::paginate(10);
 //        $units->get();
 		return view("unit.index",["units"=>$units]);
 	}
@@ -63,7 +63,15 @@ class UnitController extends Controller {
         return view("unit.show",["unit"=>$unit,"topics"=>$topics]);
 	}
 
-	/**
+    public function showprint($id)
+    {
+        $unit = Unit::find($id);
+        $topics = Topic::where('grade_id','=',$unit->grade_id)->where('subject_id','=',$unit->subject_id)->get();
+        return view("unit.showprint",["unit"=>$unit,"topics"=>$topics]);
+    }
+
+
+    /**
 	 * Show the form for editing the specified resource.
 	 *
 	 * @param  int  $id

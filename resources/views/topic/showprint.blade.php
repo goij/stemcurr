@@ -1,4 +1,4 @@
-@extends('layout.master')
+@extends('layout.simple')
 @section('content')
     @if(isset($topic))
         <div class="panel panel-dark-blue">
@@ -8,9 +8,6 @@
             </div>
 
             <div class="panel-body">
-                <div class="right" style="text-align:right">
-                    <a href="{!!Request::url()!!}/print"><i class="icon-custom icon-sm icon-color-grey fa fa-files-o"></i></a>
-                </div>
                 <div class="col-sm-12">
                     <div class="row">
                         <div class="heading"><h2>Grade {!!$topic->grade['string']!!} -
@@ -22,6 +19,7 @@
                         <div class="heading"><h2>Commentary</h2></div>
                         <p>{!!$topic['commentary']!!}</p>
                     </div>
+                    <!-- Placeholder Tables -->
                     <div class="row">
                         <table class="table table-bordered table-search-v1">
                             <tr>

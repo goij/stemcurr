@@ -1,4 +1,4 @@
-@extends('layout.master')
+@extends('layout.simple')
 @section('content')
     @if(isset($unit))
         <div class="panel panel-purple">
@@ -6,9 +6,6 @@
                 <h2 class="heading color-light">{!!$unit->subject->name!!} - Grade {!!$unit->grade->string!!}</h2>
             </div>
             <div class="panel-body">
-                <div class="right" style="text-align:right">
-                    <a href="{!!Request::url()!!}/print"><i class="icon-custom icon-sm icon-color-grey fa fa-files-o"></i></a>
-                </div>
                 <div class="heading"><h2>Overview</h2></div>
 
                 <p>{!!$unit->overview!!}</p>

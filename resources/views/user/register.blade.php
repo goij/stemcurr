@@ -6,39 +6,52 @@
 @stop
 
 @section('content')
-    <div class="panel panel-dark-blue">
-        <div class="panel-heading">
-            <h2 class="color-light">Register</h2>
-        </div>
-        {!!Form::open(array('action'=>'UserController@postRegister'))!!}
-            <div class="panel-body">
-                <div class="input-group margin-bottom-20">
-                    <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                    <input type="text" class="form-control" placeholder="Username" name="username" value="{!!old('username')!!}">
-                </div>
-                <div class="input-group margin-bottom-20">
-                    <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                    <input type="text" class="form-control" placeholder="Name" name="name" value="{!!old('name')!!}">
-                </div>
-                <div class="input-group margin-bottom-20">
-                    <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                    <input type="text" class="form-control" placeholder="Email" name="email" value="{!!old('email')!!}">
-                </div>
-                <div class="input-group margin-bottom-20">
-                    <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                    <input type="password" class="form-control" placeholder="Password" name="password">
-                </div>
-                <div class="input-group margin-bottom-30">
-                    <span class="input-group-addon"><i class="fa fa-key"></i></span>
-                    <input type="password" class="form-control" placeholder="Confirm Password" name="password_confirmation">
-                </div>
-                <hr>
-                <div class="row">
-                    <div class="col-md-6 col-md-offset-6 col-sm-12">
-                        <button type="submit" class="btn-u btn-block btn-u-green curl-bottom-right">Register</button>
-                    </div>
-                </div>
-            </div>
-        {!!Form::close()!!}
-    </div>
+
+    {!!Form::open(array('action'=>'UserController@postRegister','class'=>'sky-form'))!!}
+        <header>Registration form</header>
+        <fieldset>
+            <section>
+                <label class="input">
+                    <i class="icon-append fa fa-user"></i>
+                    <input type="text" name="username" placeholder="Username">
+                    <b class="tooltip tooltip-bottom-right">Needed to enter the website</b>
+                </label>
+            </section>
+
+            <section>
+                <label class="input">
+                    <input type="text" name="name" placeholder="Name">
+                    <b class="tooltip tooltip-bottom-right">Needed to verify your account</b>
+                </label>
+            </section>
+
+            <section>
+                <label class="input">
+                    <i class="icon-append fa fa-envelope"></i>
+                    <input type="email" name="email" placeholder="Email address">
+                    <b class="tooltip tooltip-bottom-right">Needed to verify your account</b>
+                </label>
+            </section>
+
+            <section>
+                <label class="input">
+                    <i class="icon-append fa fa-lock"></i>
+                    <input type="password" name="password" placeholder="Password" id="password">
+                    <b class="tooltip tooltip-bottom-right">Don't forget your password</b>
+                </label>
+            </section>
+
+            <section>
+                <label class="input">
+                    <i class="icon-append fa fa-lock"></i>
+                    <input type="password" name="password_confirmation" placeholder="Confirm password">
+                    <b class="tooltip tooltip-bottom-right">Don't forget your password</b>
+                </label>
+            </section>
+        </fieldset>
+
+        <footer>
+            <button type="submit" class="btn-u">Register</button>
+        </footer>
+    {!!Form::close()!!}
 @stop

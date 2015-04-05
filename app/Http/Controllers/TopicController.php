@@ -18,7 +18,7 @@ class TopicController extends Controller {
      * with the faculty middleware.
      */
     public function __construct(){
-        $this->middleware('faculty',['except'=>['index','show']]);
+        $this->middleware('faculty',['except'=>['index','show','showprint']]);
     }
 
 	/**
@@ -75,6 +75,17 @@ class TopicController extends Controller {
 
         return view('topic.show', ['topic' => $topic]);
 	}
+
+    /**
+     * @param $id
+     * @return \Illuminate\View\View
+     */
+    public function showprint($id)
+    {
+        $topic = Topic::find($id);
+
+        return view('topic.showprint', ['topic' => $topic]);
+    }
 
 	/**
 	 * Show the form for editing the specified resource.

@@ -13,9 +13,12 @@ class UserRegistered extends Event {
 	 *
 	 * @return void
 	 */
-	public function __construct()
+
+    public $user_data;
+
+	public function __construct($user_data)
 	{
-		//
+        $this->user_data = $user_data;
 	}
 
 }

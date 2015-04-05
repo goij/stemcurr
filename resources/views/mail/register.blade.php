@@ -1,1 +1,1 @@
-Welcome to StemCurriculum {!!$user!}}
+<h2>Welcome to StemCurriculum {!!$username!!}</h2>

@@ -1,7 +1,7 @@
 @extends('layout.master')
 @section('content')
     @if(isset($standard))
-        <div class="panel panel-dark">
+        <div class="panel panel-grey">
             <div class="panel-heading">
                 <h4 class="color-light">{!!$standard->name!!}</h4>
             </div>

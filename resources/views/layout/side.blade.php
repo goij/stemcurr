@@ -42,14 +42,6 @@
 </div>
 
 <!-- End user specific panels -->
-<!-- Photo Stream -->
-<div class="headline"><h3>Recent Photos</h3></div>
-<ul class="list-unstyled blog-photos margin-bottom-30">
-    @foreach(range(0, 25) as $num)
-        <li><a href="#"><img src="{!! asset('img/placeholder.png') !!}" alt="" class="hover-effect"></a></li>
-    @endforeach
-</ul><!--/blog-photos-->
-<!-- End Photo Stream -->
 
 <!-- Choose Us -->
 <div class="who margin-bottom-30">

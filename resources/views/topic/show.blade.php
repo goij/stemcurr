@@ -58,7 +58,7 @@
                     <div class="row">
                         <div class="heading"><h2>Questions</h2></div>
                         @foreach($topic->questions as $question)
-                            <div class="panel panel-dark">
+                            <div class="panel panel-grey">
                                 <div class="panel-heading">
                                     <h4 class="color-light">{!!$question['title']!!}</h4>
                                 </div>

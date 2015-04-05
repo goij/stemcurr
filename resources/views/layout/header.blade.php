@@ -5,9 +5,18 @@
         <div class="container">
             <!-- Topbar Navigation -->
             <ul class="loginbar pull-right">
+                @if(Auth::guest())
                 <li>{!!HTML::link('/user/register','Register')!!}</li>
                 <li class="topbar-devider"></li>
                 <li>{!!HTML::link('/user/login','Login')!!}</li>
+                @else
+                    <li>{!!Auth::user()->username!!}</li>
+                    <li class="topbar-devider"></li>
+                    <li>{!!Auth::user()->name!!}</li>
+                    <li class="topbar-devider"></li>
+                    <li><a href="{!!route('logout')!!}">Logout</a></li>
+                @endif
+
             </ul>
             <!-- End Topbar Navigation -->
         </div>
@@ -54,8 +63,8 @@
                             Teachers
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="{!!action('TeacherController@getUnits')!!}">Browse Units</a></li>
-                            <li><a href="{!!route('topic')!!}">Create Teacher Response TEACHER</a></li>
+                            <li><a href="{!!action('TeacherController@getUnits')!!}">Your Tracked Units</a></li>
+                            <li><a href="{!!route('topic')!!}">Create Teacher Response</a></li>
                         </ul>
                     </li>
                     <!-- End topics -->
@@ -63,13 +72,13 @@
                     <!-- topics -->
                     <li class="dropdown">
                         <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
-                            Faculty
+                            Curriculum
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="{!!route('unit')!!}">Manage Units F</a></li>
-                            <li><a href="{!!route('topic')!!}">Manage Topics F</a></li>
-                            <li><a href="{!!route('question')!!}">Manage Questions F</a></li>
-                            <li><a href="{!!route('standard')!!}">Manage Standards F</a></li>
+                            <li><a href="{!!route('unit')!!}">Units</a></li>
+                            <li><a href="{!!route('topic')!!}">Topics</a></li>
+                            <li><a href="{!!route('question')!!}">Questions</a></li>
+                            <li><a href="{!!route('standard')!!}">Standards</a></li>
                             <li><a href="{!!route('topic') . '/create'!!}">Create Topic F</a></li>
                             <li><a href="{!!route('question') . '/create'!!}">Create Question F</a></li>
                             <li><a href="{!!route('standard') . '/create'!!}">Create Standard F</a></li>

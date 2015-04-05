@@ -28,6 +28,7 @@ Route::get('about/about',['as'=>'about','uses'=>'AboutController@getAbout']);
  */
 Route::get('user/register', ['as' => 'register', 'uses' => 'UserController@getRegister']);
 Route::get('user/login', ['as' => 'login', 'uses' => 'UserController@getLogin']);
+Route::get('user/logout', ['as' => 'logout', 'uses' => 'UserController@getLogout']);
 Route::get('user/recover', ['as' => 'recover', 'uses' => 'UserController@getLogin']);
 Route::post('user/register', ['as' => 'postreg', 'uses' => 'UserController@postRegister']);
 Route::post('user/login', ['as' => 'postlogin', 'uses' => 'UserController@postLogin']);

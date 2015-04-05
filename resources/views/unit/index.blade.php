@@ -26,6 +26,5 @@
                 </tr>
             @endforeach
         </table>
-        {!!$units->render()!!}
     </div>
 @stop

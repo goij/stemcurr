@@ -50,7 +50,10 @@
     <ul class="list-unstyled">
         <li><a href="{!!route('about')!!}"><i class="fa fa-desktop"></i>About</a></li>
         <li><a href="{!!route('topic')!!}"><i class="fa fa-bullhorn"></i>Browse Topics</a></li>
+        @if(Auth::guest())
         <li><a href="{!!route('login')!!}"><i class="fa fa-globe"></i>Log In</a></li>
+        <li><a href="{!!route('register')!!}"><i class="fa fa-globe"></i>Register</a></li>
+        @endif
     </ul>
 </div><!--/who-->
 <!-- End Choose Us -->
@@ -58,14 +61,20 @@
 <!-- News -->
 <div class="blog-twitter">
     <div class="headline"><h3>Latest News</h3></div>
-    @foreach(range(0,3) as $num)
+    <?php use App\News; use App\User; ?>
+    @foreach(News::all() as $article)
         <li class="list-unstyled">
-            <a href="#"><strong>News Article {!!$num!!}</strong></a>
+            <div class="headline"><h4><a href="{!!route('news')!!}/{!!$article->id!!}">{!!$article->title!!}</a></h4>
+            </div>
+            <div>
+                {!!$article->text!!}
+            </div>
+            <br>
 
-            <p>News article {!!$num!!} text.News article {!!$num!!} text.News article {!!$num!!} text.News article
-                {!!$num!!} text.News article {!!$num!!} text....</p>
+            <div class="footer">
+                <span style="font-weight: bold">{!!$article->user->name!!} at {!!$article->updated_at!!}</span>
+            </div>
         </li>
     @endforeach
 </div>
-</div><!--/blog-twitter-->
 <!-- End News -->

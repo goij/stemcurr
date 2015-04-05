@@ -25,8 +25,23 @@ class UnitController extends Controller {
 	 */
 	public function index(Request $request)
 	{
-        $units = Unit::paginate(10);
-//        $units->get();
+        $units = Unit::all();
+        if($request->has('subject')){
+            $units = $units->filter(function($unit) use ($request){
+                if($unit->subject_id == $request->get('subject')){
+                    return true;
+                }
+                return false;
+            });
+        }
+        if($request->has('grade')){
+            $units = $units->filter(function($unit) use ($request){
+                if($unit->grade_id == $request->get('grade')){
+                    return true;
+                }
+                return false;
+            });
+        }
 		return view("unit.index",["units"=>$units]);
 	}
 

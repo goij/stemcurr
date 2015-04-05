@@ -11,6 +11,7 @@ use Illuminate\Http\Request;
 use App\Events\UserRegistered;
 use Auth;
 use Illuminate\Contracts\Auth\Guard;
+use App\User;
 
 class UserController extends Controller
 {
@@ -35,9 +36,10 @@ class UserController extends Controller
     /**
      * @return \Illuminate\View\View
      */
-    public function getIndex()
+    public function index()
     {
-        return view('home.index');
+        $users = User::paginate(10);
+        return view('user.index',['users'=>$users]);
     }
 
     /**

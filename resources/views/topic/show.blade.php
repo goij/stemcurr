@@ -4,7 +4,6 @@
         <div class="panel panel-dark-blue">
             <div class="panel-heading">
                 <h2 class="heading color-light">{!!$topic['title']!!}</h2>
-
             </div>
 
             <div class="panel-body">
@@ -62,7 +61,7 @@
                         @foreach($topic->questions as $question)
                             <div class="panel panel-grey">
                                 <div class="panel-heading">
-                                    <h4 class="color-light">{!!$question['title']!!}</h4>
+                                    <a href="{!!route('question')!!}/{!!$question->id!!}"><h4 class="color-light">{!!$question['title']!!}</h4></a>
                                 </div>
                                 <div class="panel-body">
                                     <h2>Evidence of Learning</h2>
@@ -84,5 +83,6 @@
                 </div>
             </div>
         </div>
+
     @endif
 @stop

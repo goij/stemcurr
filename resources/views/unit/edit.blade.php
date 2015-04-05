@@ -35,7 +35,7 @@
                     </label>
                 </div>
                 <div class="col-md-12">
-                    <label class="label">Non-Profit Partnersr</label>
+                    <label class="label">Non-Profit Partners</label>
                     <label class="textarea">
                         {!!Form::textarea('non_profit_partners',null,['placeholder'=>'Non-Profit Partners'])!!}
                     </label>

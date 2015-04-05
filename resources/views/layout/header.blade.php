@@ -98,10 +98,10 @@
                             Admin
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="{!!route('topic')!!}">Administrate Users</a></li>
+                            <li><a href="{!!route('user')!!}">Administrate Users</a></li>
                             <li><a href="{!!route('topic')!!}">Administrate News</a></li>
                             <li><a href="{!!route('news')!!}">Manage News Articles</a></li>
-                            <li><a href="{!!route('news')!!}">Create News Article</a></li>
+                            <li><a href="{!!route('news')!!}/create">Create News Article</a></li>
                         </ul>
                     </li>
                     @endif

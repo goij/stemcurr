@@ -33,6 +33,8 @@ Route::get('user/recover', ['as' => 'recover', 'uses' => 'UserController@getReco
 Route::post('user/register', ['as' => 'postreg', 'uses' => 'UserController@postRegister']);
 Route::post('user/login', ['as' => 'postlogin', 'uses' => 'UserController@postLogin']);
 Route::post('user/recover', ['as' => 'postrecover', 'uses' => 'UserController@postLogin']);
+Route::get('user',['as'=>'user', 'uses'=>'UserController@index']);
+Route::resource('user','UserController');
 
 /**
  * Teacher routes
@@ -63,6 +65,11 @@ Route::resource('question','QuestionController');
 Route::get('unit',['as'=>'unit','uses'=>'UnitController@index']);
 Route::get('unit/{id}/print',['as'=>'print_unit','uses'=>'UnitController@showprint']);
 Route::resource('unit','UnitController');
+
+/**
+ * News routes
+ */
+Route::resource('news','NewsController');
 /**
  * Standard routes
  */

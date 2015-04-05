@@ -28,9 +28,12 @@ class DatabaseSeeder extends Seeder {
         $this->command->info('Seeded standards table');
         $this->call('UnitsSeeder');
         $this->command->info('Seeded units table');
+        $this->call('NewsSeeder');
+        $this->command->info('Seeded news table');
         //Seed the pivot tables
         $this->call('QuestionStandardSeeder');
         $this->command->info('Seeded question_standard pivot table');
+
 	}
 
 }

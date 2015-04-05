@@ -16,5 +16,22 @@
                 @endforeach
             </div>
         </div>
+
+        @if(Auth::user()->teacher)
+        <div class="panel panel-orange">
+            <div class="panel-heading">
+                <h4 class="color-light">Provide Feedback For This Question</h4>
+                {!!Form::model($question,['route'=>['response.create',$question->id]])!!}
+                @foreach($question->standards as $standard)
+                    <label class="checkbox">
+                        {!!Form::checkbox('standards[]', $standard->id,
+                        in_array($standard->id, $standard_ids))
+                        !!}<i></i><span style="font-weight: bold">{!!$standard->category!!}</span> - {!!$standard->name!!}
+                    </label>
+                @endforeach
+                {!!Form::close()!!}
+            </div>
+        </div>
+        @endif
     @endif
 @stop

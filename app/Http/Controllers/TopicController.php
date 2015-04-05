@@ -5,6 +5,7 @@ use Illuminate\Http\Request;
 use App\Topic;
 use DB;
 use App\Standard;
+use App\Question;
 
 /**
  * Class TopicController
@@ -64,10 +65,12 @@ class TopicController extends Controller {
 	{
 		$topic = Topic::find($id);
 
-        $standards = [];
-        $question_ids = DB::table('questions')->where('topic_id','=',$topic->id)->lists('id');
+        $question_ids = Question::where('topic_id','=',$topic->id)->lists('id');
 
-        $standards = Standard::get($question_ids);
+        $standard_ids = DB::table('question_standard')->whereIn('question_id',$question_ids)->lists('standard_id');
+
+        $standards = Standard::whereIn('id',$standard_ids)->get();
+
         return view('topic.show', ['topic' => $topic, 'standards' => $standards]);
 	}
 

@@ -18,6 +18,9 @@ class CreateTopicTable extends Migration {
             $table->string('title');
             $table->text('summary');
             $table->text('commentary');
+            $table->text('labs')->nullable();
+            $table->text('partners')->nullable();
+            $table->text('subcategories')->nullable();
             $table->integer('grade_id')->unsigned();
             $table->foreign('grade_id')->references('id')->on('grades')->onUpdate('cascade');
             $table->integer('subject_id')->unsigned();

@@ -12,9 +12,7 @@
 */
 
 /**
- *
- * GUEST ROUTES
- *
+ * Guest routes
  */
 Route::get('/', ['as' => 'index', 'uses' => 'HomeController@getIndex']);
 Route::get('news', ['as' => 'news', 'uses' => 'HomeController@getNews']);
@@ -45,13 +43,18 @@ Route::post('topic/{id}/restore', ['uses' => 'TopicController@restore']);
 Route::resource('topic','TopicController');
 
 /**
- * Question Route
+ * Question routes
  */
 Route::get('question', ['as' => 'question', 'uses' => 'QuestionController@index']);
 Route::get('question/enable', ['as' => 'question_enable', 'uses' => 'QuestionController@enable']);
 Route::post('question/{id}/restore', ['uses' => 'QuestionController@restore']);
 Route::resource('question','QuestionController');
 
+/**
+ * Unit routes
+ */
+Route::get('unit',['as'=>'unit','uses'=>'UnitController@index']);
+Route::resource('topic','TopicController');
 /**
  * Standard routes
  */

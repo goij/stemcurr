@@ -66,6 +66,7 @@
                             Faculty
                         </a>
                         <ul class="dropdown-menu">
+                            <li><a href="{!!route('unit')!!}">Manage Units F</a></li>
                             <li><a href="{!!route('topic')!!}">Manage Topics F</a></li>
                             <li><a href="{!!route('question')!!}">Manage Questions F</a></li>
                             <li><a href="{!!route('standard')!!}">Manage Standards F</a></li>

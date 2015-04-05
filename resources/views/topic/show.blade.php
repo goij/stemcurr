@@ -10,7 +10,8 @@
             <div class="panel-body">
                 <div class="col-sm-12">
                     <div class="row">
-                        <div class="heading"><h2>Grade {!!$topic->grade['string']!!} - {!!$topic->subject['name']!!}</h2>
+                        <div class="heading"><h2>Grade {!!$topic->grade['string']!!} -
+                                {!!$topic->subject['name']!!}</h2>
                         </div>
                         <div class="heading"><h2>Summary</h2></div>
                         <p>{!!$topic['summary']!!}</p>
@@ -26,11 +27,11 @@
                                     STANDARDS
                                 </th>
                                 <td>
-                                    <ul class="list-unstyled">
-                                        <li>
-                                            <a href="#">5-LS1-1 [SEP 7, DCI: LS1.C, CC5]</a>
-                                        </li>
-                                    </ul>
+
+                                    @foreach($standards as $standard)
+                                        <a href='{!!$standard->link!!}' target="_blank">{!!$standard->category!!} - {!!$standard->name!!}</a><br>
+                                    @endforeach
+
                                 </td>
                             </tr>
                             <tr>
@@ -38,20 +39,24 @@
                                     LABS
                                 </th>
                                 <td>
-                                    LABS HERE
+                                    {!!$topic->labs!!}
                                 </td>
                             </tr>
                             <tr>
                                 <th>PARNTERS</th>
-                                <td>PARTNERS HERE</td>
+                                <td>{!!$topic->partners!!}</td>
                             </tr>
                             <tr>
                                 <th>
                                     SUBCATEGORY
                                 </th>
-                                <td>SUBCATEGORY HERE</td>
+                                <td>{!!$topic->subcategories!!}</td>
                             </tr>
                         </table>
+                    </div>
+                    <div class="row">
+                        <h2>Standards Fulfilled By Topic</h2>
+
                     </div>
                     <div class="row">
                         <div class="heading"><h2>Questions</h2></div>

@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
+use DB;
 
 class Topic extends Model
 {
@@ -35,6 +36,16 @@ class Topic extends Model
     public function grade()
     {
         return $this->belongsTo('App\Grade');
+    }
+
+    public function standards(){
+        $question_ids = Question::where('topic_id','=',$this->id)->lists('id');
+
+        $standard_ids = DB::table('question_standard')->whereIn('question_id',$question_ids)->lists('standard_id');
+
+        $standards = Standard::whereIn('id',$standard_ids)->get();
+
+        return $standards;
     }
 
     /**

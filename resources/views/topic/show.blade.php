@@ -28,8 +28,9 @@
                                 </th>
                                 <td>
 
-                                    @foreach($standards as $standard)
-                                        <a href='{!!$standard->link!!}' target="_blank">{!!$standard->category!!} - {!!$standard->name!!}</a><br>
+                                    @foreach($topic->standards() as $standard)
+                                        <a href='{!!$standard->link!!}' target="_blank">{!!$standard->category!!} -
+                                            {!!$standard->name!!}</a><br>
                                     @endforeach
 
                                 </td>
@@ -55,19 +56,25 @@
                         </table>
                     </div>
                     <div class="row">
-                        <h2>Standards Fulfilled By Topic</h2>
-
-                    </div>
-                    <div class="row">
                         <div class="heading"><h2>Questions</h2></div>
-                        <?php $questions = $topic->questions;?>
-                        @foreach($questions as $question)
+                        @foreach($topic->questions as $question)
                             <div class="panel panel-dark">
                                 <div class="panel-heading">
                                     <h4 class="color-light">{!!$question['title']!!}</h4>
                                 </div>
                                 <div class="panel-body">
-                                    {!!$question['evidence']!!}
+                                    <h2>Evidence of Learning</h2>
+
+                                    <p>{!!$question->evidence!!}</p>
+
+                                    <h2>Standards</h2>
+                                    @foreach($question->standards as $standard)
+                                        <p>
+                                            <a href='{!!$standard->link!!}' target="_blank"><span
+                                                        style="font-weight: bold">{!!$standard->category!!}</span> -
+                                                {!!$standard->name!!}</a>
+                                        </p>
+                                    @endforeach
                                 </div>
                             </div>
                         @endforeach

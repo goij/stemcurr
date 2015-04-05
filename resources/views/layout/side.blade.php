@@ -2,6 +2,23 @@
 
 <!-- User Specific Panels -->
 <div class="headline">
+    <h3>Your Units</h3>
+    <table class="table table-bordered cus-side-table">
+        <tr>
+            <th>Unit</th>
+        </tr>
+        {{-- Generate links --}}
+        <?php
+        use App\Unit;?>
+        @foreach(Unit::all() as $unit)
+            <tr>
+                <td>
+                    <a href="{!! route('unit') . '/' . $unit->id!!}">Grade {!!$unit->grade->number!!} -
+                        {!!$unit->subject->name!!}</a>
+                </td>
+            </tr>
+        @endforeach
+    </table>
     <h3>Your Topics</h3>
     <table class="table table-bordered cus-side-table">
         <tr>
@@ -10,9 +27,8 @@
         </tr>
         {{-- Generate links --}}
         <?php
-        use App\topic;
-        $topics = topic::all();?>
-        @foreach($topics as $topic)
+        use App\Topic;?>
+        @foreach(Topic::all() as $topic)
             <tr>
                 <td>
                     {!!$topic->id!!}

@@ -5,6 +5,7 @@ use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 use App\Unit;
+use App\Topic;
 
 class UnitController extends Controller {
 
@@ -48,7 +49,8 @@ class UnitController extends Controller {
 	public function show($id)
 	{
 		$unit = Unit::find($id);
-        return view("unit.show",["unit"=>$unit]);
+        $topics = Topic::where('grade_id','=',$unit->grade_id)->where('subject_id','=',$unit->subject_id)->get();
+        return view("unit.show",["unit"=>$unit,"topics"=>$topics]);
 	}
 
 	/**
@@ -72,9 +74,6 @@ class UnitController extends Controller {
 	public function update(Request $request, $id)
 	{
         $input = $request->except('_token');
-        $this->validate($request,[
-            'id'=>'required|exists:units'
-        ]);
         Unit::updateOrCreate(['id'=>$id],$input);
         return redirect('unit')->with('message','Updated unit!');
 	}

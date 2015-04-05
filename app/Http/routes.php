@@ -34,6 +34,11 @@ Route::post('user/login', ['as' => 'postlogin', 'uses' => 'UserController@postLo
 Route::post('user/recover', ['as' => 'postrecover', 'uses' => 'UserController@postLogin']);
 
 /**
+ * Teacher routes
+ */
+Route::controller('teacher','TeacherController');
+
+/**
  * Topic routes
  * Custom routes must be defined before the resource
  */
@@ -54,7 +59,7 @@ Route::resource('question','QuestionController');
  * Unit routes
  */
 Route::get('unit',['as'=>'unit','uses'=>'UnitController@index']);
-Route::resource('topic','TopicController');
+Route::resource('unit','UnitController');
 /**
  * Standard routes
  */

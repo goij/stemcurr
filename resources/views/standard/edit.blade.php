@@ -3,7 +3,7 @@
     <?php
     use App\Grade;
     use App\Subject;
-    use App\standard;
+    use App\Standard;
     ?>
     <div class="panel panel-dark-blue">
         <div class="panel-heading">

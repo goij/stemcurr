@@ -54,7 +54,7 @@
                             Teachers
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="{!!route('topic')!!}">Browse Your Subjects TEACHER</a></li>
+                            <li><a href="{!!action('TeacherController@getUnits')!!}">Browse Units</a></li>
                             <li><a href="{!!route('topic')!!}">Create Teacher Response TEACHER</a></li>
                         </ul>
                     </li>

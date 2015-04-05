@@ -65,13 +65,7 @@ class TopicController extends Controller {
 	{
 		$topic = Topic::find($id);
 
-        $question_ids = Question::where('topic_id','=',$topic->id)->lists('id');
-
-        $standard_ids = DB::table('question_standard')->whereIn('question_id',$question_ids)->lists('standard_id');
-
-        $standards = Standard::whereIn('id',$standard_ids)->get();
-
-        return view('topic.show', ['topic' => $topic, 'standards' => $standards]);
+        return view('topic.show', ['topic' => $topic]);
 	}
 
 	/**

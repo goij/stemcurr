@@ -2,7 +2,6 @@
 
 use Closure;
 use Illuminate\Auth\Guard;
-use Symfony\Component\HttpFoundation\RedirectResponse;
 
 class CheckFaculty {
 
@@ -22,14 +21,14 @@ class CheckFaculty {
 	public function handle($request, Closure $next)
 	{
         if($this->auth->guest()){
-            return new RedirectResponse(url('/'));
+            return redirect('/')->withErrors(['Must be logged in with faculty permissions to access this page']);
         }
 
         if($this->auth->user()->faculty){
             return $next($request);
         }
 
-        return new RedirectResponse(url('/'));
+        return redirect('/')->withErrors(['Must be logged in with faculty permissions to access this page']);
 	}
 
 }

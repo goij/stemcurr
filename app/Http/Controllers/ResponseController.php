@@ -29,11 +29,10 @@ class ResponseController extends Controller {
          */
 	}
 
-	/**
-	 * Store a newly created resource in storage.
-	 *
-	 * @return Response
-	 */
+    /**
+     * @param Request $request
+     * @return \Illuminate\Http\RedirectResponse
+     */
 	public function store(Request $request)
 	{
 		$input = $request->only(['evidence','comments','user_id','question_id']);

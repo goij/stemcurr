@@ -20,10 +20,17 @@ class CheckAdmin {
 	 * @param  \Closure  $next
 	 * @return mixed
 	 */
-	public function handle($request, Closure $next)
-	{
+    public function handle($request, Closure $next)
+    {
+        if($this->auth->guest()){
+            return redirect('/')->withErrors(['Must be logged in with admin permissions to access this page']);
+        }
 
-		return $next($request);
-	}
+        if($this->auth->user()->admin){
+            return $next($request);
+        }
+
+        return redirect('/')->withErrors(['Must be logged in with admin permissions to access this page']);
+    }
 
 }

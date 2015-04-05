@@ -10,6 +10,14 @@ class NewsController extends Controller
 {
 
     /**
+     * Whenever this controller is called, protect all the routes except for those defined below
+     * with the admin middleware.
+     */
+    public function __construct(){
+        $this->middleware('admin',['except'=>['index','show']]);
+    }
+
+    /**
      * Display a listing of the resource.
      *
      * @return Response
@@ -70,10 +78,9 @@ class NewsController extends Controller
     }
 
     /**
-     * Update the specified resource in storage.
-     *
-     * @param  int $id
-     * @return Response
+     * @param Request $request
+     * @param $id
+     * @return $this
      */
     public function update(Request $request, $id)
     {

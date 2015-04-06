@@ -28,7 +28,7 @@ class TopicController extends Controller {
 	 */
 	public function index()
 	{
-		$topics = Topic::paginate(15);
+		$topics = Topic::paginate(10);
 
 		return view('topic.index',['topics' => $topics]);
 	}

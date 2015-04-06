@@ -53,6 +53,11 @@ class UserController extends Controller
         return view('user.edit', ['user' => $user]);
     }
 
+    public function show($id){
+        $user = User::find($id);
+        return view('user.show',['user'=>$user]);
+    }
+
     /**
      * @param Request $request
      * @param $id

@@ -25,7 +25,7 @@ class UnitController extends Controller {
 	 */
 	public function index(Request $request)
 	{
-        $units = Unit::all();
+        $units = Unit::get();
         if($request->has('subject')){
             $units = $units->filter(function($unit) use ($request){
                 if($unit->subject_id == $request->get('subject')){

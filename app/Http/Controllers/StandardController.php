@@ -23,7 +23,7 @@ class StandardController extends Controller {
 	 */
 	public function index()
 	{
-        $standards = Standard::paginate(15);
+        $standards = Standard::paginate(10);
 		return view('standard.index',['standards'=>$standards]);
 	}
 

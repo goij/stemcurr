@@ -10,6 +10,7 @@
                     <th>Username</th>
                     <th>Name</th>
                     <th>Email</th>
+                    <th>Last Login</th>
                 @endif
                 @if(!Auth::guest() && Auth::user()->admin)
                     <th>Actions</th>
@@ -20,7 +21,8 @@
                     @if(Auth::user()->teacher || Auth::user()->admin || Auth::user()->faculty)
                         <td><a href="{!!route('user')!!}/{!!$user->id!!}">{!!$user->username!!}</a></td>
                         <td>{!!$user->name!!}</td>
-                        <td>{!!$user->email!!}</td>
+                        <td><a href="mailto:{!!$user->email!!}">{!!$user->email!!}</a></td>
+                        <td>{!!$user->updated_at!!}</td>
                     @endif
                     @if(!Auth::guest() && Auth::user()->admin)
                         <td>

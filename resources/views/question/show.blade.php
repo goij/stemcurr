@@ -17,6 +17,8 @@
                             - {!!$standard->name!!}</a>
                     </p>
                 @endforeach
+                <h2>Parent Topic</h2>
+                <a href="{!!route('topic') . '/' . $question->topic->id!!}">Link To Parent Topic</a>
             </div>
         </div>
         @if(isset($responses))

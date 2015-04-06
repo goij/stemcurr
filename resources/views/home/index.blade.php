@@ -66,7 +66,7 @@
                 </div>
                 <br>
                 <div class="footer">
-                    <span style="font-weight: bold">{!!$article->user->name!!} at {!!$article->updated_at!!}</span>
+                    <span style="font-weight: bold"><a href="{!!route('user') .'/'. $article->user->id!!}">{!!$article->user->name!!}</a> at {!!$article->updated_at!!}</span>
                 </div>
             </div>
         </div>

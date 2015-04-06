@@ -47,10 +47,9 @@
                             Home
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="{!!route('index')!!}">Home Page</a></li>
+                            <li><a href="{!!route('index')!!}">Home</a></li>
                             <li><a href="{!!route('news')!!}">News</a></li>
-                            <li><a href="{!!route('about')!!}">About STEM Curriculum</a></li>
-                            <li><a href="#">Instructions</a></li>
+                            <li><a href="{!!route('about')!!}">About</a></li>
                             <li><a href="#">Documentation</a></li>
                             <li><a href="#">FAQ</a></li>
                             <li><a href="#">Help</a></li>

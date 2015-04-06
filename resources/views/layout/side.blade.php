@@ -19,7 +19,7 @@
             </tr>
         @endforeach
     </table>
-    <h3>Your Topics</h3>
+    <h3>Topics Within Your Units</h3>
     <table class="table table-bordered cus-side-table">
         <tr>
             <th>ID</th>
@@ -48,7 +48,6 @@
 <!-- Choose Us -->
 <div class="who margin-bottom-30">
     <div class="headline"><h3>Quick Links</h3></div>
-    <p>Put some links for easy navigation here.</p>
     <ul class="list-unstyled">
         <li><a href="{!!route('about')!!}"><i class="fa fa-desktop"></i>About</a></li>
         <li><a href="{!!route('topic')!!}"><i class="fa fa-bullhorn"></i>Browse Topics</a></li>
@@ -65,7 +64,7 @@
     <div class="headline"><h3>Latest News</h3></div>
     @foreach(App\News::all() as $article)
         <li class="list-unstyled">
-            <div class="headline"><h4><a href="{!!route('news')!!}/{!!$article->id!!}">{!!$article->title!!}</a></h4>
+            <div><h4 style="font-weight:bold"><a href="{!!route('news')!!}/{!!$article->id!!}">{!!$article->title!!}</a></h4>
             </div>
             <div>
                 {!!$article->text!!}

@@ -1,5 +1,6 @@
 @extends('layout.master')
 @section('content')
+    @if(!Auth::guest() && (Auth::user()->teacher || Auth::user()->admin || Auth::user()->faculty))
     <div class="panel panel-purple">
         <div class="panel-heading">
             <h2 class="heading color-light">users</h2>
@@ -35,4 +36,7 @@
         </table>
         {!!$users->render()!!}
     </div>
+    @else
+        <h2>You must be logged in with permissions to view the user list</h2>
+    @endif
 @stop

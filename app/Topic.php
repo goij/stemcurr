@@ -3,6 +3,7 @@
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use DB;
+use App\Unit;
 
 class Topic extends Model
 {
@@ -70,5 +71,12 @@ class Topic extends Model
         foreach(Question::onlyTrashed()->where("topic_id",'=',$this->id)->get() as $question){
             $question->restore();
         }
+    }
+
+    /**
+     * @return mixed
+     */
+    public function unit(){
+        return Unit::where('grade_id','=',$this->grade_id)->where('subject_id','=',$this->subject_id)->first();
     }
 }

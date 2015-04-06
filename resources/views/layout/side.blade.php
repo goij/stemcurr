@@ -10,7 +10,7 @@
         {{-- Generate links --}}
         <?php
         use App\Unit;?>
-        @foreach(Unit::all() as $unit)
+        @foreach(Auth::user()->units as $unit)
             <tr>
                 <td>
                     <a href="{!! route('unit') . '/' . $unit->id!!}">Grade {!!$unit->grade->number!!} -
@@ -28,15 +28,17 @@
         {{-- Generate links --}}
         <?php
         use App\Topic;?>
-        @foreach(Topic::all() as $topic)
-            <tr>
-                <td>
-                    {!!$topic->id!!}
-                </td>
-                <td>
-                    <a href="{!! route('topic') . '/' . $topic->id!!}">{!!$topic->title!!}</a>
-                </td>
-            </tr>
+        @foreach(Auth::user()->units as $unit)
+            @foreach($unit->topics() as $topic)
+                <tr>
+                    <td>
+                        {!!$topic->id!!}
+                    </td>
+                    <td>
+                        <a href="{!! route('topic') . '/' . $topic->id!!}">{!!$topic->title!!}</a>
+                    </td>
+                </tr>
+            @endforeach
         @endforeach
     </table>
 </div>
@@ -51,8 +53,8 @@
         <li><a href="{!!route('about')!!}"><i class="fa fa-desktop"></i>About</a></li>
         <li><a href="{!!route('topic')!!}"><i class="fa fa-bullhorn"></i>Browse Topics</a></li>
         @if(Auth::guest())
-        <li><a href="{!!route('login')!!}"><i class="fa fa-globe"></i>Log In</a></li>
-        <li><a href="{!!route('register')!!}"><i class="fa fa-globe"></i>Register</a></li>
+            <li><a href="{!!route('login')!!}"><i class="fa fa-globe"></i>Log In</a></li>
+            <li><a href="{!!route('register')!!}"><i class="fa fa-globe"></i>Register</a></li>
         @endif
     </ul>
 </div><!--/who-->

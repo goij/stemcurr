@@ -20,6 +20,7 @@
 
             <section>
                 <label class="input">
+                    <i class="icon-append fa fa-user"></i>
                     <input type="text" name="name" placeholder="Name">
                     <b class="tooltip tooltip-bottom-right">Needed to verify your account</b>
                 </label>

@@ -30,7 +30,13 @@
 
                         <p>{!!$response->evidence!!}</p>
 
+                        <h2>Teacher's Comments</h2>
+
+                        <p>{!!$response->comments!!}</p>
+
                         <h2>Standards</h2>
+
+
                         @foreach($response->standards as $standard)
                             <p>
                                 <a href='{!!$standard->link!!}' target="_blank"><span style="font-weight: bold">{!!$standard->category!!}</span>

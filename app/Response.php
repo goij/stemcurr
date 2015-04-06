@@ -1,8 +1,10 @@
 <?php namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Response extends Model {
+    use SoftDeletes;
 
     /**
      * @var array
@@ -28,6 +30,10 @@ class Response extends Model {
 
     public function user(){
         return $this->belongsTo('App\User');
+    }
+
+    public function question(){
+        return $this->belongsTo('App\Question');
     }
 
 }

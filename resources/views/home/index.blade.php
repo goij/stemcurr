@@ -6,6 +6,12 @@
 @stop
 
 @section('content')
+    @if(Auth::guest())
+        <h2>You are not signed in</h2>
+        <p>Please <a href='{!!route("login")!!}'"><span class="btn btn-u">Sign In</span></a> or  <a href='{!!route("register")!!}'"><span class="btn btn-u btn-u-purple">Register</span></a>  to gain acccess to the features of the STEM curriculum website.</p>
+        <p>Please note, your it may take some time before an admin provides you with access.</p>
+    @endif
+
     <div class="row">
         <div class="col-md-12">
             <div class="headline"><h4>AU STEM Curriculum</h4></div>
@@ -24,27 +30,27 @@
             <div class="headline"><h4>Get Started With AU STEM Curriculum</h4></div>
         </div>
         <div class="col-sm-12 col-md-12">
-            <div class="col-sm-12 col-md-12">
+            <div class="col-sm-4 col-md-4">
+                <p>
+                    <a href='{!!route("unit")!!}' class="btn-u btn-u-purple btn-u-lg btn-block curl-bottom-right" rel="curl-bottom-right" type="button">
+                        <i class="fa fa-location-arrow"></i>
+                        Browse Units
+                    </a>
+                </p>
+            </div>
+            <div class="col-sm-4 col-md-4">
                 <p>
                     <a href='{!!route("topic")!!}' class="btn-u btn-u-lg btn-block btn-u-dark-blue curl-bottom-right" rel="curl-bottom-right" type="button">
                         <i class="fa fa-location-arrow"></i>
-                        Browse The Curriculum
+                        Browse Topics
                     </a>
                 </p>
             </div>
-            <div class="col-sm-12 col-md-6">
+            <div class="col-sm-4 col-md-4">
                 <p>
-                    <a href='{!!route("login")!!}' class="btn-u btn-u-lg btn-u-orange btn-block curl-bottom-right" rel="curl-bottom-right" type="button">
-                        <i class="fa fa-user"></i>
-                        <strong>Login</strong><br>
-                    </a>
-                </p>
-            </div>
-            <div class="col-sm-12 col-md-6">
-                <p>
-                    <a href='{!!route("register")!!}' class="btn-u btn-u-lg btn-u-purple btn-block curl-bottom-right" rel="curl-bottom-right" type="button">
-                        <i class="fa fa-wrench"></i>
-                        <strong>Register</strong><br>
+                    <a href='{!!route("standard")!!}' class="btn-u btn-u-orange btn-u-lg btn-block curl-bottom-right" rel="curl-bottom-right" type="button">
+                        <i class="fa fa-location-arrow"></i>
+                        Browse Standards
                     </a>
                 </p>
             </div>

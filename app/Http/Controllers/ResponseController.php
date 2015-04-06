@@ -5,16 +5,35 @@ use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 use App\Response;
+use Illuminate\Support\Facades\Auth;
+use App\Question;
 class ResponseController extends Controller {
+
+    /**
+     * Whenever this controller is called, protect all the routes except for those defined below
+     * with the faculty middleware.
+     */
+    public function __construct(){
+        $this->middleware('teacher');
+    }
+
 
 	/**
 	 * Display a listing of the resource.
 	 *
 	 * @return Response
 	 */
+    /**
+     * List all the responses for that specific user
+     */
 	public function index()
 	{
-		//
+        $id = Auth::user()->id;
+        $responses = Response::where('user_id','=',$id)->paginate(10);
+        $responses = $responses->filter(function($response){
+            return Question::find($response->question_id);
+        });
+        return view('response.index',['responses'=>$responses]);
 	}
 
 	/**
@@ -49,7 +68,8 @@ class ResponseController extends Controller {
 	 */
 	public function show($id)
 	{
-		//
+		$response = Response::find($id);
+        return view('response.show',['response'=>$response]);
 	}
 
 	/**
@@ -60,7 +80,9 @@ class ResponseController extends Controller {
 	 */
 	public function edit($id)
 	{
-		//
+		$response = Response::find($id);
+        $standard_ids = $response->standards->lists('id');
+        return view('response.edit',['response'=>$response,'standard_ids'=>$standard_ids]);
 	}
 
 	/**
@@ -69,9 +91,23 @@ class ResponseController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function update($id)
+	public function update(Request $request, $id)
 	{
-		//
+        if(Auth::user()->id != $request->user_id){
+            return redirect('/')->withErrors(['User ID in form didn\'t match']);
+        }
+
+        $input = $request->except('_token','standards');
+        $this->validate($request,[
+            'question_id' => 'required|exists:questions,id',
+            'user_id' => 'required|exists:users,id',
+            'comments' => 'required',
+            'evidence' => 'required',
+        ]);
+        $response =  Response::updateOrCreate(['id' => $id], $input);
+
+        $response->standards()->sync($request->get('standards'));
+        return redirect('question')->with('message', "Updated response.");
 	}
 
 	/**
@@ -80,9 +116,13 @@ class ResponseController extends Controller {
 	 * @param  int  $id
 	 * @return Response
 	 */
-	public function destroy($id)
+	public function destroy(Request $request, $id)
 	{
-		//
+        if(Auth::user()->id != $request->user_id ){
+            return redirect('/')->withErrors(['You don\'t own this response, You cannot delete it.']);
+        }
+		Response::destroy($id);
+        return redirect('response');
 	}
 
 }

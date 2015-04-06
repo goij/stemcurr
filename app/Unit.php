@@ -1,4 +1,5 @@
-<?php namespace App;
+<?php
+namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -29,5 +30,9 @@ class Unit extends Model {
      */
     public function grade(){
         return $this->belongsTo('App\Grade');
+    }
+
+    public function topics(){
+        return Topic::where('subject_id','=',$this->subject_id)->where('grade_id','=',$this->grade_id)->get();
     }
 }

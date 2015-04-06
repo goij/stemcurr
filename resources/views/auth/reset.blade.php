@@ -1,59 +1,55 @@
-@extends('app')
+@extends('layout.master')
 
 @section('content')
-<div class="container-fluid">
-	<div class="row">
-		<div class="col-md-8 col-md-offset-2">
-			<div class="panel panel-default">
-				<div class="panel-heading">Reset Password</div>
-				<div class="panel-body">
-					@if (count($errors) > 0)
-						<div class="alert alert-danger">
-							<strong>Whoops!</strong> There were some problems with your input.<br><br>
-							<ul>
-								@foreach ($errors->all() as $error)
-									<li>{{ $error }}</li>
-								@endforeach
-							</ul>
-						</div>
-					@endif
+    <form class="sky-form" role="form" method="POST" action="/password/reset">
+        <header>Reset Password</header>
+        <input type="hidden" name="_token" value="{{ csrf_token() }}">
+        <input type="hidden" name="token" value="{{ $token }}">
+        <fieldset>
+            <section>
+                <div class="row">
+                    <label class="label col col-4">Email</label>
 
-					<form class="form-horizontal" role="form" method="POST" action="/password/reset">
-						<input type="hidden" name="_token" value="{{ csrf_token() }}">
-						<input type="hidden" name="token" value="{{ $token }}">
+                    <div class="col col-8">
+                        <label class="input">
+                            <i class="icon-append fa fa-user"></i>
+                            <input type="email" name="email" placeholder="E-Mail">
+                            <b class="tooltip tooltip-bottom-right">E-Mail address you signed up with</b>
+                        </label>
+                    </div>
+                </div>
+            </section>
 
-						<div class="form-group">
-							<label class="col-md-4 control-label">E-Mail Address</label>
-							<div class="col-md-6">
-								<input type="email" class="form-control" name="email" value="{{ old('email') }}">
-							</div>
-						</div>
+            <section>
+                <div class="row">
+                    <label class="label col col-4">Password</label>
 
-						<div class="form-group">
-							<label class="col-md-4 control-label">Password</label>
-							<div class="col-md-6">
-								<input type="password" class="form-control" name="password">
-							</div>
-						</div>
+                    <div class="col col-8">
+                        <label class="input">
+                            <i class="icon-append fa fa-lock"></i>
+                            <input type="password" name="password" placeholder="Password" id="password">
+                            <b class="tooltip tooltip-bottom-right">Don't forget your password</b>
+                        </label>
+                    </div>
+                </div>
+            </section>
 
-						<div class="form-group">
-							<label class="col-md-4 control-label">Confirm Password</label>
-							<div class="col-md-6">
-								<input type="password" class="form-control" name="password_confirmation">
-							</div>
-						</div>
+            <section>
+                <div class="row">
+                    <label class="label col col-4">Confirm Password</label>
 
-						<div class="form-group">
-							<div class="col-md-6 col-md-offset-4">
-								<button type="submit" class="btn btn-primary">
-									Reset Password
-								</button>
-							</div>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+                    <div class="col col-8">
+                        <label class="input">
+                            <i class="icon-append fa fa-lock"></i>
+                            <input type="password" name="password_confirmation" placeholder="Confirm password">
+                            <b class="tooltip tooltip-bottom-right">Don't forget your password</b>
+                        </label>
+                    </div>
+                </div>
+            </section>
+        </fieldset>
+        <footer>
+            <button type="submit" class="btn-u">Reset Password</button>
+        </footer>
+    </form>
 @endsection

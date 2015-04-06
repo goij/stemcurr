@@ -94,6 +94,17 @@ class UserController extends Controller
 
     }
 
+    public function untrack(Request $request, $id){
+        $user = Auth::user();
+        $user->units()->detach($id);
+        return redirect()->back()->with('message',' Untracked Unit!');
+    }
+    public function track(Request $request,$id){
+        $user = Auth::user();
+        $user->units()->attach($id);
+        return redirect()->back()->with('message',' Tracked Unit!');
+    }
+
     /**
      * @return \Illuminate\View\View
      */
@@ -108,9 +119,15 @@ class UserController extends Controller
      */
     public function postLogin(Request $request)
     {
-        Auth::attempt($request->except('_token'));
+        if(Auth::attempt($request->except('_token'))) {
 
-        return redirect('/')->with('message', ' Welcome back ' . Auth::user()->name);
+            return redirect('/')->with('message', ' Welcome back ' . Auth::user()->name);
+        }
+
+        else{
+            return redirect('/user/login')->withErrors(['Invalid credentials, Please try again.',
+                'If you unable to remember your information, please reset your password.']);
+        }
     }
 
     public function getLogout()

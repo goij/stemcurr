@@ -24,7 +24,7 @@ Route::get('about/index', ['as' => 'about', 'uses' => 'AboutController@getIndex'
 Route::get('about/about',['as'=>'about','uses'=>'AboutController@getAbout']);
 
 /**
- * User auth routes
+ * User routes
  */
 Route::get('user/register', ['as' => 'register', 'uses' => 'UserController@getRegister']);
 Route::get('user/login', ['as' => 'login', 'uses' => 'UserController@getLogin']);
@@ -32,6 +32,8 @@ Route::get('user/logout', ['as' => 'logout', 'uses' => 'UserController@getLogout
 Route::post('user/register', ['as' => 'postreg', 'uses' => 'UserController@postRegister']);
 Route::post('user/login', ['as' => 'postlogin', 'uses' => 'UserController@postLogin']);
 Route::get('user',['as'=>'user', 'uses'=>'UserController@index']);
+Route::get('user/track/{id}',['as'=>'track','uses'=>'UserController@track']);
+Route::get('user/untrack/{id}',['as'=>'untrack','uses'=>'UserController@untrack']);
 Route::resource('user','UserController');
 
 /**

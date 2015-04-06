@@ -2,14 +2,14 @@
 
 <!-- User Specific Panels -->
 <div class="headline">
+    @if(!Auth::guest())
     <h3>Your Units</h3>
     <table class="table table-bordered cus-side-table">
         <tr>
             <th>Unit</th>
         </tr>
         {{-- Generate links --}}
-        <?php
-        use App\Unit;?>
+
         @foreach(Auth::user()->units as $unit)
             <tr>
                 <td>
@@ -26,8 +26,7 @@
             <th>Name</th>
         </tr>
         {{-- Generate links --}}
-        <?php
-        use App\Topic;?>
+
         @foreach(Auth::user()->units as $unit)
             @foreach($unit->topics() as $topic)
                 <tr>
@@ -41,6 +40,7 @@
             @endforeach
         @endforeach
     </table>
+    @endif
 </div>
 
 <!-- End user specific panels -->
@@ -63,8 +63,7 @@
 <!-- News -->
 <div class="blog-twitter">
     <div class="headline"><h3>Latest News</h3></div>
-    <?php use App\News; use App\User; ?>
-    @foreach(News::all() as $article)
+    @foreach(App\News::all() as $article)
         <li class="list-unstyled">
             <div class="headline"><h4><a href="{!!route('news')!!}/{!!$article->id!!}">{!!$article->title!!}</a></h4>
             </div>

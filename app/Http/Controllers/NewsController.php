@@ -88,7 +88,7 @@ class NewsController extends Controller
         $this->validate($request, ['user_id' => 'required|exists:users,id', 'text' => 'required','title'=>'required']);
         News::updateOrCreate(['id' => $id], $input);
 
-        return view('news.index')->with('message', ' Updated news article.');
+        return redirect('news')->with('message', ' Updated news article.');
     }
 
     /**

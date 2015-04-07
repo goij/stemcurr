@@ -30,7 +30,7 @@ class UserController extends Controller
     public function __construct(Guard $auth)
     {
         $this->auth = $auth;
-        $this->middleware('admin', ['except' => ['index', 'show', 'postRegister', 'getRegister', 'getLogin', 'postLogin', 'getLogout', 'getResetPassword']]);
+        $this->middleware('admin', ['except' => ['index','track','untrack', 'show', 'postRegister', 'getRegister', 'getLogin', 'postLogin', 'getLogout', 'getResetPassword']]);
     }
 
     /**

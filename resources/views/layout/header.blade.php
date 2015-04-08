@@ -99,6 +99,9 @@
                             <li><a href="{!!route('user')!!}">Administrate Users</a></li>
                             <li><a href="{!!route('news')!!}">Manage News Articles</a></li>
                             <li><a href="{!!route('news')!!}/create">Create News Article</a></li>
+                            <li><a href="{!!route('notification')!!}">View Users Notification List</a></li>
+                            <li><a href="{!!route('notification')!!}/create">Attach User To Notification</a></li>
+
                         </ul>
                     </li>
                     @endif

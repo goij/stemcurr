@@ -92,8 +92,5 @@ Route::resource('standard','StandardController');
 Route::get('response',['as'=>'response','uses'=>'ResponseController@index']);
 Route::resource('response','ResponseController');
 
-/**
- *
- * END ADMIN ROUTES
- *
- */
+Route::get('notification',['as'=>'notification','uses'=>'NotificationController@index']);
+Route::resource('notification','NotificationController');

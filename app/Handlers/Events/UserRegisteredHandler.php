@@ -6,34 +6,48 @@ use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldBeQueued;
 use Mail;
 use App\User;
-class UserRegisteredHandler implements ShouldBeQueued {
+use App\Notification;
 
-	use InteractsWithQueue;
+class UserRegisteredHandler implements ShouldBeQueued
+{
+
+    use InteractsWithQueue;
 
     /**
      *
      */
-	public function __construct()
-	{
-		//
-	}
+    public function __construct()
+    {
+        //
+    }
 
-	/**
-	 * Handle the event.
-	 *
-	 * @param  UserRegistered  $event
-	 * @return void
-	 */
-	public function handle(UserRegistered $event)
-	{
+    /**
+     * Handle the event.
+     *
+     * @param  UserRegistered $event
+     * @return void
+     */
+    public function handle(UserRegistered $event)
+    {
+        $username = $event->user_data['username'];
+        $name = $event->user_data['name'];
         User::create(
-            ["username"=>$event->user_data['username'],
-            "name"=>$event->user_data['name'],
-            "email"=>$event->user_data['email'],
-            "password"=>bcrypt($event->user_data['password'])]);
-		Mail::queue('mail.register', ['username' =>$event->user_data['username']], function($message){
-			$message->to('mmichaels01@aurora.edu');
-		});
-	}
+            ["username" => $event->user_data['username'],
+                "name" => $event->user_data['name'],
+                "email" => $event->user_data['email'],
+                "password" => bcrypt($event->user_data['password'])]);
+
+        Mail::queue('mail.register', ['username' => $username], function ($message) {
+            $message->to('mmichaels01@aurora.edu');
+        });
+
+        //Send an e-mail to each user subscribed to the notification list
+        foreach (Notification::all() as $notification) {
+            Mail::queue('mail.user_registered', ['username' => $username,'name'=>$name], function ($message) use ($notification) {
+                $message->to($notification->user->email);
+            });
+        }
+
+    }
 
 }

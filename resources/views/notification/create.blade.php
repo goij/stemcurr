@@ -13,7 +13,9 @@
                     <label class="select">
                         <select name="user_id">
                             @foreach(App\User::all() as $user)
+                                @if($user->admin)
                                 <option value="{!!$user->id!!}">{!!$user->name!!} - {!!$user->username!!}</option>
+                                @endif
                             @endforeach
                         </select>
                         <i></i>

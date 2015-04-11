@@ -15,9 +15,9 @@ return [
     |
     */
 
-    //'driver' => 'sendmail',
+    'driver' => 'sendmail',
     // Use log for testing purposes
-    'driver' => 'log',
+    //'driver' => 'log',
 
     /*
     |--------------------------------------------------------------------------

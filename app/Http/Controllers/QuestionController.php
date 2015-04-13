@@ -59,7 +59,8 @@ class QuestionController extends Controller {
         foreach($topics as $topic){
             $topics_list[$topic->id] = "Grade " . $topic->grade->number . " - " . $topic->subject->name . " - "  . $topic->title;
         }
-		return view('question.create',['standards'=>$standards,'topics'=>$topics_list]);
+		$categories = DB::table('standards')->distinct()->lists('category');
+		return view('question.create',['standards'=>$standards,'categories'=>$categories,'topics'=>$topics_list]);
 	}
 
 

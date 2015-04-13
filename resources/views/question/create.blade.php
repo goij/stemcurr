@@ -42,6 +42,12 @@
                             @endforeach
                         </div>
                     </fieldset>
+                    <fieldset>
+                        <div class="col-md-12">
+                            <h2>Standards Tabs</h2>
+                            @include('standard.form')
+                        </div>
+                    </fieldset>
                     <footer>
                         <div class="col-md-6 col-sm-12">
                             <button type="submit" class="btn-u btn-u-green btn-block curl-bottom-right">Create Question</button>

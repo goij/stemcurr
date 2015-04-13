@@ -32,6 +32,10 @@
 
                         <p>{!!$response->evidence!!}</p>
 
+                        <h2>Assessment</h2>
+
+                        <p>{!!$response->assessment!!}</p>
+
                         <h2>Teacher's Comments</h2>
 
                         <p>{!!$response->comments!!}</p>
@@ -63,6 +67,12 @@
                             <label class="label">Update or Submit New Evidence of Learning</label>
                             <label class="textarea">
                                 {!!Form::textarea('evidence',null,['placeholder'=>'Evidence of Learning'])!!}
+                            </label>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <label class="label">Assessment</label>
+                            <label class="textarea">
+                                {!!Form::textarea('assessment',null,['placeholder'=>'Assessment'])!!}
                             </label>
                         </div>
                         <div class="col-md-12 col-sm-12">

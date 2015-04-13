@@ -1,7 +1,7 @@
 @extends('layout.master')
 @section('content')
     @if(isset($unit))
-        <div class="panel panel-purple">
+        <div class="panel panel-sea">
             <div class="panel-heading">
                 <h2 class="heading color-light">{!!$unit->subject->name!!} - Grade {!!$unit->grade->string!!}</h2>
             </div>

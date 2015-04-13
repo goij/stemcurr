@@ -54,7 +54,7 @@ class ResponseController extends Controller {
      */
 	public function store(Request $request)
 	{
-		$input = $request->only(['evidence','comments','user_id','question_id']);
+		$input = $request->only(['evidence','comments','assessment','user_id','question_id']);
         $response = Response::create($input);
         $response->standards()->sync($request->get('standards'));
         return redirect()->back()->with('message',' Submitted response!<br> Thank you for your feedback!');
@@ -103,11 +103,12 @@ class ResponseController extends Controller {
             'user_id' => 'required|exists:users,id',
             'comments' => 'required',
             'evidence' => 'required',
+            'assessment' => 'required',
         ]);
         $response =  Response::updateOrCreate(['id' => $id], $input);
 
         $response->standards()->sync($request->get('standards'));
-        return redirect('question')->with('message', "Updated response.");
+        return redirect('response')->with('message', "Updated response.");
 	}
 
 	/**

@@ -23,6 +23,12 @@
                         </label>
                     </div>
                     <div class="col-md-12 col-sm-12">
+                        <label class="label">Assessment</label>
+                        <label class="textarea">
+                            {!!Form::textarea('assessment',null,['placeholder'=>'Assessment'])!!}
+                        </label>
+                    </div>
+                    <div class="col-md-12 col-sm-12">
                         <label class="label">Comments</label>
                         <label class="textarea">
                             {!!Form::textarea('comments',null,['placeholder'=>'Comments About Exercise'])!!}

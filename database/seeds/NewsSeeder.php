@@ -18,9 +18,8 @@ class NewsSeeder extends Seeder
     {
         DB::table('news')->delete();
 
-        News::create(['title'=>'News 1','text'=>'News article 1 blah blah blah blah blahNews article 1 blah blah blah blah blahNews article 1 blah blah blah blah blahNews article 1 blah blah blah blah blah','user_id'=>1]);
-        News::create(['title'=>'News 2','text'=>'News article 2 blah blah blah blah blahNews article 2 blah blah blah blah blahNews article 2 blah blah blah blah blahNews article 2 blah blah blah blah blah','user_id'=>1]);
-        News::create(['title'=>'News 3','text'=>'News article 2 blah blah blah blah blahNews article 2blah blah blah blah blahNews article 2 blah blah blah blah blahNews article 2 blah blah blah blah blah','user_id'=>1]);
+        News::create(['title'=>'Revisions','text'=>'Added assessment section in responses. Investigating file IO. Changed smiller to sjmiller in the database. Changed purple to "sea".','user_id'=>1]);
+        News::create(['title'=>'Next On Agenda','text'=>'Investigating response file attachments and possible excel spreadsheet for standards. Compact standards list to expandable tabs.','user_id'=>1]);
 
     }
 }

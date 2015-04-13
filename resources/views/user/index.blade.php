@@ -1,7 +1,7 @@
 @extends('layout.master')
 @section('content')
     @if(!Auth::guest() && (Auth::user()->teacher || Auth::user()->admin || Auth::user()->faculty))
-    <div class="panel panel-purple">
+    <div class="panel panel-sea">
         <div class="panel-heading">
             <h2 class="heading color-light">users</h2>
         </div>

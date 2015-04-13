@@ -17,7 +17,7 @@ class Response extends Model {
     /**
      * @var array
      */
-    protected $fillable = ['user_id','question_id','evidence','comments'];
+    protected $fillable = ['user_id','question_id','evidence','comments','assessment'];
 
     /**
      * Custom defintion of pivot table and associated keys is necessary

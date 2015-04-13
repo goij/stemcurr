@@ -31,14 +31,15 @@ class UserRegisteredHandler implements ShouldBeQueued
     {
         $username = $event->user_data['username'];
         $name = $event->user_data['name'];
+        $email = $event->user_data['email'];
         User::create(
             ["username" => $event->user_data['username'],
                 "name" => $event->user_data['name'],
                 "email" => $event->user_data['email'],
                 "password" => bcrypt($event->user_data['password'])]);
 
-        Mail::queue('mail.register', ['username' => $username], function ($message) {
-            $message->to('mmichaels01@aurora.edu');
+        Mail::queue('mail.register', ['username' => $username], function ($message) use ($email) {
+            $message->to($email);
         });
 
         //Send an e-mail to each user subscribed to the notification list

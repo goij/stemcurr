@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b58aa818-7bbd-4a43-9016-e9b8dd1f3dbd" name="Default" comment="Updating 4.2 project to 5.0">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2015_04_05_105752_create_responses_table.php" afterPath="$PROJECT_DIR$/database/migrations/2015_04_05_105752_create_responses_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/GradesSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/GradesSeeder.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/NewsSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/NewsSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Response.php" afterPath="$PROJECT_DIR$/app/Response.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ResponseController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ResponseController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/TopicsSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/TopicsSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/UnitsSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/UnitsSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/UsersSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/UsersSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/response/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/response/edit.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/home/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/home/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/unit/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/unit/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/user/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/user/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/question/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/question/show.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/response/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/response/show.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/unit/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/unit/show.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/unit/showprint.blade.php" afterPath="$PROJECT_DIR$/resources/views/unit/showprint.blade.php" />
     </list>
     <ignored path="stemcurr.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewsSeeder.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NewsSeeder.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/database/seeds/NewsSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="391">
-              <caret line="21" column="150" selection-start-line="21" selection-start-column="150" selection-end-line="21" selection-end-column="150" />
+            <state vertical-scroll-proportion="0.38699186" vertical-offset="0" max-vertical-offset="615">
+              <caret line="21" column="184" selection-start-line="21" selection-start-column="184" selection-end-line="21" selection-end-column="184" />
               <folding />
             </state>
           </provider>
@@ -88,10 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResponseController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ResponseController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ResponseController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.52707005" vertical-offset="1437" max-vertical-offset="2193">
+            <state vertical-scroll-proportion="-12.730769" vertical-offset="1437" max-vertical-offset="2193">
               <caret line="110" column="33" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="33" />
               <folding />
             </state>
@@ -154,9 +139,9 @@
         <option value="$PROJECT_DIR$/resources/views/user/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/home/index.blade.php" />
         <option value="$PROJECT_DIR$/database/seeds/TopicsSeeder.php" />
-        <option value="$PROJECT_DIR$/database/seeds/NewsSeeder.php" />
         <option value="$PROJECT_DIR$/resources/views/question/show.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ResponseController.php" />
+        <option value="$PROJECT_DIR$/database/seeds/NewsSeeder.php" />
       </list>
     </option>
   </component>
@@ -835,14 +820,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/NewsSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="391">
-          <caret line="21" column="150" selection-start-line="21" selection-start-column="150" selection-end-line="21" selection-end-column="150" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/question/show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.423077" vertical-offset="987" max-vertical-offset="2074">
@@ -853,8 +830,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ResponseController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52707005" vertical-offset="1437" max-vertical-offset="2193">
+        <state vertical-scroll-proportion="-12.730769" vertical-offset="1437" max-vertical-offset="2193">
           <caret line="110" column="33" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/NewsSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38699186" vertical-offset="0" max-vertical-offset="615">
+          <caret line="21" column="184" selection-start-line="21" selection-start-column="184" selection-end-line="21" selection-end-column="184" />
           <folding />
         </state>
       </provider>

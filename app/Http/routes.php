@@ -102,5 +102,6 @@ Route::resource('notification','NotificationController');
  * Asset routes
  */
 Route::get('asset',['as'=>'asset','uses'=>'AssetController@index']);
-Route::get('asset/admin-index',['as'=>'asset_admin','uses'=>'AssetController@adminIindex']);
+Route::get('asset/download/{user}/{file}',['uses'=>'AssetController@download']);
+Route::get('asset/admin-index',['as'=>'admin_asset','uses'=>'AssetController@adminIndex']);
 Route::resource('asset','AssetController');

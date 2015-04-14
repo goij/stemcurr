@@ -86,7 +86,7 @@ class UserController extends Controller
     public function postRegister(Request $request)
     {
         $this->validate($request, [
-                'username' => 'required|max:32|unique:users',
+                'username' => 'required|max:32|alpha_num|unique:users',
                 'name' => 'required|max:255',
                 'email' => 'required|email|max:255|unique:users',
                 'password' => 'required|confirmed|min:6|max:32']

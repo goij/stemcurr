@@ -12,7 +12,7 @@
                 @if(!Auth::guest() && Auth::user()->teacher)
                     <th>Track</th>
                 @endif
-            @if(!Auth::guest() && Auth::user()->faculty)
+                @if(!Auth::guest() && Auth::user()->faculty)
                     <th>Actions</th>
                 @endif
             </tr>
@@ -25,11 +25,12 @@
 
                     @if(!Auth::guest() && Auth::user()->teacher)
                         <td>
-                        @if(in_array($unit->id,Auth::user()->units->lists('id')))
-                            <a href="{!!route('user').'/untrack/'. $unit->id!!}" class="btn btn-u btn-u-red btn-block">Untrack</a>
-                        @else
-                            <a href="{!!route('user').'/track/'. $unit->id!!}" class="btn btn-u btn-block">Track</a>
-                        @endif
+                            @if(in_array($unit->id,Auth::user()->units->lists('id')))
+                                <a href="{!!route('user').'/untrack/'. $unit->id!!}"
+                                   class="btn btn-u btn-u-red btn-block">Untrack</a>
+                            @else
+                                <a href="{!!route('user').'/track/'. $unit->id!!}" class="btn btn-u btn-block">Track</a>
+                            @endif
                         </td>
                     @endif
                     @if(!Auth::guest() && Auth::user()->faculty)

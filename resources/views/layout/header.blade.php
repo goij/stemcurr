@@ -63,7 +63,9 @@
                             Teachers
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="{!!route('response')!!}">Your Responses</a></li>
+                            <li><a href="{{route('response')}}">Your Responses</a></li>
+                            <li><a href="{{route('asset')}}/create">Upload Assets</a></li>
+                            <li><a href="{{route('asset')}}">Manage Your Assets</a></li>
                         </ul>
                     </li>
                     <!-- End topics -->
@@ -101,7 +103,7 @@
                             <li><a href="{!!route('news')!!}/create">Create News Article</a></li>
                             <li><a href="{!!route('notification')!!}">View Users Notification List</a></li>
                             <li><a href="{!!route('notification')!!}/create">Attach User To Notification</a></li>
-
+                            <li><a href="{{route('admin_asset')}}">Manage Uploaded Assets</a></li>
                         </ul>
                     </li>
                     @endif

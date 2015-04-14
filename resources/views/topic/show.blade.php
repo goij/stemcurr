@@ -30,7 +30,7 @@
                                 <td>
 
                                     @foreach($topic->standards() as $standard)
-                                        <a href='{!!$standard->link!!}' target="_blank">{!!$standard->category!!} -
+                                        <a href='{!!$standard->link!!}' target="_blank">{{$standard->categoryName()}} -
                                             {!!$standard->name!!}</a><br>
                                     @endforeach
 
@@ -76,7 +76,7 @@
                                     @foreach($question->standards as $standard)
                                         <p>
                                             <a href='{!!$standard->link!!}' target="_blank"><span
-                                                        style="font-weight: bold">{!!$standard->category!!}</span> -
+                                                        style="font-weight: bold">{{$standard->categoryName()}}</span> -
                                                 {!!$standard->name!!}</a>
                                         </p>
                                     @endforeach

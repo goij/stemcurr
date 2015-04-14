@@ -34,17 +34,7 @@
                     </fieldset>
                     <fieldset>
                         <div class="col-md-12">
-                            <label class="label">Standards</label>
-                            @foreach($standards as $standard)
-                                <label class="checkbox">
-                                {!!Form::checkbox('standards[]', $standard->id, false)!!}<i></i><span style="font-weight: bold">{!!$standard->category!!}</span> - {!!$standard->name!!}
-                                </label>
-                            @endforeach
-                        </div>
-                    </fieldset>
-                    <fieldset>
-                        <div class="col-md-12">
-                            <h2>Standards Tabs</h2>
+                            <h2>Standards</h2>
                             @include('standard.form')
                         </div>
                     </fieldset>

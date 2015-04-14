@@ -29,7 +29,7 @@
                 <h2>Standards You Fulfilled</h2>
                 <ul class="list">
                     @foreach($response->standards as $standard)
-                        <li><a href="{!!$standard->link!!}">{!!$standard->category!!} - {!!$standard->name!!}</a></li>
+                        <li><a href="{!!$standard->link!!}">{{$standard->categoryName()}} - {!!$standard->name!!}</a></li>
                     @endforeach
                 </ul>
             </div>

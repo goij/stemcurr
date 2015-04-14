@@ -16,7 +16,7 @@
             @foreach($standards as $standard)
                 <tr>
                     <td> <a href="{!!route('standard') . '/' . $standard->id !!}">{!!$standard->name!!}</a></td>
-                    <td>{!!$standard->category!!}</td>
+                    <td>{{$standard->categoryName()}}</td>
                     <td><a href='{!!$standard->link!!}' target="_blank">{!!$standard->link!!}</a></td>
                     @if(!Auth::guest() && Auth::user()->faculty)
                     <td>

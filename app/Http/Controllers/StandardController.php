@@ -48,7 +48,7 @@ class StandardController extends Controller {
 
         $this->validate($request,
             ['name' => "required|unique:standards",
-            'category' => "required",
+            'category_id' => "required|exists:categories,id",
             'link' => "required"]);
 
         Standard::create($input);

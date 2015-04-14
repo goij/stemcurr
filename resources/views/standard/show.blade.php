@@ -12,7 +12,7 @@
                 </p>
                 <p>
                     <h2>Category</h2>
-                    {!!$standard->category!!}
+                    {{$standard->categoryName()}}
                 </p>
                 <p>
                     <h2>Link</h2>

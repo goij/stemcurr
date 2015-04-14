@@ -92,5 +92,15 @@ Route::resource('standard','StandardController');
 Route::get('response',['as'=>'response','uses'=>'ResponseController@index']);
 Route::resource('response','ResponseController');
 
+/**
+ * Notification routes
+ */
 Route::get('notification',['as'=>'notification','uses'=>'NotificationController@index']);
 Route::resource('notification','NotificationController');
+
+/**
+ * Asset routes
+ */
+Route::get('asset',['as'=>'asset','uses'=>'AssetController@index']);
+Route::get('asset/admin-index',['as'=>'asset_admin','uses'=>'AssetController@adminIindex']);
+Route::resource('asset','AssetController');

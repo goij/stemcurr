@@ -38,20 +38,8 @@
                 </fieldset>
                 <fieldset>
                     <div class="col-md-12">
-                        <label class="label">Standards That You Fulfilled In This Exercise</label>
-                        @foreach(App\Standard::all() as $standard)
-                            <label class="checkbox">
-
-                                <input type="checkbox" name="standards[]" value="{!!$standard->id!!}"
-                                @if(in_array($standard->id, $standard_ids))
-                                       checked
-                                        @endif
-                                        >
-
-                                <i></i><span style="font-weight: bold">{!!$standard->category!!}</span> -
-                                {!!$standard->name!!}
-                            </label>
-                        @endforeach
+                        <h2>Standards</h2>
+                        @include('standard.form')
                     </div>
                 </fieldset>
                 <footer>

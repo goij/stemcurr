@@ -22,8 +22,17 @@
                 </div>
                 <div class="col-md-12 col-sm-12">
                     <label class="label">Category</label>
-                    <label class="input">
-                        {!!Form::text('category',null,['placeholder'=>'Category'])!!}
+                    <label class="select">
+                        <select name="category_id">
+                            @foreach(App\Category::all() as $category)
+                                <option value="{{$category->id}}"
+                                @if($standard->category_id == $category->id)
+                                    selected
+                                @endif
+                                        >{{$category->name}}</option>
+                            @endforeach
+                        </select>
+                        <i></i>
                     </label>
                 </div>
                 <div class="col-md-12 col-sm-12">

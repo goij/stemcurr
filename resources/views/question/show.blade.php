@@ -13,7 +13,7 @@
                 <h2>Standards</h2>
                 @foreach($question->standards as $standard)
                     <p>
-                        <a href='{!!$standard->link!!}' target="_blank"><span style="font-weight: bold">{!!$standard->category!!}</span>
+                        <a href='{!!$standard->link!!}' target="_blank"><span style="font-weight: bold">{!!$standard->categoryName()!!}</span>
                             - {!!$standard->name!!}</a>
                     </p>
                 @endforeach
@@ -45,7 +45,7 @@
 
                         @foreach($response->standards as $standard)
                             <p>
-                                <a href='{!!$standard->link!!}' target="_blank"><span style="font-weight: bold">{!!$standard->category!!}</span>
+                                <a href='{!!$standard->link!!}' target="_blank"><span style="font-weight: bold">{{$standard->categoryName()}}</span>
                                     - {!!$standard->name!!}</a>
                             </p>
                         @endforeach
@@ -82,23 +82,11 @@
                             </label>
                         </div>
                     </fieldset>
-                    </fieldset>
+
                     <fieldset>
                         <div class="col-md-12">
-                            <label class="label">Standards That You Fulfilled In This Exercise</label>
-                            @foreach(App\Standard::all() as $standard)
-                                <label class="checkbox">
-
-                                    <input type="checkbox" name="standards[]" value="{!!$standard->id!!}"
-                                    @if(in_array($standard->id, $standard_ids))
-                                           checked
-                                            @endif
-                                            >
-
-                                    <i></i><span style="font-weight: bold">{!!$standard->category!!}</span> -
-                                    {!!$standard->name!!}
-                                </label>
-                            @endforeach
+                            <h2>Standards</h2>
+                            @include('standard.form')
                         </div>
                     </fieldset>
                     <footer>

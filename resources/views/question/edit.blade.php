@@ -18,6 +18,7 @@
                     <label class="label">Topic</label>
                     <label class="select">
                         {!!Form::select('topic_id',$topics)!!}
+                        <i></i>
                     </label>
                 </div>
                 <div class="col-md-12 col-sm-12">
@@ -33,17 +34,10 @@
                     </label>
                 </div>
             </fieldset>
-            </fieldset>
             <fieldset>
                 <div class="col-md-12">
-                    <label class="label">Standards</label>
-                    @foreach($standards as $standard)
-                        <label class="checkbox">
-                            {!!Form::checkbox('standards[]', $standard->id,
-                            in_array($standard->id, $standard_ids))
-                            !!}<i></i><span style="font-weight: bold">{!!$standard->category!!}</span> - {!!$standard->name!!}
-                        </label>
-                    @endforeach
+                    <h2>Standards</h2>
+                    @include('standard.form')
                 </div>
             </fieldset>
             <footer>

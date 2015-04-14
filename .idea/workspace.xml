@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b58aa818-7bbd-4a43-9016-e9b8dd1f3dbd" name="Default" comment="Updating 4.2 project to 5.0">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/asset/admin_index.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/asset/create.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/asset/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="DELETED" beforePath="D:\XAMPP\htdocs\stemcurr\database\migrations\2015_03_30_133812_create_standards_table.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\XAMPP\htdocs\stemcurr\database\migrations\2015_03_30_135209_create_question_standard_table.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="stemcurr.iws" />
@@ -37,41 +35,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AssetController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AssetController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.62261146" vertical-offset="0" max-vertical-offset="1564">
-              <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/asset/create.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102">
-              <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/asset/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102">
-              <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.884615" vertical-offset="1055" max-vertical-offset="1734">
-              <caret line="103" column="58" selection-start-line="103" selection-start-column="58" selection-end-line="103" selection-end-column="58" />
+            <state vertical-scroll-proportion="25.76923" vertical-offset="721" max-vertical-offset="1887">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2015_04_14_033322_create_category_table.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2015_04_14_033322_create_category_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.60850114" vertical-offset="0" max-vertical-offset="894">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -85,57 +63,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Topic.php" />
-        <option value="$PROJECT_DIR$/app/Question.php" />
-        <option value="$PROJECT_DIR$/resources/views/response/index.blade.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_04_06_033225_create_teacher_unit_table.php" />
-        <option value="$PROJECT_DIR$/app/User.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_04_06_033225_create_unit_user_table.php" />
-        <option value="$PROJECT_DIR$/app/Unit.php" />
-        <option value="$PROJECT_DIR$/public/css/custom.css" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/UnitController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/TopicController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/StandardController.php" />
-        <option value="$PROJECT_DIR$/resources/views/standard/index.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/user/show.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layout/side.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layout/footer.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/topic/show.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/NewsController.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_04_08_152713_create_user_notifiction.php" />
-        <option value="$PROJECT_DIR$/app/Notification.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/NotificationController.php" />
-        <option value="$PROJECT_DIR$/resources/views/notification/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Handlers/Events/UserRegisteredHandler.php" />
-        <option value="$PROJECT_DIR$/resources/views/mail/user_registered.blade.php" />
-        <option value="$PROJECT_DIR$/storage/logs/laravel.log" />
-        <option value="$PROJECT_DIR$/resources/views/notification/create.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layout/header.blade.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2015_04_05_105752_create_responses_table.php" />
-        <option value="$PROJECT_DIR$/app/Response.php" />
-        <option value="$PROJECT_DIR$/resources/views/response/edit.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/response/show.blade.php" />
-        <option value="$PROJECT_DIR$/database/seeds/GradesSeeder.php" />
-        <option value="$PROJECT_DIR$/database/seeds/UsersSeeder.php" />
-        <option value="$PROJECT_DIR$/database/seeds/UnitsSeeder.php" />
-        <option value="$PROJECT_DIR$/resources/views/unit/index.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/unit/show.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/unit/showprint.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/user/index.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2015_04_14_033322_create_category_table.php" />
+        <option value="$PROJECT_DIR$/app/Standard.php" />
         <option value="$PROJECT_DIR$/resources/views/home/index.blade.php" />
-        <option value="$PROJECT_DIR$/database/seeds/TopicsSeeder.php" />
-        <option value="$PROJECT_DIR$/resources/views/question/show.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ResponseController.php" />
-        <option value="$PROJECT_DIR$/database/seeds/NewsSeeder.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/QuestionController.php" />
+        <option value="$PROJECT_DIR$/resources/views/layout/footer.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layout/header.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layout/master.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layout/script.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layout/side.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layout/style.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/mail/register.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/mail/user_registered.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/news/create.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/news/edit.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/news/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/news/show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/notification/create.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/notification/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/notification/show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/question/enable.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/response/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/topic/create.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/topic/edit.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/topic/enable.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/topic/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/topic/showprint.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/topic/topics.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/unit/edit.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/unit/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/unit/showprint.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/user/edit.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/user/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/user/login.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/user/register.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/user/show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/question/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/standard/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/standard/show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/response/show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/standard/create.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/standard/edit.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/StandardController.php" />
         <option value="$PROJECT_DIR$/resources/views/question/create.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/QuestionController.php" />
+        <option value="$PROJECT_DIR$/resources/views/question/edit.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/question/show.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/standard/form.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/asset/admin_index.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/asset/index.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/asset/create.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/AssetController.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/resources/views/unit/show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/topic/show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/response/edit.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ResponseController.php" />
+        <option value="$PROJECT_DIR$/database/seeds/StandardsSeeder.php" />
       </list>
     </option>
   </component>
@@ -151,8 +129,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -282,7 +260,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="asset" />
+              <option name="myItemId" value="unit" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -297,6 +275,122 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="topic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stemcurr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stemcurr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="response" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stemcurr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stemcurr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="question" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stemcurr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stemcurr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stemcurr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stemcurr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stemcurr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stemcurr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seeds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stemcurr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stemcurr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -370,9 +464,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\XAMPP\htdocs\stemcurr\database\seeds" />
       <recent name="D:\XAMPP\htdocs\stemcurr\resources\views\mail" />
       <recent name="D:\XAMPP\htdocs\stemcurr\resources\views\notification" />
-      <recent name="D:\XAMPP\htdocs\stemcurr\database\seeds" />
       <recent name="D:\XAMPP\htdocs\stemcurr\resources\views\topic" />
       <recent name="D:\XAMPP\htdocs\stemcurr\resources\views\layout" />
     </key>
@@ -397,15 +491,16 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
+      <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -443,18 +538,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2515625" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32844576" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32805908" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25036603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2515625" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -464,9 +559,9 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -489,405 +584,431 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/database/seeds/CategorySeeder.php</url>
+          <line>8</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/StandardController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39932886" vertical-offset="0" max-vertical-offset="2023">
-          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layout/master.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2852349" vertical-offset="255" max-vertical-offset="1156">
-          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+        <state vertical-scroll-proportion="-7.8076925" vertical-offset="443" max-vertical-offset="1156">
+          <caret line="38" column="58" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Standard.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/layout/script.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="920">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/question/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="920">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7035794" vertical-offset="0" max-vertical-offset="894">
-          <caret line="42" column="68" selection-start-line="42" selection-start-column="68" selection-end-line="42" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/user/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58948547" vertical-offset="0" max-vertical-offset="894">
-          <caret line="31" column="76" selection-start-line="31" selection-start-column="76" selection-end-line="31" selection-end-column="76" />
+        <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="612">
+          <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layout/side.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="1462">
-          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        <state vertical-scroll-proportion="-7.8076925" vertical-offset="52" max-vertical-offset="1462">
+          <caret line="15" column="63" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layout/footer.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/layout/style.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1564">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="442">
+          <caret line="1" column="58" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Topic.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/mail/register.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3914989" vertical-offset="602" max-vertical-offset="1496">
-          <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/topic/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46829268" vertical-offset="1038" max-vertical-offset="1666">
-          <caret line="78" column="59" selection-start-line="78" selection-start-column="59" selection-end-line="78" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UnitController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.8933121" vertical-offset="561" max-vertical-offset="2142">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/NewsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9745223" vertical-offset="1020" max-vertical-offset="1853">
-          <caret line="100" column="5" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_04_06_033225_create_unit_user_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13821138" vertical-offset="85" max-vertical-offset="2533">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="33" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Events/UserRegistered.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="654">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="119">
+          <caret line="0" column="41" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/mail/user_registered.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.027070064" vertical-offset="0" max-vertical-offset="628">
-          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Handlers/Events/UserRegisteredHandler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0" vertical-offset="167" max-vertical-offset="901">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/logs/laravel.log">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8836944" vertical-offset="219256" max-vertical-offset="220133">
-          <caret line="12943" column="0" selection-start-line="12943" selection-start-column="0" selection-end-line="12943" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layout/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21496816" vertical-offset="1684" max-vertical-offset="2312">
-          <caret line="107" column="26" selection-start-line="107" selection-start-column="26" selection-end-line="107" selection-end-column="26" />
+        <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="119">
+          <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_04_08_152713_create_user_notifiction.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/news/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35031846" vertical-offset="35" max-vertical-offset="663">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="782">
+          <caret line="11" column="98" selection-start-line="11" selection-start-column="98" selection-end-line="11" selection-end-column="98" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/notification/create.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/news/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32324842" vertical-offset="52" max-vertical-offset="680">
-          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+        <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="782">
+          <caret line="11" column="112" selection-start-line="11" selection-start-column="112" selection-end-line="11" selection-end-column="112" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_04_05_105752_create_responses_table.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/news/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.115385" vertical-offset="137" max-vertical-offset="765">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        <state vertical-scroll-proportion="-7.8076925" vertical-offset="103" max-vertical-offset="799">
+          <caret line="18" column="70" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Response.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/news/show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="748">
-          <caret line="19" column="85" selection-start-line="19" selection-start-column="85" selection-end-line="19" selection-end-column="85" />
+        <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="476">
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/response/edit.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/notification/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="1224">
-          <caret line="27" column="91" selection-start-line="27" selection-start-column="91" selection-end-line="27" selection-end-column="91" />
+        <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="578">
+          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/response/show.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/notification/show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="731">
-          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+        <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="493">
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/response/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/question/enable.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-8.384615" vertical-offset="71" max-vertical-offset="680">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/GradesSeeder.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/topic/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="476">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        <state vertical-scroll-proportion="-7.8076925" vertical-offset="35" max-vertical-offset="1649">
+          <caret line="15" column="107" selection-start-line="15" selection-start-column="107" selection-end-line="15" selection-end-column="107" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/QuestionsSeeder.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/topic/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-7.8076925" vertical-offset="18" max-vertical-offset="1785">
+          <caret line="14" column="117" selection-start-line="14" selection-start-column="117" selection-end-line="14" selection-end-column="117" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/QuestionStandardSeeder.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/topic/enable.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="654">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-8.384615" vertical-offset="71" max-vertical-offset="680">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/StandardsSeeder.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/topic/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="641">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-7.8076925" vertical-offset="120" max-vertical-offset="782">
+          <caret line="19" column="69" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/SubjectsSeeder.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/topic/showprint.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="654">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="1547">
+          <caret line="5" column="65" selection-start-line="5" selection-start-column="65" selection-end-line="5" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/UsersSeeder.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/topic/topics.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="408">
-          <caret line="18" column="156" selection-start-line="18" selection-start-column="156" selection-end-line="18" selection-end-column="156" />
+        <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="1411">
+          <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/unit/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="1156">
+          <caret line="14" column="105" selection-start-line="14" selection-start-column="105" selection-end-line="14" selection-end-column="105" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/unit/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="867">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/unit/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="2414">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state vertical-scroll-proportion="-7.8076925" vertical-offset="137" max-vertical-offset="867">
+          <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/unit/showprint.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="2363">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="2363">
+          <caret line="5" column="70" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/user/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="952">
+          <caret line="14" column="105" selection-start-line="14" selection-start-column="105" selection-end-line="14" selection-end-column="105" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/user/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08121019" vertical-offset="0" max-vertical-offset="816">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        <state vertical-scroll-proportion="-7.8076925" vertical-offset="171" max-vertical-offset="816">
+          <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/user/login.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27642277" vertical-offset="0" max-vertical-offset="1343">
-          <caret line="10" column="164" selection-start-line="10" selection-start-column="164" selection-end-line="10" selection-end-column="164" />
+        <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="850">
+          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/NewsSeeder.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/user/register.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38699186" vertical-offset="0" max-vertical-offset="615">
-          <caret line="21" column="184" selection-start-line="21" selection-start-column="184" selection-end-line="21" selection-end-column="184" />
+        <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="1088">
+          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/TopicsSeeder.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/user/show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.055284552" vertical-offset="68" max-vertical-offset="2380">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.49440715" vertical-offset="0" max-vertical-offset="894">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/UnitsSeeder.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/question/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4650407" vertical-offset="0" max-vertical-offset="1037">
-          <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.36129755" vertical-offset="0" max-vertical-offset="894">
+          <caret line="19" column="122" selection-start-line="19" selection-start-column="122" selection-end-line="19" selection-end-column="122" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/question/show.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/standard/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43152866" vertical-offset="987" max-vertical-offset="2074">
-          <caret line="74" column="95" selection-start-line="74" selection-start-column="95" selection-end-line="74" selection-end-column="95" />
+        <state vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="697">
+          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ResponseController.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/response/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52707005" vertical-offset="1437" max-vertical-offset="2193">
-          <caret line="110" column="33" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.48657718" vertical-offset="24" max-vertical-offset="918">
+          <caret line="27" column="48" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/response/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58948547" vertical-offset="0" max-vertical-offset="894">
+          <caret line="31" column="89" selection-start-line="31" selection-start-column="89" selection-end-line="31" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/standard/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="493">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/notification/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="680">
+          <caret line="8" column="106" selection-start-line="8" selection-start-column="106" selection-end-line="8" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/standard/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.961538" vertical-offset="0" max-vertical-offset="986">
+          <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+          <folding>
+            <marker date="1428985119478" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/standard/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39932886" vertical-offset="0" max-vertical-offset="894">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="29" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/StandardController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.15212528" vertical-offset="918" max-vertical-offset="2023">
+          <caret line="50" column="59" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="920">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/question/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.846154" vertical-offset="439" max-vertical-offset="1156">
-          <caret line="47" column="53" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
-          <folding>
-            <element signature="e#60#74#0#PHP" expanded="true" />
-            <element signature="e#1883#1908#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/standard/form.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="425">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state vertical-scroll-proportion="-18.692308" vertical-offset="58" max-vertical-offset="952">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="39" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/QuestionController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30406505" vertical-offset="867" max-vertical-offset="2567">
-          <caret line="62" column="89" selection-start-line="62" selection-start-column="89" selection-end-line="62" selection-end-column="89" />
+        <state vertical-scroll-proportion="0.35458612" vertical-offset="1094" max-vertical-offset="2737">
+          <caret line="83" column="86" selection-start-line="83" selection-start-column="86" selection-end-line="83" selection-end-column="86" />
           <folding>
             <element signature="e#39#61#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/question/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+        <state vertical-scroll-proportion="-23.538462" vertical-offset="0" max-vertical-offset="935">
+          <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/standard/form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36129755" vertical-offset="0" max-vertical-offset="894">
+          <caret line="19" column="127" selection-start-line="19" selection-start-column="127" selection-end-line="19" selection-end-column="127" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#label#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#label#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/topic/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35260117" vertical-offset="545" max-vertical-offset="1666">
+          <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/unit/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7271676" vertical-offset="1377" max-vertical-offset="2414">
+          <caret line="118" column="127" selection-start-line="118" selection-start-column="127" selection-end-line="118" selection-end-column="127" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/QuestionsSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42111236" vertical-offset="88" max-vertical-offset="969">
+          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/StandardsSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24720357" vertical-offset="0" max-vertical-offset="894">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/QuestionStandardSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="920">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/asset/create.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ResponseController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="628">
-          <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.45637584" vertical-offset="765" max-vertical-offset="2567">
+          <caret line="69" column="11" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
+          <folding>
+            <element signature="e#39#61#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/response/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6767338" vertical-offset="75" max-vertical-offset="1020">
+          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/asset/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/question/show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="628">
-          <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/asset/admin_index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.027070064" vertical-offset="0" max-vertical-offset="628">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5246085" vertical-offset="976" max-vertical-offset="1870">
+          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="90" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.884615" vertical-offset="1055" max-vertical-offset="1734">
-          <caret line="103" column="58" selection-start-line="103" selection-start-column="58" selection-end-line="103" selection-end-column="58" />
+        <state vertical-scroll-proportion="25.76923" vertical-offset="721" max-vertical-offset="1887">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AssetController.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_04_14_033322_create_category_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62261146" vertical-offset="0" max-vertical-offset="1564">
-          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.60850114" vertical-offset="0" max-vertical-offset="894">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
         </state>
       </provider>

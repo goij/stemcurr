@@ -33,9 +33,8 @@
                     <span class="sr-only">Toggle navigation</span>
                     <span class="fa fa-bars"></span>
                 </button>
-                <a class="navbar-brand" href="{!!route('index')!!}">
-                    <img id="logo-header" class="cus-logo" src="{!!asset('img/au-source.png')!!}" alt="Logo" id="logo1">
-                    <img id="logo-header" class="cus-logo" src="{!!asset('img/stem.jpg')!!}" alt="Logo" id="logo2">
+                <a class="navbar-brand" href="{{route('index')}}">
+                    <img class="cus-logo" src="{{asset('img/stem.jpg')}}" alt="Logo" id="logo">
                 </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -56,73 +55,74 @@
                         </ul>
                     </li>
                     @if(!Auth::guest() && Auth::user()->teacher)
-                    <!-- End Home -->
-                    <!-- topics -->
-                    <li class="dropdown">
-                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
-                            Teachers
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="{{route('response')}}">Your Responses</a></li>
-                            <li><a href="{{route('asset')}}/create">Upload Assets</a></li>
-                            <li><a href="{{route('asset')}}">Manage Your Assets</a></li>
-                        </ul>
-                    </li>
-                    <!-- End topics -->
-                    @endif
+                        <!-- End Home -->
+                        <!-- topics -->
+                        <li class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                                Teachers
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="{{route('response')}}">Your Responses</a></li>
+                                <li><a href="{{route('asset')}}/create">Upload Assets</a></li>
+                                <li><a href="{{route('asset')}}">Manage Your Assets</a></li>
+                            </ul>
+                        </li>
+                        <!-- End topics -->
+                        @endif
 
-                    <!-- topics -->
-                    <li class="dropdown">
-                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
-                            Curriculum
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="{!!route('unit')!!}">Units</a></li>
-                            <li><a href="{!!route('topic')!!}">Topics</a></li>
-                            <li><a href="{!!route('question')!!}">Questions</a></li>
-                            <li><a href="{!!route('standard')!!}">Standards</a></li>
-                            @if(!Auth::guest() && Auth::user()->faculty)
-                                <li><a href="{!!route('topic') . '/create'!!}">Create Topic</a></li>
-                                <li><a href="{!!route('question') . '/create'!!}">Create Question</a></li>
-                                <li><a href="{!!route('standard') . '/create'!!}">Create Standard</a></li>
-                                <li><a href="{!!route('topic_enable') !!}">Enable Topics</a></li>
-                                <li><a href="{!!route('question_enable') !!}">Enable Questions</a></li>
+                                <!-- topics -->
+                        <li class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                                Curriculum
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="{!!route('unit')!!}">Units</a></li>
+                                <li><a href="{!!route('topic')!!}">Topics</a></li>
+                                <li><a href="{!!route('question')!!}">Questions</a></li>
+                                <li><a href="{!!route('standard')!!}">Standards</a></li>
+                                @if(!Auth::guest() && Auth::user()->faculty)
+                                    <li><a href="{!!route('topic') . '/create'!!}">Create Topic</a></li>
+                                    <li><a href="{!!route('question') . '/create'!!}">Create Question</a></li>
+                                    <li><a href="{!!route('standard') . '/create'!!}">Create Standard</a></li>
+                                    <li><a href="{!!route('topic_enable') !!}">Enable Topics</a></li>
+                                    <li><a href="{!!route('question_enable') !!}">Enable Questions</a></li>
+                                @endif
+                            </ul>
+                        </li>
+                        <!-- End topics -->
+                        <!-- Admin -->
+                        @if(!Auth::guest() && Auth::user()->admin)
+                            <li class="dropdown">
+                                <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                                    Admin
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="{!!route('user')!!}">Administrate Users</a></li>
+                                    <li><a href="{!!route('news')!!}">Manage News Articles</a></li>
+                                    <li><a href="{!!route('news')!!}/create">Create News Article</a></li>
+                                    <li><a href="{!!route('notification')!!}">View Users Notification List</a></li>
+                                    <li><a href="{!!route('notification')!!}/create">Attach User To Notification</a>
+                                    </li>
+                                    <li><a href="{{route('admin_asset')}}">Manage Uploaded Assets</a></li>
+                                </ul>
+                            </li>
                             @endif
-                        </ul>
-                    </li>
-                    <!-- End topics -->
-                    <!-- Admin -->
-                    @if(!Auth::guest() && Auth::user()->admin)
-                    <li class="dropdown">
-                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
-                            Admin
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="{!!route('user')!!}">Administrate Users</a></li>
-                            <li><a href="{!!route('news')!!}">Manage News Articles</a></li>
-                            <li><a href="{!!route('news')!!}/create">Create News Article</a></li>
-                            <li><a href="{!!route('notification')!!}">View Users Notification List</a></li>
-                            <li><a href="{!!route('notification')!!}/create">Attach User To Notification</a></li>
-                            <li><a href="{{route('admin_asset')}}">Manage Uploaded Assets</a></li>
-                        </ul>
-                    </li>
-                    @endif
-                    <!-- End Admin -->
-                    <!-- Search Block -->
-                    <!--
-                  <li>
-                      <i class="search fa fa-search search-btn"></i>
-                      <div class="search-open">
-                          <div class="input-group animated fadeInDown">
-                              <input type="text" class="form-control" placeholder="Search">
-                                  <span class="input-group-btn">
-                                      <button class="btn-u" type="button">Go</button>
-                                  </span>
-                          </div>
-                      </div>
-                  </li>
-                  -->
-                    <!-- End Search Block -->
+                                    <!-- End Admin -->
+                            <!-- Search Block -->
+                            <!--
+                          <li>
+                              <i class="search fa fa-search search-btn"></i>
+                              <div class="search-open">
+                                  <div class="input-group animated fadeInDown">
+                                      <input type="text" class="form-control" placeholder="Search">
+                                          <span class="input-group-btn">
+                                              <button class="btn-u" type="button">Go</button>
+                                          </span>
+                                  </div>
+                              </div>
+                          </li>
+                          -->
+                            <!-- End Search Block -->
                 </ul>
             </div>
             <!--/navbar-collapse-->

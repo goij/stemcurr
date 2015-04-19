@@ -15,7 +15,7 @@
             @foreach($assets as $asset)
                 <tr>
                     <td>
-                        <a href="{{route('asset')}}/download/{{$asset->user->username}}/{{$asset->filename}}">{{$asset->filename}}</a>
+                        <a href="{{$asset->path}}">{{$asset->filename}}</a>
                     </td>
                     <td>{{route('asset')}}/download/{{Auth::user()->username}}/{{$asset->filename}}</td>
                     <td>{{$asset->filesize}}MB</td>

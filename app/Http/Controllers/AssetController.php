@@ -87,8 +87,7 @@ class AssetController extends Controller
 
         // Remove anything which isn't a word, whitespace, number
         // or any of the following caracters -_~,;:[]().
-        $filename = preg_replace("([^\w\s\d\-_~,;:\[\]\(\).])", '', $file->getClientOriginalName());
-        $filename = preg_replace("([\.]{2,})", '', $filename);
+        $filename = preg_replace("([\s\~,;:])", '_', $file->getClientOriginalName());
         $request->file('asset')->move($path, $filename);
 
         Asset::create(['user_id' => Auth::user()->id, 'path' => $path, 'filename' => $filename,'filesize'=>$filesize]);

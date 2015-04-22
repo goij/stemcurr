@@ -17,7 +17,7 @@
                     <td>
                         <a href="{{$asset->path}}">{{$asset->filename}}</a>
                     </td>
-                    <td>{{route('asset')}}/download/{{$asset->user->username}}/{{$asset->filename}}</td>
+                    <td>{{$asset->path}}</td>
                     <td>{{$asset->filesize}}MB</td>
                     <td><a href="{{route('user')}}/{{$asset->user->id}}">{{$asset->user->name}}</a></td>
                     <td>

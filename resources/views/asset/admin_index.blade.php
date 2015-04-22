@@ -15,9 +15,9 @@
             @foreach($assets as $asset)
                 <tr>
                     <td>
-                        <a href="{{$asset->path}}">{{$asset->filename}}</a>
+                        <a href="{{route('asset')}}/download/{{$asset->user->username}}/{{$asset->filename}}">{{$asset->filename}}</a>
                     </td>
-                    <td>{{$asset->path}}</td>
+                    <td>{{route('asset')}}/download/{{$asset->user->username}}/{{$asset->filename}}</td>
                     <td>{{$asset->filesize}}MB</td>
                     <td><a href="{{route('user')}}/{{$asset->user->id}}">{{$asset->user->name}}</a></td>
                     <td>

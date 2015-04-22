@@ -15,12 +15,7 @@
     <div class="row">
         <div class="col-md-12">
             <div class="headline"><h4>AU STEM Curriculum</h4></div>
-            <p><strong><span class="dropcap-bg">W</span>elcome to the AU STEM Curriculum Management Website
-                    On this page, teachers will be able to create and manage your own lesson plans.
-                    These lesson plans will be composed of as many lessons you see fit.
-                    Each lesson is composed of one ore more question and answer.
-                    Each lesson on this website will contain information about the activitie and many other important details.
-                    Any visitor can browse the lessons and lesson plans being used within the STEM school.</strong></p>
+            <p><strong><span class="dropcap-bg">W</span>elcome to the AU STEM Curriculum Management Website</strong></p>
         </div>
     </div>
 

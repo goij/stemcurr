@@ -51,6 +51,7 @@
     <ul class="list-unstyled">
         <li><a href="{!!route('about')!!}"><i class="fa fa-desktop"></i>About</a></li>
         <li><a href="{!!route('topic')!!}"><i class="fa fa-bullhorn"></i>Browse Topics</a></li>
+        <li><a href="http://steminventory.aurora.edu"><i class="fa fa-globe"></i>STEM Inventory</a></li>
         @if(Auth::guest())
             <li><a href="{!!route('login')!!}"><i class="fa fa-globe"></i>Log In</a></li>
             <li><a href="{!!route('register')!!}"><i class="fa fa-globe"></i>Register</a></li>
@@ -62,7 +63,7 @@
 <!-- News -->
 <div class="blog-twitter">
     <div class="headline"><h3>Latest News</h3></div>
-    @foreach(App\News::orderBy('created_at','desc')->get() as $article)
+    @foreach(App\News::all() as $article)
         <li class="list-unstyled">
             <div><h4 style="font-weight:bold"><a href="{!!route('news')!!}/{!!$article->id!!}">{!!$article->title!!}</a></h4>
             </div>

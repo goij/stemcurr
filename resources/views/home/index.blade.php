@@ -52,7 +52,7 @@
         </div>
     </div>
     <?php use App\News; use App\User?>
-    @foreach(News::all() as $article)
+    @foreach(News::orderBy('created_at','desc')->get() as $article)
         <div class="row">
             <div class="col-md-12">
                 <div class="headline"><h4><a href="{!!route('news')!!}/{!!$article->id!!}">{!!$article->title!!}</a></h4></div>

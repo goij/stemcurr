@@ -62,7 +62,7 @@
 <!-- News -->
 <div class="blog-twitter">
     <div class="headline"><h3>Latest News</h3></div>
-    @foreach(App\News::all() as $article)
+    @foreach(App\News::orderBy('created_at','desc')->get() as $article)
         <li class="list-unstyled">
             <div><h4 style="font-weight:bold"><a href="{!!route('news')!!}/{!!$article->id!!}">{!!$article->title!!}</a></h4>
             </div>

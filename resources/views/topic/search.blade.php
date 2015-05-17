@@ -58,7 +58,7 @@
                 </fieldset>
                 <footer>
                     <div class="col-md-6 col-sm-12">
-                        <button type="submit" class="btn-u btn-u-green btn-block curl-bottom-right">Search</button>
+                        <button type="submit" class="btn-u btn-u-augreen btn-block curl-bottom-right">Search</button>
                     </div>
                     <div class="col-md-6 col-sm-12">
                         <button type="clear" class="btn-u btn-u-red btn-block curl-bottom-right">Clear</button>

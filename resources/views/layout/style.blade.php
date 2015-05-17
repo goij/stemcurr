@@ -6,7 +6,7 @@ $css_paths = [
         'css/style.css',
         'plugins/line-icons/line-icons.css',
         'plugins/font-awesome/css/font-awesome.min.css',
-        'css/theme-colors/dark-blue.css',
+        'css/theme-colors/aucolors.css',
         'css/theme-skins/dark.css',
         'css/custom.css',
         'plugins/ladda-buttons/css/custom-lada-btn.css',

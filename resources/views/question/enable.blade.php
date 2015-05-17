@@ -22,7 +22,7 @@
                     <td>
                         {!!Form::open(['action' => ["QuestionController@restore", $question->id],'class'=>'sky-form',
                         'method'=>'post'])!!}
-                        <input type="submit" class="btn-u btn-u-green btn-block" value="Enable">
+                        <input type="submit" class="btn-u btn-u-augreen btn-block" value="Enable">
                         {!!Form::close()!!}
                     </td>
                 </tr>

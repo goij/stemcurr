@@ -80,7 +80,7 @@
                     </fieldset>
                     <footer>
                         <div class="col-md-6 col-sm-12">
-                            <button type="submit" class="btn-u btn-u-augreen btn-block curl-bottom-right">Create topic
+                            <button type="submit" class="btn-u btn-u-green btn-block curl-bottom-right">Create topic
                             </button>
                         </div>
                     </footer>

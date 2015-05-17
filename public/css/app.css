@@ -980,10 +980,10 @@ a.btn-u-xs {
 .btn-u.btn-u-blue {
    background: #3498db;
 }
-.btn-u.btn-u-blue:hover,
-.btn-u.btn-u-blue:focus,
-.btn-u.btn-u-blue:active,
-.btn-u.btn-u-blue.active,
+.btn-u.btn-u-blue:hover, 
+.btn-u.btn-u-blue:focus, 
+.btn-u.btn-u-blue:active, 
+.btn-u.btn-u-blue.active, 
 .open .dropdown-toggle.btn-u.btn-u-blue {
    background: #2980b9;
 }
@@ -994,10 +994,10 @@ a.btn-u-xs {
 .btn-u.btn-u-red {
    background: #e74c3c;
 }
-.btn-u.btn-u-red:hover,
-.btn-u.btn-u-red:focus,
-.btn-u.btn-u-red:active,
-.btn-u.btn-u-red.active,
+.btn-u.btn-u-red:hover, 
+.btn-u.btn-u-red:focus, 
+.btn-u.btn-u-red:active, 
+.btn-u.btn-u-red.active, 
 .open .dropdown-toggle.btn-u.btn-u-red {
    background: #c0392b;
 }
@@ -1006,14 +1006,12 @@ a.btn-u-xs {
 }
 
 .btn-u.btn-u-orange {
-    //background: #e67e22;
-    //background: #D04F1D;
-    background: #d8531e;
+   background: #e67e22;
 }
-.btn-u.btn-u-orange:hover,
-.btn-u.btn-u-orange:focus,
-.btn-u.btn-u-orange:active,
-.btn-u.btn-u-orange.active,
+.btn-u.btn-u-orange:hover, 
+.btn-u.btn-u-orange:focus, 
+.btn-u.btn-u-orange:active, 
+.btn-u.btn-u-orange.active, 
 .open .dropdown-toggle.btn-u.btn-u-orange {
    background: #d35400;
 }
@@ -1024,11 +1022,10 @@ a.btn-u-xs {
 .btn-u.btn-u-sea {
    background: #1abc9c;
 }
-
-.btn-u.btn-u-sea:hover,
-.btn-u.btn-u-sea:focus,
-.btn-u.btn-u-sea:active,
-.btn-u.btn-u-sea.active,
+.btn-u.btn-u-sea:hover, 
+.btn-u.btn-u-sea:focus, 
+.btn-u.btn-u-sea:active, 
+.btn-u.btn-u-sea.active, 
 .open .dropdown-toggle.btn-u.btn-u-sea {
    background: #16a085;
 }
@@ -1039,10 +1036,10 @@ a.btn-u-xs {
 .btn-u.btn-u-green {
    background: #2ecc71;
 }
-.btn-u.btn-u-green:hover,
-.btn-u.btn-u-green:focus,
-.btn-u.btn-u-green:active,
-.btn-u.btn-u-green.active,
+.btn-u.btn-u-green:hover, 
+.btn-u.btn-u-green:focus, 
+.btn-u.btn-u-green:active, 
+.btn-u.btn-u-green.active, 
 .open .dropdown-toggle.btn-u.btn-u-green {
    background: #27ae60;
 }
@@ -1053,10 +1050,10 @@ a.btn-u-xs {
 .btn-u.btn-u-yellow {
    background: #f1c40f;
 }
-.btn-u.btn-u-yellow:hover,
-.btn-u.btn-u-yellow:focus,
-.btn-u.btn-u-yellow:active,
-.btn-u.btn-u-yellow.active,
+.btn-u.btn-u-yellow:hover, 
+.btn-u.btn-u-yellow:focus, 
+.btn-u.btn-u-yellow:active, 
+.btn-u.btn-u-yellow.active, 
 .open .dropdown-toggle.btn-u.btn-u-yellow {
    background: #f39c12;
 }
@@ -1067,10 +1064,10 @@ a.btn-u-xs {
 .btn-u.btn-u-default {
    background: #95a5a6;
 }
-.btn-u.btn-u-default:hover,
-.btn-u.btn-u-default:focus,
-.btn-u.btn-u-default:active,
-.btn-u.btn-u-default.active,
+.btn-u.btn-u-default:hover, 
+.btn-u.btn-u-default:focus, 
+.btn-u.btn-u-default:active, 
+.btn-u.btn-u-default.active, 
 .open .dropdown-toggle.btn-u.btn-u-default {
    background: #7f8c8d;
 }
@@ -1081,10 +1078,10 @@ a.btn-u-xs {
 .btn-u.btn-u-purple {
    background: #9b6bcc;
 }
-.btn-u.btn-u-purple:hover,
-.btn-u.btn-u-purple:focus,
-.btn-u.btn-u-purple:active,
-.btn-u.btn-u-purple.active,
+.btn-u.btn-u-purple:hover, 
+.btn-u.btn-u-purple:focus, 
+.btn-u.btn-u-purple:active, 
+.btn-u.btn-u-purple.active, 
 .open .dropdown-toggle.btn-u.btn-u-purple {
    background: #814fb5;
 }
@@ -1095,10 +1092,10 @@ a.btn-u-xs {
 .btn-u.btn-u-aqua {
    background: #27d7e7;
 }
-.btn-u.btn-u-aqua:hover,
-.btn-u.btn-u-aqua:focus,
-.btn-u.btn-u-aqua:active,
-.btn-u.btn-u-aqua.active,
+.btn-u.btn-u-aqua:hover, 
+.btn-u.btn-u-aqua:focus, 
+.btn-u.btn-u-aqua:active, 
+.btn-u.btn-u-aqua.active, 
 .open .dropdown-toggle.btn-u.btn-u-aqua {
    background: #26bac8;
 }
@@ -1109,10 +1106,10 @@ a.btn-u-xs {
 .btn-u.btn-u-brown {
    background: #9c8061;
 }
-.btn-u.btn-u-brown:hover,
-.btn-u.btn-u-brown:focus,
-.btn-u.btn-u-brown:active,
-.btn-u.btn-u-brown.active,
+.btn-u.btn-u-brown:hover, 
+.btn-u.btn-u-brown:focus, 
+.btn-u.btn-u-brown:active, 
+.btn-u.btn-u-brown.active, 
 .open .dropdown-toggle.btn-u.btn-u-brown {
    background: #81674b;
 }
@@ -1123,10 +1120,10 @@ a.btn-u-xs {
 .btn-u.btn-u-dark-blue {
    background: #4765a0;
 }
-.btn-u.btn-u-dark-blue:hover,
-.btn-u.btn-u-dark-blue:focus,
-.btn-u.btn-u-dark-blue:active,
-.btn-u.btn-u-dark-blue.active,
+.btn-u.btn-u-dark-blue:hover, 
+.btn-u.btn-u-dark-blue:focus, 
+.btn-u.btn-u-dark-blue:active, 
+.btn-u.btn-u-dark-blue.active, 
 .open .dropdown-toggle.btn-u.btn-u-dark-blue {
    background: #324c80;
 }
@@ -1137,10 +1134,10 @@ a.btn-u-xs {
 .btn-u.btn-u-light-green {
    background: #79d5b3;
 }
-.btn-u.btn-u-light-green:hover,
-.btn-u.btn-u-light-green:focus,
-.btn-u.btn-u-light-green:active,
-.btn-u.btn-u-light-green.active,
+.btn-u.btn-u-light-green:hover, 
+.btn-u.btn-u-light-green:focus, 
+.btn-u.btn-u-light-green:active, 
+.btn-u.btn-u-light-green.active, 
 .open .dropdown-toggle.btn-u.btn-u-light-green {
    background: #59b795;
 }
@@ -1151,10 +1148,10 @@ a.btn-u-xs {
 .btn-u.btn-u-dark {
    background: #555;
 }
-.btn-u.btn-u-dark:hover,
-.btn-u.btn-u-dark:focus,
-.btn-u.btn-u-dark:active,
-.btn-u.btn-u-dark.active,
+.btn-u.btn-u-dark:hover, 
+.btn-u.btn-u-dark:focus, 
+.btn-u.btn-u-dark:active, 
+.btn-u.btn-u-dark.active, 
 .open .dropdown-toggle.btn-u.btn-u-dark {
    background: #333;
 }
@@ -1165,10 +1162,10 @@ a.btn-u-xs {
 .btn-u.btn-u-light-grey {
    background: #585f69;
 }
-.btn-u.btn-u-light-grey:hover,
-.btn-u.btn-u-light-grey:focus,
-.btn-u.btn-u-light-grey:active,
-.btn-u.btn-u-light-grey.active,
+.btn-u.btn-u-light-grey:hover, 
+.btn-u.btn-u-light-grey:focus, 
+.btn-u.btn-u-light-grey:active, 
+.btn-u.btn-u-light-grey.active, 
 .open .dropdown-toggle.btn-u.btn-u-light-grey {
    background: #484f58;
 }
@@ -1186,7 +1183,7 @@ a.btn-u-xs {
    -webkit-transition: all 0.1s ease-in-out;
    -moz-transition: all 0.1s ease-in-out;
    -o-transition: all 0.1s ease-in-out;
-   transition: all 0.1s ease-in-out;
+   transition: all 0.1s ease-in-out;   
 }
 .btn-u.btn-brd:hover {
   background: none;
@@ -1207,7 +1204,7 @@ a.btn-u-xs {
   border-color: #5fb611;
 }
 .btn-u.btn-brd.btn-brd-hover:hover {
-   background: #5fb611;
+   background: #5fb611;   
 }
 
 .btn-u.btn-brd.btn-u-blue {
@@ -1388,7 +1385,7 @@ span.label {
 /*Badges*/
 span.badge {
   font-weight: 400;
-  padding: 4px 7px;
+  padding: 4px 7px;  
 }
 
 span.label-u,
@@ -1524,7 +1521,7 @@ span.badge-dark {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;     
 }
 
 /*Icons
@@ -1532,7 +1529,7 @@ span.badge-dark {
 /*Social Icons*/
 .social-icons {
    margin: 0;
-   padding: 0;
+   padding: 0; 
 }
 
 .social-icons li {
@@ -1609,7 +1606,7 @@ i.icon-custom {
   line-height: 40px;
   margin-bottom: 5px;
   text-align: center;
-  display: inline-block;
+  display: inline-block;   
   border: solid 1px #555;
 }
 
@@ -1672,12 +1669,12 @@ i.icon-4x.icon-line {
 /*Icon Styles For Links*/
 .link-icon,
 .link-bg-icon {
-  color: #555;
+  color: #555;  
 }
 
 .link-icon:hover,
 .link-bg-icon:hover {
-  border: none;
+  border: none;  
   text-decoration: none;
 }
 
@@ -1774,7 +1771,7 @@ i.icon-color-light-grey {
    border: solid 1px #585f69;
 }
 
-/*Icons Background Color*/
+/*Icons Backgroun Color*/
 i.icon-bg-u,
 i.icon-bg-red,
 i.icon-bg-sea,
@@ -1842,11 +1839,11 @@ i.icon-bg-light-green {
 }
 i.icon-bg-light {
    background: #fff;
-   border-color: transparent;
+   border-color: transparent;   
 }
 i.icon-bg-light-grey {
    background: #585f69;
-   border-color: transparent;
+   border-color: transparent;  
 }
 
 /* Make Font Awesome icons fixed width */
@@ -2045,7 +2042,7 @@ i.icon-bg-light-grey {
 .service-block-light,
 .service-block-default {
   background: #fafafa;
-  border: solid 1px #eee;
+  border: solid 1px #eee; 
 }
 
 .service-block-default:hover {
@@ -2191,7 +2188,7 @@ i.icon-bg-light-grey {
 }
 
 .funny-boxes-top-sea:hover {
-  border-top-color: #16a085;
+  border-top-color: #16a085;  
 }
 
 /*Yellow Top Bordered Funny Box**/
@@ -2234,23 +2231,23 @@ i.icon-bg-light-grey {
 ------------------------------------*/
 /*Text Dropcap*/
 .dropcap {
-  float: left;
-  color: #72c02c;
+  float: left; 
+  color: #72c02c; 
   padding: 5px 0;
-  font-size: 45px;
+  font-size: 45px; 
   font-weight: 200;
-  line-height: 30px;
+  line-height: 30px; 
   margin: 0px 5px 0 0;
 }
 
 .dropcap-bg {
-  float: left;
-  color: #fff;
+  float: left; 
+  color: #fff; 
   padding: 7px 0;
   min-width: 50px;
-  font-size: 35px;
+  font-size: 35px; 
   font-weight: 200;
-  line-height: 35px;
+  line-height: 35px; 
   text-align: center;
   background: #72c02c;
   margin: 4px 10px 0 0;
@@ -2265,13 +2262,13 @@ i.icon-bg-light-grey {
 }
 
 .text-highlights-green {
-   background: #72c02c;
+   background: #72c02c;   
 }
 .text-highlights-blue {
    background: #3498db;
 }
 .text-highlights-red {
-   background: #e74c3c;
+   background: #e74c3c;   
 }
 .text-highlights-sea {
    background: #1abc9c;
@@ -2283,13 +2280,13 @@ i.icon-bg-light-grey {
    background: #f1c40f;
 }
 .text-highlights-purple {
-   background: #9b6bcc;
+   background: #9b6bcc;   
 }
 .text-highlights-aqua {
    background: #27d7e7;
 }
 .text-highlights-brown {
-   background: #9c8061;
+   background: #9c8061;   
 }
 .text-highlights-dark-blue {
    background: #4765a0;
@@ -2344,7 +2341,7 @@ blockquote {
 
 blockquote p {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 400;   
 }
 
 blockquote h1,
@@ -2501,7 +2498,7 @@ blockquote.hero.hero-default small {
 /*Tag Boxes v6*/
 .tag-box-v6 {
   background: #fafafa;
-  border: solid 1px #eee;
+  border: solid 1px #eee; 
 }
 
 /*Tag Boxes v7*/
@@ -2558,7 +2555,7 @@ blockquote.hero.hero-default small {
   padding: 2px;
   min-width: 25px;
   font-size: 20px;
-  text-align: center;
+  text-align: center; 
   background: #f5f5f5;
 }
 
@@ -2596,7 +2593,7 @@ blockquote.hero.hero-default small {
 }
 
 .testimonials.testimonials-v1 .item p:after {
-  border-top: 22px solid;
+  border-top: 22px solid; 
   border-left: 0 solid transparent;
   border-right: 22px solid transparent;
 }
@@ -2611,7 +2608,7 @@ blockquote.hero.hero-default small {
 }
 
 .testimonials.testimonials-v2 .carousel-arrow {
-  top: -55px;
+  top: -55px; 
 }
 
 .testimonials.testimonials-v2 .item p:after,
@@ -2621,7 +2618,7 @@ blockquote.hero.hero-default small {
 }
 
 .testimonials.testimonials-v2 .item p:after {
-  border-top: 20px solid;
+  border-top: 20px solid; 
   border-left: 25px solid transparent;
   border-right: 0px solid transparent;
 }
@@ -2631,20 +2628,20 @@ blockquote.hero.hero-default small {
 .testimonials.testimonials-v2 p {
   padding: 15px;
   font-size: 14px;
-  font-style: italic;
+  font-style: italic; 
   background: #f5f5f5;
 }
 
 .testimonials.testimonials-v1 .item p:after,
 .testimonials.testimonials-v2 .item p:after {
-  width: 0;
+  width: 0; 
   height: 0;
   content: " ";
-  display: block;
-  position: absolute;
+  display: block; 
+  position: absolute; 
   border-top-color: #f5f5f5;
   border-left-style: inset; /*FF fixes*/
-  border-right-style: inset; /*FF fixes*/
+  border-right-style: inset; /*FF fixes*/ 
 }
 
 /*Testimonials Backgrounds*/
@@ -2703,7 +2700,7 @@ blockquote.hero.hero-default small {
 /*Panels (Portlets)
 ------------------------------------*/
 .panel-heading {
-  color: #fff;
+  color: #fff;  
   padding: 5px 15px;
 }
 
@@ -2954,7 +2951,7 @@ img.img-bordered {
 }
 
 img.img-circle {
-  border-radius: 50% !important;
+  border-radius: 50% !important;  
 }
 
 img.image-sm {
@@ -2988,11 +2985,11 @@ img.image-md {
 /*Tags v1*/
 .tags-v1 li {
   margin: 0;
-  padding: 0;
+  padding: 0; 
 }
 
 .tags-v1 li a {
-  font-size: 13px;
+  font-size: 13px; 
   padding: 4px 8px;
   line-height: 32px;
   border: solid 2px #eee;
@@ -3000,7 +2997,7 @@ img.image-md {
    -webkit-transition: all 0.2s ease-in-out;
    -moz-transition: all 0.2s ease-in-out;
    -o-transition: all 0.2s ease-in-out;
-   transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;  
 }
 
 .tags-v1 li a:hover {
@@ -3104,22 +3101,22 @@ img.image-md {
   padding-right: 100px;
 }
 
-.margin-bottom-5,
-.margin-bottom-10,
-.margin-bottom-15,
+.margin-bottom-5, 
+.margin-bottom-10, 
+.margin-bottom-15, 
 .margin-bottom-20,
-.margin-bottom-25,
-.margin-bottom-30,
-.margin-bottom-35,
-.margin-bottom-40,
-.margin-bottom-45,
-.margin-bottom-50,
-.margin-bottom-55,
-.margin-bottom-60 {
+.margin-bottom-25, 
+.margin-bottom-30, 
+.margin-bottom-35, 
+.margin-bottom-40, 
+.margin-bottom-45, 
+.margin-bottom-50, 
+.margin-bottom-55, 
+.margin-bottom-60 { 
    clear:both;
 }
 .margin-bottom-5  { margin-bottom:5px;}
-.margin-bottom-10 { margin-bottom:10px;}
+.margin-bottom-10 { margin-bottom:10px;} 
 .margin-bottom-15 { margin-bottom:15px;}
 .margin-bottom-20 { margin-bottom:20px;}
 .margin-bottom-25 { margin-bottom:25px;}

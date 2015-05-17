@@ -154,7 +154,7 @@
 
 /*Navbar Menu*/
 .header .navbar-default .navbar-nav > li > a {
-    color: #455560;
+    color: #687074;
     font-size: 15px;
     font-weight:400;
     text-transform: uppercase;
@@ -377,11 +377,11 @@
         border-radius: 0;
         z-index: 9999 !important;
         border-top: solid 2px #72c02c;
-        border-bottom: solid 2px #455560;
+        border-bottom: solid 2px #687074;
     }
 
     .header .dropdown-menu li a {
-        color: #455560;
+        color: #687074;
         font-size: 13px;
         font-weight: 400;
         padding: 6px 15px;
@@ -392,7 +392,7 @@
     .header .dropdown-menu li > a:hover {
         color: #fff;
         filter: none !important;
-        background: #455560 !important;
+        background: #687074 !important;
         -webkit-transition: all 0.1s ease-in-out;
         -moz-transition: all 0.1s ease-in-out;
         -o-transition: all 0.1s ease-in-out;
@@ -873,7 +873,7 @@
     }
 
     .header .mega-menu .equal-height-list li a {
-        color: #455560;
+        color: #687074;
         display: block;
         font-size: 13px;
         font-weight: 400;

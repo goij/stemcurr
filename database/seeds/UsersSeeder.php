@@ -21,6 +21,5 @@ class UsersSeeder extends Seeder{
         User::create(['username'=>'admin','password'=>bcrypt('123456'),'name'=>'admin','admin'=>true,'faculty'=>false,'teacher'=>false,'email'=>'admin@aurora.edu']);
         User::create(['username'=>'faculty','password'=>bcrypt('123456'),'name'=>'faculty','admin'=>false,'faculty'=>true,'teacher'=>false,'email'=>'faculty@aurora.edu']);
         User::create(['username'=>'guest','password'=>bcrypt('123456'),'name'=>'guest','admin'=>false,'faculty'=>false,'teacher'=>false,'email'=>'guest@aurora.edu']);
-        User::create(['username'=>'mmackay03','password'=>bcrypt('123456'),'name'=>'Margo Mac Kay','admin'=>true,'faculty'=>true,'teacher'=>true,'email'=>'mmackay03@aurora.edu']);
     }
 }

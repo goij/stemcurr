@@ -8,7 +8,7 @@
 @section('content')
     @if(Auth::guest())
         <h2>You are not signed in</h2>
-        <p>Please <a href='{!!route("login")!!}'"><span class="btn btn-u">Sign In</span></a> or  <a href='{!!route("register")!!}'"><span class="btn btn-u btn-u-augreen">Register</span></a>  to gain acccess to the features of the STEM curriculum website.</p>
+        <p>Please <a href='{!!route("login")!!}'"><span class="btn btn-u">Sign In</span></a> or  <a href='{!!route("register")!!}'"><span class="btn btn-u btn-u-sea">Register</span></a>  to gain acccess to the features of the STEM curriculum website.</p>
         <p>Please note, your it may take some time before an admin provides you with access.</p>
     @endif
 
@@ -21,13 +21,13 @@
 
 
     <div class="row">
-        <div class="col-sm-12 col-md-12">
+        <div class="col-sm-12 col-md-12 text-center">
             <div class="headline"><h4>Get Started With AU STEM Curriculum</h4></div>
         </div>
         <div class="col-sm-12 col-md-12">
             <div class="col-sm-4 col-md-4">
                 <p>
-                    <a href='{!!route("unit")!!}' class="btn-u btn-u-augreen btn-u-lg btn-block curl-bottom-right" rel="curl-bottom-right" type="button">
+                    <a href='{!!route("unit")!!}' class="btn-u btn-u-sea btn-u-lg btn-block curl-bottom-right" rel="curl-bottom-right" type="button">
                         <i class="fa fa-location-arrow"></i>
                         Browse Units
                     </a>

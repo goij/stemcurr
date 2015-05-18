@@ -13,6 +13,12 @@
                         {!!$user->name!!}
                     </p>
 
+                    <h2>Affiliation</h2>
+
+                    <p>
+                        {!!$user->affiliation!!}
+                    </p>
+
                     <h2>E-Mail</h2>
 
                     <p>

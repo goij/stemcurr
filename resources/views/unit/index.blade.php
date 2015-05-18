@@ -1,6 +1,6 @@
 @extends('layout.master')
 @section('content')
-    <div class="panel panel-sea">
+    <div class="panel panel-augreen">
         <div class="panel-heading">
             <h2 class="heading color-light">Units</h2>
         </div>

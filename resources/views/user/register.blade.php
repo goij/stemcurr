@@ -28,6 +28,14 @@
 
             <section>
                 <label class="input">
+                    <i class="icon-append fa fa-user"></i>
+                    <input type="text" name="affiliation" placeholder="Affiliation">
+                    <b class="tooltip tooltip-bottom-right">Needed to verify your account</b>
+                </label>
+            </section>
+
+            <section>
+                <label class="input">
                     <i class="icon-append fa fa-envelope"></i>
                     <input type="email" name="email" placeholder="Email address">
                     <b class="tooltip tooltip-bottom-right">Needed to verify your account</b>

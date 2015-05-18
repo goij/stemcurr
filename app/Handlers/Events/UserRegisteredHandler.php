@@ -35,6 +35,7 @@ class UserRegisteredHandler implements ShouldBeQueued
         User::create(
             ["username" => $event->user_data['username'],
                 "name" => $event->user_data['name'],
+                "affiliation" => $event->user_data['affiliation'],
                 "email" => $event->user_data['email'],
                 "password" => bcrypt($event->user_data['password'])]);
 

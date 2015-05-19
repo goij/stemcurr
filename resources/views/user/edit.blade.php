@@ -19,6 +19,13 @@
                 <div class="col-md-12">
                     <label class="label">Permissions</label>
                     <label class="checkbox">
+                        <input type="checkbox" name="partner" value="1"
+                        @if($user->partner)
+                               checked
+                                @endif
+                                ><i></i>Partner<br>
+                    </label>
+                    <label class="checkbox">
                         <input type="checkbox" name="teacher" value="1"
                         @if($user->teacher)
                                checked

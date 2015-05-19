@@ -51,6 +51,9 @@
     <ul class="list-unstyled">
         <li><a href="{!!route('about')!!}"><i class="fa fa-desktop"></i>About</a></li>
         <li><a href="{!!route('topic')!!}"><i class="fa fa-bullhorn"></i>Browse Topics</a></li>
+        @if(!Auth::guest() && (Auth::user()->teacher || Auth::user()->admin || Auth::user()->faculty))
+            <li><a href="{!!route('partner')!!}"><i class="fa fa-globe"></i>Partners</a></li>
+        @endif
         <li><a href="http://steminventory.aurora.edu"><i class="fa fa-globe"></i>STEM Inventory</a></li>
         @if(Auth::guest())
             <li><a href="{!!route('login')!!}"><i class="fa fa-globe"></i>Log In</a></li>

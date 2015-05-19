@@ -26,12 +26,12 @@
                         <td>{!!$user->affiliation!!}</td>
                         <td><a href="mailto:{!!$user->email!!}">{!!$user->email!!}</a></td>
                         <td>{!!$user->updated_at!!}</td>
-                    @endif
-                    @if(!Auth::guest() && Auth::user()->admin)
-                        <td>
-                            <a class="btn-u btn-u-orange btn-block"
-                               href="{!!route('user') . '/' . $user->id  . '/edit/' !!}">Permissions</a>
-                        </td>
+                        @if(!Auth::guest() && Auth::user()->admin)
+                            <td>
+                                <a class="btn-u btn-u-orange btn-block"
+                                   href="{!!route('user') . '/' . $user->id  . '/edit/' !!}">Permissions</a>
+                            </td>
+                        @endif
                     @endif
                 </tr>
             @endforeach

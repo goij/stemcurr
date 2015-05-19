@@ -30,7 +30,7 @@ class UserController extends Controller
     public function __construct(Guard $auth)
     {
         $this->auth = $auth;
-        $this->middleware('admin', ['except' => ['index','track','untrack', 'show', 'postRegister', 'getRegister', 'getLogin', 'postLogin', 'getLogout', 'getResetPassword']]);
+        $this->middleware('admin', ['except' => ['index','partner','track','untrack', 'show', 'postRegister', 'getRegister', 'getLogin', 'postLogin', 'getLogout', 'getResetPassword']]);
     }
 
     /**
@@ -58,6 +58,11 @@ class UserController extends Controller
         return view('user.show',['user'=>$user]);
     }
 
+    public function partner(){
+        $users = User::paginate(10);
+        return view('user.partner', ['users' => $users]);
+    }
+
     /**
      * @param Request $request
      * @param $id
@@ -71,6 +76,7 @@ class UserController extends Controller
         $user->admin = $request->get('admin');
         $user->faculty = $request->get('faculty');
         $user->teacher = $request->get('teacher');
+        $user->partner = $request->get('partner');
         $user->save();
         return redirect('user')->with('message', ' Updated user permissions');
     }

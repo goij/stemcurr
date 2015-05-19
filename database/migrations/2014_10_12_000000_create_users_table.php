@@ -23,6 +23,7 @@ class CreateUsersTable extends Migration {
             $table->boolean('admin')->default(false);
             $table->boolean('faculty')->default(false);
             $table->boolean('teacher')->default(false);
+            $table->boolean('partner')->default(false);
 			$table->rememberToken();
 			$table->timestamps();
             $table->softDeletes();

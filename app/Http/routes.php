@@ -31,6 +31,7 @@ Route::get('user/login', ['as' => 'login', 'uses' => 'UserController@getLogin'])
 Route::get('user/logout', ['as' => 'logout', 'uses' => 'UserController@getLogout']);
 Route::post('user/register', ['as' => 'postreg', 'uses' => 'UserController@postRegister']);
 Route::post('user/login', ['as' => 'postlogin', 'uses' => 'UserController@postLogin']);
+Route::get('user/partner',['as'=>'partner', 'uses'=>'UserController@partner']);
 Route::get('user',['as'=>'user', 'uses'=>'UserController@index']);
 Route::get('user/track/{id}',['as'=>'track','uses'=>'UserController@track']);
 Route::get('user/untrack/{id}',['as'=>'untrack','uses'=>'UserController@untrack']);

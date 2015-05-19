@@ -48,6 +48,9 @@
                         <ul class="dropdown-menu">
                             <li><a href="{!!route('index')!!}">Home</a></li>
                             <li><a href="{!!route('news')!!}">News</a></li>
+                            @if(!Auth::guest() && (Auth::user()->teacher || Auth::user()->admin || Auth::user()->faculty))
+                                <li><a href="{!!route('partner')!!}">Partners</a></li>
+                            @endif
                             <li><a href="{!!route('about')!!}">About</a></li>
                             <li><a href="#">Documentation</a></li>
                             <li><a href="#">FAQ</a></li>

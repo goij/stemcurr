@@ -34,7 +34,7 @@
                     <span class="fa fa-bars"></span>
                 </button>
                 <a class="navbar-brand" href="{{route('index')}}">
-                    <img class="cus-logo" src="{{asset('img/stemlogo.png')}}" alt="Logo" id="logo">
+                    <img class="cus-logo" src="{{asset('img/stemrgb.png')}}" alt="Logo" id="logo">
                 </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->

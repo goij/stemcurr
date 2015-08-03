@@ -12,10 +12,17 @@
 
                 <h2>Standards</h2>
                 @foreach($question->standards as $standard)
+
                     <p>
+                        @if($standard->category->subcategory == 0)
                         <a href='{!!$standard->link!!}' target="_blank"><span style="font-weight: bold">{!!$standard->categoryName()!!}</span>
                             - {!!$standard->name!!}</a>
+                        @elseif($standard->category->subcategory == 1)
+                            <a href='{!!$standard->link!!}' target="_blank"><span style="font-weight: bold">{!!$standard->parentCategoryName()!!} - {!!$standard->categoryName()!!}</span>
+                                - {!!$standard->name!!}</a>
+                        @endif
                     </p>
+
                 @endforeach
                 <h2>Parent Topic</h2>
                 <a href="{!!route('topic') . '/' . $question->topic->id!!}">Link To Parent Topic</a>

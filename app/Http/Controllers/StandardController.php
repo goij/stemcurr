@@ -1,9 +1,9 @@
 <?php namespace App\Http\Controllers;
 
 use App\Http\Requests;
-use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
+use App\Response;
 use App\Standard;
 
 class StandardController extends Controller {
@@ -23,7 +23,7 @@ class StandardController extends Controller {
 	 */
 	public function index()
 	{
-        $standards = Standard::paginate(10);
+        $standards = Standard::paginate(20);
 		return view('standard.index',['standards'=>$standards]);
 	}
 
@@ -94,11 +94,11 @@ class StandardController extends Controller {
 
         $this->validate($request,
             ['name'=>'required',
-            'category'=>'required']);
+            'category'=>'required|exists:categories,id']);
 
-        Standard::updateOrCreate(['id' => $id], $input);
+        $standard = Standard::updateOrCreate(['id' => $id], $input);
 
-        return redirect('standard')->with('message' , "Standard  modified");
+        return redirect('standard')->with('message' , "Updated $standard->name");
 	}
 
 	/**

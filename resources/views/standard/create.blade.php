@@ -24,11 +24,19 @@
                     <label class="select">
                         <select name="category_id">
                         @foreach(App\Category::all() as $category)
+                            @if($category->subcategory == 0)
                             <option value="{{$category->id}}">{{$category->name}}</option>
+                            @endif
+                            @foreach(App\Category::all() as $subcategory)
+                                    @if(($subcategory->subcategory == 1) && ($category->id == $subcategory->parent_category_id))
+                                        <option value="{{$subcategory->id}}">&nbsp;&nbsp;&nbsp;{{$subcategory->name}}</option>
+                                    @endif
+                            @endforeach
                         @endforeach
                         </select>
                     </label>
                 </div>
+
                 <div class="col-md-12 col-sm-12">
                     <label class="label">Link</label>
                     <label class="input">

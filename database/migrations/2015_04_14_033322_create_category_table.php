@@ -16,6 +16,8 @@ class CreateCategoryTable extends Migration {
 		{
 			$table->increments('id');
             $table->string('name');
+            $table->boolean('subcategory');
+            $table->unsignedInteger('parent_category_id');
 			$table->timestamps();
 		});
 	}

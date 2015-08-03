@@ -73,8 +73,13 @@
                                                 <td>
 
                                                     @foreach($topic->standards() as $standard)
-                                                        <a href='{!!$standard->link!!}' target="_blank">{{$standard->categoryName()}}
-                                                            - {!!$standard->name!!}</a><br>
+                                                        @if($standard->category->subcategory == 0)
+                                                            <a href='{!!$standard->link!!}' target="_blank">{!!$standard->categoryName()!!}
+                                                                - {!!$standard->name!!}</a><br>
+                                                        @elseif($standard->category->subcategory == 1)
+                                                            <a href='{!!$standard->link!!}' target="_blank">{!!$standard->parentCategoryName()!!} - {!!$standard->categoryName()!!}
+                                                                - {!!$standard->name!!}</a><br>
+                                                        @endif
                                                     @endforeach
 
                                                 </td>
@@ -115,10 +120,13 @@
                                                     <h2>Standards</h2>
                                                     @foreach($question->standards as $standard)
                                                         <p>
-                                                            <a href='{!!$standard->link!!}' target="_blank"><span
-                                                                        style="font-weight: bold">{{$standard->categoryName()}}</span>
-                                                                -
-                                                                {!!$standard->name!!}</a>
+                                                            @if($standard->category->subcategory == 0)
+                                                                <a href='{!!$standard->link!!}' target="_blank"><span style="font-weight: bold">{!!$standard->categoryName()!!}</span>
+                                                                    - {!!$standard->name!!}</a>
+                                                            @elseif($standard->category->subcategory == 1)
+                                                                <a href='{!!$standard->link!!}' target="_blank"><span style="font-weight: bold">{!!$standard->parentCategoryName()!!} - {!!$standard->categoryName()!!}</span>
+                                                                    - {!!$standard->name!!}</a>
+                                                            @endif
                                                         </p>
                                                     @endforeach
                                                     <h2>Number of Teacher Responses: {!!$question->numResponses()!!}</h2>

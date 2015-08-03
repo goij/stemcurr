@@ -25,12 +25,25 @@
                     <label class="select">
                         <select name="category_id">
                             @foreach(App\Category::all() as $category)
-                                <option value="{{$category->id}}"
                                 @if($standard->category_id == $category->id)
-                                    selected
+                                <option value="{!!$category->id!!}" selected>{{$category->name}}</option>
+                                @else
+                                    <option value="{!!$category->id!!}">{{$category->name}}</option>
                                 @endif
-                                        >{{$category->name}}</option>
+
+
+                                @foreach(App\Category::all() as $subcategory)
+                                    @if(($subcategory->subcategory == 1) && ($category->id == $subcategory->parent_category_id))
+                                        @if($standard->category_id == $category->id)
+                                            <option value="{!!$subcategory->id!!}" selected>&nbsp;&nbsp;&nbsp;{{$subcategory->name}}</option>
+                                        @else
+                                                <option value="{!!$subcategory->id!!}">&nbsp;&nbsp;&nbsp;{{$subcategory->name}}</option>
+                                        @endif
+
+                                    @endif
+                                @endforeach
                             @endforeach
+
                         </select>
                         <i></i>
                     </label>

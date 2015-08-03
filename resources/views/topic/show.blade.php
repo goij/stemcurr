@@ -45,7 +45,7 @@
                                 </td>
                             </tr>
                             <tr>
-                                <th>PARNTERS</th>
+                                <th>PARTNERS</th>
                                 <td>{!!$topic->partners!!}</td>
                             </tr>
                             <tr>

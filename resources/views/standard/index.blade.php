@@ -7,6 +7,7 @@
         <table class="table table-bordered table-striped">
             <tr>
                 <th>Name</th>
+                <th>Subcategory</th>
                 <th>Category</th>
                 <th>Link</th>
                 @if(!Auth::guest() && Auth::user()->faculty)
@@ -16,7 +17,13 @@
             @foreach($standards as $standard)
                 <tr>
                     <td> <a href="{!!route('standard') . '/' . $standard->id !!}">{!!$standard->name!!}</a></td>
-                    <td>{{$standard->categoryName()}}</td>
+                    @if($standard->category->subcategory == 1)
+                        <td>{{$standard->categoryName()}}</td>
+                        <td>{{$standard->parentCategoryName()}}</td>
+                    @else
+                        <td>-</td>
+                        <td>{{$standard->categoryName()}}</td>
+                    @endif
                     <td><a href='{!!$standard->link!!}' target="_blank">{!!$standard->link!!}</a></td>
                     @if(!Auth::guest() && Auth::user()->faculty)
                     <td>

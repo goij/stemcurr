@@ -26,6 +26,15 @@ class Standard extends Model {
         return Category::where('id','=',$this->category_id)->first()->name;
     }
 
+    public function parentCategoryName(){
+        $parent_id = Category::where('id','=',$this->category_id)->first()->parent_category_id;
+        return Category::where('id','=',$parent_id)->first()->name;
+
+    }
+
+    public function mainCategory(){
+        return Category::where('subcategory','=',0);
+    }
     public function questions(){
         return $this->belongsToMany('App\Question');
     }

@@ -46,7 +46,8 @@ class QuestionController extends Controller
             [
                 'topic_id' => "required|exists:topics,id",
                 "title" => "required",
-                "evidence" => "required"
+                "evidence" => "required",
+                'course_align' => 'required'
             ]);
 
         $question = Question::create($input);
@@ -117,6 +118,7 @@ class QuestionController extends Controller
             'topic_id' => 'required|exists:topics,id',
             'title' => 'required',
             'evidence' => 'required',
+            'course_align' => 'required',
         ]);
         $question = Question::updateOrCreate(['id' => $id], $input);
 

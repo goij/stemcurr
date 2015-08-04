@@ -31,6 +31,12 @@
                                 {!!Form::textarea('evidence',null,['placeholder'=>'Evidence of Learning'])!!}
                             </label>
                         </div>
+                        <div class="col-md-12 col-sm-12">
+                            <label class="label">AU Course Alignment</label>
+                            <label class="textarea">
+                                {!!Form::textarea('course_align',null,['placeholder'=>'AU Course Alignment'])!!}
+                            </label>
+                        </div>
                     </fieldset>
                     <fieldset>
                         <div class="col-md-12">

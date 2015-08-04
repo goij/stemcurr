@@ -12,7 +12,10 @@
                 </p>
                 <p>
                     <h2>Category</h2>
-                    {{$standard->categoryName()}}
+                    {{$standard->parentCategoryName()}}
+                    @if($standard->category->subcategory == 1)
+                        - {{$standard->categoryName()}}
+                    @endif
                 </p>
                 <p>
                     <h2>Link</h2>

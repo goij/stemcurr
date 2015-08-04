@@ -7,8 +7,10 @@
             </div>
             <div class="panel-body">
                 <h2>Evidence of Learning</h2>
-
                 <p>{!!$question->evidence!!}</p>
+
+                <h2>AU Course Alignment</h2>
+                <p>{!!$question->course_align!!}</p>
 
                 <h2>Standards</h2>
                 @foreach($question->standards as $standard)
@@ -74,6 +76,12 @@
                             <label class="label">Update or Submit New Evidence of Learning</label>
                             <label class="textarea">
                                 {!!Form::textarea('evidence',null,['placeholder'=>'Evidence of Learning'])!!}
+                            </label>
+                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <label class="label">Update or Submit New AU Course Alignment</label>
+                            <label class="textarea">
+                                {!!Form::textarea('course_align',null,['placeholder'=>'AU Course Alignment'])!!}
                             </label>
                         </div>
                         <div class="col-md-12 col-sm-12">

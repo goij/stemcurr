@@ -27,10 +27,14 @@
                                     STANDARDS
                                 </th>
                                 <td>
-
                                     @foreach($topic->standards() as $standard)
-                                        <a href='{!!$standard->link!!}' target="_blank">{!!$standard->category!!} -
-                                            {!!$standard->name!!}</a><br>
+                                        @if($standard->category->subcategory == 0)
+                                            <a href='{!!$standard->link!!}' target="_blank">{!!$standard->categoryName()!!}
+                                                - {!!$standard->name!!}</a><br>
+                                        @elseif($standard->category->subcategory == 1)
+                                            <a href='{!!$standard->link!!}' target="_blank">{!!$standard->parentCategoryName()!!} - {!!$standard->categoryName()!!}
+                                                - {!!$standard->name!!}</a><br>
+                                        @endif
                                     @endforeach
 
                                 </td>
@@ -64,16 +68,20 @@
                                 </div>
                                 <div class="panel-body">
                                     <h2>Evidence of Learning</h2>
-
                                     <p>{!!$question->evidence!!}</p>
 
+                                    <h2>AU Course Alignment</h2>
+                                    <p>{!!$question->course_align!!}</p>
+
                                     <h2>Standards</h2>
-                                    @foreach($question->standards as $standard)
-                                        <p>
-                                            <a href='{!!$standard->link!!}' target="_blank"><span
-                                                        style="font-weight: bold">{!!$standard->category!!}</span> -
-                                                {!!$standard->name!!}</a>
-                                        </p>
+                                    @foreach($topic->standards() as $standard)
+                                        @if($standard->category->subcategory == 0)
+                                            <a href='{!!$standard->link!!}' target="_blank">{!!$standard->categoryName()!!}
+                                                - {!!$standard->name!!}</a><br>
+                                        @elseif($standard->category->subcategory == 1)
+                                            <a href='{!!$standard->link!!}' target="_blank">{!!$standard->parentCategoryName()!!} - {!!$standard->categoryName()!!}
+                                                - {!!$standard->name!!}</a><br>
+                                        @endif
                                     @endforeach
                                 </div>
                             </div>

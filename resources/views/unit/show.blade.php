@@ -114,8 +114,10 @@
                                                 </div>
                                                 <div class="panel-body">
                                                     <h2>Evidence of Learning</h2>
-
                                                     <p>{!!$question->evidence!!}</p>
+
+                                                    <h2>AU Course Alignment</h2>
+                                                    <p>{!!$question->course_align!!}</p>
 
                                                     <h2>Standards</h2>
                                                     @foreach($question->standards as $standard)

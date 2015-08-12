@@ -22,41 +22,6 @@
                         <p>{!!$topic['commentary']!!}</p>
                     </div>
                     <div class="row">
-                        <table class="table table-bordered table-search-v1">
-                            <tr>
-                                <th>
-                                    STANDARDS
-                                </th>
-                                <td>
-
-                                    @foreach($topic->standards() as $standard)
-                                        <a href='{!!$standard->link!!}' target="_blank">{{$standard->categoryName()}} -
-                                            {!!$standard->name!!}</a><br>
-                                    @endforeach
-
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    LABS
-                                </th>
-                                <td>
-                                    {!!$topic->labs!!}
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>PARTNERS</th>
-                                <td>{!!$topic->partners!!}</td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    SUBCATEGORY
-                                </th>
-                                <td>{!!$topic->subcategories!!}</td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="row">
                         <h2>Link To Parent Unit</h2>
                         <a href="{!!route('unit') . '/'. $topic->unit()->id!!}">{!!$topic->subject->name!!} - Grade {!!$topic->grade->number!!}</a>
                     </div>
@@ -71,17 +36,10 @@
                                     <h2>Evidence of Learning</h2>
                                     <p>{!!$question->evidence!!}</p>
 
-                                    <h2>AU Course Alignment</h2>
-                                    <p>{!!$question->course_align!!}</p>
 
                                     <h2>Standards</h2>
-                                    @foreach($question->standards as $standard)
-                                        <p>
-                                            <a href='{!!$standard->link!!}' target="_blank"><span
-                                                        style="font-weight: bold">{{$standard->categoryName()}}</span> -
-                                                {!!$standard->name!!}</a>
-                                        </p>
-                                    @endforeach
+                                    @include('question.standards_table')
+
                                     <h2>Number of Teacher Responses: {!!$question->numResponses()!!}</h2>
 
                                 </div>

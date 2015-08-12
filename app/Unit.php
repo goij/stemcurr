@@ -16,7 +16,7 @@ class Unit extends Model {
     /**
      * @var array
      */
-    protected $fillable = ['overview','team_leader','team_members','non_profit_partners','corporate_partners','au_faculty','subject_id','grade_id'];
+    protected $fillable = ['title','overview','team_leader','team_members','non_profit_partners','corporate_partners','au_faculty','subject_id','grade_id'];
 
     /**
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo

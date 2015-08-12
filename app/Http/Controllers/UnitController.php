@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Unit;
 use App\Topic;
+use App\Category;
 
 class UnitController extends Controller {
 
@@ -74,15 +75,17 @@ class UnitController extends Controller {
 	public function show($id)
 	{
 		$unit = Unit::find($id);
+        $categories = Category::all();
         $topics = Topic::where('grade_id','=',$unit->grade_id)->where('subject_id','=',$unit->subject_id)->get();
-        return view("unit.show",["unit"=>$unit,"topics"=>$topics]);
+        return view("unit.show",["unit"=>$unit,"topics"=>$topics, 'categories' => $categories]);
 	}
 
     public function showprint($id)
     {
         $unit = Unit::find($id);
+        $categories = Category::all();
         $topics = Topic::where('grade_id','=',$unit->grade_id)->where('subject_id','=',$unit->subject_id)->get();
-        return view("unit.showprint",["unit"=>$unit,"topics"=>$topics]);
+        return view("unit.showprint",["unit"=>$unit,"topics"=>$topics, 'categories' => $categories]);
     }
 
 

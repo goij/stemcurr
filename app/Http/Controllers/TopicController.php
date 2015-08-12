@@ -6,6 +6,7 @@ use App\Topic;
 use DB;
 use App\Standard;
 use App\Question;
+use App\Category;
 
 /**
  * Class TopicController
@@ -72,8 +73,8 @@ class TopicController extends Controller {
 	public function show($id)
 	{
 		$topic = Topic::find($id);
-
-        return view('topic.show', ['topic' => $topic]);
+        $categories = Category::all();
+        return view('topic.show', ['topic' => $topic, 'categories' => $categories]);
 	}
 
     /**
@@ -83,8 +84,8 @@ class TopicController extends Controller {
     public function showprint($id)
     {
         $topic = Topic::find($id);
-
-        return view('topic.showprint', ['topic' => $topic]);
+        $categories = Category::all();
+        return view('topic.showprint', ['topic' => $topic, 'categories' => $categories]);
     }
 
 	/**

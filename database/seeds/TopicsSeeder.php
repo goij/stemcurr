@@ -14,8 +14,8 @@ class TopicsSeeder extends Seeder{
         DB::table('topics')->delete();
         $topics = [
             [
-                'In the Thick of Things',
-                'How do the internal and external structures of a plant enable it to acquire, use and release energy? How does the release of plant energy affect people in their daily lives?',
+                'All About Earth\'s Natural Hazards and Introduction to the Solar System',
+                'What are Natural Hazards, how Hazardous are they, what is their Effect, and how do we fit into the bigger picture?',
                 'In this lesson, students develop an understanding of how the internal and external structures of a plant are utilized to aid in all elements of the energy process - acquiring, using and releasing energy. Students will then investigate how plant and animal worlds collide as they begin to develop an appreciation for the interconnectedness of all organisms.',
                 3,
                 5,

@@ -18,6 +18,6 @@ class QuestionStandardSeeder extends Seeder
 
         $q = Question::find(1);
 
-        $q->standards()->sync([1,2,3,4]);
+        $q->standards()->sync([1,2,3,4,5]);
     }
 }

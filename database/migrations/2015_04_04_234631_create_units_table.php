@@ -15,6 +15,7 @@ class CreateUnitsTable extends Migration {
 		Schema::create('units', function(Blueprint $table)
 		{
 			$table->increments('id');
+            $table->text('title');
             $table->text("overview");
             $table->text("team_leader");
             $table->text("team_members");

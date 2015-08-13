@@ -16,7 +16,7 @@ class Topic extends Model
     /**
      * @var array
      */
-    protected $fillable = ['title', 'summary', 'commentary', 'grade_id', 'subject_id','labs','partners','subcategories'];
+    protected $fillable = ['title', 'summary', 'commentary', 'grade_id', 'subject_id'];
 
     /**
      * @var array

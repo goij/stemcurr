@@ -59,13 +59,14 @@ class ResponseController extends Controller
      */
     public function store(Request $request)
     {
-        $input = $request->only(['evidence', 'comments', 'assessment', 'user_id', 'question_id']);
+        $input = $request->only(['evidence', 'course_align', 'comments', 'assessment', 'user_id', 'question_id']);
 
         $this->validate($request, [
             'question_id' => 'required|exists:questions,id',
             'user_id' => 'required|exists:users,id',
             'comments' => 'required',
             'evidence' => 'required',
+            'course_align' => 'required',
             'assessment' => 'required',
         ]);
 
@@ -119,6 +120,7 @@ class ResponseController extends Controller
             'user_id' => 'required|exists:users,id',
             'comments' => 'required',
             'evidence' => 'required',
+            'course_align' => 'required',
             'assessment' => 'required',
         ]);
         $response = Response::updateOrCreate(['id' => $id], $input);

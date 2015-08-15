@@ -23,6 +23,12 @@
                         </label>
                     </div>
                     <div class="col-md-12 col-sm-12">
+                        <label class="label">Update or Submit New AU Course Alignment</label>
+                        <label class="textarea">
+                            {!!Form::textarea('course_align',null,['placeholder'=>'AU Course Alignment'])!!}
+                        </label>
+                    </div>
+                    <div class="col-md-12 col-sm-12">
                         <label class="label">Assessment</label>
                         <label class="textarea">
                             {!!Form::textarea('assessment',null,['placeholder'=>'Assessment'])!!}

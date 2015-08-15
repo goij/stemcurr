@@ -6,7 +6,7 @@ class Question extends Model {
     /**
      * @var array
      */
-	protected $fillable = ['topic_id','title','evidence'];
+	protected $fillable = ['topic_id','title','evidence','course_align'];
 
     /**
      * @var array
@@ -24,33 +24,15 @@ class Question extends Model {
      * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
      */
     public function standards(){
-        return $this->belongsToMany('App\Standard');
+        return $this->belongsToMany('App\Standard', 'question_standard', 'question_id', 'standard_id');
     }
 
-    /**
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
-     */
-    public function subcategory(){
-        return $this->belongsToMany('');
-    }
 
-    /**
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
-     */
-    public function labs(){
-        return $this->belongsToMany('');
-    }
 
     public function numResponses(){
         return Response::where('question_id','=',$this->id)->count();
     }
 
-    /**
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
-     */
-    public function partners(){
-        return $this->belongsToMany('');
-    }
 
     /**
      *

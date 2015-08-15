@@ -38,14 +38,7 @@
                         <p>{!!$response->comments!!}</p>
 
                         <h2>Standards</h2>
-
-
-                        @foreach($response->standards as $standard)
-                            <p>
-                                <a href='{!!$standard->link!!}' target="_blank"><span style="font-weight: bold">{{$standard->categoryName()}}</span>
-                                    - {!!$standard->name!!}</a>
-                            </p>
-                        @endforeach
+                        @include('response.standards_table')
                     </div>
                 </div>
             @endforeach

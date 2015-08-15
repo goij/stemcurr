@@ -59,24 +59,6 @@
                                 {!!Form::textarea('commentary',null,['placeholder'=>'Commentary'])!!}
                             </label>
                         </div>
-                        <div class="col-md-12 col-sm-12">
-                            <label class="label">Labs</label>
-                            <label class="textarea">
-                                {!!Form::textarea('labs',null,['placeholder'=>'Labs'])!!}
-                            </label>
-                        </div>
-                        <div class="col-md-12 col-sm-12">
-                            <label class="label">Partners</label>
-                            <label class="textarea">
-                                {!!Form::textarea('partners',null,['placeholder'=>'Partners'])!!}
-                            </label>
-                        </div>
-                        <div class="col-md-12 col-sm-12">
-                            <label class="label">Subcategories</label>
-                            <label class="textarea">
-                                {!!Form::textarea('subcategories',null,['placeholder'=>'Subcategories'])!!}
-                            </label>
-                        </div>
                     </fieldset>
                     <footer>
                         <div class="col-md-6 col-sm-12">

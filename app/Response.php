@@ -17,7 +17,7 @@ class Response extends Model {
     /**
      * @var array
      */
-    protected $fillable = ['user_id','question_id','evidence','comments','assessment'];
+    protected $fillable = ['user_id','question_id','evidence','course_align','comments','assessment'];
 
     /**
      * Custom defintion of pivot table and associated keys is necessary
@@ -25,7 +25,7 @@ class Response extends Model {
      * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
      */
     public function standards(){
-        return $this->belongsToMany('App\Standard', 'question_standard', 'question_id', 'standard_id');
+        return $this->belongsToMany('App\Standard', 'response_standard', 'response_id', 'standard_id');
     }
 
     public function user(){

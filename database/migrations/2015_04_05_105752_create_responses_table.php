@@ -20,6 +20,7 @@ class CreateResponsesTable extends Migration {
             $table->integer('question_id')->unsigned();
             $table->foreign('question_id')->references('id')->on('questions')->onDelete('cascade');
             $table->text('evidence');
+            $table->text('course_align');
 			$table->text('assessment');
             $table->text('comments');
             $table->timestamps();

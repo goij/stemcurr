@@ -17,7 +17,7 @@
                 <div class="col-md-12">
                     <label class="label">Name</label>
                     <label class="input">
-                        {!!Form::text('name',null,['placeholder'=>'Name'])!!}
+                        {!!Form::text('name',null,['placeholder'=>'$standard-name'])!!}
                     </label>
                 </div>
                 <div class="col-md-12 col-sm-12">
@@ -29,7 +29,7 @@
                                     @if($standard->category_id == $category->id)
                                         <option value="{!!$category->id!!}" selected>{{$category->name}}</option>
                                     @else
-                                        <option value="{!!$category->id!!}">{{$category->name}}</option>
+                                        <option value="{!!$category->id!!}">{!!$category->id!!}{{$category->name}}</option>
                                     @endif
                                 @endif
 
@@ -39,7 +39,7 @@
                                         @if($standard->category_id == $category->id)
                                             <option value="{!!$subcategory->id!!}" selected>&nbsp;&nbsp;&nbsp;{{$subcategory->name}}</option>
                                         @else
-                                                <option value="{!!$subcategory->id!!}">&nbsp;&nbsp;&nbsp;{{$subcategory->name}}</option>
+                                                <option value="{!!$subcategory->id!!}">{!!$subcategory->id!!}&nbsp;&nbsp;&nbsp;{{$subcategory->name}}</option>
                                         @endif
 
                                     @endif

@@ -16,12 +16,12 @@ class SubjectsSeeder extends Seeder{
         DB::table('standards')->delete();
 
         $names =[
+            'Ecosystems & Adaptations',
+            'Force & Motion',
             'Geology & Space',
             'Matter & Energy',
-            'Force & Motion',
             'Weather & Climate',
-            'Structure & Function',
-            'Ecosystems & Adaptations'
+            'Structure & Function'
         ];
 
 

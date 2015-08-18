@@ -121,7 +121,7 @@ class UnitsSeeder extends Seeder
                 'Michael Oros (Scheck & Siress), Donna Gatza (CAT)', 'Dr. Sharon Miller (AU)',2,4
             ],
             [
-                'How do forces and motion affect our everyday lives through the transportation process: Turning Journeys into STEMories?',
+                '<br />How do forces and motion affect our everyday lives through the transportation process: Turning Journeys into STEMories?',
                 '<p>Students will understand the relationship between force and motion including transportation systems, the concept of equilibrium through investigating balanced and unbalanced forces, Newton’s Laws of Motion, and simple and complex machines. The seventh grader will be able to calculate the net force in models
                 or problems, represent motion graphically, and identify current technologies that influence technological advances.
                 <p>With the cooperation of corporate and not-for-profit partners, students will have the opportunity to observe machines at work in different contexts. With that background set, students will be able to make connections between the concepts they learn about in the classroom and what they have seen in real world
@@ -133,7 +133,7 @@ class UnitsSeeder extends Seeder
                 'Michael Oros (Scheck & Siress), Donna Gatza (CAT)', 'Dr. Sharon Miller (AU)',2,5
             ],
             [
-                'How do forces and motion affect our everyday lives? How do Forces and Motion Affect the Bio-mechanics of Life?',
+                '<br />How do forces and motion affect our everyday lives? How do Forces and Motion Affect the Bio-mechanics of Life?',
                 '<p>This unit will help students develop an understanding of the nature of forces and how they affect motion, learn how forces interact to produce motion, observe how the properties of different materials affect motion, and recognize how motion and forces are present in our daily lives.</p>
                 <p>Eighth graders will revisit the question. “What is motion and where is it found?” in regards to the bio-mechanics of the human body.  Prior knowledge to this unit will include students being able to measure basic quantities connected to describing motion (distance, time, speed, etc.) and
                 aware that there are rules (Newtonian mechanics) that help describe the macroscopic motion of an object.  Students will also be able to identify more than one force acting on an object, including friction, and will be challenged to build on their abilities to describe motion as multiple forces
@@ -146,7 +146,7 @@ class UnitsSeeder extends Seeder
                 'Michael Oros (Scheck & Siress), Donna Gatza (CAT)', 'Dr. Sharon Miller (AU)',2,6
             ],
             [
-                'All About Earth\'s Natural Hazards and Introduction to the Solar System',
+                '<br />All About Earth\'s Natural Hazards and Introduction to the Solar System',
                 '<p>Have you ever have the exhilarating experience of standing at the edge of a mountain and looking down into a valley far below?  Did you know that millions of years ago the mountains and valley probably
                 looked quite different?  The land may have been completely flat, without as much as a hill.  Perhaps the area was beneath an ocean.  What caused the land to change?  How did the mountain and valley form?</p>
                 <p>Throughout Earth’s long history, its surface has been lifted up, pushed down, bent, and broken by forces beneath the surface.  Although the resulting movements of the Earth’s surface are usually too small and too slow to
@@ -168,7 +168,7 @@ class UnitsSeeder extends Seeder
                 'Nicor Gas: Angela Whitfield', 'Dr. Chetna Patel',3,1
             ],
             [
-                'The History of Planet Earth Through Earth\'s Processes and Discovering the Solar System',
+                '<br />The History of Planet Earth Through Earth\'s Processes and Discovering the Solar System',
                 '<p>For thousands of years, the mysteries of the earth and space have caused fear, wonder, and curiosity in people.  Some ancient civilizations believed that the world was coming to an end when the sun slowly disappeared behind the moon.
                 Today, scientists refer to this event as a solar eclipse.  We now know that a solar eclipse occurs when the moon is directly between the earth and the sun.  Some civilizations built temples to please angry gods they believed caused earthquakes,
                 storms, and volcanic eruptions.</p>

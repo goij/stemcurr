@@ -3,7 +3,7 @@
     @if(isset($unit))
         <div class="panel panel-augreen">
             <div class="panel-heading">
-                <h2 class="heading color-light">{!!$unit->subject->name!!} - Grade {!!$unit->grade->string!!}</h2>
+                <h2 class="heading color-light">{!!$unit->subject->name!!} - Grade {!!$unit->grade->string!!}{!!$unit->title!!}</h2>
             </div>
             <div class="panel-body">
                 <div class="heading"><h2>Overview</h2></div>

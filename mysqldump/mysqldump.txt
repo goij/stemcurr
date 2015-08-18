@@ -1,0 +1,1 @@
+stemcurr database mysql backups are to be stored within this folder /var/www/html/stemcurriculum/mysqldump

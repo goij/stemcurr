@@ -15,13 +15,13 @@ class TopicsSeeder extends Seeder{
         $topics = [
             [
                 'Interdependent Relationships in Ecosystems',
-                'How can we use/examine/adapt what was here before us to meet our modern needs and to improve our current processes?',
                 'What are the parts that make up an ecosystem (organism, population, community, ecosystem, biome)?
                 What is an ecosystem?
                 What is a food chain?
                 How do changes in an environment affect living things/ecosystems/food chains?
                 How can an ecosystem’s physical characteristics, temperature, or availability of resources impact an organism (What are the ways that biotic factors are impacted by abiotic factors)?
                 What are the benefits of an animal living in a group?',
+                '',
                 1,
                 1
             ],
@@ -553,6 +553,149 @@ class TopicsSeeder extends Seeder{
                 <li>How can scientists use fossils to teach about earth\'s history?</li></ol>',
                 '',
                 2,
+                3
+            ],
+            [
+                'Earth Materials and Systems (weathering, erosion, deposition)',
+                'What are weathering, erosion, and deposition?',
+                '',
+                2,
+                3
+            ],
+            [
+                'Plate Tectonics',
+                '<ol><li>How did the continents form? (Pangaea)</li>
+                <li>How does the movement of continents establish landform patterns?</li>
+                <li>How can maps help locate different land and water features on earth?</li></ol>',
+                '',
+                2,
+                3
+            ],
+            [
+                'The Solar System',
+                '<ol><li>Earth is part of the solar system, which is made up of many different objects. (Planets, Stars, Meteors)</li>
+                <li>What are stars and galaxies and how do we observe them in the solar system?</li></ol>',
+                '',
+                2,
+                3
+            ],
+            [
+                'Systems and Spheres',
+                'How do the Earth’s spheres interact with each other?
+                What systems are in each sphere?
+                What would happen if the hydrological system stopped working?
+                Design Project:  Create a model of the Hydrosphere to show how it interacts with another system.  (Limited to 2 systems at the fifth grade level)',
+                '',
+                3,
+                3
+            ],
+            [
+                'Rocks and Fossils',
+                'What are the 3 basic types of rocks and how can you identify them?
+                What are the different layers of rock found in the earth?
+                What are the Laws of Superposition?
+                What is Dr. Williams Smith’s Law of Fossil succession?',
+                '',
+                3,
+                3
+            ],
+            [
+                'Erosion and Earth’s Physical Features',
+                'What are the causes of  erosion on Earth’s surface?
+                What are Earth’s major physical features?',
+                '',
+                3,
+                3
+            ],
+            [
+                'Twinkle, Twinkle, Little Star',
+                'What is the Universe?
+                What is a Star and how do we use technology to learn more about them?
+                Why do some stars seem brighter than others?',
+                '',
+                3,
+                3
+            ],
+            [
+                'Movement of the Earth and Moon around the Sun:  Elliptical Orbit and how it affects the observations seen on Earth.',
+                'What are the phases of the Moon?
+                How does the Earth’s orbit around the Sun affect the patterns we see in the sky during the day?
+                What causes the changes in the length and direction of shadows?',
+                '',
+                3,
+                3
+            ],
+            [
+                'Age of Earth: (Carbon dating, Radioactive decay& Fossils).',
+                '<ol><li>How is the age of the Earth defined? (What technology and tools are used today to help us determine
+                the age of Earth? What costs are associated with manufacturing the tools used in determining absolute age of the Earth?)</li>
+                <li>How can we determine a rock’s origin? (Where did the rock come from? If the Earth is 4.5 billion years old and we have rock that is 5.0
+                billion years old where did the rock come from?  What technology and tools are used today to help us determine where a rock comes from and
+                what is the cost associated with those tools?)</li></ol>',
+                '',
+                4,
+                3
+            ],
+            [
+                'Earth\'s Spheres',
+                'What are the Earth\'s Spheres and how are do they interact with each other? (Atmosphere, Hydrosphere, Geosphere, Biosphere).
+                What life forms depend on all four of Earths spheres?  What careers are available that involve each of the spheres?',
+                '',
+                4,
+                3
+            ],
+            [
+                'Earth\'s Energy/Heat Sources (Solar Energy and Earth\'s Interior)',
+                '<ol><li>What are Earth’s energy sources and how are they measured?</li>
+                <li>How does Earth\'s interior provide energy to our Earth? (Conduction and convection currents, Geothermal-Energy).</li>
+                <li>What is happening inside the Sun and what is nuclear fission? (Energy, Heat, Solar Radiation, Gases).</li>
+                <li>What happens with the Sun’s energy when it reaches Earth’s atmosphere?</li></ol>',
+                '',
+                4,
+                3
+            ],
+            [
+                'Changes over Time and Natural Hazards',
+                '<ol><li>How have varying geological conditions and natural hazards affected our Earth over time?</li>
+                <li>What geologic technologies are available today that allow us to study Earth’s past? How could these technologies be developed to be more effective in the future</li></ol>',
+                '',
+                4,
+                3
+            ],
+            [
+                'What are the objects in our Solar System?',
+                '<ol><li>What makes up the Solar System? What technology is available to study these objects?</li>
+                <li>Why is gravity important in our solar?</li>
+                <li>How does Gravity affect your mass and weight on Earth?</li></ol>',
+                '',
+                4,
+                3
+            ],
+            [
+                'Erosion, Weathering and Deposition Reshape Earth’s Surface.',
+                '<ol><li>What role do geoscience processes (wind, glaciers, water, gravity and waves) play in the reshaping of Earth\'s surface; and how do the these agents affect construction and design in our everyday lives?</li>
+                <li>What is the rock cycle and what criterion is used to classify and characterize rocks? How are Earth’s Rocks used in the world in which we live?</li>
+                <li>What are minerals, how do they form, how are minerals classified, and what can minerals be used for?</li></ol>',
+                '',
+                5,
+                3
+            ],
+            [
+                'The Planets and Gravity: The Force Holding it Together Throughout the Seasons.',
+                '<ol><li>Why is gravity important in our solar system?</li>
+                <li>What are the planets that make up our solar system, how do they differ and what new technology is available today to discover planets in other solar systems?</li>
+                <li>How are Earth days, years and seasons related to the way Earth moves in space and what are the tools that are available for observations?</li></ol>',
+                '',
+                5,
+                3
+            ],
+            [
+                'Interactions of the Sun, Earth and Moon',
+                '<ol><li>How do the Earth, the moon and the sun affect each other? (Solar and lunar eclipses) and what technology is utilized for observing eclipses?</li>
+                <li>Why does our Earth\'s moon change appearance? (Phases of the moon, orbit, rotation.)</li>
+                <li>What are some milestones of space exploration?</li></ol>',
+                '',
+                5,
                 3
             ],
             [

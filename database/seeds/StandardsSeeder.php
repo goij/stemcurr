@@ -317,7 +317,7 @@ class StandardsSeeder extends Seeder{
             ["CC.3.R.F.3",17,"http://www.corestandards.org/ELA-Literacy/"],
             ["CC.3.R.F.3.a",17,"http://www.corestandards.org/ELA-Literacy/"],
             ["CC.3.R.F.3.b",17,"http://www.corestandards.org/ELA-Literacy/"],
-            ["c CC.3.R.F.3.c",17,"http://www.corestandards.org/ELA-Literacy/"],
+            ["CC.3.R.F.3.c",17,"http://www.corestandards.org/ELA-Literacy/"],
             ["CC.3.R.F.3.d",17,"http://www.corestandards.org/ELA-Literacy/"],
             ["CC.3.R.F.4",17,"http://www.corestandards.org/ELA-Literacy/"],
             ["CC.3.R.F.4.a",17,"http://www.corestandards.org/ELA-Literacy/"],

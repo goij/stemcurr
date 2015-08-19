@@ -179,7 +179,47 @@ class UnitsSeeder extends Seeder
                 'Lisa E. Pena','Teresa, Bauman, Gerry Mestek, Sara Thurman',
                 'Du Page Children’s Museum: Chris Barry, Laura Decker, Kim Grdina, Margaret Hanley',
                 'Nicor Gas: Angela Whitfield', 'Dr. Chetna Patel',3,2
+            ],
+            [
+                '<br />Earth\’s Place in the Universe; Its Materials, Systems, and Stars',
+                '<p>The orbits of the Earth around the Sun and the Moon around the earth have created observable patterns that have been visible to man since the beginning of time.  While these patterns have gradually changed, man has depended upon these patterns to organize and plan daily life.</p>
+                <p>Students in grade 5 are capable of observing patterns that they witness in the day and night sky and are able to describe them; however, they may need clarification as to why these patterns occur, when these patterns occurs and where observable
+                patterns take place.  In addition, stars are visible objects in our night sky.  They exhibit a variety of colors which reflects temperature and vary in distance from the Earth.</p>
+                <p>Earth is constantly changing.  The four major systems: atmosphere, hydrosphere, biosphere and geosphere have been studied over time to analyze the impact of how the spheres and systems interact.   By grade 5, students need to know how and why the
+                earth is changing, identify and analyze rock layers, how land forms have developed because of these interactions and how these changes have impacted the features on earth over time.  Students at this grade level will be able to identify patterns not
+                only in space, but also on planet Earth.  They are able to make investigations about how systems interact with the spheres in order to gather data to see these changes on our planet.</p>',
+                'Lisa E. Pena','Teresa, Bauman, Gerry Mestek, Sara Thurman',
+                'Du Page Children’s Museum: Chris Barry, Laura Decker, Kim Grdina, Margaret Hanley',
+                'Nicor Gas: Angela Whitfield', 'Dr. Chetna Patel',3,3
+            ],
+            [
+                '<br/>Our Aging Earth: Life Cycles, Spheres of Influence and Dating<br />Do You See What I See? - All Those Tiny Lights!',
+                '<p>Evidence suggests that Earth formed approximately 4.6 billion years ago.  But how long is 4,600,000,000?  Fossil evidence indicates that there have been wide fluctuations in types and diversity of organisms that have lived on Earth over
+                this geologic time.  The rocks and fossils provide evidence about Earth’s past.  The more recent the era the more evidence exists.  By the nineteenth century, scientists developed a clear picture of Earth’s pat as recorded by the fossils.  This
+                picture showed great and varied changes as the continents had risen and mountains were worn away.  Life had begun in the sea and later moved to the land.  Living things evolved through many stages to the forms that exist today.  Climates around the
+                world had also changed many times.  The discovery of radioactive elements in 1896 led to the development of an accurate method of determining the absolute age of rocks and fossils.  The breakdown of a radioactive element into a decay element occurs at a
+                constant rate.  Some take only a few seconds whereas others take millions or billions of years to decay.  Scientists measure the decay rate of a radioactive element by a unit called half-life.</p>
+                <p>Astronomers today know that Earth is part of a system of eight planets revolving around the Sun.  The Sun, in turn, is part of a larger system called the Milky Way galaxy that is one of billions of other galaxies in the universe.
+                As small as Earth might be seen in the universe, it could be unique. When the Ancient astronomers looked up into the night sky, they observed billions of tiny specks of light. The ancient Greeks called the tiny lights in the night sky “wanderers”.
+                Astronomers now know that the planets do not wander about the sky; the planets move around the Sun.  The Sun and the group of objects that move around it make up the solar system.  Almost all the other specks in the night sky are stars and gravity holds it all together.</p>',
+                'Lisa E. Pena','Teresa, Bauman, Gerry Mestek, Sara Thurman',
+                'Du Page Children’s Museum: Chris Barry, Laura Decker, Kim Grdina, Margaret Hanley',
+                'Nicor Gas: Angela Whitfield', 'Dr. Chetna Patel',3,4
+            ],
+            [
+                '<br />Forces That Reshape Earth’s Crust, Rocks and Minerals<br />Gravity and the Changing Faces of the Moon.',
+                '<p>The Earth is shaped and reshaped by a variety of process over long periods of time that produce the range of landforms on the Earth’s surface.</p>
+                <p>Students at this age level may have misconceptions that the world was always as it is now, or that any changes, if any, have occurred suddenly and comprehensively as a result of some cataclysmic event. Understanding how the Earth has changed over its history depends on looking at
+                more than the process of weathering and sedimentation. In addition, the changes and process on the surface of the Earth presented in this unit support ideas about Earth’s original igneous rock beginnings and its hot interior. The fact that rock cycles through the Earth’s surface, changing
+                its form and location, forming new rock material and minerals will be investigated by students as they dig into Earth’s composition thus providing for authentic learning of their physical world.</p>
+                <p>As science continues to discover new observations and ideas about the universe it is important to provide foundational understandings which allows students to make coherent connections to the universe and then engage in further learning. Observations of the sky and explanations of principles
+                forces of motion will provide an important perspective for understanding the important ideas that apply to the physical principles of our universes planets, and moons.</p>
+                <p>As students progress beyond this grade level they will gain a deeper appreciation of the important scientific notion that the same physical principles apply everywhere despite the diverse differences in scale from planets, stars and beyond.</p>',
+                'Lisa E. Pena','Teresa, Bauman, Gerry Mestek, Sara Thurman',
+                'Du Page Children’s Museum: Chris Barry, Laura Decker, Kim Grdina, Margaret Hanley',
+                'Nicor Gas: Angela Whitfield', 'Dr. Chetna Patel',3,5
             ]
+
         ];
 
         foreach($units as $unit){

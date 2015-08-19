@@ -1139,7 +1139,410 @@ class QuestionsSeeder extends Seeder{
                 BIO 2200 (Humans and the Environment)'
             ],
             [
-                45,
+                64,
+                'What are fossils? (fossil classification-casts, molds, petrification, carbon, amber)',
+                'Students will: <ol><li>Explain what a fossil is and how it forms.</li>
+                <li>Design a model of a fossil (fossil classification-casts, molds, petrification, carbon, amber.</li>
+                <li>Explore what tools are used to retrieve fossils</li></ol>',
+                'NSM 1300 (Earth and Space Science)<br />
+                BIO 3510 (Ecology)<br />
+                BIO 2200 (Humans and the Environment)'
+            ],
+            [
+                64,
+                'How can scientists use fossils to teach about earth\'s history?',
+                'Students will: <ol><li>Explain how a fossil buried in our earth can indicate the relative age of earth (Law of Superposition).</li>
+                <li>Build a model to demonstrate the Law of Superposition.</li></ol>',
+                'NSM 1300 (Earth and Space Science)<br />
+                BIO 3510 (Ecology)<br />
+                BIO 2200 (Humans and the Environment)'
+            ],
+            [
+                65,
+                'What are weathering, erosion, and deposition?',
+                'Students will: <ol><li>Explain the process of weathering, erosion, and deposition via modeling.</li>
+                <li>Explore what technology is available to study earth mechanical systems</li></ol>',
+                'NSM 1300 (Earth and Space Science)<br />
+                BIO 3510 (Ecology)<br />
+                BIO 2200 (Humans and the Environment)'
+            ],
+            [
+                66,
+                'How did the continents form? (Pangaea)',
+                'Students will: <ol><li>Explain the super continent Pangaea.</li>
+                <li>Determine what tools are used to determine continental shift?</li></ol>',
+                'NSM 1300 (Earth and Space Science)<br />
+                BIO 3510 (Ecology)<br />
+                BIO 2200 (Humans and the Environment)'
+            ],
+            [
+                66,
+                'How does the movement of continents establish landform patterns?',
+                'Students will: <ol><li>Identify the plate boundaries by visible landforms on maps.</li>
+                <li>Create a model that demonstrates the plate boundary effects (mountains, volcanoes, deep ocean trench).</li></ol>',
+                'NSM 1300 (Earth and Space Science)<br />
+                BIO 3510 (Ecology)<br />
+                BIO 2200 (Humans and the Environment)'
+            ],
+            [
+                66,
+                'How can maps help locate different land and water features on earth?',
+                'Students will: <ol><li>Identify land and water features using topographical map coordinates.</li>
+                <li>Determine the mapping tools that are available to cartographers today</li></ol>',
+                'NSM 1300 (Earth and Space Science)<br />
+                BIO 3510 (Ecology)<br />
+                BIO 2200 (Humans and the Environment)'
+            ],
+            [
+                67,
+                'Earth is part of the solar system, which is made up of many different objects. (Planets, Stars, Meteors)',
+                'Students will: <ol><li>Explain the objects that are part of the solar system?  (Planets, Stars, Meteors).</li>
+                <li>Build a model that includes all of the identified objects.</li></ol>',
+                'NSM 1300 (Earth and Space Science)'
+            ],
+            [
+                67,
+                'What are stars and galaxies and how do we observe them in the solar system?',
+                'Students will: <ol><li>Explain and describe what a star is.</li>
+                <li>Explain and describe what a Galaxy is.</li>
+                <li>Determine what tools scientists use to identify objects in the solar system (Telescopes, Satellites).</li></ol>',
+                'NSM 1300 (Earth and Space Science)'
+            ],
+            [
+                68,
+                'How do the spheres interact with one another?',
+                'Students will: <ol><li>Investigate and report how the four spheres caused an event in daily life.</li>
+                <li>Graph the effects of the spheres on the Earth’s changing systems.</li>
+                <li>Analyze evidence of materials and energy moving among spheres.</li>
+                <li>Debate if a rigid or flexible building design is most resistant to earthquakes.</li></ol>',
+                'NSM 1300 (Earth and Space Science)<br />
+                BIO 3510 (Ecology)<br />
+                BIO 2200 (Humans and the Environment)'
+            ],
+            [
+                68,
+                'What systems are in each sphere?',
+                'Students will: <ol><li>Create a multimedia  presentation to demonstrate what systems are in each sphere.</li></ol>',
+                'NSM 1300 (Earth and Space Science)<br />
+                BIO 3510 (Ecology)<br />
+                BIO 2200 (Humans and the Environment)'
+            ],
+            [
+                68,
+                'What would happen if the hydrological system stopped working?',
+                'Students will: <ol><li>Analyze the interactions of the hydrological system and interpret data.</li></ol>',
+                'NSM 1300 (Earth and Space Science)<br />
+                BIO 3510 (Ecology)<br />
+                BIO 2200 (Humans and the Environment)'
+            ],
+            [
+                69,
+                'What are the 3 basic types of rocks and how can you identify them?',
+                'Students will: <ol><li>Describe characteristics used to identify the three types of rocks.</li></ol>',
+                'NSM 1300 (Earth and Space Science)<br />
+                BIO 3510 (Ecology)<br />
+                BIO 2200 (Humans and the Environment)'
+            ],
+            [
+                69,
+                'What are the different layers of rock found in the earth?',
+                'Students will: <ol><li>Describe the environments in which each layer of rock is found.</li>
+                <li>Explain how diamonds are made.</li></ol>',
+                'NSM 1300 (Earth and Space Science)<br />
+                BIO 3510 (Ecology)<br />
+                BIO 2200 (Humans and the Environment)'
+            ],
+            [
+                69,
+                'What are the Laws of Superposition?',
+                'Students will: <ol><li>Understand the concept of 3D models that describe the earth.</li>
+                <li>Use data to deduce relative ages of simulated rock layers.</li>
+                <li>Make cross-section drawings to describe the Laws of Superposition.</li></ol>',
+                'NSM 1300 (Earth and Space Science)<br />
+                BIO 3510 (Ecology)<br />
+                BIO 2200 (Humans and the Environment)'
+            ],
+            [
+                69,
+                'What is Dr. Williams Smith’s Law of Fossil succession?',
+                'Students will: <ol><li>Describe and explain the Law of Fossil Succession.</li>
+                <li>Create a model showing an example of the layers of fossils from oldest to most recent.</li>
+                <li>Debate why fossil dating is important and how it is used to determine that the Earth has changed over time.</li></ol>',
+                'NSM 1300 (Earth and Space Science)<br />
+                BIO 3510 (Ecology)<br />
+                BIO 2200 (Humans and the Environment)'
+            ],
+            [
+                70,
+                'What are the causes of erosion on Earth’s surface?',
+                'Students will: <ol><li>Investigate fluid flow of water, air and ice on the earth’s surface.</li>
+                <li>Compare how rain shapes the earth using dry and wet soil.</li>
+                <li>Compare/Contrast different slopes in an erosion investigation.</li></ol>',
+                'NSM 1300 (Earth and Space Science)<br />
+                BIO 3510 (Ecology)<br />
+                BIO 2200 (Humans and the Environment)'
+            ],
+            [
+                70,
+                'What are Earth’s major physical features?',
+                'Students will: <ol><li>Identify the major physical features of Earth.</li>
+                <li>Locate and create a map of where they are located.</li>
+                <li>Describe how industry and business utilize Earth’s major physical features.  (mining, energy, transportation, and building design).</li></ol>',
+                'NSM 1300 (Earth and Space Science)<br />
+                BIO 3510 (Ecology)<br />
+                BIO 2200 (Humans and the Environment)'
+            ],
+            [
+                71,
+                'What Is the Universe?',
+                'Students will: <ol><li>Research and identify in written form, the key elements of the universe</li>
+                <li>Create a multi-media presentation that identifies the elements of the universe - including stars, galaxies, constellations, and solar systems</li>
+                <li>Conclude that the universe is comprised of mostly gases (hydrogen and helium) and the nuclear fusion causes the birth and death of stars.</li></ol>',
+                'NSM 1300 (Earth and Space Science)'
+            ],
+            [
+                71,
+                'What is a Star and how do we use technology to learn more about them?',
+                'Students will: <ol><li>Identify that the sun is only one of many stars that galaxies form around</li>
+                <li>Analyze star charts that show visible constellations according to time of year.</li>
+                <li>Create a model explaining the birth and death of a star.</li>
+                <li>Research star exploration using various modalities of research (such as NASA, Adler Planetarium, Fermi-Lab)</li></ol>',
+                'NSM 1300 (Earth and Space Science)'
+            ],
+            [
+                71,
+                'Why do some stars seem brighter than others?',
+                'Students will: <ol><li>Explain that stars vary in brightness according to their distance from Earth.</li>
+                <li>Conduct research to locate and identify stars closest to Earth.</li>
+                <li>Identify constellations that are identifiable for the time of year.</li>
+                <li>Create a multimedia presentation to demonstrate their understanding of the properties of stars.</li></ol>',
+                'NSM 1300 (Earth and Space Science)'
+            ],
+            [
+                72,
+                'What are the phases of the moon?',
+                'Students will: <ol><li>Explain why the moon looks different in the night sky throughout the month.</li>
+                <li>Define an elliptical orbit.</li>
+                <li>Create a visual model to show the different observable patterns of the moon.</li>
+                <li>Discover how earlier people used the moon phases to predict cycles of lunar events and agricultural production</li>
+                <li>Create an argument supported by research that proves or disproves the claim that all moon phases occur at the same time in all parts of the world (if we have a full moon in Illinois, does China see the same full moon?)</li></ol>',
+                'NSM 1300 (Earth and Space Science)'
+            ],
+            [
+                72,
+                'How does the Earth’s orbit around the Sun affect the patterns we see in the sky during the day?',
+                'Students will: <ol><li>Describe, through observation, the changes in the position of the sun throughout the day.</li>
+                <li>Create a model that explains what happens during a solar eclipse.</li>
+                <li>Discover early civilizations used sun dials to indicate time and seasons</li>
+                <li>Students will explain why the amount of daylight in the winter is less than the amount in the summer?</li></ol>',
+                'NSM 1300 (Earth and Space Science)'
+            ],
+            [
+                72,
+                'What causes the changes in the length and direction of shadows?',
+                'Students will: <ol><li>Explain what shadows are.</li>
+                <li>Observe shadow placement over time and analyze their findings.</li>
+                <li>Create a model that shows how shadow length and placement changes during the day.</li></ol>',
+                'NSM 1300 (Earth and Space Science)'
+            ],
+            [
+                73,
+                'How is the age of the Earth defined? (What technology and tools are used today to help us determine the age of Earth? What costs are associated with manufacturing the tools used in determining absolute age of the Earth?)',
+                'Students will: <ol><li>Explain the process of carbon dating, radioactive decay, and fossils as descriptors for determining the age of the Earth.</li>
+                <li>Describe and explain what technology is available to assist with carbon dating and half-life.</li>
+                <li>Demonstrate a half-life by using a manipulative in a lab experience.</li></ol>',
+                'NSM 1300 (Earth and Space Science)<br />
+                BIO 3510 (Ecology)<br />
+                BIO 2200 (Humans and the Environment)'
+            ],
+            [
+                73,
+                'How can we determine a rock’s origin? (Where did the rock come from? If the Earth is 4.5 billion years old and we have rock that is 5.0 billion years old where did the rock come from? What technology and tools are used today to help us determine a rock’s origin and what is the cost associated with those tools?)',
+                'Students will: <ol><li>Formulate a hypothesis of the rock’s origin, through a deductive process. (Such as space. i.e. meteorites).</li>
+                <li>Analyze meteorites to find why a magnet is attracted to a meteorite (Lab Experience)</li></ol>',
+                'NSM 1300 (Earth and Space Science)<br />
+                BIO 3510 (Ecology)<br />
+                BIO 2200 (Humans and the Environment)'
+            ],
+            [
+                74,
+                'What are the Earth\'s Spheres and how do they interact with each other? (Atmosphere, Hydrosphere, Geosphere, Biosphere) ',
+                'Students will: <ol><li>Identify and describe each of Earth\'s spheres and explain how each interact with each other.</li>
+                <li>Construct a model to describe each sphere.</li></ol>',
+                'NSM 1300 (Earth and Space Science)<br />
+                BIO 3510 (Ecology)<br />
+                BIO 2200 (Humans and the Environment)'
+            ],
+            [
+                74,
+                'What life forms depend on all four of Earths spheres? What STEM based careers are available for each of Earth’s spheres?',
+                'Students will: <ol><li>Build a model that demonstrates the dependency for Earth\'s four spheres. Explain/illustrate the interconnection of each sphere.</li>
+                <li>Research a STEM based career related to one of Earth’s spheres.</li></ol>',
+                'NSM 1300 (Earth and Space Science)<br />
+                BIO 3510 (Ecology)<br />
+                BIO 2200 (Humans and the Environment)'
+            ],
+            [
+                75,
+                'What are Earth’s energy sources and how are they measured?',
+                'Students will: <ol><li>Define and explain each of Earth’s Energy sources (Solar Energy and Earth\'s Interior-radioactivity),</li>
+                <li>Determine how energy is measured.</li></ol>',
+                'NSM 1300 (Earth and Space Science)<br />
+                BIO 3510 (Ecology)<br />
+                BIO 2200 (Humans and the Environment)'
+            ],
+            [
+                75,
+                'How does Earth\'s interior provide energy to our Earth? (Conduction and convection currents, Geothermal-Energy).',
+                'Students will: <ol><li>Explain how heat produced in Earth’s interior is transferred to the surface by conduction and convection currents.</li>
+                <li>Explain how left over heat from rock formations provides heat which may result in radioactive half-life degradation.</li>
+                <li>Design a geothermal energy system to replace current fossil fuel burning power plants. (Pros and Cons) for such a system (cost/manufacturing/infrastructure/environmental).</li></ol>',
+                'NSM 1300 (Earth and Space Science)<br />
+                BIO 3510 (Ecology)<br />
+                BIO 2200 (Humans and the Environment)'
+            ],
+            [
+                75,
+                'What is happening inside the Sun and what is nuclear fission? (Energy, Heat, Solar Radiation, Gases).',
+                'Students will: <ol><li>Create a model of the sun that identifies, describes and explains the anatomy of the Sun.</li>
+                <li>Define and explain nuclear fission.</li>
+                <li>Propose the possibilities for real-world uses of nuclear fission with the technology available.</li></ol>',
+                'NSM 1300 (Earth and Space Science)<br />
+                BIO 3510 (Ecology)<br />
+                BIO 2200 (Humans and the Environment)'
+            ],
+            [
+                75,
+                'What happens with the Sun\'s energy when it reaches Earth’s atmosphere?',
+                'Students will: <ol><li>Explain what happens to the sun’s energy when it reaches the Earth\'s atmosphere.</li>
+                <li>Create a student environmentalist panel to research, discuss and describe both the positive and negative effects of the Greenhouse Effect on our Earth\'s planet.</li>
+                <li>Infer the Greenhouse Effect on other planets.</li></ol>',
+                'NSM 1300 (Earth and Space Science)<br />
+                BIO 3510 (Ecology)<br />
+                BIO 2200 (Humans and the Environment)'
+            ],
+            [
+                76,
+                'How have varying geological conditions and natural hazards affected our Earth over time?',
+                'Students will: <ol><li>Debate various theories on cataclysmic events that have shaped our geological history.</li>
+                <li>Infer what life on Earth would be like if both dinosaurs and humans coexisted by developing a model showing both life forms.</li></ol>',
+                'NSM 1300 (Earth and Space Science)<br />
+                BIO 3510 (Ecology)<br />
+                BIO 2200 (Humans and the Environment)'
+            ],
+            [
+                76,
+                'What geologic technologies are available today that allow us to study Earth’s past? How could these technologies be developed to be more effective in the future?',
+                'Students will: <ol><li>Summarize how technology such as Sonar, sound deflection, seismic measurement tools, and satellite imagery are being used to explore Earth’s past.</li></ol>',
+                'NSM 1300 (Earth and Space Science)<br />
+                BIO 3510 (Ecology)<br />
+                BIO 2200 (Humans and the Environment)'
+            ],
+            [
+                77,
+                'What makes up the Solar System? (Sun, moons, planets, galaxy, satellites, asteroids, comets). What technology is available to study these objects? (Moon rovers, satellites, telescopes, space stations)',
+                'Students will: <ol><li>Describe and explain the objects in our solar system.</li>
+                <li>Analyze space technology that is available for space exploration today.</li>
+                <li>Determine the cost of space exploration.</li></ol>',
+                'NSM 1300 (Earth and Space Science)<br />
+                PHY 2210 (Physics I)'
+            ],
+            [
+                77,
+                'Why is gravity important in our solar system?',
+                'Students will: <ol><li>Identify what determines the strength of the force of gravity between two objects</li>
+                <li>Develop and use a model to describe the role of gravity in the motions within galaxies and the solar system.</li></ol>',
+                'NSM 1300 (Earth and Space Science)<br />
+                PHY 2210 (Physics I)'
+            ],
+            [
+                77,
+                'How are gravity and weight related? How does gravity affect your mass and weight?',
+                'Students will: <ol><li>Calculate their own mass and weight on each of the planets.</li>
+                <li>Generalize why weight changes but mass stays the same.</li></ol>',
+                'NSM 1300 (Earth and Space Science)<br />
+                PHY 2210 (Physics I)'
+            ],
+            [
+                78,
+                'What role do geoscience processes play in the reshaping of Earth\'s surface? How do the these processes affect construction and design in our everyday lives?',
+                'Students will: <ol><li>Construct an explanation for how geoscience processes have changed Earth’s surface at varying time and spatial scales.</li>
+                <li>Relate the geoscience processes</li></ol>',
+                'NSM 1300 (Earth and Space Science)<br />
+                BIO 3510 (Ecology)<br />
+                BIO 2200 (Humans and the Environment)'
+            ],
+            [
+                78,
+                'What is the rock cycle; what criterion is used to classify and characterize rocks and how are Earth’s Rocks used in the world in which we live?',
+                'Students will: <ol><li>Analyze why scientists study sedimentary rocks to learn about prehistoric life.</li>
+                <li>Explain the three major types of rocks and how they form.</li>
+                <li>Explain the Law of Superposition. Identify different types of rocks- Given samples.</li>
+                <li>Analyze rocks as natural material and show how rocks are used based on their characteristics.</li></ol>',
+                'NSM 1300 (Earth and Space Science)<br />
+                BIO 3510 (Ecology)<br />
+                BIO 2200 (Humans and the Environment)'
+            ],
+            [
+                78,
+                'What are minerals, how do they form, how are minerals classified and what can minerals be used for?',
+                'Students will: <ol><li>Describe the basic structure of minerals and identify different minerals by using their physical properties.</li>
+                <li>Demonstrate the properties of minerals by performing a series of tests (hardness, luster, magnetic, color, etc).</li>
+                <li>Identify characteristics of minerals and provide example for their uses in manufacturing.</li></ol>',
+                'NSM 1300 (Earth and Space Science)<br />
+                BIO 3510 (Ecology)<br />
+                BIO 2200 (Humans and the Environment)'
+            ],
+            [
+                79,
+                'How can system models describe the effects of gravity in our solar system?',
+                'Students will: <ol><li>Explain and demonstrate gravity.</li>
+                <li>Explain the forces that hold planets in our solar system (gravity and inertia).</li>
+                <li>Demonstrate inertia (rockets, satellites, and space stations).</li></ol>',
+                'NSM 1300 (Earth and Space Science)'
+            ],
+            [
+                80,
+                'How can scale and proportion be used to determine size and distance of spatial objects?',
+                'Students will: <ol><li>Describe the main characteristics of planets and how they form.</li>
+                <li>Compare and contrast the inner and outer planets.</li>
+                <li>Explain current technologies used for space exploration of the planets.</li></ol>',
+                'NSM 1300 (Earth and Space Science)'
+            ],
+            [
+                80,
+                'How has the interdependence of Science, Engineering and Technology in the area of space exploration led to new Earth-based technologies?',
+                'Students will: <ol><li>Describe how the tilt of Earth affects the seasons and explain solstices and equinox.</li>
+                <li>Explain why a day is 24 hrs on Earth.</li>
+                <li>Explain the time length of a year of a planet.</li>
+                <li>Explain how tools such as satellite technology are used.</li></ol>',
+                'NSM 1300 (Earth and Space Science)'
+            ],
+            [
+                81,
+                'Three Partners Working Together: How do the Earth, the moon and the sun affect each other? (Solar and lunar eclipses) and what technology is utilized for observing eclipses? ',
+                'Students will: <ol><li>Explain why eclipses occur.</li>
+                <li>Compare and Contrast solar and lunar eclipses.</li>
+                <li>Explain how the moon and the sun affect Earth\'s oceans.</li>
+                <li>Explain how technological advances in science such as tool and equipment allow us to observe space better today;</li>
+                <li>Compare and Contrast both past and present technology of space observation.</li></ol>',
+                'NSM 1300 (Earth and Space Science)'
+            ],
+            [
+                81,
+                'Why Not Always a Full Moon? Why does our Earth\'s moon change appearance? (Phases of the moon, orbit, rotation: Technology)',
+                'Students will: <ol><li>Explain what causes the phases of the moon.</li>
+                <li>Identify technology used for observation of the moon.</li></ol>',
+                'NSM 1300 (Earth and Space Science)'
+            ],
+            [
+                81,
+                'What are some milestones of space exploration?',
+                'Students will: <ol><li>Research the current projects of space exploration. (Voyager, Mars exploration)</li></ol>',
+                'NSM 1300 (Earth and Space Science)'
+            ],
+            [
+                77,
                 '',
                 'Students will: <ol><li></li></ol>',
                 ''

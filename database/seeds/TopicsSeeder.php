@@ -699,12 +699,377 @@ class TopicsSeeder extends Seeder{
                 3
             ],
             [
+                'Plate Tectonics',
+                'What is the Theory of Continental Drift? (Pangaea) What is the Theory of Plate Tectonics, why do the continents move and how has the theory changed over time?(Is California sinking?)
+What lies within and beneath Earth\' s oceans?',
                 '',
-                '',
-                '',
-                2,
+                6,
                 3
             ],
+            [
+                'Shake, Rattle and Roll: The Rhythms of Earth!',
+                'Why do earthquakes happen? What are seismic waves and how are they used to describe Earth’s interior? How did the Hawaiian islands form? What are the three major types of volcanic cones?',
+                '',
+                6,
+                3
+            ],
+            [
+                'Formation of the Universe and Characteristics of Stars.',
+                'How do scientists think the universe began? What is a star? How did the solar system form? What are the properties of the sun? (why do we use sunscreen?) Can we see a satellite? What can we learn from space images?',
+                '',
+                6,
+                3
+            ],
+            [
+                'Why can my hand move in air but not through the table?',
+                'Essential questions: <ol><li>What is matter?</li><li>What are solids, liquids and gases?</li><li>How is matter measured?  Mass and volume</li></ol>',
+                'Students classify materials according to their physical states—solid, liquid, or gas—by observing objects they encounter and use every day. This introduces students to initial characteristics and properties of each physical state.  Students learn that all matter, regardless of its state, occupies space. Through the study of each physical state, as well as comparing and contrasting each state with another, students are able to articulate the properties of solids, liquids, gases, and other materials by the unit’s conclusion.',
+                1,
+                4
+            ],
+            [
+                'What are some properties of Matter?',
+                'Essential questions:<ol><li>What is the relationship between mass and volume?</li><li>What makes objects float?</li><li>What makes jello jiggle? - Viscosit</li></ol>',
+                'These lessons will provide opportunities for real life application of  a basic understanding of matter.  Students should be given opportunities to practice measuring with precision and should begin interpreting data from graphs.  Examples would be measuring  the mass of set volumes of water and then setting up a line graph that is already labeled and scaled.   At this level, recognizing a basic pattern would be an appropriate goal.  Lessons may also include inquiry and manufacturing based lab work such as building a boat that can hold the most pennies.   The use of picture books can be a great introduction to an inquiry based lab involving  density and buoyancy.  These books can be used to spark an interest or to provide a problem for students to solve.',
+                1,
+                4
+            ],
+            [
+                'What are heat and temperature?',
+                'Essential questions:<ol><li>What is temperature?</li><li>What is the heat capacity of specific materials?</li></ol>',
+                'These lessons should be taught with engineering based projects so students see how engineering fits in with science concepts.  These concepts should be taught or incorporated into other areas of study such as weather.',
+                1,
+                4
+            ],
+            [
+                'What is energy?',
+                'Essential question:<ol><li>What are sources of energy?</li><li>How is energy used?</li></ol>',
+                'These lessons are a basic introduction to energy and how it can be used.  In later grades students will further investigate energy transfer.  The lessons that follow will help students better understand some of the other units of study such as weather formation and how forces interact with matter.',
+                1,
+                4
+            ],
+            [
+                'The Atoms Family',
+                'Essential questions: <ol><li>for Lesson 1.What makes up atoms?</li><li>What are the charges of atomic particles?</li></ol>',
+                'In order to understand the energy standards for grade 4, students do need a basic understanding of the atom.  For many students this will be the first time they are learning vocabulary terms such as proton, neutron and electron.  Time should be spent familiarizing students with these terms using a variety of learning styles.',
+                2,
+                4
+            ],
+            [
+                'Charge me up!',
+                'Essential questions: <ol><li>How does static electricity form?</li><li>What happens when charges move?</li></ol>',
+                'These lessons should be taught through discovery or interactive lab stations.  As students go through the lab investigations, the concept that electrons are moving should be reinforced.  Teachers can use math problems to help students understand that as electrons move away from an atom the atom becomes positively charged and vice versa.  Time should be spent on this fundamental concept.  If learned incorrectly, it is difficult for students to reverse their misunderstanding. NGSS 4-PS3-3 states students should be able to ask questions and predict outcomes about the changes in energy that occur when objects collide. Emphasis is on the change in the energy due to the change in speed, not on the forces, as objects interact. As Lesson 2 Question 2 is covered, these standards would be good guiding points or questions for each interactive station.  Students can also make connections between the Force and Motion unit by studying how the force applied by an object can impact the number of electrons moved.  Another Force and Motion connection is relate understanding of how charges move to how magnetic poles interact.  Connections can be made to Grade 3 standards by discussing how electrical energy can be converted to sound, heat and light in an electrical circuit.  Electrical safety should also be addressed through lab investigations and in practical application of concepts at home and in the workplace.',
+                2,
+                4
+            ],
+            [
+                'Grab Shell, Dude! Ride the Wave.',
+                'Essential questions:<ol><li>What are different types of waves (ocean, earthquake, electromagnetic, sound)?</li><li>How does the structure of a wave impact its energy (wavelength, amplitude, frequency)?</li><li>How is energy transmitted through waves?</li><li>What affects how waves move?</li></ol>',
+                'The following lesson allows students to explore how energy travels through various media.  They should have plenty of lab work to help them conceptualize how energy moves.  Lab work should be combined with lessons on forces and motion and earth science to reinforce understanding of material and to help students make connections among the many areas of scientific study.  Math standards can easily be taught through this lesson and will show real life application of these skills.  Students will explore how these energy changes can generate patterns used for communication and the transfer of information (Morse code, computer code, etc.).  Students should end the unit with a problem based lesson.  An example would be designing a circuit that produces high quality sound for a speaker in a hearing aid.  Another example would be designing a soundproof room for a Barbietm dream house.',
+                2,
+                4
+            ],
+            [
+                'States of Matter',
+                'Essential questions: <ol><li>What are the molecular properties of solids, liquids and gases.</li><li>What changes in state can matter undergo?</li><li>How does a change in energy affect the state of matter?</li></ol>',
+                'Encourage students to think about how matter changes form.  Provide guided inquiry and allow students to hypothesize about how raw materials can be physically transformed into different forms by changing the amount of thermal (heat) energy that is in a system.  Lesson 1 is about the physical changes matter can undergo such as shape, state of matter and mixtures formed.  Explorations in manufacturing could include the production of glass, what makes cement harden and how is modeling dough made.  Students should also develop an understanding that physical changes can be reversed.',
+                3,
+                4
+            ],
+            [
+                'Physical and Chemical Changes',
+                'Essential questions: <ol><li>What is the difference between a physical and a chemical change?</li><li>What are the signs that a chemical change has occurred?</li></ol>',
+                'Students will learn how new material is created.  Explain that a chemical reaction involves the atoms of a material being rearranged by breaking bonds and forming new bonds.  They will discover scientists perform experiments which lead to the discovery of new materials.  They will reflect on how chemistry affects their daily lives by analyzing how chemical reactions occur.  Let students reflect on their own personal experiences with chemistry.  They might investigate a product and examine how science was used in its creation and determine whether or not the product involved physical or chemical changes.',
+                3,
+                4
+            ],
+            [
+                'Endothermic and Exothermic Reactions',
+                'Essential questions:<ol><li>How can an observer tell if an endothermic or an exothermic reaction has taken place?</li><li>What happens to energy in an exothermic or endothermic reaction?',
+                'Connect essential question 2 to changes in energy from Grade 4<br />It is important for students to investigate that an endothermic reaction feels cold and an exothermic reaction feels warm before studying the flow of energy in the chemical reaction. Students will then compare the flow of energy in physical and chemical changes.<br />An extension to this lesson could be the use of a catalyst to speed up a reaction or the use of an inhibitor to slow down a reaction.',
+                3,
+                4
+            ],
+            [
+                'Energy Changes in Everyday Life ',
+                'Essential questions:<ol><li>How is energy from chemical reactions transported through living organisms?</li><li>How is energy converted from fuel to motion in transportation?</li><li>How can energy be used in the recycling of materials?</li><li>How can energy be harnessed during the recycling of materials?</li></ol>',
+                '',
+                3,
+                4
+            ],
+            [
+                'Energy Changes in Manufacturing - thermoplastic, recycling',
+                'Essential question 1: How does energy change throughout the manufacturing process?',
+                'Lesson 5 is all about how energy changes from throughout the manufacturing process. This lesson should include the exploration of the lifecycle of an everyday material. Examples could include a pencil, a DVD, an adhesive such as glue,etc. Some parts of the investigation could be teacher led or depending on student abilities could be entirely student led.<br />Questions to consider as part of this process are:<br />How can energy be conserved during the manufacturing process?<br />How is energy used in the recycling of materials in the manufacturing process?',
+                3,
+                4
+            ],
+            [
+                'Structure of the Periodic Table',
+                'Essential questions:<ol><li>How are elements properties defined as metals, nonmetals and metalloids?</li><li>How is the periodic table arranged by groups and periods?</li></ol>',
+                'Students should perform a series of hands on investigations to explore the properties of elements. They should concepts covered in Grade 5 by exploring the physical properties of elements. They may learn new vocabulary such as luster, malleable and ductile. They can review how to make a simple circuit and investigate which elements are electrical conductors. Students can determine solubility or melting points which will allow them to practice analyzing graphs.',
+                4,
+                4
+            ],
+            [
+                'Patterns on the Table',
+                'Essential questions:<ol><li>What common properties can some elements share?</li><li>How do common properties of elements define their place on the periodic table?</li><li>How do the number of valence electrons determine an element’s place on the periodic table?</li></ol>',
+                'After studying the properties of elements and learning how they can be categorized as metal, nonmetal or metalloid, students will look for more connections between the elements. The should practice organizing items into charts such as  The Periodic Table of Stuff prior to organizing elements into a table.  After they are able to organize objects into patterns, students can review basic structure of an atom and complete the Periodic Table Basics  activity which helps students see patterns based on electron configuration.',
+                4,
+                4
+            ],
+            [
+                'How Elements are Used in Manufacturing',
+                'Essential questions: <ol><li>What elements are useful in various manufacturing processes?</li><li>What properties of elements make them useful in manufacturing processes?  How are the properties of elements maintained?</li></ol>',
+                'Depending on the teacher, the essential questions for this unit may be used interchangeably.  For example, it may be beneficial to cover how properties are maintained before covering how they may be useful in manufacturing.<br />This lesson may include an element research project where the students research the properties of an element and relate those properties to its uses in business and industry.  The students would report their findings in a business presentation.  During lesson 3, students will discuss the care, use and value of natural resources as well as the production of waste during chemical reactions which causes a threat to our natural resources.',
+                4,
+                4
+            ],
+            [
+                'The role of electrons in forming matter',
+                'How do atoms combine? Under what circumstances do they combine? How do atomic bonds determine properties of compounds/molecules? How are elements combined to create correct chemical compounds/molecules?',
+                'Students will build on previous units to develop an understanding of electron transfer, its role in chemical change, and the factors that can influence this change.  They will use patterns on the periodic table to develop an understanding of the type and amounts of atoms that combine for new material and how that impacts the properties of the material created.  They will apply these skills to real life problems ranging from the impact of chemicals on the human body to the effects of chemicals in industry and manufacturing.',
+                5,
+                4
+            ],
+            [
+                'Chemical Reactions',
+                'How does matter combine to form new kinds of substances? How is matter conserved in ordinary chemical reactions?',
+                'Matter and energy conservation make it possible to TRACE MATTER AND ENERGY using different scales, from subatomic to universal and through all kinds of systems: physical, living, Earth and technological systems while engaging in explaining, predicting, modeling, designing and investigating. Building on the Law of Conservation of Mass and the Law of Conservation of Energy, students will trace where matter goes in a chemical reaction.',
+                5,
+                4
+            ],
+            [
+                'Kinetic Energy of Particles',
+                'How does energy affect the rate of a reaction?',
+                'This lesson has the general purpose of increasing students\' understanding of energy transfer, its role in chemical change, and the factors that can influence this change.  They will apply prior knowledge of energy changes to chemical reactions.  Students will discover practical applications to changing or controlling the energy in a chemical system and will be able to explain why there appears to be a loss of matter in many reactions and how the loss can be mitigated.',
+                5,
+                4
+            ],
+            [
+                'Material Science',
+                'How does concentration and amount impact molecular structure of new materials? How are new materials made and improved?',
+                'Ever wondered what\'s in toothpaste or how marshmallow peeps are made? What\'s so special about those new fabrics that claim to keep you cooler as you work out? Many of the fundamental principles behind designing and making items we use everyday are based in the science of chemistry. How better to learn about properties of matter, physical and chemical changes, and simple chemical reactions than through the objects and materials students use every day?  This lesson is designed to help students focus on the ideas of chemistry and engineering—to understand how one is foundational to the other. Students will explore how chemical engineering is used to create and improve materials.  Students may pursue extension activities to learn more about great achievements in chemical engineering, their own aptitude and interest in engineering, and the kinds of education that can lead to a career as a chemical engineer. An objective of the lesson is to open students to the idea that they themselves might someday use chemistry to make something new and of value.',
+                5,
+                4
+            ],
+            [
+                'Radioactive Decay, Fission and Fusion',
+                'What causes atoms to be unstable? What happens to atoms that are unstable? What reactions involve the nucleus?',
+                '<p>Energy is a property of many substances and is transferred in many ways. In most chemical and nuclear reactions, energy is transferred into or out of a system. Heat, light, mechanical motion, or electricity might all be involved in such transfers.  This lesson will focus on the intense transfers of energy which create changes within atomic nuclei.  Students will learn differences between chemical and nuclear reactions.</p><p>From prior grade levels, students should already have a basic understanding of chemical reactions, subatomic particles and changes in energy. In this lesson, students will explore the changes in the nuclei of atoms which lead to radioactive decay, as well as, fission and fusion reactions.  It may be helpful to review how to analyze graphs so that students can use slope and trends to identify patterns of radioactive decay.</p>',
+                6,
+                4
+            ],
+            [
+                'Practical Uses Involving Nuclear Reactions',
+                'How do the products of decay affect surrounding matter? How can the products of nuclear reactions be used for good or bad in our everyday lives?',
+                'Students will discover nuclear reactions have tremendous potential to improve the quality of life.  They will investigate the pros and cons of this technology and develop a statement indicating whether or not they support the use of nuclear reactions.  Ideas for these lessons include Socratic seminar or class debate as a community with a nuclear power plant or particle accelerator.',
+                6,
+                4
+            ],
+            [
+                'Energy Transformation within a System',
+                'How can energy from nuclear reactions be captured for practical energy uses? How is the energy from nuclear fission (and potentially fusion) reactions converted to electrical energy?',
+                '',
+                6,
+                4
+            ],
+            [
+                'Societal Impact of Nuclear Energy',
+                'Why is nuclear energy considered to be unstable and how does that relate to implementation? What are the costs, benefits, impact, and environmental concerns of using nuclear energy?',
+                'Nuclear energy has many advantages and disadvantages that must be considered before implementation. It has both positive and negative impacts on the environment, and a thorough understanding of the nuclear energy-generation process will allow for better decision-making when comparing the energy source to others.',
+                6,
+                4
+            ],
+            [
+                'Round and Round - Creation',
+                'How are the life cycles of plants, animals and products similar?',
+                'In this lesson, students are introduced to the life cycles of plants and animals and the design cycle of products. Upon completion of the lesson, students will effectively communicate the different stages of the life cycle of organisms and the design cycle of products and compare and contrast the similarities and differences between them. Moreover, students will be able to use the acquired content knowledge of this lesson to expand knowledge and applicable principles in subsequent lessons.',
+                1,
+                5
+            ],
+            [
+                'Pass It On Down - Inheritance',
+                'How are plants, animals and products similar from generation to generation?',
+                'In this lesson, students will become more familiar with the qualities and features of plants, animals and products of the past and apply that newly obtained knowledge to the understanding of how organisms and products maintain a majority of their characteristics from generation to generation. Additionally, students will create a diagram or model to display their discoveries of the similarities in select animals, plants and products.',
+                1,
+                5
+            ],
+            [
+                'Continuous Improvement - Variation',
+                'How can records of the past help us learn about plants, animals and products?',
+                'In this lesson, students will complete an in depth study of records of the past to gain an appreciation and understanding of the modifications and adaptations of organisms and products over time. Moreover, students will identify how records of the past can be utilized to identify variations in organisms and products. Finally, students will trace the design cycle of a product through the careful study of the creation, development and improvement of a specific product over an appreciable period of time. This lesson will serve as an unparalleled model into the foundational concept of the design cycle and its importance to the STEM disciplines.',
+                1,
+                5
+            ],
+            [
+                'Inside Out',
+                'What internal and external structures support growth and reproduction of animals? How do internal and external structures support growth and reproduction of animals?',
+                'In this lesson, students will examine internal and external structures necessary for the growth and reproduction of animals. While acquire appropriate knowledge to identify these structures, students will also be able to provide evidence for how the structures support growth and reproduction, and create a model or diagram to illustrate their understanding.',
+                2,
+                5
+            ],
+            [
+                'Wanted Dead or Alive',
+                'What internal and external structures aid in survival? What animal behaviors increase their likelihood of survival?',
+                'In this lesson, students will examine the internal and external structures in animals that allow for their survival. Additionally, students will then identify those structures readily and through a model explain how the structures aid animals in their ability to survive.',
+                2,
+                5
+            ],
+            [
+                'Outside In',
+                'What internal and external structures support growth and reproduction of plants? How do internal and external structures support growth and reproduction of plants?',
+                'In this lesson, students will examine internal and external structures necessary for the growth and reproduction of plants. While acquire appropriate knowledge to identify these structures, students will also be able to provide evidence for how the structures support growth and reproduction, and create a model or diagram to illustrate their understanding.',
+                2,
+                5
+            ],
+            [
+                'I’m a Survivor',
+                'What internal and external structures aid in survival? What plant behaviors increase their likelihood of survival?',
+                'In this lesson, students will examine the internal and external structures in animals that allow for their survival. Additionally, students will then identify those structures readily and through a model explain how the structures aid animals in their ability to survive.',
+                2,
+                5
+            ],
+            [
+                'What Does the Fox Say?',
+                'What structures of animals increase their ability to detect information from their environment?',
+                'In this lesson, students will conduct multiple engaging activities that will allow them to identify, hypothesize and test how the sensory organs contribute to the overall ability of animals to understand, interact and react to information they receive. Students will conduct a wide variety of observations before they create models to illustrate their understandings about the sensory organs roles. Moreover, students will create and test hypothesis about how the structure of each sensory organ contributes to an animal’s ability to interact with and within its environment.',
+                2,
+                5
+            ],
+            [
+                'In the Thick of Things',
+                'How do the internal and external structures of a plant enable it to acquire, use and release energy? How does the release of plant energy affect people in their daily lives?',
+                'In this lesson, students develop an understanding of how the internal and external structures of a plant are utilized to aid in all elements of the energy process - acquiring, using and releasing energy. Students will then investigate how plant and animal worlds collide as they begin to develop an appreciation for the interconnectedness of all organisms.',
+                3,
+                5
+            ],
+            [
+                'eMOTIONal Eaters',
+                'How do the internal and external structures of animals enable them to acquire, use and release energy? What structures and functions allow both cold and warm-blooded animals to be energy efficient?',
+                'In this lesson, students develop an understanding of how the internal and external structures of an animal are utilized to aid in all elements of the energy process - acquiring, using and releasing energy. Students will continue their investigation of how plants and animals are interdependent on one another on the structural level for survival. In addition, students will dig deeper into the animal world, comparing and contrasting the structure and function of cold and warm-blooded animals as it relates to energy.',
+                3,
+                5
+            ],
+            [
+                'Design Project: It\'s Not Easy Being Green',
+                'How does the greenhouse illustrate the acquisition, utilization and release of energy? How can the variables in greenhouses be adjusted to produce the greatest energy? How can a greenhouse be designed to maximize production?',
+                'In this lesson, students gain a new perspective of their recently acquired knowledge about energy in plants through observation of plant life in a student designed greenhouse. Through use of the scientific methodology, students will derive reasonable understandings and explanations about variables that can affect plants as they strive to flourish under controlled growing conditions. After intensive research and observations, students will utilize their knowledge to design and create the most beneficial and efficient model of a greenhouse.',
+                3,
+                5
+            ],
+            [
+                'Operating System',
+                'What is a cell and what is cell theory? How do cells differ in their structure and function among organisms?',
+                'In this lesson, students utilize a variety of investigations to examine the basic building block of all life-the cell. Students will become familiar with the parts of  a cell and the contribution each part makes through a variety of learning activities which allow them to make analogies between cells and how they function with common objects (cell phones, airplanes, bathtubs) and/or corporations (Caterpillar, Cabot, Waste Management) and how they function. In addition, students continue their evaluations of cells and how cells function by analyzing different types of cells and what role each cell plays in the overall function of an organism. Students will use technological advanced microscopes available to them to compare and contrast different cell types and their functions within multiple organisms.',
+                4,
+                5
+            ],
+            [
+                'Wireless Network',
+                'How do cells differ in their structure and function within an organism? How do the subsystems interact to form a system? What systems function within an organism?',
+                'In this lesson, students will use prior knowledge acquired about cells and cell theory to evaluate types of cells and their functions. Students will utilize available technology to document and synthesize information acquired from observations about the differences and similarities of cells and their functions. Finally, students will also formulate an understanding about how cells form subsystems and subsystems form systems in organisms, developing diagrams and/or models to illustrate understanding of the interconnectedness of cells, subsystems and systems.',
+                4,
+                5
+            ],
+            [
+                'Battery Life',
+                'What role do sun and water play in a plants’ ability to acquire energy? How does photosynthesis help a plant to create energy? How does the digestive system aid in converting food to energy in organisms? What is the difference between aerobic and anaerobic respiration?',
+                'In this lesson, students will expand prior macro knowledge of energy processing in organisms to a much more intricate understanding of organisms production of energy at the micro level studying photosynthesis and digestive systems in organisms. Not only will students gain a new appreciation for the cellular level of energy production, but students will also develop an analysis of the necessary conditions for aerobic and anaerobic respiration to occur and compare and contrast the two.',
+                4,
+                5
+            ],
+            [
+                'Links',
+                'What structures and behaviors of an organism determine its likelihood to reproduce? What are possible advantages of asexual reproduction for offspring?',
+                'In this lesson, students will analyze differences in sexual and asexual reproduction and the advantages each can present for an organism and its prodigy. In addition, students will develop a better understanding of behaviors of an organism that enhance likelihood of reproduction, as well as, structures in organisms that make them more likely to reproduce.',
+                4,
+                5
+            ],
+            [
+                'Design Project: Take That Apart',
+                'How can a disassembled prosthesis illustrate form and function of a limb? If a portion of a limb is missing, how could those functions be restored with prosthesis? What will secure the prosthesis to the person now and in the future?',
+                'In this lesson, knowledge is gained as students indagate themselves into the concepts of form and function of organisms through reverse engineering.  Students will participate in an innovative and fascinating project as they investigate how form and function of human limbs is designed while disassembling a prosthetic limb.  Through this exciting learning opportunity, students can see how limbs function, how they are formed and even propose possible improvements of prosthetics for future consideration.  In addition to knowledge gained about form and function from the activities, students also receive instruction and experience in reverse engineering, an integral component in understanding the design process.',
+                5,
+                5
+            ],
+            [
+                'Chicken or the Egg',
+                'How does the form of a structure determine life’s functions and how does the function of a structure determine its form? How does the knowledge developmental milestones and function inform physicians, parents, and educators?',
+                'In this lesson, students continue to scrutinize the concepts of function and form as they investigate the properties of substructures of a system; this investigation connects for students how form allows for certain functions in an organism. In addition, students learn how form and function are measured in a system and how data about growth and development guide stakeholders in decisions.',
+                5,
+                5
+            ],
+            [
+                'Limb from Limb',
+                'How do the individual structures in the system contribute to the overall functioning of the whole? What are the similarities and differences in the structure of systems and how they function in plants and animals? What are ways a cardiologist repair the circulatory system?',
+                'In this lesson, student continue to increase their understanding of the relationship between form and function Students will learn the importance of substructures to the overall function of organisms and investigate the similarities and differences of systems in plants and animals.  While interpreting the branching of systems in many organisms, students will make conclusions about how cardiac surgeons use the knowledge of branching systems to make medical interventions on patients.',
+                5,
+                5
+            ],
+            [
+                'Input, Output',
+                'How do organisms utilize sensory organs to detect, process, and use information from the environment? How have hearing devices improved sound for the hearing impaired and deaf?',
+                'In this lesson, students investigate how organisms use sensory organs to receive information and how the senses process and interpret that information.  Additionally, students will create a diagram to demonstrate understanding of the sensory process. Finally, students will research how hearing devices have been improved over time through technology to continually enhance the quality of life of the hearing impaired and deaf.',
+                5,
+                5
+            ],
+            [
+                'Jumping in the Gene Pool',
+                'How can organisms of the same species have different characteristics through Natural Selection? How can using fossil records to identify and analyze the patterns of change help you understand why some traits continue and others disappear? (i.e., Mammoth to elephant, Neanderthal to modern man.) How does the identification of predisposition markers by geneticists affect the choices of individuals?',
+                'In this lesson, students gain a basic understanding of genetics, heredity, and natural selection among organisms in the plant and animal world.  Through a series of laboratory studies and application of scientific theories, students begin to acquire a working knowledge of the complexity and intricacy of how strongly genetics affects the world around them.  Moreover, students then begin to examine the ethical and moral implications that technological breakthroughs in genetics may have on their future world.',
+                6,
+                5
+            ],
+            [
+                'Design Project:  Apples to Apples',
+                'How have technologies influenced desired traits in organisms - plants? How does genetic variation among organisms affect survival and reproduction? How do genetic technologies impact the supply chain to benefit the producers and consumers of the agricultural industry?',
+                'In this lesson, students conduct a series of performance tasks to increase their knowledge of genetics in the field of agriculture.  From the study of how genetic factors ensure survival and strengthen organisms, to the influence genetic engineering can bring to increasing production of the supply of fruits and vegetables, students gain new perspective and knowledge about the complexity and scientific nature of agriculture in the 21st century.',
+                6,
+                5
+            ],
+            [
+                'Design Project:  Down on the Farm',
+                'How does technology increase the supply of livestock for human consumption? How have technologies influenced desired traits in organisms - animals? What are the ethical and moral responsibilities of scientists, doctors and individuals using technology to create an organism with particular traits?',
+                'In this lesson, students will examine how technological advancements and genetic alterations increasing both number and likelihood of desired traits in livestock are affecting the variability of traits in the population now and in the future.  Students will also become familiar with scientific advancements in technologies that permit such alterations to occur.  In addition, students will consider the moral and ethical ramifications of genetically altering livestock for human benefit.',
+                6,
+                5
+            ],
+            [
+                'What is the difference between weather and climate?',
+                'What is the difference between weather and climate? What factors influence temperature around the world and in your community?',
+                'Understanding weather and climate allows students to begin exploring the topic of climate change –which is particularly relevant to the Polar Regions.  Students observe and track weather in their hometown and two other locations to learn about weather, factors influencing weather and climate, and weather forecasting.',
+                1,
+                6
+            ],
+            [
+                'What are the weather and seasons for Aurora and USA?',
+                'What is weather?',
+                'Students in this lesson will learn the basics of what weather and seasons This lays the groundwork for future understanding of climate and weather change and how these changes are affected by human impacts.',
+                1,
+                6
+            ],
+            [
+                'Habitat and Food Chains and Weather/Climate Issues',
+                'What are distinct features of animal habitats in different regions particularly locally in the Midwest? How have animal habitats been impacted by weather and climate changes caused by human impact?',
+                'Students in this lesson will explore distinct features of animal habitats both locally and nationally.  In addition, they will investigate how the habitats have been impacted by weather and climate change issues.',
+                1,
+                6
+            ],
+            [
+                'Different Design Solutions to Reduce Weather Related Hazards',
+                'What are different design solutions that are used to reduce weather related hazards? How can we evaluate the merits of different design solutions to maximize reduction of weather related hazards?',
+                'Students in this lesson will explore different design solutions that have been utilized to reduce weather related hazards.  In addition, students will investigate the merits of these different design solutions to maximize a reduction in weather related hazard damage and apply this to actual designs in lesson 4.',
+                1,
+                6
+            ],
+            [
+                '',
+                '',
+                '',
+                6,
+                5
+            ]
 
 
 

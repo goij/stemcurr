@@ -1502,7 +1502,7 @@ class QuestionsSeeder extends Seeder{
                 'NSM 1300 (Earth and Space Science)'
             ],
             [
-                80,
+                79,
                 'How can scale and proportion be used to determine size and distance of spatial objects?',
                 'Students will: <ol><li>Describe the main characteristics of planets and how they form.</li>
                 <li>Compare and contrast the inner and outer planets.</li>
@@ -1510,7 +1510,7 @@ class QuestionsSeeder extends Seeder{
                 'NSM 1300 (Earth and Space Science)'
             ],
             [
-                80,
+                79,
                 'How has the interdependence of Science, Engineering and Technology in the area of space exploration led to new Earth-based technologies?',
                 'Students will: <ol><li>Describe how the tilt of Earth affects the seasons and explain solstices and equinox.</li>
                 <li>Explain why a day is 24 hrs on Earth.</li>
@@ -1519,7 +1519,7 @@ class QuestionsSeeder extends Seeder{
                 'NSM 1300 (Earth and Space Science)'
             ],
             [
-                81,
+                80,
                 'Three Partners Working Together: How do the Earth, the moon and the sun affect each other? (Solar and lunar eclipses) and what technology is utilized for observing eclipses? ',
                 'Students will: <ol><li>Explain why eclipses occur.</li>
                 <li>Compare and Contrast solar and lunar eclipses.</li>
@@ -1529,20 +1529,736 @@ class QuestionsSeeder extends Seeder{
                 'NSM 1300 (Earth and Space Science)'
             ],
             [
-                81,
+                80,
                 'Why Not Always a Full Moon? Why does our Earth\'s moon change appearance? (Phases of the moon, orbit, rotation: Technology)',
                 'Students will: <ol><li>Explain what causes the phases of the moon.</li>
                 <li>Identify technology used for observation of the moon.</li></ol>',
                 'NSM 1300 (Earth and Space Science)'
             ],
             [
-                81,
+                80,
                 'What are some milestones of space exploration?',
                 'Students will: <ol><li>Research the current projects of space exploration. (Voyager, Mars exploration)</li></ol>',
                 'NSM 1300 (Earth and Space Science)'
             ],
             [
-                77,
+                81,
+                'What is the Theory of Continental Drift? (Pangaea)',
+                'Students will: <ol><li>What was the evidence used to prove the theory?</li>
+                <li>Explain the Theory of Plate Tectonics and relate to current events.(California),</li>
+                <li>Explain Pangaea,</li>
+                <li>Identify and describe the continental oceanic plates</li>
+                <li>Compare and Contrast both past and present theories.(Wegener).</li></ol>',
+                'NSM 1300 (Earth and Space Science)'
+            ],
+            [
+                81,
+                'The Theory of Plate Tectonics: Why do the continents move and how has the theory changed over time? (Is California sinking?) What is happening at plate boundaries?',
+                'Students will: <ol><li>Explain the theory of plate tectonics.</li>
+                <li>Explain the theory of plate tectonics.</li></ol>',
+                ''
+            ],
+            [
+                81,
+                'What lies within and beneath Earth\' oceans? (Seafloor spreading and subduction zones)',
+                'Students will: <ol><li>Explain seafloor spreading and subduction zones,</li>
+                <li>Explain how fossils can provide evidence of movement of plates.</li></ol>',
+                'NSM 1300 (Earth and Space Science)'
+            ],
+            [
+                82,
+                'Why do earthquakes happen?',
+                'Students will: <ol><li>Explain how plate movement causes earthquakes,</li>
+                <li>Describe the frequency of earthquakes in certain geographical areas.</li>
+                <li>Describe and explain what happens at the fault lines?</li></ol>',
+                'NSM 1300 (Earth and Space Science)'
+            ],
+            [
+                82,
+                'What are seismic waves and how are they used to describe Earth’s interior?',
+                'Students will: <ol><li>Describe the three types of seismic waves and interpret seismographs,</li>
+                <li>Explain how earthquakes are measured.</li></ol>',
+                'NSM 1300 (Earth and Space Science)'
+            ],
+            [
+                82,
+                'How are islands formed?',
+                'Students will: <ol><li>Research and provide evidence for why volcanoes occur in certain geographic areas.</li>
+                <li>Compare and Contrast the three types of volcano structures and the materials that are erupted.</li></ol>',
+                'NSM 1300 (Earth and Space Science)'
+            ],
+            [
+                83,
+                'How do scientists think the universe began?',
+                'Students will: <ol><li>Explain Big Bang Theory and how the universe was formed.</li></ol>',
+                'NSM 1300 (Earth and Space Science)'
+            ],
+            [
+                83,
+                'What is a star?',
+                'Students will: <ol><li>Explain the birth and death of a star,</li>
+                <li>Explain how stars are classified,</li>
+                <li>Explain what constellations are. (White dwarfs, neutron stars and black holes).</li></ol>',
+                'NSM 1300 (Earth and Space Science)'
+            ],
+            [
+                83,
+                'How did the solar system form? What are the properties of the sun? (why do we use sunscreen?)',
+                'Students will: <ol><li>Explain nebular theory.</li><li>Explain the characteristics of the sun,</li><li>Explain nuclear fusion.</li></ol>',
+                'NSM 1300 (Earth and Space Science)'
+            ],
+            [
+                83,
+                'Can we see a satellite? What can we learn from space images?',
+                'Students will: <ol><li>Research current astronomical projects in government labs,</li><li>Explain methods used to gather data from space.</li></ol>',
+                'NSM 1300 (Earth and Space Science)'
+            ],
+            [
+                84,
+                'What is matter?',
+                'Students will: <ol><li>When presented with different types of matter, categorize them 2) Understand that all types of matter are made of atoms</li></ol>',
+                'CHM 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II'
+            ],
+            [
+                84,
+                'What are solids, liquids and gases?',
+                'Students will: <ol><li>Investigate the properties of water (and possibly other materials) as a solid, a liquid and a gas</li>
+                <li>Draw molecular diagrams to represent solids, liquids and gases</li><li>Compare different solids</li>
+                <li>Compare different liquids</li><li>Practice turning liquids to solids (ice cream) and compare the properties</li></ol>',
+                'CHM 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II'
+            ],
+            [
+                84,
+                'How is matter measured?  Mass and volume',
+                'Students will: <ol><li>Practice measuring items using mass and volume</li><li>Through experimentation, prove that all matter takes up space</li><li>Through experimentation, prove that all matter has mass</li></ol>',
+                'CHM 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II'
+            ],
+            [
+                85,
+                'What is the relationship between mass and volume?',
+                'Students will: <ol><li>Compare mass and volume of a material to determine how change in volume affects mass</li><li>Graph the relationship between mass and volume</li></ol>',
+                'CHM 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II<br />PHYS 2210 General Physics I<br />PHYS 2220 General Physics II<br />MTH 2230 Calculus III'
+            ],
+            [
+                85,
+                'What makes objects float?',
+                'Students will: <ol><li>Predict whether particular items (materials) will sink or float</li><li>Discover commonalities between items that float</li><li>Design an object that will float when mass is added to it (pennies)</li><li>compare various liquids for density proving that liquids can also “float”</li></ol>',
+                'CHM 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II<br />PHYS 2210 General Physics I<br />PHYS 2220 General Physics II<br />MTH 2220 Calculus II'
+            ],
+            [
+                85,
+                'What makes jello jiggle? - Viscosity',
+                'Students will: <ol><li>Experiment with different amounts of water and gelatin to produce the best “jiggle”</li><li>Graph the time it takes for liquids to flow between two points</li></ol>',
+                'CHM 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II<br />PHYS 2210 General Physics I<br />PHYS 2220 General Physics II<br />MTH 2230 Calculus III'
+            ],
+            [
+                86,
+                'What is temperature?',
+                'Students will: <ol><li>Measure temperature using a thermometer </li><li>Build a thermometer which utilizes the properties of thermal expansion</li><li>Understand that as molecules move faster temperature rises</li></ol>',
+                'CHM 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II<br />PHYS 2210 General Physics I<br />PHYS 2220 General Physics II<br />MTH 2230 calculus III'
+            ],
+            [
+                86,
+                'What is the heat capacity of specific materials?',
+                'Students will: <ol><li>Design an experiment to determine how different insulating materials can affect temperature.</li><li>Collect data and graph results.</li></ol>',
+                'CHM 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II<br />PHYS 2210 General Physics I<br />PHYS 2220 General Physics II<br />MTH 2230 calculus III'
+            ],
+            [
+                87,
+                'What are sources of energy?',
+                'Students will: <ol><li>Understand that energy is a measure of doing work</li><li>Identify sources of energy from real world scenarios</li></ol>',
+                'CHM 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II<br />PHYS 2210 General Physics I<br />PHYS 2220 General Physics II<br />MTH 2230 Calculus III'
+            ],
+            [
+                87,
+                'How is energy used?',
+                'Students will: <ol><li>Design a model which demonstrates energy capture and turns it into work (solar, wind, thermal)</li></ol>',
+                'CHM 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II<br />PHYS 2210 General Physics I<br />PHYS 2220 General Physics II<br />MTH 2230 Calculus III'
+            ],
+            [
+                88,
+                'What makes up atoms?',
+                'Students will: <ol><li>Understand that the smallest particle that matter can be “cut” into is an atom</li><li>Develop models to show the placement of protons, neutrons and electrons in an atom</li></ol>',
+                'CHM 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II'
+            ],
+            [
+                88,
+                'What are the charges of atomic particles?',
+                'Students will: <ol><li>Understand that each atomic particle has its own charge</li><li>Correctly place charges on models of the atom</li></ol>',
+                'CHM 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II'
+            ],
+            [
+                89,
+                'How does static electricity form?',
+                'Students will: <ol><li>Make observations to provide evidence that energy can be transferred</li><li>Use evidence to construct an explanation relating the properties of an object to the amount of static charge on that object.</li></ol>',
+                'CHM 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II<br />PHYS 2210 General Physics I<br />PHYS 2220 General Physics II<br />MTH 2210 Calculus I'
+            ],
+            [
+                89,
+                'What happens when charges move?',
+                'Students will: <ol><li>Experiment with charges to determine what happens between like and unlike charges</li><li>Identify what happens if like charges and opposite charges interact</li><li>Provide evidence that energy can be transferred from place to place through electric currents</li></ol>',
+                'CHM 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II<br />PHYS 2210 General Physics I<br />PHYS 2220 General Physics II<br />MTH 2210 Calculus I'
+            ],
+            [
+                90,
+                'What are different types of waves (ocean, earthquake, electromagnetic, sound)',
+                'Students will: <ol><li>Identify different types of waves</li><li>Design models representing different types of waves</li><li>research how waves are utilized by different industries.</li></ol>',
+                'PHYS 2210 General Physics I<br />PHYS 2220 General Physics II<br />MTH 2210 Calculus I'
+            ],
+            [
+                90,
+                'How does the structure of a wave impact its energy (wavelength, amplitude, frequency)?',
+                'Students will: <ol><li>Understand the way waves are measured</li><li>Perform experiments to determine wavelength, amplitude and frequency of waves</li><li>Investigate tools which are used to measure different types of waves</li><li>Perform simple mathematical calculations of wavelength, amplitude, and frequency.</li></ol>',
+                'PHYS 2210 General Physics I<br />PHYS 2220 General Physics II<br />MTH 2210 Calculus I'
+            ],
+            [
+                90,
+                'How is energy transmitted through waves?',
+                'Students will: <ol><li>Design a model to demonstrate how energy moves through waves</li><li>Prove that the energy of a wave can be used for other purposes.</li></ol>',
+                'PHYS 2210 General Physics I<br />PHYS 2220 General Physics II<br />MTH 2210 Calculus I'
+            ],
+            [
+                90,
+                'What affects how waves move?',
+                'Students will: <ol><li>Test different materials to see how waves are affected</li><li>Record and graph results of controlled experiments.</li></ol>',
+                'PHYS 2210 General Physics I<br />PHYS 2220 General Physics II<br />MTH 2210 Calculus I'
+            ],
+            [
+                91,
+                'What are the molecular properties of solids, liquids and gases?',
+                'Students will: <ol><li>identify the various states of matter</li><li>identify the distinct properties of solids, liquids, gases (shape, volume, flow)</li><li>develop a model which illustrates the differences in the molecular structure of solids, liquids and gases</li></ol>',
+                'Chem 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II'
+            ],
+            [
+                91,
+                'What changes in state can matter undergo?',
+                'Students will: <ol><li>identify the changes in states of matter</li><li>develop a model which illustrates changes in particle motion, temperature, and state when thermal energy is added or removed.</li></ol>',
+                'Chem 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II<br />PHY2210 General Physics I'
+            ],
+            [
+                91,
+                'How does a change in energy affect the state of matter?',
+                'Students will: <ol><li>design and complete a laboratory experience which proves that when heating, cooling, or mixing substances, the total weight of matter is conserved</li><li>observe the changes in physical properties of a substance as it undergoes a phase change</li></ol>',
+                'Chem 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II<br />PHY2210 General Physics I<br />PHY2220 General Physics II<br />MTH2220 Calculus II'
+            ],
+            [
+                92,
+                'What is the difference between a physical and a chemical change?',
+                'Students will: <ol><li>Identify criteria for determining whether a physical or a chemical change has occurred when two substances are combined</li><li>Determine through observations and analysis whether a physical or chemical change has occurred when given two substances to combine</li></ol>',
+                'Chem 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II<br />PHY2210 General Physics I<br />PHY2220 General Physics II<br />MTH2220 Calculus II'
+            ],
+            [
+                92,
+                'What are the signs that a chemical change has occurred?',
+                'Students will: <ol><li>Describe the four signs that a chemical change has occurred (gas formation, precipitate, color change, energy change)</li><li>predict and investigate chemical reactions for signs that a chemical change has occurred</li><li>develop an experiment which indicates a chemical change</li></ol>',
+                'Chem 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II<br />PHY2210 General Physics I<br />PHY2220 General Physics II<br />MTH2210 Calculus I<br />MTH2220 Calculus II'
+            ],
+            [
+                93,
+                'How can an observer tell if an endothermic or an exothermic reaction has taken place?',
+                'Students will: <ol><li>Investigate various reactions to determine if the given reaction is exothermic or endothermic based upon temperature change </li></ol>',
+                'Chem 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II<br />PHY2210 General Physics I<br />PHY2220 General Physics II<br />MTH2210 Calculus I<br />MTH2220 Calculus II<br />MTH3300 Differential Equations'
+            ],
+            [
+                93,
+                'What happens to energy in an exothermic or endothermic reaction? Describe the transfer of energy in physical and chemical changes.',
+                'Students will: <ol><li>Design and interpret models representing the flow of energy during endothermic and exothermic reactions</li><li>describe where the energy comes from and where it goes in reactions (conservation of energy)</li></ol>',
+                'Chem 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II<br />PHY2210 General Physics I<br />PHY2220 General Physics II'
+            ],
+            [
+                94,
+                'How is energy from chemical reactions transported through living organisms?',
+                'Students will: <ol><li>Describe some of the processes which occur in living organisms that transform energy</li><li>Develop models which demonstrate how energy is transformed through chemical reactions in living organisms</li></ol>',
+                'BIO1210 Biology of Cells<br />BIO/CHM3550 Biochemistry,'
+            ],
+            [
+                94,
+                'How is energy converted from fuel to motion in transportation?',
+                'Students will: <ol><li>Participate in laboratory experiences which demonstrate how motors create motion</li><li>Describe how the chemical processes in an internal combustion engine can produce energy</li><li>Develop models to demonstrate the energy flow from natural resource to transportation</li></ol>',
+                'CHM1310 General Chemistry I<br />CHM1320 General Chemistry II<br />PHY2210 General Physics I<br />PHY2220 General Physics II<br />MTH2210 Calculus I<br />MTH2220 Calculus II<br />CHM3575 Chemistry of Materials<br />CSC3850 Introduction to Robotics'
+            ],
+            [
+                94,
+                'How can energy be used in the recycling of materials?',
+                'Students will: <ol><li>Participate in the demonstration and analysis of material recycling through composting</li><li>describe the flow of energy through a compost system</li><li>determine through experimentation other possible methods of recycling various materials</li></ol>',
+                'PHY2210 General Physics I<br />PHY2220 General Physics II<br />MTH2210 Calculus I<br />MTH2220 Calculus II<br />CHM3575 Chemistry of Materials<br />BIO/CHM3550 Biochemistry<br />CSC4350 Software Engineering<br />CSC4100 Systems Analysis and Design'
+            ],
+            [
+                94,
+                'How can energy be harnessed during the recycling of materials?',
+                'Students will: <ol><li>Develop a model to show how energy which is output during the recycling process could be stored and used for other energy purposes.</li></ol>',
+                'PHY2210 General Physics I<br />PHY2220 General Physics II<br />MTH2210 Calculus I<br />MTH2220 Calculus II<br />CHM3575 Chemistry of Materials<br />BIO/CHM3550 Biochemistry'
+            ],
+            [
+                95,
+                'How does energy change throughout the manufacturing process?',
+                'Students will: <ol><li>Research the flow of energy from creation through recycling in particular areas of manufacturing</li><li>Develop a model representing the flow of energy through the researched manufacturing process </li></ol>',
+                'PHY2210 General Physics I<br />PHY2220 General Physics II<br />MTH2210 Calculus I<br />MTH2220 Calculus II<br />CHM3575 Chemistry of Materials<br />BIO/CHM3550 Biochemistry'
+            ],
+            [
+                96,
+                'How are elements properties defined as metals, nonmetals and metalloids?',
+                'Students will: <ol><li>identify the common properties of metals, nonmetals and metalloids</li><li>locate metals, nonmetals, and metalloids on the periodic table</li><li>identify unknown materials as metal, nonmetal, or metalloid based upon their properties</li></ol>',
+                'Chem 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II'
+            ],
+            [
+                96,
+                'How is the periodic table arranged by groups and periods?',
+                'Students will: <ol><li>determine how properties of an item can be utilized to produce an effective system of classification (e.g. table)</li><li>define the system which characterizes the current period table (groups and periods)</li></ol>',
+                'Chem 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II'
+            ],
+            [
+                97,
+                'What common properties can some elements share?',
+                'Students will: <ol><li>investigate the properties of elements which are common within each group on the periodic table (reactivity, valence, density, radius)</li></ol>',
+                'Chem 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II'
+            ],
+            [
+                97,
+                'How do common properties of elements define their place on the periodic table?',
+                'Students will: <ol><li>use the characteristic properties of a table system to predict where an item (element) might belong</li><li>demonstrate understanding of the role valence electrons have on an element’s properties.</li><li>predict the placement of an element on the periodic table based on given properties</li></ol>',
+                'Chem 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II'
+            ],
+            [
+                98,
+                'What elements are useful in various manufacturing processes?',
+                'Students will: <ol><li>research a particular area of manufacturing to determine what elements are utilized during the production of a particular product</li><li>investigate how particular elements are used by common manufacturing industries</li></ol>',
+                'Chem 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II<br />CHM3575 Chemistry of Materials'
+            ],
+            [
+                98,
+                'What properties of elements make them useful in manufacturing processes?',
+                'Students will: <ol><li>design and conduct an experiment which utilizes different chemical solutions as a cleaning agent</li><li>design and conduct an experiment to prevent iron from rusting</li><li>design and conduct an experiment which utilizes particular elements of fertilizers to enhance plant growth</li></ol>',
+                'Chem 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II<br />CHM2450 Analytical Chemistry<br />CHM3640 Instrumental Chemical Analysis<br />MTH3490 Numerical Anaylsis'
+            ],
+            [
+                99,
+                'How do atoms combine? Under what circumstances do they combine?',
+                'Students will: <ol><li>describe how atoms bond to form molecules in terms of transferring and/or sharing electrons</li><li>identify which type of bond (ionic or covalent) has occurred by analyzing the type of electron interactions in terms of transferring or sharing</li><li>construct models that show the relationship of atoms and electrons with the use of Lewis structures.</li></ol>',
+                'Chem 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II'
+            ],
+            [
+                99,
+                'How do atomic bonds determine properties of compounds and molecules?',
+                'Students will: <ol><li>discover trends and formulate rules about bonds and their physical properties</li><li>evaluate experimental results to determine the type of bond in a compound/molecule</li></ol>',
+                'Chem 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II'
+            ],
+            [
+                99,
+                'How are elements combined to create compounds/molecules?',
+                'Students will: <ol><li>demonstrate understanding of the role of valence electrons in determining correct chemical formulas</li><li>apply the octet rule to determine the correct ratio of atoms in a compound</li><li>identify correct naming procedures for chemical compounds and molecules.</li></ol>',
+                'Chem 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II<br />CHM2450 Analytical Chemistry<br />CHM3640 Instrumental Chemical Analysis '
+            ],
+            [
+                100,
+                'How does matter combine to form new kinds of substances?',
+                'Students will: <ol><li>identify reactants and products in a chemical reaction</li><li>Identify a given chemical reaction as single replacement (displacement), double replacement (displacement/metathesis), decomposition, synthesis (combination/formation) and combustion</li><li>predict products of reactions: single-replacement, double-replacement, and combustion</li></ol>',
+                'Chem 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM2450 Analytical Chemistry'
+            ],
+            [
+                100,
+                'How is matter conserved in ordinary chemical reactions?',
+                'Students will: <ol><li>describe the law of conservation of matter and explain how it relates to balanced chemical equations</li><li>design and complete a laboratory investigation which demonstrates the law of conservation of matter</li><li>evaluate chemical equations to determine the correct coefficients required to follow the law of conservation of matter.</li></ol>',
+                'Chem 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II'
+            ],
+            [
+                101,
+                'How does energy affect the rate of a reaction?',
+                'Students will: <ol><li>apply scientific principles to design, construct, and test a device that either minimizes or maximizes thermal energy transfer</li><li>plan an investigation to determine the relationships among the energy transferred, the type of matter, the mass, and the change in the average kinetic energy of the particles as measured by the temperature of the sample</li><li>demonstrate an understanding of why thermal energy can be used as a catalyst to speed up the rate of reaction.</li></ol>',
+                'Chem 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II<br />Physics 2210  General Physics<br />MTH 2210 Calculus I'
+            ],
+            [
+                102,
+                'How does concentration and amount impact molecular structure of new material?',
+                'Students will: <ol><li>design an investigation to test how factors such as amount and concentration of reactants affect the resulting physical properties of a product</li></ol>',
+                'Chem 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II'
+            ],
+            [
+                102,
+                'What processes go into the design and improvement of new material?',
+                'Students will: <ol><li>analyze the design of a product to determine how the materials affect purpose of each individual part (e.g. a tennis shoe)</li><li>design and construct materials which match the requirements for the product</li><li>create possibilities for improvements in the materials which would improve the overall quality of the product</li></ol>',
+                'Chem 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II<br />CHM2450 Analytical Chemistry<br />CHM3640 Instrumental Chemical Analysis'
+            ],
+            [
+                103,
+                'What causes atoms to be unstable?',
+                'Students will: <ol><li>describe the forces which keep the nucleus of an atom together</li><li>identify conditions which might lead to nuclear instability</li><li>demonstrate atomic notation for selected radioactive isotopes</li></ol>',
+                'Chem 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II'
+            ],
+            [
+                103,
+                'What happens to atoms that are unstable?',
+                'Students will: <ol><li>develop models that illustrate the process of radioactive decay</li><li>compare and contrast alpha, beta and gamma radiation</li><li>design a model which demonstrates half life of an isotope</li><li>identify both natural and artificial causes of radiation</li></ol>',
+                'Chem 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II'
+            ],
+            [
+                103,
+                'What reactions involve the nucleus? How is the structure of atom altered during fusion and fission?',
+                'Students will: <ol><li>develop models which illustrate the processes of nuclear fission and fusion</li><li>compare and contrast nuclear fission and fusion processes</li></ol>',
+                'Chem 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II'
+            ],
+            [
+                104,
+                'How do the products of decay affect surrounding matter?',
+                'Students will: <ol><li>describe characteristics of the particles released during alpha, beta, and gamma decay</li><li>describe both the positive and negative effects that the products of alpha, beta, and gamma decay have on surrounding matter </li></ol>',
+                'Chem 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II<br />Physics 2220 General Physics II'
+            ],
+            [
+                104,
+                'How can the products of nuclear reactions be used for good or bad in our everyday lives?',
+                'Students will: <ol><li>understand the common misconceptions about radiation</li><li>describe some of the ways that radiation can be used in everyday life (foods, medical, industrial, warfare)</li></ol>',
+                'Chem 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II<br />Physics 2220 General Physics II'
+            ],
+            [
+                105,
+                'How can energy from nuclear reactions be captured for practical energy uses?',
+                'Students will: <ol><li>understand the process of heat flow through a closed system</li><li>describe the process of converting thermal energy into electrical energy</li><li>design, create and test a model which is capable of harnessing thermal energy and converting it into electrical energy</li></ol>',
+                'Chem 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II<br />Physics 2220 General Physics II'
+            ],
+            [
+                105,
+                'How is the energy from nuclear fission (and potentially fusion) reactions converted to electrical energy?',
+                'Students will: <ol><li>describe the flow of energy from the nucleus of a fissionable atom through electrical power generation</li><li>understand the basic differences between a boiling water reactor and a pressurized water reactor</li></ol>',
+                'Physics 2220 General Physics II'
+            ],
+            [
+                106,
+                'Why is nuclear energy considered to be unstable and how does that relate to implementation?  What are the costs, benefits, impact, and environmental concerns of using nuclear energy?',
+                'Students will: <ol><li>compare and contrast the pros and cons of nuclear power generation</li><li>produce a cost benefit analysis for the use of nuclear energy</li><li>prepare a formal presentation of the evaluation and analysis of the use of nuclear power</li></ol>',
+                'BIO2200 Humans and the Environment<br />MTH 3500 Applied Statistics'
+            ],
+            [
+                107,
+                'How are the life cycles of plants, animals and products similar?',
+                'Students will: <ol><li>Examine the life cycles of animals, plant and products,</li><li>Describe typical life cycles for plants, animals and products,</li><li>Compare similarities of life cycles in plants, animals and products,</li><li>Articulate how animal, plant and product life cycles are similar</li></ol>',
+                'BIO 1210 (Biology of cells)<br />BIO 1220 (Biology of Organisms)'
+            ],
+            [
+                108,
+                'How are plants, animals and products similar from generation to generation?',
+                'Students will: <ol><li>Define similarities of animals, plants and products from previous and present generations,</li><li>Analyze similarities in generations,</li><li>Create a diagram or model to exhibit similarities discovered among different generations of animals, plants and products</li></ol>',
+                'BIO 1210 (Biology of cells)<br />BIO 1220 (Biology of Organisms)'
+            ],
+            [
+                109,
+                'How can records of the past help us learn about plants, animals and products?',
+                'Students will: <ol><li>define ʺrecords of the pastʺ,</li><li>Identify how records of the past can show variations in animals, plants and products,</li><li>Examine specific products to evaluate variations,</li><li>Trace the variant progression of product from its origin to latest model,</li><li>Identify the variations in characteristics that allowed plants, animals, and products to survive</li></ol>',
+                'BIO 1210 (Biology of cells)<br />BIO 1220 (Biology of Organisms)'
+            ],
+            [
+                110,
+                'What internal and external structures support growth and reproduction of animals?',
+                'Students will: <ol><li>Identify the essential internal and external structures of animals</li><li>Explain how each structure aids the animals</li><li>Construct a diagram/model to show the function of each structure in an animal</li></ol>',
+                'BIO 1210 (Biology of cells)<br />BIO 1220 (Biology of Organisms)'
+            ],
+            [
+                110,
+                'How do internal and external structures support growth and reproduction of animals?',
+                'Students will: <ol><li>identify vital internal and external structures necessary for healthy growth in an animal</li><li>Analyze how internal and external structures support growth and reproduction in animals</li></ol>',
+                'BIO 1210 (Biology of cells)<br />BIO 1220 (Biology of Organisms)'
+            ],
+            [
+                111,
+                'What internal and external structures aid in survival?',
+                'Students will: <ol><li>List internal and external structures that aid an animal in survival</li><li>Explain how internal and external structures aid in survival</li><li>Create a model to illustrate how structures aid in survival</li></ol>',
+                'BIO 1210 (Biology of cells)<br />BIO 1220 (Biology of Organisms)'
+            ],
+            [
+                111,
+                'What animal behaviors increase their likelihood of survival?',
+                'Students will: <ol><li>identify animal behaviors that increase the likelihood of survival</li><li>describe how animal behaviors increase its likelihood of survival</li></ol>',
+                'BIO 1210 (Biology of cells)<br />BIO 1220 (Biology of Organisms)'
+            ],
+            [
+                112,
+                'What internal and external structures support growth and reproduction of plants?',
+                'Students will: <ol><li>Identify the essential internal and external structures of plants</li><li>Explain how each structure aids the plant</li><li>Construct a diagram/model to show the function of each structure in a plant</li></ol>',
+                'BIO 1210 (Biology of cells)<br />BIO 1220 (Biology of Organisms)'
+            ],
+            [
+                112,
+                'How do internal and external structures support growth and reproduction of plants?',
+                'Students will analyze how internal and external structures support growth and reproduction in plants',
+                'BIO 1210 (Biology of cells)<br />BIO 1220 (Biology of Organisms)'
+            ],
+            [
+                113,
+                'What internal and external structures aid in survival?',
+                'Students will: <ol><li>List internal and external structures that aid a plant in survival</li><li>Explain how internal and external structures aid in survival of a plant</li><li>Create a model to illustrate how structures of a plant aid in survival</li></ol>',
+                'BIO 1210 (Biology of cells)<br />BIO 1220 (Biology of Organisms)'
+            ],
+            [
+                113,
+                'What plant behaviors increase their likelihood of survival?',
+                'Students will: <ol><li>Identify plant behaviors that increase the likelihood of survival</li><li>Describe how plant behaviors increase its likelihood of survival</li><li>Defend why certain plant behaviors help them survive</li></ol>',
+                'BIO 1210 (Biology of cells)<br />BIO 1220 (Biology of Organisms)'
+            ],
+            [
+                114,
+                'What structures of animals increase their ability to detect information from their environment?',
+                'Students will: <ol><li>Identify structures that allow animals to detect information</li><li>Construct a diagram of the sensory organs of an animal</li><li>Generate a hypothesis ascertaining how structure contributes to a sensory organ\'s function</li><li>Test hypothesis through research and experimentation</li></ol>',
+                'BIO 1210 (Biology of cells)<br />BIO 1220 (Biology of Organisms)'
+            ],
+            [
+                115,
+                'How do the internal and external structures of a plant enable it to acquire, use and release energy?',
+                'Students will: <ol><li>Identify internal and external structures in plants which are utilized to acquire energy</li><li>Identify internal and external structures which are utilized in plants to use energy</li><li>Identify internal and external structures in plants which are utilized to release energy</li><li>Describe the process of energy use in plants</li></ol>',
+                'BIO 1210 (Biology of cells)<br />BIO 1220 (Biology of Organisms)<br />BIO 2200 (Humans and the Evironment)'
+            ],
+            [
+                115,
+                'How does the release of plant energy affect people in their daily lives?',
+                'Students will: <ol><li>Explain how humans utilize the products released by plants</li><li>Explain the relationship between plants and humans</li></ol>',
+                'BIO 1210 (Biology of cells)<br />BIO 1220 (Biology of Organisms)<br />BIO 2200 (Humans and the Evironment)'
+            ],
+            [
+                116,
+                'How do the internal and external structures of animals enable them to acquire, use and release energy?',
+                'Students will: <ol><li>Identify internal and external structures in animals which are utilized to acquire energy</li><li>Identify internal and external structures which are utilized in animals to use energy</li><li>Identify internal and external structures in animals which are utilized to release energy</li><li>Describe the process of energy use in animals</li></ol>',
+                'BIO 1210 (Biology of cells)<br />BIO 1220 (Biology of Organisms)<br />BIO 2200 (Humans and the Evironment)'
+            ],
+            [
+                116,
+                'What structures and functions allow both cold and warm-blooded animals to be energy efficient?',
+                'Students will: <ol><li>Analyze the differences between cold-blooded and warm-blooded animals</li><li>Compare and contrast the structure and function of the digestive systems of cold and warm-blooded animals</li><li>Qualify and quantify energy efficiency in animals, both cold and warm-blooded</li><li>Utilize the information acquired to draw conclusions about the efficiency of energy use in cold and warm-blooded animals</li></ol>',
+                'BIO 1210 (Biology of cells)<br />BIO 1220 (Biology of Organisms)<br />BIO 2200 (Humans and the Evironment)'
+            ],
+            [
+                117,
+                'How does the greenhouse illustrate the acquisition, utilization and release of energy?',
+                'Students will: <ol><li>Research how scientists utilize technology to measure energy in plants</li><li>Create a diagram exhibiting the acquisition, utilization and release of energy in a greenhouse</li><li>Utilize a model of a greenhouse to demonstrate that plants acquire the materials for growth primarily from air and water</li></ol>',
+                'BIO 1210 (Biology of cells)<br />BIO 1220 (Biology of Organisms)<br />BIO 2200 (Humans and the Evironment)'
+            ],
+            [
+                117,
+                'How can the variables in greenhouses be adjusted to produce the greatest energy?',
+                'Students will: <ol><li>Determine potential variables present in a greenhouse</li><li>Categorize variables by energy efficiency</li></ol>',
+                'BIO 1210 (Biology of cells)<br />BIO 1220 (Biology of Organisms)<br />BIO 2200 (Humans and the Evironment)'
+            ],
+            [
+                117,
+                'How can a greenhouse be designed to maximize production?',
+                'Students will: <ol><li>research popular greenhouse designs</li><li>Analyze effective greenhouse design</li><li>Propose a prototype for the most energy efficient design</li><li>Establish the most efficient design and create a model for a greenhouse</li></ol>',
+                'BIO 1210 (Biology of cells)<br />BIO 1220 (Biology of Organisms)<br />BIO 2200 (Humans and the Evironment)'
+            ],
+            [
+                118,
+                'What is a cell and what is cell theory?',
+                'Students will: <ol><li>Identify the parts of a cell and the role each part performs,</li><li>Design an analogy/model to demonstrate understanding of a cell and its parts</li></ol>',
+                'BIO 1210 (Biology of cells)<br />BIO 1220 (Biology of Organisms)'
+            ],
+            [
+                118,
+                'How do cells differ in their structure and function among organisms?',
+                'Students will: <ol><li>Compare and contrast different cell types from different organisms and their functions</li><li>Utilize technology to illustrate the differences between cell types of different organisms</li></ol>',
+                'BIO 1210 (Biology of cells)<br />BIO 1220 (Biology of Organisms)'
+            ],
+            [
+                119,
+                'How do cells differ in their structure and function within an organism?',
+                'Students will: <ol><li>Examine differences in cell structure and function in an organism</li><li>Investigate how subsystems are developed from cells</li></ol>',
+                'BIO 1210 (Biology of cells)<br />BIO 1220 (Biology of Organisms)'
+            ],
+            [
+                119,
+                'How do the subsystems interact to form a system?',
+                'Students will: <ol><li>Identify subsystems within an organism</li><li>Design a model to illustrate the structure and function of subsystems</li></ol>',
+                'BIO 1210 (Biology of cells)<br />BIO 1220 (Biology of Organisms)'
+            ],
+            [
+                119,
+                'What systems function within an organism?',
+                'Students will: <ol><li>Identify systems within an organism</li><li>Develop a diagram/model to show systems in an organism and the functions of each system</li></ol>',
+                'BIO 1210 (Biology of cells)<br />BIO 1220 (Biology of Organisms)'
+            ],
+            [
+                120,
+                'What role do sun and water play in a plants’ ability to acquire energy?',
+                'Students will: <ol><li>Explain how sun and water are vital for photosynthesis</li><li>Develop an understanding about plants’ abilities to create energy</li></ol>',
+                'BIO 1210 (Biology of cells)<br />BIO 1220 (Biology of Organisms)'
+            ],
+            [
+                120,
+                'How does photosynthesis help a plant to create energy?',
+                'Students will: <ol><li>Identify how photosynthesis leads to energy production</li><li>Create a graphic to illustrate the cyclical nature of photosynthesis</li></ol>',
+                'BIO 1210 (Biology of cells)<br />BIO 1220 (Biology of Organisms)'
+            ],
+            [
+                120,
+                'How does the digestive system aid in converting food to energy in organisms?',
+                'Students will: <ol><li>Identify the parts of the digestive system</li><li>Describe the process of digestion</li><li>Construct a model illustrating the process of digestion</li></ol>',
+                'BIO 1210 (Biology of cells)<br />BIO 1220 (Biology of Organisms)'
+            ],
+            [
+                120,
+                'What is the difference between aerobic and anaerobic respiration?',
+                'Students will: <ol><li>explain the process of both aerobic and anaerobic respiration</li><li>Analyze the differences between the two processes</li><li>Identify conditions needed for the processes of aerobic and anaerobic respiration to occur</li></ol>',
+                'BIO 1210 (Biology of cells)<br />BIO 1220 (Biology of Organisms)'
+            ],
+            [
+                121,
+                'What structures and behaviors of an organism determine its likelihood to reproduce?',
+                'Students will: <ol><li>Research organisms to determine structures and behaviors that could affect likeliness of reproduction</li><li>Identify structures and behaviors which give advantages to a species’ likelihood of survival</li><li>Understand and describe how a species’ likelihood of survival can increase or decrease its offspring\'s chances of survival</li></ol>',
+                'BIO 1210 (Biology of cells)<br />BIO 1220 (Biology of Organisms)'
+            ],
+            [
+                121,
+                'What are possible advantages of asexual reproduction for offspring?',
+                'Students will: <ol><li>Define asexual reproduction and the conditions under which it occurs,</li><li>List advantages of asexual reproduction,</li><li>Compare asexual and sexual reproduction as it affects offspring (genetic defects, etc.)</li></ol>',
+                'BIO 1210 (Biology of cells)<br />BIO 1220 (Biology of Organisms)'
+            ],
+            [
+                122,
+                'How can a disassembled prosthesis illustrate form and function of a limb?',
+                'Students will: <ol><li>Design activities to perform reverse engineering on a prosthetic limb</li><li>Evaluate the form of a human limb and how it allows that limb to function accordingly</li><li>Consider the function of a limb, as it is related to its form</li><li>Document comparisons of function and form of a prosthesis to a natural limb</li></ol>',
+                'BIO 3040 (Immunology)<br />BIO 2300 (Intro to Zoology)'
+            ],
+            [
+                122,
+                'If a portion of a limb is missing, how could those functions be restored with a prosthesis?',
+                'Students will: <ol><li>Research the functions of a prosthesis</li><li>Analyze the function of the missing limb and what is necessary to restore full function</li><li>Construct a solution outlining the affected function of a limb and its restoration with a prosthesis</li><li>Present the solution to a panel of peers</li></ol>',
+                'BIO 3040 (Immunology)<br />BIO 2300 (Intro to Zoology)'
+            ],
+            [
+                122,
+                'What will secure the prosthesis to the person now and in the future?',
+                'Students will: <ol><li>Research existing practices for securing a prosthesis</li><li>Create a diagram illustrating a design of how the prosthesis will be secured in the future</li><li>Collaborate with peers to improve their design</li><li>Examine the role of continuous improvement in design</li></ol>',
+                'BIO 3040 (Immunology)'
+            ],
+            [
+                123,
+                'How does the form of a structure determine life’s functions and how does the function of a structure determine its form?',
+                'Students will: <ol><li>List the properties of a form of a structure</li><li>Using a model illustrate the relationship between form and function of a plant or animal</li></ol>',
+                'BIO 1210 (Biology of Cells)<br />BIO 1220 (Biology of Organisms)'
+            ],
+            [
+                123,
+                'How does the knowledge of developmental milestones and function inform physicians, parents, and educators?',
+                'Students will: <ol><li>Identify developmental milestones</li><li>Analyze an Individualized Education Plan (IEP)</li><li>Design a growth chart to document developmental milestones</li></ol>',
+                'BIO 3400 (Genetics)<br />BIO 2200 (Humans and the Environment)'
+            ],
+            [
+                124,
+                'How do the individual structures in the system contribute to the overall functioning of the whole?',
+                'Students will: <ol><li>Examine an individual structure to determine its contribution to the functioning of the whole system,</li><li>Document the possible variables in the functioning of a system</li></ol>',
+                'BIO 3260 (Comparative Botany)<br />BIO 1220 (Biology of Organisms)'
+            ],
+            [
+                124,
+                'What are the similarities and differences in the structure of systems and how they function in organisms?',
+                'Students will: <ol><li>Compare and contrast a system in plants and animals</li><li>Design an investigation to illustrate structural differences in plants and animals</li></ol>',
+                'BIO 3260 (Comparative Botany)<br />BIO 1220 (Biology of Organisms)'
+            ],
+            [
+                124,
+                'What are ways cardiologist repair the circulatory system?',
+                'Students will: <ol><li>utilize prior knowledge to establish understanding of form and function of the circulatory system</li><li>Describe conditions of the circulatory system which diminish cardiac output</li><li>Propose a surgical procedure to the affected supporting structures of the heart</li><li>Design a model illustrating a heart bypass operation</li></ol>',
+                'BIO 1210 (Biology of Cells)<br />BIO 2660 (Anatomy and Physiology)'
+            ],
+            [
+                125,
+                'How do organisms utilize sensory organs to detect, process, and use information from the environment?',
+                'Students will: <ol><li>Document how stimuli are detected by an organism</li><li>Create a diagram illustrating the processes of input and possible outputs as demonstrated by sensory reactions</li><li>Predict reactions of an organism using sensory receptors to internal stimuli and external stimuli</li></ol>',
+                'BIO 1210 (Biology of Cells)<br />BIO 3450 (Advanced Cell)<br />BIO 2660/BIO 2670 (Anatomy and Physiology)'
+            ],
+            [
+                125,
+                'How have hearing devices improved sound for the hearing impaired and deaf?',
+                'Students will: <ol><li>Develop a timeline illustrating the improvements to hearing devices</li><li>Identify which input paths have improved over time</li><li>Design a model predicting possible future improvements in hearing devices</li></ol>',
+                'BIO 1210 (Biology of Cells)<br />BIO 3450 (Advanced Cell)<br />BIO 2660/BIO 2670 (Anatomy and Physiology)'
+            ],
+            [
+                126,
+                'How can organisms of the same species have different characteristics through Natural Selection?',
+                'Students will: <ol><li>Identify genetic factors that determine characteristics in both plants and animals</li><li>Utilize tools (Punnett Square) to predict possible genetic variance in like species</li><li>Evaluate specific genetic variations to determine benefits or harm to an organism</li></ol>',
+                'BIO 1210 (Biology of Cells)<br />BIO 1220 (Biology of Organisms)'
+            ],
+            [
+                126,
+                'How can using fossil records to identify and analyze the patterns of change help you understand why some traits continue and others disappear? (i.e., Mammoth to elephant, Neanderthal to modern man.)',
+                'Students will: <ol><li>Conduct research to acquire knowledge about fossil records</li><li>Compare and contrast similarities and differences between ancient species and modern species (Neanderthal-Modern Man)</li><li>Analyze patterns of change in species</li><li>Document traits that have continued in species and traits that have disappeared in the same species through analysis</li></ol>',
+                'BIO 1210 (Biology of Cells)<br />BIO 1220 (Biology of Organisms)'
+            ],
+            [
+                126,
+                'How does the identification of predisposition markers by geneticists affect the choices of individuals?',
+                'Students will: <ol><li>Recognize how geneticists use genes to predict an organism\'s traits</li><li>Create a graphic tool to display how traits can be predicted and possibly altered by scientist</li><li>Create an argument exploring positive and negative effects of genetic knowledge</li></ol>',
+                'BIO 3600 (Molecular Biology)<br />BIO 3400 (Genetics)'
+            ],
+            [
+                127,
+                'How have technologies influenced desired traits in organisms - plants?',
+                'Students will: <ol><li>Describe technologies used to alter species of plants</li><li>Consider how technologies available in agriculture will affect future generation</li></ol>',
+                'BIO 1220 (Biology of Organisms)<br />BIO 3530 (Evolution)'
+            ],
+            [
+                127,
+                'How does genetic variation among organisms affect survival and reproduction?',
+                'Students will: <ol><li>Explain how technologies available in agriculture and human health will affect future generations,</li><li>Design an investigation to determine possible outcomes during the use of genetic technologies</li></ol>',
+                'BIO 1210 (Biology of Cells)<br />BIO 3600 (Molecular Biology)'
+            ],
+            [
+                127,
+                'How do genetic technologies impact the supply chain to benefit the producers and consumers of the agricultural industry?',
+                'Students will: <ol><li>Calculate how genetic engineering has affected the agricultural industry</li><li>Evaluate how genetic modification of agriculture has increased consumer options</li><li>Analyze the effect of technologies on a farmer\'s ability to produce crops and livestock</li></ol>',
+                'BIO 1210 (Biology of Cells)<br />BIO 3600 (Molecular Biology)'
+            ],
+            [
+                128,
+                'How does technology increase the supply of livestock for human consumption?',
+                'Students will document technology used to increase livestock production',
+                'BIO 1220 (Biology of organisms)<br />BIO 3250 (Animal Behavior)'
+            ],
+            [
+                128,
+                'How have technologies influenced desired traits in organisms - animals?',
+                'Students will: <ol><li>Recognize traits that are considered desirable</li><li>Create a graphic tool to evaluate traits that are considered desirable</li><li>Synthesize how the quality of life has improved for people because of increased technology</li><li>Evaluate how technology has changed agriculture</li></ol>',
+                'BIO 1220 (Biology of Organisms)<br />BIO 3520 (Animal Behavior)'
+            ],
+            [
+                128,
+                'What are the ethical and moral responsibilities of scientists, doctors and individuals using technology to create an organism with particular traits?',
+                'Students will: <ol><li>Communicate how technological advances create ethical and moral dilemmas</li><li>Construct an investigation to examine what role the ability to determine traits may have on future generations</li></ol>',
+                'BIO 1220 (Biology of Organisms)<br />BIO 1210 (Biology of Cells)'
+            ],
+            [
+                129,
+                'What is the difference between weather and climate?',
+                'Students will: <ol><li>Explain weather concepts, define terminology, and apply how weather instruments are used in meteorology</li><li>Observe and record local weather patterns in Aurora or the Midwest to develop these concepts before expanding to a national or global comparison such as the Arctic or Antarctica.</li></ol>',
+                'NSM1300 Earth Science<br />BIO2200 Humans and the Environment<br />MTH 3240 Probability and Statistics'
+            ],
+            [
+                129,
+                'What factors influence temperature around the world and in your community?',
+                'Students will: <ol><li>Investigate weather in a detailed way, learning about components of weather, weather instruments, and forecasting.  Students investigate (1) clouds; (2) thermometers (3) wind vanes; (4) air pressure and barometers; (5) severe weather; (6) collecting weather data; (7) interpreting weather data; (8) make weather forecasts.</li></ol>',
+                'NSM1300 Earth Science<br />BIO2200 Humans and the Environment<br />MTH 3240 Probability and Statistics'
+            ],
+            [
+                130,
+                'What is weather?',
+                'Students will: <ol><li>identify and journal daily weather at school</li><li>Compare and contrast weather in Aurora to other areas in USA.  (key geography tie-in).</li><li>Interpret implications how latitude changes weather.</li><li>Compare their data logs to previous years\' data (from previous classes)</li></ol>',
+                'NSM1300 Earth Science<br />BIO2200 Humans and the Environment<br />MTH 3240 Probability and Statistics'
+            ],
+            [
+                131,
+                'What are distinct features of animal habitats in different regions particularly locally in the Midwest?',
+                'Students will: <ol><li>Create an animal habitat “menu” where each habitat has a list of distinct features available to the habitat.</li><li>Demonstrate through Venn diagrams the similarities and differences among the distinct features of animal habitats locally.</li></ol>',
+                'NSM1300 Earth Science<br />BIO2200 Humans and the Environment<br />MTH 3240 Probability and Statistics<br />MTH 3700 Models for Life Contingencies '
+            ],
+            [
+                131,
+                'How have animal habitats been impacted by weather and climate changes caused by human impact?',
+                'Students will: <ol><li>Identify ways animals depend on their environment to live.</li><li>Identify how changes in weather and climate such as polar ice caps will affect animals’ habitats.</li><li>Create a short story that contains both illustrations and text about a specific animal habitat being altered by weather and climate change issues.</li></ol>',
+                'MTH 3240 Probability and Statistics<br />MTH 3700 Models for Life Contingencies<br />MTH 3500 Applied Statistical Methods'
+            ],
+            [
+                132,
+                'What are different design solutions that are used to reduce weather related hazards?  (i.e. levees, flood elevation, lightning rods, trusses, concrete footings, etc.)',
+                'Students will: <ol><li>Create a table listing different design solutions.</li><li>Investigate using the internet how each design solution reduces weather related hazards and resultant damage.</li></ol>',
+                ''
+            ],
+            [
+                126,
                 '',
                 'Students will: <ol><li></li></ol>',
                 ''

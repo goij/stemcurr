@@ -210,14 +210,136 @@ class UnitsSeeder extends Seeder
                 '<br />Forces That Reshape Earth’s Crust, Rocks and Minerals<br />Gravity and the Changing Faces of the Moon.',
                 '<p>The Earth is shaped and reshaped by a variety of process over long periods of time that produce the range of landforms on the Earth’s surface.</p>
                 <p>Students at this age level may have misconceptions that the world was always as it is now, or that any changes, if any, have occurred suddenly and comprehensively as a result of some cataclysmic event. Understanding how the Earth has changed over its history depends on looking at
-                more than the process of weathering and sedimentation. In addition, the changes and process on the surface of the Earth presented in this unit support ideas about Earth’s original igneous rock beginnings and its hot interior. The fact that rock cycles through the Earth’s surface, changing
-                its form and location, forming new rock material and minerals will be investigated by students as they dig into Earth’s composition thus providing for authentic learning of their physical world.</p>
-                <p>As science continues to discover new observations and ideas about the universe it is important to provide foundational understandings which allows students to make coherent connections to the universe and then engage in further learning. Observations of the sky and explanations of principles
-                forces of motion will provide an important perspective for understanding the important ideas that apply to the physical principles of our universes planets, and moons.</p>
-                <p>As students progress beyond this grade level they will gain a deeper appreciation of the important scientific notion that the same physical principles apply everywhere despite the diverse differences in scale from planets, stars and beyond.</p>',
+                more than the process of weathering and sedimentation. In addition, the changes and process on the surface of the Earth presented in this unit support ideas about Earth’s original igneous rock beginnings and its hot interior. The fact that rock cycles through the Earth’s surface, changingits form and location, forming new rock material and minerals will be investigated by students as they dig into Earth’s composition thus providing for authentic learning of their physical world.</p>
+                <p>As science continues to discover new observations and ideas about the universe it is important to provide foundational understandings which allows students to make coherent connections to the universe and then engage in further learning. Observations of the sky and explanations of principles forces of motion will provide an important perspective for understanding the important ideas that apply to the physical principles of our universes planets, and moons.</p><p>As students progress beyond this grade level they will gain a deeper appreciation of the important scientific notion that the same physical principles apply everywhere despite the diverse differences in scale from planets, stars and beyond.</p>',
                 'Lisa E. Pena','Teresa, Bauman, Gerry Mestek, Sara Thurman',
                 'Du Page Children’s Museum: Chris Barry, Laura Decker, Kim Grdina, Margaret Hanley',
                 'Nicor Gas: Angela Whitfield', 'Dr. Chetna Patel',3,5
+            ],
+            [
+                '<br />Evolving Earth and the Celestial Universe',
+                '<p>The Theory of Plate Tectonics is a unifying concept of geology. The Earth’s interior; the phenomena of earthquakes and volcanoes provide evidence that earth’s interior is in a state of constant flux. As this understanding is developed students will be lead to recognize that the Earth’s crust is divided into many unique and distinct plates that float upon the molten mantel of Earth’s interior. As students progress to the middle school level the emphasis about plates and their movements should be developed only after ideas about Earth’s landforms and the changing topography is clearly understood in the elementary grades.</p>
+                <p>A clear view of the universe is essential in making sense of the vast amount of knowledge collected regarding our cosmos. A cursory view of our universe is appropriate for students at the middle school level in order to gain an expanding level of literacy about the universe. Students will acquire deeper understandings of the composition and scale of galaxies and universes leading to explanations and theories about how they may have formed, i.e. Einstein’s Theory of Relativity. These ideas will be expanded as students identify the technologies scientist use to learn about the universe through observations of our sun, stars and sky.',
+                'Lisa E. Pena','Teresa, Bauman, Gerry Mestek, Sara Thurman',
+                'Du Page Children’s Museum: Chris Barry, Laura Decker, Kim Grdina, Margaret Hanley',
+                'Nicor Gas: Angela Whitfield', 'Dr. Chetna Patel',3,6
+            ],
+            [
+                '<br />The World is Made of Stuff',
+                '<p>The unit on matter and energy will review concepts covered in second grade to make sure students have a strong understanding of the basic principles of matter and energy to ensure success in the later grades.  Since matter and energy does not fall under the specific NGSS concepts for grade 3, this lesson overview will provide examples of how to reinforce the concepts in other subject areas.  During these lessons, students observe, experiment, and analyze objects and phenomena in their daily lives. By incorporating common items into the activities, experiments, physical demonstrations, small constructions, and recipes, science learning becomes fun.</p>',
+                'Amy Truemper',
+                'Anne Pradzinski, Chuck Linneman',
+                'Fermilab',
+                'Exelon/Commonwealth Edison',
+                'Dr. Gina Rahn',4,1
+            ],
+            [
+                '<br />Charges and Waves',
+                'In this unit students learn how matter and energy are connected. Learning about the charged particles in an atom provides a basis for understanding how electrical energy is formed.  They will be using this information from 4th grade all the way through 8th grade.  Students will reinforce 3rd grade concepts on how energy can be transferred. They will also apply knowledge of basic properties of matter (density, conductivity, etc.) in their quest to discover how matter travels through various media.  Students identify and compare how energy can be transferred through mechanical energy (friction and waves), or electrical energy (resistance in electrical devices). They build simple circuits to investigate the transfer of electrical energy through a wire and observe how it can be transformed into light, mechanical energy (buzzers, motors) or heat. Students design investigations, gather data, and use evidence to show how the properties of a material relate to how that material conducts energy.  They apply their knowledge of matter and energy by demonstrating these concepts through illustrations, models, and inquiry based lab work.',
+                'Amy Truemper',
+                'Anne Pradzinski, Chuck Linneman',
+                'Fermilab',
+                'Exelon/Commonwealth Edison',
+                'Dr. Gina Rahn',4,2
+            ],
+            [
+                '<br />Molecules in Motion - The Energy of Everyday Life',
+                '<p>This unit will allow students to investigate how energy impacts matter in everyday life.  In this unit, students will review how thermal energy changes result in matter changing form physically, such as liquid changing to gas form, before investigating chemical changes in matter.  The focus for Grade 5 is to demonstrate how thermal energy changes can result in molecules rearranging or combining together to make new material.</p><p>An excellent resource for this unit is <b><u>Transformation of Matter</u></b> through <b>Sangari Active Science.</b> The teacher guide from this series provides everyday examples that can be studied so that students see the relevance to their daily lives and to the careers in manufacturing and design.  NSTA publications, <b><u>Everyday Mysteries in Science</u></b> and <b><u>Understanding Science,</u></b> provide inquiry probes which can be used to initiate a discussion or to student designed experiments.</p>',
+                'Amy Truemper',
+                'Anne Pradzinski, Chuck Linneman',
+                'Fermilab',
+                'Exelon/Commonwealth Edison',
+                'Dr. Gina Rahn',4,3
+            ],
+            [
+                '<br />Patterns on the Periodic Table- How to Use Element Properties in Industry',
+                '<p>To identify the importance of elements and compounds in daily life and industry, it is necessary to understand what they are. Before starting this unit, students will already have a foundation of the basic particles that comprise matter.  They will know the atom is the basic unit used in chemistry.  They will know the element is a substance that is composed of a single, specific type of atom. Each element is characterized by the number of protons within the nucleus of each of its atoms, known as the atomic number. An atom with six protons in its nucleus, for instance, is an atom of the element carbon. An atom with 26 protons would belong to the element iron. While each and every atom of a specific element will have the same number of protons, its number of neutrons may vary.</p><p>They will have learned that atoms or elements combine to make molecules and compounds.</p><p>A wide variety of elements and compounds are important in industry. One important element is iron, as it is oxidized to make steel, which is regularly used to build various structures. It is important one understand the properties of iron to avoid potential manufacturing problems such as rust.  Students will gain a better understanding of the properties of matter by learning how this properties can be used and by understanding how different elements combine.  Chemicals are widely utilized in the production industry.  Chemical engineering is concerned with the design, construction, and operation of machines and plants that perform chemical reactions to solve practical problems or make useful products.</p><p></p>Elements, compounds, and the chemical reactions between them are the basic building blocks of everything. The importance of elements and compounds is such that nothing would exist or function without them. Students will learn the patterns of the periodic as they study the properties of elements.  These patterns will be the building block for the 7th grade unit which covers how atoms combine together to make compounds.</p>',
+                'Amy Truemper',
+                'Anne Pradzinski, Chuck Linneman',
+                'Fermilab',
+                'Exelon/Commonwealth Edison',
+                'Dr. Gina Rahn',4,4
+            ],
+            [
+                '<br />How Changes in Matter Improve Our Lives',
+                '<p>Developing an understanding that chemical bonding occurs around us and in us leads to knowledge of the processes necessary for our survival.  If we’re able to understand the bonds that result from electrons then we can understand the chemical reactions that sustain us and make our world a better place to live.  For example, learning about water’s unique properties as a result of its bonding creates appreciation for how we don’t boil or freeze even though the temperature outside changes quite a bit.  Chemical bonding naturally includes concepts of potential and kinetic energy, so it is necessary to explain energy as well as the flow of energy.</p><p>Possible extension:  Students will be challenged to think about the chemical bonds that are essential to the functioning of the body.  What bonds exist among atoms within our bodies that are sustaining us?  In order to answer this question, students need to understand not only what bonds are, but also the results of these bonds.</p>',
+                'Amy Truemper',
+                'Anne Pradzinski, Chuck Linneman',
+                'Fermilab',
+                'Exelon/Commonwealth Edison',
+                'Dr. Gina Rahn',4,5
+            ],
+            [
+                '<br />What role does energy from the nucleus have in our lives?',
+                'Throughout this unit students will develop an understanding of how energy causes changes at the molecular and atomic level. Students will start the unit with previous knowledge of atomic structure, energy transformations and the effect of forces on the motion of an object (including electricity).  Students will be able to link observable and measurable properties, existence in different states, and tangible material or particles to an explanation of whether something is considered to be matter. Students will discover how extreme changes in energy can result in extreme changes in matter.  They will learn how scientists are using this information to develop new technologies, improve our society and develop a deeper understanding of the universe.',
+                'Amy Truemper',
+                'Anne Pradzinski, Chuck Linneman',
+                'Fermilab',
+                'Exelon/Commonwealth Edison',
+                'Dr. Gina Rahn',4,6
+            ],
+            [
+                '<br />LIFE & DESIGN CYCLES',
+                'While this unit to life science does offer a content building knowledge for students, it is indeed much more than that! It is suggested that this unit be taught first in the fall of third grade, because of the practical alignment of the content introducing the parallel development of the life cycles of plants and animals and the design cycles of products. Students will be given multiple opportunities throughout the unit to compare and contrast the birth, life, and death of familiar living things with the creation, development, improvement, and ultimate discontinuation of popular products on the market.',
+                'Sandy Quintanilla(SD129)',
+                'Leigh Apple(SD308), Allison Landstrom(SD204)',
+                'Hannah Rennard (Morton Arboretum), Margo Schmitt (Robert Crown Centers)',
+                'William Spitzig & Tamara Vincer (Cabot Micro Electronics), Andrew G. Jirovec (Caterpillar Inc.)',
+                'Dr. Chetna Patel',5,1
+            ],
+            [
+                '<br />FEATURES & FUNCTIONS',
+                'Students will utilize a variety of performance task gaining content knowledge about the life science basics of macrobiological forms and functions. Through a series of investigations, students will explore the internal and external structures of animals and plants that contribute to their growth, reproduction, and survival. In addition, to the study of structures of the life forms themselves, ecosystems and adaptations will contribute supplemental content to assist with some standards alignment and student knowledge development of the basics in life science.',
+                'Sandy Quintanilla(SD129)',
+                'Leigh Apple(SD308), Allison Landstrom(SD204)',
+                'Hannah Rennard (Morton Arboretum), Margo Schmitt (Robert Crown Centers)',
+                'William Spitzig & Tamara Vincer (Cabot Micro Electronics), Andrew G. Jirovec (Caterpillar Inc.)',
+                'Dr. Chetna Patel',5,2
+            ],
+            [
+                '<br />ORGANISMS & ENERGY',
+                'Students have the opportunity to engage in an energy filled unit of study as they examine how plants and animals acquire, use and release energy. Through a series of research and investigations, students will become illuminated about energy productions in organisms of all kinds. The unit will also allow the opportunity for students to apply their light-bulb moments to the design and creation of a highly efficient greenhouse model where they can observe the best technology and research about plant energy at work.',
+                'Sandy Quintanilla(SD129)',
+                'Leigh Apple(SD308), Allison Landstrom(SD204)',
+                'Hannah Rennard (Morton Arboretum), Margo Schmitt (Robert Crown Centers)',
+                'William Spitzig & Tamara Vincer (Cabot Micro Electronics), Andrew G. Jirovec (Caterpillar Inc.)',
+                'Dr. Chetna Patel',5,3
+            ],
+            [
+                '<br />GROWTH & DEVELOPMENT',
+                'Through a variety of analogies and performance task, students will develop an understanding of the most fundamental of life’s building blocks, the cell. After acquiring necessary background of cells and cell theory, students will then begin to examine the interconnectedness of cells and the subsystems and systems that are created through cells which allow for all functions of living things, both plants and animals. The contributions of multiple systems within many organisms will be synthesized by students who will create an initial understanding of many concepts of microbiology. This newly acquired knowledge will allow them further, more intricate learning in subsequent studies throughout secondary and post-secondary educational experiences in the life sciences.',
+                'Sandy Quintanilla(SD129)',
+                'Leigh Apple(SD308), Allison Landstrom(SD204)',
+                'Hannah Rennard (Morton Arboretum), Margo Schmitt (Robert Crown Centers)',
+                'William Spitzig & Tamara Vincer (Cabot Micro Electronics), Andrew G. Jirovec (Caterpillar Inc.)',
+                'Dr. Chetna Patel',5,4
+            ],
+            [
+                '<br />FORM & FUNCTION',
+                'Through a series of active investigations, students will increase knowledge and understanding about the complexity and interconnectedness of form and function in a variety of organisms.  Beginning with a reverse engineering project, students examine the inner workings of a prosthetic limb and use these discoveries to better understand the form and function of the human body. Additionally, students will gain real world knowledge of human growth and development utilizing pediatric growth milestones and Individual Education Plans as a catalyst for enlightenment into potential problems when either form or function or some combination of the two is operating incorrectly.  Students will then have the opportunity to compare and contrast branching systems of plants, animals, and humans increasing knowledge of the form and functions of multiple organisms.  Finally, students will study sensory organs and processes for understanding information input and output while increasing their awareness of technologies available to assist organisms when either the form or function of these sensory organs is ineffective.',
+                'Sandy Quintanilla(SD129)',
+                'Leigh Apple(SD308), Allison Landstrom(SD204)',
+                'Hannah Rennard (Morton Arboretum), Margo Schmitt (Robert Crown Centers)',
+                'Michael Oros (Scheck and Siress) William Spitzig & Tamara Vincer (Cabot Micro Electronics)',
+                'Dr. Chetna Patel',5,5
+            ],
+            [
+                '<br />HEREDITY',
+                '<p>Heredity and genetics are fascinating studies for eighth grade students, as they discover not only the natural processes of adaptation and change in organisms through time, but also the limitless alterations man can make to organisms through technological means.  Students will begin to understand that reproduction allows an organism to transfer genetic information to its offspring; in addition, students will examine the adaptations of organisms made through the process of natural selection and these observations are solidified through the study of fossil records.</p><p>In the early grades, students observe that young animals look similar to their parents and that related organisms can have a similar appearance.  As they progress, students start to understand that different organisms produce different characteristics.  In addition, students learn some organisms resemble those of long ago while others have evolved over time and these differences in an organism can result in an advantage in survival.</p>',
+                'Sandy Quintanilla(SD129)',
+                'Leigh Apple(SD308), Allison Landstrom(SD204)',
+                'Hannah Rennard (Morton Arboretum), Margo Schmitt (Robert Crown Centers)',
+                'William Spitzig & Tamara Vincer (Cabot Micro Electronics)',
+                'Dr. Chetna Patel',5,6
+            ],
+            [
+                '<br />Understanding Seasons, Expected Weather Patterns, Climate Change, Food Chains & Habitats and Engineering Design Solutions Based on Our Understanding of These Conditions',
+                '',
+                'Anthony Holub (SD308)',
+                'Weston Brzykcy (SD204), Josie Curtis (SD129), Margaret Stokes (SD204)',
+                'Don Dosch (IMSA)',
+                'Roger Shuma (Tellabs)',
+                'Ray Dagenais, Dr. Gina Rahn',6,1
             ]
 
         ];

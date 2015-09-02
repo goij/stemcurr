@@ -20,8 +20,8 @@ class SubjectsSeeder extends Seeder{
             'Force & Motion',
             'Geology & Space',
             'Matter & Energy',
-            'Weather & Climate',
-            'Structure & Function'
+            'Structure & Function',
+            'Weather, Climate, & Human Impact'
         ];
 
 

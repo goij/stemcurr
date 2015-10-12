@@ -340,6 +340,55 @@ class UnitsSeeder extends Seeder
                 'Don Dosch (IMSA)',
                 'Roger Shuma (Tellabs)',
                 'Ray Dagenais, Dr. Gina Rahn',6,1
+            ],
+            [
+                '<br />Preventing pollution, preparing communities, and positing on climate change',
+                '',
+                'Anthony Holub (SD308)',
+                'Weston Brzykcy (SD204), Josie Curtis (SD129), Margaret Stokes (SD204)',
+                'Don Dosch (IMSA)',
+                'Roger Shuma (Tellabs)',
+                'Ray Dagenais, Dr. Gina Rahn',6,2
+            ],
+            [
+                '<br />The probability is high that aquifers, catastrophic events, and weather predictions will be discussed throughout this unit of study…',
+                '',
+                'Anthony Holub (SD308)',
+                'Weston Brzykcy (SD204), Josie Curtis (SD129), Margaret Stokes (SD204)',
+                'Don Dosch (IMSA)',
+                'Roger Shuma (Tellabs)',
+                'Ray Dagenais, Dr. Gina Rahn',6,3
+            ],
+            [
+                '<br />How I learned to stop worrying about resource allocation, climate creation and alteration, and greenhouse gases and love STEM opportunities!',
+                '',
+                'Anthony Holub (SD308)',
+                'Weston Brzykcy (SD204), Josie Curtis (SD129), Margaret Stokes (SD204)',
+                'Don Dosch (IMSA)',
+                'Roger Shuma (Tellabs)',
+                'Ray Dagenais, Dr. Gina Rahn',6,4
+            ],
+            [
+                '<br />Understanding weather, climate, and human impact locally, nationally, globally.',
+                '<p>Weather, Climate, & Human Impact is a theme that has added significance given recent times.  Considerable debate exists over the extent to which humans have impacted the weather and climate, and further, how weather and climate and the resultant changes are impacting humans both short and long term.  This unit of study is focused on developing a deep understanding of the interplay between all three core components (weather, climate, & human impact) both qualitatively and quantitatively.</p>
+                <p>From the onset of a child’s education, students show significant interest in different weather phenomenon and marvel at the dynamic nature of our climate.  Further, they seek to understand their role in ensuring humans can live in a society that can accurately and effectively predict weather and climate pattern changes in addition to minimizing human impact on both.</p>
+                <p>The goal of this unit from 3rd to 8th grade is to introduce and engage students in weather patterns, climate change, and the cyclical process by which humans impact weather and climate and in return how the dynamic nature of weather and climate impact humans.  As there level of understanding grows they will develop a deeper understanding of the interconnectedness between all three core areas of this unit.  The unit culminates with an advanced level of data analysis and technological application to accurately forecast weather events, climate change, and how to best implement changes that minimize how humans are impacted and how humans can minimize their impact on weather and climate.</p>',
+                'Anthony Holub (SD308)',
+                'Weston Brzykcy (SD204), Josie Curtis (SD129), Margaret Stokes (SD204)',
+                'Don Dosch (IMSA)',
+                'Roger Shuma (Tellabs)',
+                'Ray Dagenais, Dr. Gina Rahn',6,5
+            ],
+            [
+                '<br />The final frontier:  What are the benefits and consequences of understanding weather, climate, human impact and how they each directly and indirectly alter one another?',
+                '<p>Weather, Climate, & Human Impact is a theme that has added significance given recent times.  Considerable debate exists over the extent to which humans have impacted the weather and climate, and further, how weather and climate and the resultant changes are impacting humans both short and long term.  This unit of study is focused on developing a deep understanding of the interplay between all three core components (weather, climate, & human impact) both qualitatively and quantitatively.</p>
+                <p>From the onset of a child’s education, students show significant interest in different weather phenomenon and marvel at the dynamic nature of our climate.  Further, they seek to understand their role in ensuring humans can live in a society that can accurately and effectively predict weather and climate pattern changes in addition to minimizing human impact on both.</p>
+                <p>The goal of this unit from 3rd to 8th grade is to introduce and engage students in weather patterns, climate change, and the cyclical process by which humans impact weather and climate and in return how the dynamic nature of weather and climate impact humans.  As there level of understanding grows they will develop a deeper understanding of the interconnectedness between all three core areas of this unit.  The unit culminates with an advanced level of data analysis and technological application to accurately forecast weather events, climate change, and how to best implement changes that minimize how humans are impacted and how humans can minimize their impact on weather and climate.</p>',
+                'Anthony Holub (SD308)',
+                'Weston Brzykcy (SD204), Josie Curtis (SD129), Margaret Stokes (SD204)',
+                'Don Dosch (IMSA)',
+                'Roger Shuma (Tellabs)',
+                'Ray Dagenais, Dr. Gina Rahn',6,6
             ]
 
         ];

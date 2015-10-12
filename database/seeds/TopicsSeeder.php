@@ -1064,6 +1064,139 @@ What lies within and beneath Earth\' s oceans?',
                 6
             ],
             [
+                'Design process - Build your own design solution for flooding',
+                '',
+                'As the climate changes and storms become increasingly stronger, systems must be designed to better protect the delicate infrastructure and protect human life. This unit gives the students the opportunity to design a solution for a flood-prone climate, determining good flood-resistant materials and the safest approach to managing a flood.',
+                1,
+                6
+            ],
+            [
+                'Avoiding Water Pollution - Protecting Aurora\'s Most Important Resource',
+                'What is water pollution and how does the city of Aurora test to ensure it is minimized? What can citizens of Aurora do to make sure water remains a viable resource presently and in the future?',
+                'This is a good time to explore water pollution—and what better way to do so then to investigate from a local perspective.  The city of Aurora has many different ways it tries to eliminate water pollution.  From water treatment plants, to legislation that encourages citizens to responsibly use water—these are all important considerations for students to understand.',
+                2,
+                6
+            ],
+            [
+                'What is community preparedness for catastrophic and natural disasters? (Include home, business, school and mass transit.)',
+                '',
+                'Student will learn increasing awareness of how to get to safety, where to go to take shelter in a natural disaster',
+                2,
+                6
+            ],
+            [
+                'How has climate changed over the past 50 years?',
+                'What are indicators of change in a climate? How does weather change in a long term period?',
+                'The national conversation of “climate change” has captured the attention of the media and the populace, but despite the politics that surround it, science has had an eye on the climate and how it has changed over the past 5 decades. Even without humans impacting the environment around them, climates would change, but with the human impact as a catalyst, the coldest places have changed and water systems have changed. Mapping that change and analyzing the data that has been gathered will help give a perspective to the conversation and help students understand the world around them further.',
+                2,
+                6
+            ],
+            [
+                'What are aquifers?',
+                'Where are aquifers? How much of our water comes from this source?',
+                'This unit is a building unit for the later grades exploration into both of these questions.  In this lesson, students apply what they learned in lower grades about the water cycle.',
+                3,
+                6
+            ],
+            [
+                'Catastrophes and Natural Hazards',
+                'What are catastrophic events and natural hazards? What catastrophic events have occurred? Local and worldside?',
+                'This unit introduces students to the realities of our world.  Students will study a variety of catastrophic events and natural hazards.  Further, they will locate specific examples local and worldside of different catastrophic events.  This will lead to curriculum in upper grade levels that targets ways to specifically address these different catastrophic event concerns.',
+                3,
+                6
+            ],
+            [
+                'Predicting Weather',
+                'How has the development of human activity required the accurate and formulaic prediction of weather for various purposes?',
+                'Teaching sailing on a small lake, the instructor can get used to the weather patterns of the lake – when the wind blew one direction, it would get cooler, when it blew another, it would get warmer. Simple methods like this have been used for centuries, and have been improved by scientific methods, but still hearken back to the same concepts. What are the modern methods employed, and what can be learned by the data gathered by modern machines?',
+                3,
+                6
+            ],
+            [
+                'Effects of Human Activity on Resources',
+                'What kinds of human activity have negatively impacted human resources and health over time? What has been consumption of water for the last 25 years in Aurora?',
+                'This unit is a continuation of a 5th grade exploration into both of these questions over a 100 year period.  In this lesson, students apply what they learned in 57th grade to situations investigated involving the City of Aurora and Cabot Microelectronics.',
+                4,
+                6
+            ],
+            [
+                'Uneven Heating Creates Climates',
+                '',
+                'Students in this lesson will learn the basics of what features around the world make certain climates possible, and what endangers them. This lays the groundwork for future understanding of climate change and how these climates are affected by human impacts.',
+                4,
+                6
+            ],
+            [
+                'What is the Greenhouse Effect?',
+                'What is the greenhouse effect, and what are the greenhouse gases and their share of total emissions?',
+                'Students learn about greenhouse gases and begin to consider what events are causing an increase in the amount of greenhouse gases in the atmosphere.  Although, the Greenhouse effect is a natural phenomenon that allows the Earth to retain an average temperature enabling life, an imbalance in the natural cycle of the greenhouse effect has had unintended consequences of raising the Earth’s average temperature making it less habitable for plants and animals.  Human activity over the past 100 years has significantly increased levels of CO2 emissions globally through industrialization, fossil fuel burning, and deforestation.   Students will explain the process of the natural greenhouse effect, and identify unintended consequences of human activity leading to ever increasing amounts of CO2 in the atmosphere.',
+                4,
+                6
+            ],
+            [
+                'Climate Change for a Change',
+                'What is climate change? How does global climate change affect our lives?  To what extent short term and long term is climate change a cause for concern?',
+                'This unit takes an in depth look at climate change—defines it, investigates how it affects us, and compares the implications of climate change from a short term and long term perspective.',
+                4,
+                6
+            ],
+            [
+                'Human Population Growth and Resource Consumption Over 100 Year Period',
+                'How has human population grown over the past 25 years?  50 years?  100 years?  Etc.  How has resource consumption changed over the past 25 years? 50 years?  100 years?  ',
+                'In this lesson, students take a variety of data sources and investigate how human population has grown and resource consumption has changed over different periods of time.  This lesson will not only prepare students to understand the interplay between human impact and weather and climate—but will also prepare them as 8th graders to postulate consequences of both human population growth and resource consumption.',
+                5,
+                6
+            ],
+            [
+                'Analysis and Prediction of Severe Weather',
+                'How do we analyze and interpret data on severe thunderstorms and tornadoes?  How do we forecast/predict severe thunderstorms and tornadoes?  What technologies can be used to predict severe thunderstorms and tornadoes?',
+                'This lesson allows students to explore the City of Aurora with respect to different severe weather events.  Special attention will be given to the recent 100 year rain event on July 17 – 18 of 1996.  Students will have access to a variety of City of Aurora data and will consult with area National Laboratories to develop technologies that may assist in the future with predicting severe weather and preventing catastrophic damage.',
+                5,
+                6
+            ],
+            [
+                'Introduction to Humans Impacting Humans',
+                'What are the implications of carbon emissions from a data perspective (look into carbon emissions of industrialized versus non-industrialized nations as well as global CO2 levels)? How have humans unintentionally disrupted weather patterns as evidenced with the Dust Bowl?',
+                'Humans have both intentionally and unintentionally altered the way our weather and climate exist.  This lesson has two primary foci:  first, students investigate carbon dioxide emissions and investigate how they are different locally, nationally, and globally;  further, students will gain a deeper understanding of unintended weather disruption as they take an in depth look into the Dust Bowl.',
+                5,
+                6
+            ],
+            [
+                'Introduction to Humans Impacting Ecosystems',
+                'What is the relationship between living things and the environment (define ecosystem)? How are living and non-living organisms classified in an ecosystem (classify biotic/abiotic components)? How have ecosystems adapted over time due to human impact (symbiotic relationships/natural resources)?',
+                'The culminating lesson for this unit on Weather, Climate, and Human Impact looks at the big picture amongst humans and all living things.  Special attention is given to increasing awareness on the delicate nature of ecosystems and how humans both intentionally and unintentionally elicit considerable changes in said ecosystems.  This builds a foundation to the 8th grade unit that investigates specific patterns that exist inherently in and among interactions of different ecosystems.',
+                5,
+                6
+            ],
+            [
+                'Human Population Growth and Resource Consumption',
+                'What are the consequences of human population growth? What are the consequences of resource consumption?',
+                'This unit is a continuation of a 7th grade exploration into both of these questions over a 100 year period.  In this lesson, students apply what they learned in 7th grade to situations investigated involving the City of Aurora and Cabot Microelectronics.',
+                6,
+                6
+            ],
+            [
+                'Analysis & Prediction of Rising Water',
+                'How do we analyze and interpret data on rising sea/river levels?  How do we forecast/predict rising sea/river levels?  What technologies can be used to minimize rising sea/river levels?',
+                'Students in this lesson will be familiar with the lesson structure as they performed a similar investigation as seventh graders in analyzing and predicting severe weather.  This is the culminating “data analysis” lesson as they now must infer what will cause rising water locally (river levels) and nationally/globally.',
+                6,
+                6
+            ],
+            [
+                'Humans Impacting Humans',
+                'What is the concept of a carbon footprint and how does it help us monitor human impact on the environment? How can mankind manage weather to mitigate the negative effects of weather (i.e. droughts, floods, etc.)?',
+                'Humans continually create situations both intended and unintended that further impact themselves and other humans.  This lesson began in 7th grade as an investigation into carbon dioxide levels locally and globally and how humans unknowingly disrupted weather patterns leading to the Dust Bowl.  At the 8th grade level, students take this background knowledge and look at carbon from a more detailed perspective, making the connection between human activities and carbon footprints.  Further, students now will investigate and prototype ways to intentionally alter weather patterns to benefit mankind.',
+                6,
+                6
+            ],
+            [
+                'Humans Impacting Ecosystems',
+                'What patterns presently exist among interactions of ecosystems?  How will these patterns change as a result of weather, climate, and human impact?',
+                'This lesson is an extension of an introductory 7th grade lesson which focused on humans impacting ecosystems.  Students will recall ecosystems, biotic & abiotic components of an ecosystem, and symbiotic relationships & natural resources inherent in ecosystems to develop a deeper understanding of how humans impact ecosystems.  At the 8th grade level, patterns will be identified and explored amongst interactions of ecosystems and said patterns will be investigated as to how they have and will change as a result of weather, climate, and human impact.',
+                6,
+                6
+            ],
+            [
                 '',
                 '',
                 '',

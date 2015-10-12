@@ -2255,13 +2255,271 @@ class QuestionsSeeder extends Seeder{
                 132,
                 'What are different design solutions that are used to reduce weather related hazards?  (i.e. levees, flood elevation, lightning rods, trusses, concrete footings, etc.)',
                 'Students will: <ol><li>Create a table listing different design solutions.</li><li>Investigate using the internet how each design solution reduces weather related hazards and resultant damage.</li></ol>',
-                ''
+                'NSM1300 Earth Science<br />BIO2200 Humans and the Environment<br />MTH 3240 Probability and Statistics<br />MTH 3700 Models for Life Contingencies'
             ],
             [
-                126,
-                '',
-                'Students will: <ol><li></li></ol>',
-                ''
+                132,
+                'How can we evaluate the merits of different design solutions to maximize reduction of weather related hazards?',
+                'Students will: <ol><li>Analyze the merits of different design solutions to maximize reduction of weather related hazards</li><li>Create a persuasive argument and use that argument to present to other students why one design solution has more merit than others.</li></ol>',
+                'MTH 3240 Probability and Statistics<br />MTH 3700 Models for Life Contingencies<br />MTH 3500 Applied Statistical Methods'
+            ],
+            [
+                133,
+                'What inexpensive designs can protect a house from a 5 foot flood? What kinds of materials are better than others?',
+                'Students will: <ol><li>Identify materials commonly used to help mitigate flooding.</li><li>Make a claim about the merit of an existing design solution.</li><li>Compare the expense of current design solutions.</li></ol>',
+                'MTH 3240 Probability and Statistics<br />MTH 3500 Applied Statistical Methods<br />CHM3570 The Inorganic Chemistry of Materials'
+            ],
+            [
+                133,
+                'What is an example of a faulty design that caused a failure in a device because of improper design?',
+                'Students will: <ol><li>Identify historical storms and their devastating effects.</li><li>Calculate the effect of the failure on the economy and public safety.</li></ol>',
+                'MTH 3240 Probability and Statistics<br />MTH 3500 Applied Statistical Methods'
+            ],
+            [
+                134,
+                'What is water pollution and how does the city of Aurora test to ensure it is minimized?',
+                'Students will: <ol><li>Investigate different ways water is polluted—locally and globally.</li><li>Create an interactive chart showcasing different methods the city of Aurora uses to minimize water pollution.</li></ol>',
+                'CHM 1200 Principles of Chemistry<br />CHM1310 General Chemistry I<br />CHM1320 General Chemistry II'
+            ],
+            [
+                134,
+                'What can citizens of Aurora do to make sure water remains a viable resource presently and in the future?',
+                'Students will: <ol><li>Conduct a field study analyzing present methods to maximize quality water in and around the city.</li><li>Create a predictions chart using available computer modeling software identifying how city will maintain quality water availability.</li></ol>',
+                'MTH 3240 Probability abd Statistics I<br />MTH 3500 Applied Statistical Methods<br />MTH 3700 Models for Life Contingencies'
+            ],
+            [
+                135,
+                'What do you need to prepare for a disaster? How many days should you prepare to take care of yourself (family) for?',
+                'Students will: <ol><li>Identify and journal daily weather at school,</li><li>Compare and contrast weather in Aurora to other areas in USA.  (key geography tie-in).</li><li>Interpret implications how latitude changes weather.</li><li>Compare their data logs to previous years\' data (from previous classes)</li></ol>',
+                'MTH 3240 Probability abd Statistics I<br />MTH 3500 Applied Statistical Methods<br />MTH 3700 Models for Life Contingencies'
+            ],
+            [
+                136,
+                'What are indicators of change in a climate? How does weather change in a long term period?',
+                'Students will: <ol><li>Discover evidence about climates having changed.</li><li>Draw conclusions about climate changes based on the evidence available.</li><li>Plot data on weather over a long term (50 years).</li></ol>',
+                'BIO1060 Human Biology<br />BIO2200 Humans and the Environment<br />BIO3370 Conservation Biology<br />BIO3510 Ecology'
+            ],
+            [
+                136,
+                'How has the Mississippi River changed in the past 50 years? How has the ice shelf of the Antarctic changed? How have glaciers (glacier national park, Kilimanjaro) decreased in the past 50 years?',
+                'Students will: <ol><li>Describe features of changing climates from different pictures and satellite images.</li><li>Identify specific landscape features around the world (such as Kilimanjaro)</li><li>Make conclusions about the changes that are observed and the effects that they will cause worldwide.</li></ol>',
+                'BIO1060 Human Biology<br />BIO2200 Humans and the Environment<br />BIO3370 Conservation Biology<br />BIO3510 Ecology'
+            ],
+            [
+                136,
+                'How have animals\' ranges responded to the climate changes? How have the food chains become altered?',
+                'Students will: <ol><li>Describe normal animal ranges in an ecosystem.</li><li>Infer the implications of the changes in range of predators and other animals.</li></ol>',
+                'BIO1060 Human Biology<br />BIO2200 Humans and the Environment<br />BIO3370 Conservation Biology<br />BIO3510 Ecology'
+            ],
+            [
+                137,
+                'What are Aquifers?',
+                'Students will: <ol><li>Recall and apply where aquifers are located.</li><li>Utilize the City of Aurora population data to understand implications of human population growth.</li><li>Apply the supply chain process to human population growth.</li></ol>',
+                'NSM1300 Earth Science<br >BIO2200 Humans and the Environment<br />BIO3370 Conservation Biology'
+            ],
+            [
+                137,
+                'How do aquifers work and how has the collection and filtering of water through aquifers evolved over the past 100 years?',
+                'Students will: <ol><li>Recall and apply how resource consumption has changed over the past 100 years.</li><li>Apply the supply chain process to resource consumption.</li></ol>',
+                'NSM1300 Earth Science<br />BIO2200 Humans and the Environment<br />BIO3370 Conservation Biology<br />CHM2410 Organic Chemistry<br />PHY2210 General Physics I<br />PHY2220 General Physics II'
+            ],
+            [
+                138,
+                'What are catastrophic events and natural hazards?',
+                'Students will: <ol><li>Investigate different catastrophic events.</li><li>Investigate different natural hazards.</li><li>Compare and contrast catastrophic events and natural hazards</li></ol>',
+                'NSM1300 Earth Science<br />BIO2200 Humans and the Environment<br />MTH3240 Probability and Statistics I<br />MTH3260 Probability and Statistics II<br />MTH3500 Applied Statistical Methods<br />MTH3820 Biostatistics<br />CSC4350 Software Engineering'
+            ],
+            [
+                138,
+                'What catastrophic events have occurred? Local and worldside?',
+                'Students will: <ol><li>Analyze different catastrophic events locally and worldwide.</li><li>Compare and contrast these different catastrophic events as well as reasons why some were more deadly than others.</li></ol>',
+                'NSM1300 Earth Science<br />BIO2200 Humans and the Environment<br />MTH3260 Probability and Statistics II<br />MTH3820 Biostatistics'
+            ],
+            [
+                139,
+                'How is weather predicted and how does the study of probability enhance the ability to predict weather?',
+                'Students will: <ol><li>Use simple probability in order to predict weather conditions given a certain recipe of conditions.</li><li>Connect heat, land formations, clouds and moisture to the prediction of weather.</li><li>Explore the concept of pressure and how it relates to weather.</li></ol>',
+                'NSM1300 Earth Science<br />MTH3260 Probability and Statistics II<br />MTH3500 Applied Statistical Methods<br />MTH3820 Biostatistics<br />NSM2500'
+            ],
+            [
+                139,
+                'How can statistics of weather be used in our local area to predict weather in a 5 day period?',
+                'Students will: <ol><li>Use local models and data collection to compare experimental and theoretical probability of assorted weather phenomenon over 5 day period.</li><li>Evaluate the accuracy of newspaper predictions of weather in a 5 day to 2 week period.</li><li>Apply concepts of weather to recognize patterns in seasonal predictions.</li></ol>',
+                'MTH3240 Probability and Statistics I<br />MTH3260 Probability and Statistics II<br />MTH3500 Applied Statistical Methods<br />MTH3820 Biostatistics<br />CSC4100 Systems Analysis and Design<br />CSC4350 Software Engineering<br />NSM2500'
+            ],
+            [
+                140,
+                'What are the consequences of human population growth?',
+                'Students will: <ol><li>Recall and apply how human population growth has changed over the past 100 years locally (Aurora) and nationally/globally.</li><li>Utilize the City of Aurora population data to understand implications of human population growth.<br />Apply the supply chain process to human population growth.</li></ol>',
+                'NSM1300 Earth Science<br />BIO2200 Humans and the Environment<br />BIO3370 Conservation Biology<br />MTH3500 Applied Statistical Methods'
+            ],
+            [
+                140,
+                'What are the consequences of resource consumption?',
+                'Students will: <ol><li>Recall and apply how resource consumption has changed over the past 100 years.</li><li>Work in tandem with Cabot Microelectronics to recognize acids in the environment resulting from resource consumption.</li><li>Apply the supply chain process to resource consumption.</li></ol>',
+                'NSM1300 Earth Science<br />BIO2200 Humans and the Environment<br />BIO3370 Conservation Biology<br />MTH3500 Applied Statistical Methods'
+            ],
+            [
+                141,
+                'What are the ocean currents, how do they affect coastal cities such as New York, London, and others?',
+                'Students will: <ol><li>Identify major ocean currents, where they go and how they bring warm conditions to places of otherwise cold conditions.</li><li>Identify the latitudes of certain cities around the world and the temperatures that exist yearly there (key geography tie-in).</li><li>Interpret implications for how ocean currents can change given different temperatures and salinity.</li></ol>',
+                'NSM1300 Earth Science<br />PHY2210 General Physics I<br />PHY2220 General Physics II<br />MTH3500 Applied Statistical Methods<br />MTH2230 Calculus III<br />MTH3490 Numerical Methods<br />CSC4350 Software Engineering<br />CSC4100 Systems Analysis and Design'
+            ],
+            [
+                141,
+                'How does wind circulate around the earth? What will a map of these look like? What patterns exist that impact the existence of deserts or jungles?',
+                'Students will: <ol><li>Remember connections of unequal heating causing wind circulation.</li><li>Map out the global wind circulations as it is related to sunlight.</li><li>Map out global climates and their connections to the wind circulations.</li></ol>',
+                'NSM1300 Earth Science<br />PHY2210 General Physics I<br />PHY2220 General Physics II<br />MTH3500 Applied Statistical Methods<br />MTH2230 Calculus III<br />MTH3490 Numerical Methods<br />NSM2500'
+            ],
+            [
+                141,
+                'Why do severe weather patterns exist in specific climates (e.g. Tornado Alley, Hurricane season, Tsunamis, Monsoons)?',
+                'Students will: <ol><li>Remember severe weather conditions and add to the list in a climate-oriented manner.</li><li>Make a recipe for a severe weather condition based on the location.</li><li>Apply safety considerations to communities with the right weather conditions present.</li></ol>',
+                'NSM1300 Earth Science<br />PHY2210 General Physics I<br />PHY2220 General Physics II<br />MTH3500 Applied Statistical Methods<br />MTH2230 Calculus III<br />MTH3490 Numerical Methods<br />NSM2500'
+            ],
+            [
+                142,
+                'What is the greenhouse effect, and its share of total emissions?',
+                'Students will: <ol><li>Explain the natural cycle of the greenhouse process and its benefits to the Earth.<br />Demonstrate through hands-on experiments the effect of increased concentrations of greenhouse gases on the atmosphere and predict unintended consequences of Earth habitability on life.<br />Identify the six main greenhouse gases, and their share of emissions, responsible for the imbalance in the natural cycle of the greenhouse effect.</li></ol>',
+                'BIO2200 Humans and the Environment<br />BIO3510 Ecology<br />BIO3370 Conservation Biology<br />MTH3240 Probability and Statistics I<br />MTH3500 Applied Statistical Methods<br />CSC4100 Systems Analysis and Design<br />CHM2410 Organic Chemistry'
+            ],
+            [
+                142,
+                'What events are primarily responsible for the increase in greenhouse gases?',
+                'Students will: <ol><li>Discuss how humans have unintentionally disrupted concentration of greenhouse gases particularly through increased  CO2 emissions through fossil fuel burning, through industrialization including transportation, (heating, cooking, electricity), and deforestation.  Deforestation results in changing mass into carbon.  Unintended consequences have resulted in higher CO2 concentrations in short periods of time preventing Earth’s atmosphere to adapt to rising temperatures resulting in Global Warming.</li></ol>',
+                'BIO2200 Humans and the Environment<br />BIO3510 Ecology<br />BIO3370 Conservation Biology<br />MTH3240 Probability and Statistics I<br />MTH3500 Applied Statistical Methods<br />CSC4100 Systems Analysis and Design'
+            ],
+            [
+                142,
+                'Does the Greenhouse effect impact other resources?',
+                'Students will: apply their examination of significantly increased concentrations of CO2 emissions on Earth’s resources including the effect on the oceans, continents, glaciers in ice caps, and Arctic Sea and the results of Global Warming on the adaptability of ecosystems including extinction of plants and animals; population trends and specific diseases and environmental factors.',
+                'BIO2200 Humans and the Environment<br />BIO3510 Ecology<br />BIO3370 Conservation Biology<br />MTH3240 Probability and Statistics I<br />MTH3500 Applied Statistical Methods<br />CSC4100 Systems Analysis and Design'
+            ],
+            [
+                143,
+                'What is climate change?  How does global climate change affect our lives?',
+                'Students will: <ol><li>Define and describe climate change historically.</li><li>Analyze how global climate change affects the lives of Aurora residents</li><li>Compare and contrast the short and long term implications of climate change.</li></ol>',
+                'BIO2200 Humans and the Environment<br />BIO3510 Ecology<br />BIO3370 Conservation Biology<br />MTH3240 Probability and Statistics I<br />MTH3500 Applied Statistical Methods<br />CSC4100 Systems Analysis and Design'
+            ],
+            [
+                143,
+                'To what extent short term and long term is climate change a cause for concern?',
+                'Students will: <ol><li>Differentiate between short term and long term climate change concerns.</li><li>Analyze short term and long term implications of climate change for the city of Aurora as well as nationally and globally.</li></ol>',
+                'BIO2200 Humans and the Environment<br />BIO3510 Ecology<br />BIO3370 Conservation Biology<br />MTH3240 Probability and Statistics I<br />MTH3260 Probability and Statistics II<br />MTH3500 Applied Statistical Methods<br />CSC4100 Systems Analysis and Design'
+            ],
+            [
+                144,
+                'How has human population grown over the past 25 years?  50 years?  100 years?  Etc.',
+                'Students will: <ol><li>Utilize U.S. census data and City of Aurora data to identify human population growth over the past 100 years both locally and nationally.</li><li>Apply research to understand how increase in population alters resultant consumption patterns.</li><li>Identify any mathematical relationships seen through data investigation and postulate how population growth may change in the future.</li></ol>',
+                'BIO1060 Human Biology<br />BIO2200 Humans and the Environment<br />BIO3370 Conservation Biology<br />BIO3380 Ethics in Biotechnology<br />BIO3510  Ecology'
+            ],
+            [
+                144,
+                'How has resource consumption changed over the past 25 years?  50 years?  100 years?  Etc.',
+                'Students will: <ol><li>Utilize The Maddison Project, Our Finite World, and City of Aurora to investigate resource consumption over the past 100 years.</li><li>Investigate personal resource consumption and evaluate ways to improve/reduce resource consumption.</li><li>Identify any mathematical relationships seen through data investigation and postulate how resource consumption may change in the future.</li></ol>',
+                'BIO1060 Human Biology<br />BIO2200 Humans and the Environment<br />BIO3370 Conservation Biology<br />BIO3380 Ethics in Biotechnology<br />BIO3510  Ecology'
+            ],
+            [
+                145,
+                'How do we analyze and interpret data on severe thunderstorms & tornadoes?',
+                'Students will: <ol><li>Utilize City of Aurora weather records and target periods of severe weather; special consideration/attention will be given to 100 year flood of 1996.</li><li>Investigate different weather apps available and explore how each app both analyzes and interprets data in a useful manner.</li><li>Identify how these methods could apply to other weather events (i.e. rising sea/river levels, etc.).</li></ol>',
+                'MTH3240 Probability and Statistics I<br />MTH3260 Probability and Statistics II<br />MTH3500 Applied Statistics<br />NSM1300 Earth Science'
+            ],
+            [
+                145,
+                'How do we forecast/predict severe thunderstorms & tornadoes?',
+                'Students will: <ol><li>Utilize recent City of Aurora weather data to attempt to accurately forecast and predict future severe thunderstorms and tornadoes.</li><li>Create a variety of Microsoft Excel graphs which showcase severe weather events over a period of time and infer, based on any patterns found, when additional severe weather outbreaks are likely (use of trend lines in Excel).</li><li>Consult with meteorologists via Skype or interview to deepen understanding of forecasting/predicting with weather.</li></ol>',
+                'MTH3240 Probability and Statistics I<br />MTH3260 Probability and Statistics II<br />MTH3500 Applied Statistics<br />MTH2320 General Statistics<br />NSM1300 Earth Science'
+            ],
+            [
+                145,
+                'What technologies can be used to predict severe thunderstorms & tornadoes?',
+                'Students will: <ol><li>Research existing technologies that help forecast severe thunderstorms and tornadoes.</li><li>Consult with both Fermilab and Argonne National Laboratories to develop prototype technologies that could minimize damage resulting from severe thunderstorms and tornadoes.</li><li>Create a physical prototype of one or more manufactured devices that assist in minimizing rising sea/river level risk.</li><li>Attend or view yearly Tornado seminar at Fermilab.</li><li>Consult with Morton Arboretum on technologies they use to protect plants and animals during severe weather events.</li></ol>',
+                'MTH3500 Applied Statistics<br />CHM/BIO3650 Instrumental Methods of Analysis<br />CHM3640 Instrumental Chemical Analysis'
+            ],
+            [
+                146,
+                'What are the implications of carbon emissions from a data perspective (look into carbon emissions of industrialized versus non-industrialized nations as well as global CO2 levels)?',
+                'Students will: <ol><li>Utilize both U.S. Census Data and City of Aurora data to identify carbon emissions locally and from both an industrialized perspective (Aurora) to a national perspective (U.S.).</li><li>Investigate carbon emissions for non-industrialized nations using a reputable web site.</li><li>Create and/or supply graphs that show visually a comparison of carbon emissions from both industrialized and non-industrialized nations/locales.</li><li>Consult with Fermilab on how they use carbon in various aspects of their experiments.</li></ol>',
+                'BIO2200 Humans and the Environment<br />BIO3370 Conservation Biology<br />BIO3380 Ethics in Biotechnology<br />BIO3510 Ecology<br />CHM2450 Analytical Chemistry'
+            ],
+            [
+                146,
+                'How have humans unintentionally disrupted weather patterns as evidenced with the Dust Bowl?',
+                'Students will: <ol><li>Research the history of the Dust Bowl and, as part of this research, identify specific examples of humans unintentionally disrupting weather patterns.</li><li>Utilize agricultural modeling software to analyze what disrupted weather patterns and prolonged the Dust Bowl.</li><li>Consult with Morton Arboretum ways to understand disrupted weather patterns and use information to evaluate as a farmer what they would have advocated for to prevent the disruptive weather patterns.</li><li>Recognize patterns involving the supply of humans farming and increased land used for farming and resulting unintended consequences.</li></ol>',
+                'BIO2200 Humans and the Environment<br />BIO3380 Ethics in Biotechnology<br />NSM1300 Earth Science'
+            ],
+            [
+                147,
+                'What is the relationship between living things and the environment (define ecosystem)?',
+                'Students will: <ol><li>Have a clear understanding of the different components of an ecosystem and the delicate nature of ecosystems.</li><li>Develop a deep understanding of the relationship between a suitable habitat, food, and water supply in each ecosystem to allow reproduction and population of a species.</li><li>Reference earlier discussion of natural resource use over the past 100 years and how all living things alter availability.</li><li>Consult with both the Morton Arboretum and Caterpillar to understand how both non-profit organizations and industry can be sensitive to the diverse needs of an ecosystem, while maintaining economic and pragmatic viability.</li></ol>',
+                'BIO1060 Human Biology<br />BIO1220 Biology of Organisms<br />BIO2200 Humans and the Environment<br />BIO3510 Ecology'
+            ],
+            [
+                147,
+                'How are living and non-living organisms classified in an ecosystem (classify biotic/abiotic components of an ecosystem)?',
+                'Students will: <ol><li>Have a clear understanding of both biotic and abiotic components of an ecosystem.</li><li>Develop a deep understanding of how human impact affects balance or imbalance of desirable or undesirable species of living organisms.</li><li>Consult with both Morton Arboretum and Robert Crown Center to visually illustrate interactions between species of living and non-living things.</li></ol>',
+                'BIO1060 Human Biology<br />BIO1220 Biology of Organisms<br />BIO2200 Humans and the Environment<br />BIO3510 Ecology'
+            ],
+            [
+                147,
+                'How have ecosystems adapted over time due to human impact (symbiotic relationships/natural resources)?',
+                'Students will: <ol><li>Investigate specific ecosystems that have adapted over time due to human impact (provide students with example—i.e. Gulf Coast).</li><li>Consult with Waste Management regarding the use of sanitary landfills as a way to properly minimize human impact on ecosystems.</li><li>Consult with Argonne National Laboratory on research they have conducted which would assist in understanding the symbiotic relationships inherent in ecosystems and the resulting effect on natural resources.</li><li>Identify intended and unintended consequences of human activities on ecosystems using GPS technology and relevant Apps.</li></ol>',
+                'BIO1060 Human Biology<br />BIO1220 Biology of Organisms<br />BIO2200 Humans and the Environment<br />BIO3510 Ecology'
+            ],
+            [
+                148,
+                'What are the consequences of human population growth?',
+                'Students will: <ol><li>Recall and apply how human population growth has changed over the past 100 years locally (Aurora) and nationally/globally.</li><li>Utilize the City of Aurora population data to understand implications of human population growth.</li><li>Apply the supply chain process to human population growth.</li></ol>',
+                'BIO1060 Human Biology<br />BIO2200 Humans and the Environment<br />BIO3370 Conservation Biology<br />BIO3510 Ecology'
+            ],
+            [
+                148,
+                'What are the consequences of resource consumption?',
+                'Students will: <ol><li>Recall and apply how resource consumption has changed over the past 100 years.</li><li>Work in tandem with Cabot Microelectronics to recognize acids in the environment resulting from resource consumption.</li><li>Apply the supply chain process to resource consumption.</li></ol>',
+                'BIO1060 Human Biology<br />BIO2200 Humans and the Environment<br />BIO3370 Conservation Biology<br />BIO3380 Ethics in Biotechnology<br />BIO3510 Ecology'
+            ],
+            [
+                149,
+                'How do we analyze and interpret data on rising sea/river levels? ',
+                'Students will: <ol><li>Recall similar analysis and interpretation of severe weather locally and globally.</li><li>Utilize City of Aurora data to map out rising river levels since record keeping began.</li><li>Interpret implications for rising sea/river levels and locate any patterns that exist in said data.</li></ol>',
+                'MTH3240 Probability and Statistics I<br />MTH 3260 Probability and Statistics II<br />MTH 3500 Applied Statistics<br />NSM1300 Earth Science'
+            ],
+            [
+                149,
+                'How do we forecast/predict rising sea/river level?',
+                'Students will: <ol><li>Recall using City of Aurora data for 7th grade unit and apply to new data suppliers (Tellabs and Morton Arboretum).</li><li>Identify similarities and differences in data from Tellabs and Morton Arboretum to compare similarities and differences in using data to predict/forecast rising sea/river levels.</li><li>Make predictions about future sea/river level issues both locally (Aurora) and nationally/globally based on data collected and patterns observed.</li></ol>',
+                'MTH3240 Probability and Statistics I<br />MTH 3260 Probability and Statistics II<br />MTH 3500 Applied Statistics<br />NSM1300 Earth Science'
+            ],
+            [
+                149,
+                'What technologies can be used to minimize rising sea/river levels?',
+                'Students will: <ol><li>Research existing technologies that help forecast rising sea/river levels.</li><li>Consult with both Fermilab and Argonne National Laboratories to develop prototype technologies that could minimize rising sea/river levels.</li><li>Create a physical prototype of one or more manufactured devices that assist in minimizing rising sea/river level risk.</li></ol>',
+                'BIO3510 Ecology'
+            ],
+            [
+                150,
+                'What is the concept of a carbon footprint and how does it help us monitor human impact on the environment?',
+                'Students will: <ol><li>Recall changing carbon dioxide levels and how humans unintentionally disrupted weather patterns to foster the Dust Bowl era.</li><li>Develop a deep understanding of what a carbon footprint measures and its’ implications for our future as human beings.</li><li>Apply using a carbon footprint to monitor human impact and use the Children Museum’s Energy House as a powerful example of ways to alter our carbon footprint to minimize impact on the Earth and its’ people.</li></ol>',
+                'BIO1060 Human Biology<br />BIO2200 Humans and the Environment<br />BIO3370 Conservation Biology<br />BIO3380 Ethics in Biotechnology<br />BIO3510  Ecology'
+            ],
+            [
+                150,
+                'How can mankind manage weather to mitigate the negative effects of weather (i.e. droughts, floods, etc.)?',
+                'Students will: <ol><li>Recall how humans have unintentionally disrupted weather patterns and posit ways humans can intentionally disrupt weather patterns for human benefit.</li><li>Use City of Aurora planning (weather response, weather management, records, planning, & civil engineering) to brainstorm possible ways to positively alter weather patterns.</li><li>Utilize rapid prototyping machine, CAD modeling software, or other creative techniques to produce one or more manufactured prototypes that positively alter weather patterns for human benefit.</li></ol>',
+                'NSM1300 Earth Science'
+            ],
+            [
+                151,
+                'What patterns presently exist among interactions of ecosystems?',
+                'Students will: <ol><li>Recall definition of ecosystem, biotic and abiotic components of an ecosystem, and symbiotic relationships as they apply to natural resources to prepare to identify patterns among interactions of ecosystems.</li><li>Consult with Morton Arboretum to help identify patterns that presently exist among interactions of ecosystems.</li><li>Utilize tablet apps and databases with ecosystem information to further understand patterns among interactions of ecosystems.</li></ol>',
+                'BIO1060 Human Biology<br />BIO2200 Humans and the Environment<br />BIO3370 Conservation Biology<br />BIO3380 Ethics in Biotechnology<br />BIO3510  Ecology<br />MTH3500 Applied Statistics'
+            ],
+            [
+                151,
+                'How will these patterns change as a result of weather, climate, and human impact?',
+                'Students will: <ol><li>Recall definition of ecosystem, biotic and abiotic components of an ecosystem, and symbiotic relationships as they apply to natural resources to prepare to identify pattern changes as a result of weather, climate, and human impact.</li><li>Consult with both Waste Management and Argonne National Laboratory on evidence of pattern changes due to weather, climate, and human impact.</li><li>Utilize weather apps and weather databases to prove patterns change due to weather, climate, and human impact.</li><li>Evaluate where humans most impact these pattern changes (reference human population growth, resource consumption, carbon footprint, and assorted ways humans intentionally and unintentionally forecast/predict/mitigate pattern changes.</li></ol>',
+                'BIO1060 Human Biology<br />BIo2200 Humans and the Environment<br />BIO3370 Conservation Biology<br />BIO3380 Ethics in Biotechnology<br />BIO3510  Ecology<br />MTH3500 Applied Statistics<br />NSM1300 Earth Science'
             ]
         ];
 

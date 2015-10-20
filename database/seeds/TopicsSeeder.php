@@ -1195,15 +1195,7 @@ What lies within and beneath Earth\' s oceans?',
                 'This lesson is an extension of an introductory 7th grade lesson which focused on humans impacting ecosystems.  Students will recall ecosystems, biotic & abiotic components of an ecosystem, and symbiotic relationships & natural resources inherent in ecosystems to develop a deeper understanding of how humans impact ecosystems.  At the 8th grade level, patterns will be identified and explored amongst interactions of ecosystems and said patterns will be investigated as to how they have and will change as a result of weather, climate, and human impact.',
                 6,
                 6
-            ],
-            [
-                '',
-                '',
-                '',
-                6,
-                5
             ]
-
 
 
 

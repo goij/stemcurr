@@ -8,7 +8,7 @@
                         @if(($standard->category->subcategory == 0)&& ($maincategory->id == $standard->category->id))
                             <a href='{!!$standard->link!!}' target="_blank">{!!$standard->name!!}</a><br />
                         @elseif(($standard->category->subcategory == 1) && ($maincategory->id == $standard->category->parent_category_id))
-                            <a href='{!!$standard->link!!}' target="_blank">{!!$standard->categoryName()!!}: {!!$standard->name!!}</a><br />
+                            <a href='{!!$standard->link!!}' target="_blank">{!!$standard->name!!}</a><br />
                         @endif
                     @endforeach
                 </td>

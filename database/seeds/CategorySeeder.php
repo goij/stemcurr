@@ -47,6 +47,10 @@ class CategorySeeder extends Seeder{
         ["JCD STEM Labs",0,0],
         ["Corporate/Not for Profit Connection",0,0],
 
+        ["Math Practices",1,9],
+
+
+
 
         ];
         foreach($categories as $category){

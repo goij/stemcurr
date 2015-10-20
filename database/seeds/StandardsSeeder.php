@@ -90,10 +90,10 @@ class StandardsSeeder extends Seeder{
 
 
             /**Math*/
-            ["CC.3.MD.7d",10,"http://www.corestandards.org/Math/Practice/"],
-            ["CC.3.MD.8",10,"http://www.corestandards.org/Math/Practice/"],
-            ["CC.3.G.1",10,"http://www.corestandards.org/Math/Practice/"],
-            ["CC.3.G.2",10,"http://www.corestandards.org/Math/Practice/"],
+            ["CC.3.OA.1",10,"http://www.corestandards.org/Math/Practice/"],
+            ["CC.3.OA.2",10,"http://www.corestandards.org/Math/Practice/"],
+            ["CC.3.OA.3",10,"http://www.corestandards.org/Math/Practice/"],
+            ["CC.3.OA.4",10,"http://www.corestandards.org/Math/Practice/"],
 
             ["CC.4.OA.1",11,"http://www.corestandards.org/Math/Practice/"],
             ["CC.4.OA.2",11,"http://www.corestandards.org/Math/Practice/"],
@@ -883,8 +883,54 @@ class StandardsSeeder extends Seeder{
             ["Sci Tech Museum",27,"http://scitechmuseum.org/"],
 
 
+            /**Math Practices*/
+            ["MP1 Make sense of problems and persevere in solving them.", 28,""],
+            ["MP2 Reason abstractly and quantitatively.", 28,""],
+            ["MP3 Construct viable arguments and critique the reasoning of others.", 28,""],
+            ["MP4 Model with mathematics.", 28,""],
+            ["MP5 Use appropriate tools strategically.", 28,""],
+            ["MP6 Attend to precision.", 28,""],
+            ["MP7 Look for and make use of structure.", 28,""],
+            ["MP8 Look for and express regularity in repeated reasoning.", 28,""],
 
+            ["Rooftop Garden",26,""],
+            ["Campus", 26, ""],
+            ["CC.5.W.1",19,"http://www.corestandards.org/ELA-Literacy/"],
+            ["CC.6.R.I.8",20,"http://www.corestandards.org/ELA-Literacy/"],
 
+            ["CC.3.OA.5",10,"http://www.corestandards.org/Math/Practice/"],
+            ["CC.3.OA.6",10,"http://www.corestandards.org/Math/Practice/"],
+            ["CC.3.OA.7",10,"http://www.corestandards.org/Math/Practice/"],
+            ["CC.3.OA.8",10,"http://www.corestandards.org/Math/Practice/"],
+            ["CC.3.OA.9",10,"http://www.corestandards.org/Math/Practice/"],
+            ["CC.3.NBT.1",10,"http://www.corestandards.org/Math/Practice/"],
+            ["CC.3.NBT.2",10,"http://www.corestandards.org/Math/Practice/"],
+            ["CC.3.NBT.3",10,"http://www.corestandards.org/Math/Practice/"],
+            ["CC.3.NF.1",10,"http://www.corestandards.org/Math/Practice/"],
+            ["CC.3.NF.2",10,"http://www.corestandards.org/Math/Practice/"],
+            ["CC.3.NF.2a",10,"http://www.corestandards.org/Math/Practice/"],
+            ["CC.3.NF.2b",10,"http://www.corestandards.org/Math/Practice/"],
+            ["CC.3.NF.3",10,"http://www.corestandards.org/Math/Practice/"],
+            ["CC.3.NF.3a",10,"http://www.corestandards.org/Math/Practice/"],
+            ["CC.3.NF.3b",10,"http://www.corestandards.org/Math/Practice/"],
+            ["CC.3.NF.3c",10,"http://www.corestandards.org/Math/Practice/"],
+            ["CC.3.NF.3d",10,"http://www.corestandards.org/Math/Practice/"],
+            ["CC.3.MD.1",10,"http://www.corestandards.org/Math/Practice/"],
+            ["CC.3.MD.2",10,"http://www.corestandards.org/Math/Practice/"],
+            ["CC.3.MD.3",10,"http://www.corestandards.org/Math/Practice/"],
+            ["CC.3.MD.4",10,"http://www.corestandards.org/Math/Practice/"],
+            ["CC.3.MD.5",10,"http://www.corestandards.org/Math/Practice/"],
+            ["CC.3.MD.5a",10,"http://www.corestandards.org/Math/Practice/"],
+            ["CC.3.MD.5b",10,"http://www.corestandards.org/Math/Practice/"],
+            ["CC.3.MD.6",10,"http://www.corestandards.org/Math/Practice/"],
+            ["CC.3.MD.7",10,"http://www.corestandards.org/Math/Practice/"],
+            ["CC.3.MD.7a",10,"http://www.corestandards.org/Math/Practice/"],
+            ["CC.3.MD.7b",10,"http://www.corestandards.org/Math/Practice/"],
+            ["CC.3.MD.7c",10,"http://www.corestandards.org/Math/Practice/"],
+            ["CC.3.MD.7d",10,"http://www.corestandards.org/Math/Practice/"],
+            ["CC.3.MD.8",10,"http://www.corestandards.org/Math/Practice/"],
+            ["CC.3.G.1",10,"http://www.corestandards.org/Math/Practice/"],
+            ["CC.3.G.2",10,"http://www.corestandards.org/Math/Practice/"],
         ];
 
         foreach($standards as $standard){

@@ -553,7 +553,7 @@ class QuestionsSeeder extends Seeder{
                 'How do we evaluate the health of a complex ecosystem?',
                 'Students will: <ol><li>Use biotic and abiotic measurements to determine the health of an ecosystem.</li>
                 <li>Explain how population counts can be used to monitor ecosystem health.</li></ol>',
-                ''
+                'BIO3370 [Conservation Biology]<br />BIO 3510 [Ecology]<br />Comparative Botany [BIO3260]'
             ],
             [
                 32,

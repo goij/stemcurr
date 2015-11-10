@@ -931,6 +931,7 @@ class StandardsSeeder extends Seeder{
             ["CC.3.MD.8",10,"http://www.corestandards.org/Math/Practice/"],
             ["CC.3.G.1",10,"http://www.corestandards.org/Math/Practice/"],
             ["CC.3.G.2",10,"http://www.corestandards.org/Math/Practice/"],
+            ["CC.3.W.9",17,"http://www.corestandards.org/ELA-Literacy/"],
         ];
 
         foreach($standards as $standard){

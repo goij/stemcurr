@@ -24,6 +24,7 @@ class CreateUsersTable extends Migration {
             $table->boolean('faculty')->default(false);
             $table->boolean('teacher')->default(false);
             $table->boolean('partner')->default(false);
+            $table->unsignedInteger('alliance_id')->default(false);
 			$table->rememberToken();
 			$table->timestamps();
             $table->softDeletes();

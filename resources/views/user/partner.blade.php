@@ -44,6 +44,6 @@
             {!!$users->render()!!}
         </div>
     @else
-        <h2>You must be logged in with permissions to view the user list</h2>
+        <h2>You must be logged in with permissions to view the partner list</h2>
     @endif
 @stop

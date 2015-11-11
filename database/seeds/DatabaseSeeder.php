@@ -16,6 +16,8 @@ class DatabaseSeeder extends Seeder {
 
         $this->call('UsersSeeder');
         $this->command->info('Seeded default users');
+        $this->call('UserAllianceSeeder');
+        $this->command->info('Seeded user alliance table');
         $this->call('GradesSeeder');
         $this->command->info('Seeded grades table');
         $this->call('SubjectsSeeder');

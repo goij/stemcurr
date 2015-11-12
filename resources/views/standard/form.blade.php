@@ -15,7 +15,7 @@
                     <div class="row">
                         <div class="col-sm-12">
                             @if($category->subcategory == 0)
-                            @foreach($category->standards as $standard)
+                            @foreach($category->standards->sortBy('name') as $standard)
                                 @if(isset($standard_ids) &&  in_array($standard->id, $standard_ids))
                                     <label class="checkbox">
                                         <input type="checkbox" name="standards[]" value="{{$standard->id}}"checked><i></i><span
@@ -46,7 +46,7 @@
                                                 <div class="row">
                                                     <div class="col-sm-12">
 
-                                                        @foreach($subcategory->standards as $standard)
+                                                        @foreach($subcategory->standards->sortBy('name') as $standard)
                                                             @if(isset($standard_ids) &&  in_array($standard->id, $standard_ids))
                                                                 <label class="checkbox">
                                                                     <input type="checkbox" name="standards[]" value="{{$standard->id}}"checked><i></i><span
